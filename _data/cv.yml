@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 13th August 1988
     - name: Languages
-      value: English, Portguese
+      value: English, Portuguese
 
 - title: Education
   type: time_table
