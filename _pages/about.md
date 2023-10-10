@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Apresentation. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -10,20 +10,17 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-content: about_einstein.md
 ---
 
-content: about_einstein.md
+Hello! I'm Pablo Diego Pereira, 35 yrs, married, and I'm excited to introduce myself as a data analysis and investment advisory professional with a strong background in economics and a passion for technology, cryptocurrencies, and financial planning. With over 5 years of experience as a Registered Investment Advisor at XP Investimentos and a CoFounder Investment Advisor at [Meta Investimentos](http://invistameta.com.br), I have honed my skills in personal financial planning, investments, and analytics.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My educational journey includes a Bachelor's degree in Economics from UFRJ and an ongoing MBA in Data Science and Analytics from USP/Esalq and Google Analytics Certification Course, which will further enhance my expertise in making data-driven decisions. I hold various certifications, including PQO (BM&FBovespa), Specialist Advisory (Proseek), AAI (Ancord), and FBB100 (FEBRABAN), all of which reflect my commitment to excellence in the Brazilian financial market.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Throughout my career, I have been involved in various roles, from Back Office Manager to Marketing and Communications Associate at AIESEC. These experiences have equipped me with a diverse skill set that complements my core expertise in investment advising and data driven decisions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am genuinely passionate about economics, investments, technology, cryptocurrencies, and blockchain, and I'm eager to leverage my skills and knowledge to provide innovative and data-driven solutions to clients and organizations. Connect with me on [LinkedIn](https://www.linkedin.com/in/pablodiegoo/) or visit my profile to learn more about my journey and how I can contribute to your team's success.
