@@ -29,7 +29,7 @@
       "url": "https://invistameta.com.br",
       "startDate": "2020-06-01",
       "endDate": "Today",
-      "summary": "",
+      "summary": "Investment Advisor for over 5 years, offering expert guidance and personalized financial strategies to clients, solidifying my expertise in the financial market.",
       "highlights": [
         "Analytical Skills","Personal Financial Planning","Investments","Data Analysis","R","Microsoft Excel"
       ]
@@ -41,8 +41,12 @@
     "url": "https://aiesec.org.br/",
     "position": "Marketing and Communications Associate",
     "startDate": "2010-05-01",
-    "endDate": "2012-02-01"
-  }
+    "endDate": "2012-02-01",
+    "summary": "During my 1-year and 10-month tenure at AIESEC, I actively contributed to marketing and communications initiatives, implementing the use of cloud documents through Google Spreadsheet and Google Docs, and better understanding the needs and demands of exchange students and members with Google Forms, honing my skills in outreach and engagement within this global youth organization.",
+    "highlights": [
+      "Google Spreadsheet","Google Docs","Google Forms"
+    ]
+    }
   ],
   "education": [
     {

@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Pablo Diego Pereira
+      value: Pablo Diego de Albuquerque Pereira
     - name: Date of Birth
       value: 13th August 1988
     - name: Languages
@@ -11,9 +11,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science
-      institution: UFRJ, Rio de Janeiro, Brazil
-      year: 2019
+    - title: Master of Business Administration
+      institution: USP/ESALQ, Piracicaba, Brazil
+      year: 2024
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Bachelor of Science
+      institution: UFRJ, Rio de Janeiro, Brazil
+      year: 2019
       description:
         - Description 1.
         - Description 2.
