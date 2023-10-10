@@ -7,9 +7,12 @@ subtitle: Apresentation. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <p>'Those who have a 'why'</p>
+    <p> to live, can bear with</p>
+    <p> almost any 'how'.'</p>
+    <p>- Viktor Frankl</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
