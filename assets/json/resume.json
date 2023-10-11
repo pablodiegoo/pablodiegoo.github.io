@@ -65,19 +65,29 @@
   "awards": [],
   "certificates": [],
   "publications": [],
-  "skills": [{
-    "Soft Skills": ["Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership"]
-  },
-  {
-    "Hard Skills": ["Personal Financial Planning","Investments","Data Analysis"]
-  },
-  {
-    "Tools":["Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel"]
-  },
-  {
-  "Coding":["Laravel","R","AMP HTML","D3.JS","SQL"]
-  }
-  ],
+  "skills": [
+    {
+      "name": "Economics",
+      "level": "Master",
+      "keywords": [
+        "Macroeconomics","Microeconomics","Economic Development","Economic Policy","Economic History"
+      ]
+    },
+    {
+      "name": "Investments",
+      "level": "Master",
+      "keywords": [
+        "Personal Financial Planning","Investments","Data Analysis","R","Microsoft Excel"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "keywords": [
+        "Laravel","R","AMP HTML","D3.JS","SQL"
+      ]
+    }
+  ], //"Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership","Personal Financial Planning","Investments","Data Analysis","Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel",  "Laravel","R","AMP HTML","D3.JS","SQL"
   "languages": [
     {
       "language": "Portuguese",
@@ -88,7 +98,14 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Economics",
+      "keywords": [
+        "Macroeconomics","Microeconomics","Economic Development","Economic Policy","Economic History"
+      ]
+    }
+  ],
   "references": [],
   "projects": []
 }
