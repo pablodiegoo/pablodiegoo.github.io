@@ -67,27 +67,34 @@
   "publications": [],
   "skills": [
     {
-      "name": "Economics",
-      "level": "Master",
+      "name": "Soft Skills",
+      "level": "",
       "keywords": [
-        "Macroeconomics","Microeconomics","Economic Development","Economic Policy","Economic History"
+        "Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership"
       ]
     },
     {
-      "name": "Investments",
-      "level": "Master",
+      "name": "Hard Skills",
+      "level": "",
       "keywords": [
-        "Personal Financial Planning","Investments","Data Analysis","R","Microsoft Excel"
+        "Personal Financial Planning","Investments","Data Analysis","Economics"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel"
       ]
     },
     {
       "name": "Programming",
-      "level": "Master",
+      "level": "",
       "keywords": [
-        "Laravel","R","AMP HTML","D3.JS","SQL"
+        "SQL","Laravel","R","AMP HTML","D3.JS","HTML","CSS","JavaScript"
       ]
     }
-  ], //"Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership","Personal Financial Planning","Investments","Data Analysis","Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel",  "Laravel","R","AMP HTML","D3.JS","SQL"
+  ],
   "languages": [
     {
       "language": "Portuguese",
@@ -102,10 +109,27 @@
     {
       "name": "Economics",
       "keywords": [
-        "Macroeconomics","Microeconomics","Economic Development","Economic Policy","Economic History"
+        "Inovation","Entrepreneurship","Startup","Cryptocurrency","Time Series","Economic Development","Economic Policy"
+      ]
+    },
+    {
+      "name": "Technology",
+      "keywords": [
+        "Data Science","Machine Learning","Artificial Intelligence","Web3","Blockchain","Web Development","Mobile Development"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Football","E-Sports"
       ]
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "name": "Jurema Mellone",
+      "reference": "CEO at Meta Investimentos"
+    }
+  ],
   "projects": []
 }
