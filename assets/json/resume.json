@@ -66,10 +66,16 @@
   "certificates": [],
   "publications": [],
   "skills": [{
-    "Soft Skills": ["Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership"],
-    "Hard Skills": ["Personal Financial Planning","Investments","Data Analysis"],
-    "Tools":["Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel"],
-    "Coding":["Laravel","R","AMP HTML","D3.JS","SQL"]
+    "Soft Skills": ["Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership"]
+  },
+  {
+    "Hard Skills": ["Personal Financial Planning","Investments","Data Analysis"]
+  },
+  {
+    "Tools":["Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel"]
+  },
+  {
+  "Coding":["Laravel","R","AMP HTML","D3.JS","SQL"]
   }
   ],
   "languages": [
