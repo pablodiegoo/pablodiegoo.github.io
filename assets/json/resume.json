@@ -77,16 +77,47 @@
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-newspaper",
-      "items": [
-        "First item",
-        "Second item"
-      ]
+      "icon": "fa-regular fa-newspaper"
+    },
+    {
+      "name": "Quantum Computing",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-regular fa-gem"
+    },
+    {
+      "name": "Quantum Information",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-regular fa-gem"
+    },
+    {
+      "name": "Quantum Cryptography",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-regular fa-gem"
+    },
+    {
+      "name": "Quantum Communication",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-regular fa-gem"
+    },
+    {
+      "name": "Quantum Teleportation",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-regular fa-hand-spock"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
+      "name": "Zur Elektrody/namik bewegter Körper",
       "publisher": "Annalen der Physik",
       "releaseDate": "1905-06-30",
       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
@@ -129,7 +160,7 @@
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa-rocket",
+      "icon": "fa-regular fa-rocket",
       "keywords": [
         "Quantum Mechanics","Quantum Computing","Quantum Information","Quantum Cryptography","Quantum Communication","Quantum Teleportation"
       ]
