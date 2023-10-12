@@ -77,42 +77,42 @@
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-regular fa-newspaper"
+      "icon": "fa-regular fa-fill-drip"
     },
     {
       "name": "Quantum Computing",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-regular fa-gem"
+      "icon": "fa-fill-drip"
     },
     {
       "name": "Quantum Information",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-regular fa-gem"
+      "icon": "fa-var-1"
     },
     {
       "name": "Quantum Cryptography",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-regular fa-gem"
+      "icon": "fa-regular fa-var-1"
     },
     {
       "name": "Quantum Communication",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-regular fa-gem"
+      "icon": "var-1"
     },
     {
       "name": "Quantum Teleportation",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
-      "icon": "fa-regular fa-hand-spock"
+      "icon": "1"
     }
   ],
   "publications": [
@@ -160,7 +160,7 @@
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa-regular fa-rocket",
+      "icon": "fa-regular fa-var-0",
       "keywords": [
         "Quantum Mechanics","Quantum Computing","Quantum Information","Quantum Cryptography","Quantum Communication","Quantum Teleportation"
       ]
@@ -171,7 +171,7 @@
       "name": "Professor John Doe",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D",
       "company": "University of Zurich",
-      "icon": "fa-regular fa-newspaper",
+      "icon": "fa-var-9",
       "email": "email@example.com",
       "phone": "(912) 555-4321"
 
