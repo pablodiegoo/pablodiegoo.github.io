@@ -124,6 +124,15 @@
   "awards": [],
   "certificates":[
       {
+        "name": "Data Visualization",
+        "issuer": "Free Code Camp",
+        "date": "2023-10-17",
+        "icon": "fa fa-tag",
+        "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100.",
+        "credentialID": "",
+        "url": "https://www.freecodecamp.org/certification/fcc21bdd3b0-017c-4bcd-ac26-8f8191da73a8/data-visualization"
+      },
+      {
         "name": "EF SET English Certificate (C2 Proficient)",
         "issuer": "EF Standard English Test (EF SET)",
         "date": "2023-07-01",
