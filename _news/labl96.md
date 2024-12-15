@@ -1,0 +1,36 @@
+---
+layout: post
+title: Learning PHP, AMP HTML and MySQL
+date: 2023-05-23 8:00:00-0300
+inline: false
+related_posts: false
+---
+
+I personally believe that, to really understand a tool, we need to explore it in different ways. My main objective was to better understand the flow of data between databases and systems, understanding the flow of queries and going further by also learning a new technology, so I took advantage of a hobby and converted it into a tool.
+
+***
+
+<p>Hello, I'm excited to introduce you to a project that reflects my passion for innovation and problem-solving during the challenging times of the Covid-19 pandemic. What started as a way to pass the time playing mobile games soon evolved into something much more significant. Amidst the isolation, I embarked on a journey that led to the creation of a valuable resource - Lab L96 (lab.l96.app).</p>
+
+<p>Lab L96 is a project born from the bonds formed within an online gaming community during the pandemic. It began as a website designed to talk about the game, share content, and organize information. As our lives adapted to remote activities, the time became a precious commodity once again. However, the strong connections forged in the gaming world inspired me to seek solutions. We couldn't bear the thought of disbanding a dedicated team of nearly 100 players.</p>
+
+<p>One of the key resources I implemented was a series of Google Forms linked to a Google Sheet, creating a comprehensive dashboard for players. This innovative solution streamlined our team management, saving hours each day for the nine leaders who worked tirelessly to keep our community thriving.</p>
+
+<p>Now, as we enter 2023, I've taken the project to the next level. In my spare time, I've delved into studying PHP to rebuild the website, now located at lab.l96.app. The player data is integrated into the system, complete with an efficient dashboard, and a front-end that boasts top-notch performance, 100% structured for Accelerated Mobile Pages (AMP). This project is more than just a personal endeavor; it's evolving into a mini-startup with a Software as a Service (SaaS) model that has the potential to make a lasting impact. I invite you to explore Lab L96 and witness firsthand how creativity, adaptability, and dedication can transform challenges into opportunities.</p>
+
+<p>Explore Lab L96: <a href="https://lab.l96.app" target="_blank">lab.l96.app</a></p>
+
+
+#### Technologies used
+<ul>
+    <li>Laravel</li>
+    <li>PHP</li>
+    <li>AMP-HTML</li>
+    <li>FIlament</li>
+    <li>Git</li>
+</ul>
+
+***
+
+> Take your time to decide what you want from life, and after you decide, do not back down under any pretext, because the world will try to dissuade you.
+> — Unknown Author (Attributed to Friedrich Nietzsche, Thus Spoke Zarathustra)
