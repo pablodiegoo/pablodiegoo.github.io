@@ -1,200 +1,321 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Pablo Diego Pereira",
+    "label": "Economist",
+    "image": "prof_pic.jpg",
+    "email": "",
+    "phone": "",
+    "url": "https://pablodiegoo.github.io/",
+    "summary": "Economist, with extensive experience in the financial market, focusing on building investment fund portfolios and long and short operations. He has previous experience in back office, monitoring activity flows and team leadership.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "" ,
+      "postalCode": "",
+      "city": "Araruama",
+      "countryCode": "BR",
+      "region": "Rio de Janeiro"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "pablodiegoo",
+        "url": "https://twitter.com/pablodiegoo"
+      },
+      {
+        "network": "Github",
+        "username": "pablodiegoo",
+        "url": "https://github.io/pablodiegoo"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "pablodiegoo",
+        "url": "https://www.linkedin.com/in/pablodiegoo/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Meta Investimentos",
+      "position": "Investment Advisor",
+      "url": "https://invistameta.com.br",
+      "startDate": "2020-06-01",
+      "endDate": "Today",
+      "summary": "Investment Advisor for over 5 years, offering expert guidance and personalized financial strategies to clients, solidifying my expertise in the financial market.",
+      "highlights": [
+        "Analytical Skills","Personal Financial Planning","Investments","Data Analysis","R","Microsoft Excel"
+      ]
+    },
+    {
+      "name": "Meta&Actio Investimentos",
+      "position": "Back-office Manager and Investment Advisor",
+      "startDate": "2017-08-01",
+      "endDate": "2020-05-01",
+      "summary": "During my time as an Investment Advisor at Meta&Actio Investimentos, I honed my skills in analytical thinking, process management, portifolio building and investment planning, monitoring activity flows and working as a team leader.",
+      "highlights": ["Analytical Skills", "Personal Financial Planning", "Investments", "Data Analysis", "R", "Microsoft Excel"]
+    },
+    {
+      "name": "Espaço Champs Elysees",
+      "position": "Owner",
+      "startDate": "2017-07-01",
+      "endDate": "2018-11-01",
+      "summary": "As the owner at Espaço Champs Elysees, I contributed to the organization's success with a focus on customer service and satisfaction, while also gaining valuable experience in leadership and team management.",
+      "highlights": ["Microsoft Excel","Sales","Leadership","Team Management","Event Planning","Wordpress","Corel Draw","Adobe Photoshop","Social Media"]
+    },
+    {
+      "name": "Institute of Economics at Federal University of Rio de Janeiro",
+      "position": "Intern Research Assistant at Economics Inovation Group",
+      "startDate": "2011-06-01",
+      "endDate": "2012-01-01",
+      "summary": "As an Intern Research Assistant at the Federal University of Rio de Janeiro, I utilized my data management skills and worked with Google Sheet, Google Form and Google Docs for research support as the group where working on a international research project about the Brazilian technology, information, and communication (TIC) sector, focusing on the factors influencing the creation of new businesses within the Brazilian TIC sector, shedding light on the pivotal role of individual entrepreneurial traits, socio-cultural context, and access to information and knowledge, while also revealing challenges in access to funding, internationalization, and government support. With insights from 76 valid responses, this research underscores the significance of individual attributes in the entrepreneurial decision-making process, ultimately presenting a comprehensive analysis of the sector's dynamics.",
+      "highlights": ["Analytical Skills", "Google Sheets", "Google Forms", "Google Docs"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    "organization": "AIESEC- Association Internationale des Étudiants en Sciences Économiques et Commerciales",
+    "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "position": "Marketing and Communications Associate",
+    "url": "https://aiesec.org.br/",
+    "startDate": "2010-05-01",
+    "endDate": "2012-02-01",
+    "summary": "During my 1-year and 10-month tenure at AIESEC, I actively contributed to marketing and communications initiatives, implementing the use of cloud documents through Google Spreadsheet and Google Docs, and better understanding the needs and demands of exchange students and members with Google Forms, honing my skills in outreach and engagement within this global youth organization.",
+    "highlights": [
+      "Google Spreadsheet","Google Docs","Google Forms"
+    ]
+    },
+    {
+      "institution": "Ayra Consultoria",
+      "url": "https://www.ayraconsultoria.com.br/",
+      "position": "Marketing and Communications Consultant",
+      "startDate": "2012-01-01",
+      "endDate": "2012-08-01",
+      "summary": "As a Marketing and Communications Consultant, I dedicated 9 months to Ayra Consultoria, gaining valuable problem solving experience and participating in various projects, wich the main one was the own company Marketing Plan",
+      "highlights": [
+        "Social Media","Google Analytics","Google Spreadsheet","Google Docs","Google Forms","Leadership","Wordpress","Corel Draw","Adobe Photoshop"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of São Paulo - Luiz de Queiroz College of Agriculture", 
+      "location": "Piracicaba, São Paulo, Brazil",
+      "url": "https://www.esalq.usp.br/",
+      "area": "Data Science and Analytics",
+      "studyType": "Master of Business Administration",
+      "startDate": "2023-04-01",
+      "endDate": "2024-10-01",
+      "score": "",
+      "courses": [
+        "Data Science","Machine Learning","Artificial Intelligence","Data Visualization","Blockchain","Cryptocurrency","Deep Learning"
+      ]
+    },
+    {
+      "institution": "Institute of Economics at Federal University of Rio de Janeiro",
+      "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
+      "url": "https://www.ie.ufrj.br/",
+      "area": "Economics",
+      "studyType": "Barchelor",
+      "startDate": "2010-01-01",
+      "endDate": "2014-01-01",
+      "score": "",
+      "courses": [
+        "Analytical Skills","Economics Inovation","Investments","Data Analysis","Macronomics","Microeconomics","Mathematics","Statistics","R","Microsoft Excel"
+      ]
     }
   ],
-  "awards": [
+  "awards": [{"title": "", "date": "", "awarder": "", "url": "", "summary": ""}],
+  "certificates":[
+      {
+        "name": "Data Visualization",
+        "date": "2023-10-17",
+        "issuer": "Free Code Camp",
+        "url": "https://www.freecodecamp.org/certification/fcc21bdd3b0-017c-4bcd-ac26-8f8191da73a8/data-visualization",
+        "icon": "fa fa-tag",
+        "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100."
+      },
+      {
+        "name": "EF SET English Certificate (C2 Proficient)",
+        "date": "2023-07-01",
+        "issuer": "EF Standard English Test (EF SET)",
+        "url": "https://www.efset.org/cert/sqaB64",
+        "icon": "fa fa-tag",
+        "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100."
+      },
+      {
+        "name": "Ask Questions to Make Data-Driven Decisions",
+        "date": "2023-06-01",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RTXF3YGZCF6D",
+        "icon":"fa fa-tag",
+        "summary": "Completed the course 'Ask Questions to Make Data-Driven Decisions' on Coursera."
+      },
+      {
+        "name": "Foundations: Data, Data, Everywhere",
+        "date": "2023-05-01",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RUTN96QWD9HF",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Foundations: Data, Data, Everywhere' on Coursera, covering analytical skills, Microsoft Excel, MySQL, and data analysis."
+      },
+      {
+        "name": "Crowdfunding",
+        "date": "2022-10-01",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/verify/9TFWN2X7DBDM",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Crowdfunding' on Coursera, focusing on investments."
+      },
+      {
+        "name": "FBB100 Correspondente Completo",
+        "date": "2020-11-01",
+        "issuer": "FEBRABAN",
+        "url": "",
+        "icon": "fa fa-tag",
+        "summary": "Certified as 'FBB100 Correspondente Completo' by FEBRABAN with an expiration date of November 2023."
+      },
+      {
+        "name": "Specialist Advisory",
+        "date": "2019-06-01",
+        "issuer": "Proseek",
+        "url": "",
+        "icon":"fa fa-tag",        
+        "summary": "Earned the 'Specialist Advisory' certification from Proseek, with a focus on investments, Microsoft Excel, and data analysis."
+      },
+      {
+        "name": "Agente Autonomo de Investimentos",
+        "date": "2018-02-01",
+        "issuer": "ANCORD",
+        "url": "http://54.209.169.151/Ancord/forms/home/Documentos/Lista%20de%20Aprovados/2018/Aprovados02.aspx",
+        "icon": "fa fa-tag",
+        "summary": "Certified as an 'Agente Autonomo de Investimentos' by ANCORD."
+      },
+      {
+        "name": "Bitcoin and Cryptocurrency Technologies",
+        "date": "2017-08-01",
+        "issuer": "Princeton University",
+        "url": "https://www.coursera.org/account/accomplishments/verify",
+        "icon": "fa-solid fa-tag",
+        "summary": "Completed the course 'Bitcoin and Cryptocurrency Technologies' at Princeton University, with a focus on investments and Microsoft Excel."
+      },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "DCC Certified Professional",
+      "date": "2017-05-01",
+      "issuer": "Digital Currency Council",
+      "url": "https://t.cred.ly/0Gycog5I+ZPL+UmWF7Vc8g==$$$cLeJuoqlXCwHHd6UEAD65zNoDq90/C/yDtA1je15wk2K5/pWa3MwwH3qoK5RXG5piaAlDemhcV1d40PofFLWumEOQB+mi5amDrqWtO3xk4o=?r=https%3A%2F%2Fcredly.com%2Fcredit%2F13946902&t=1494890749&c=lip",
+      "icon":"fa fa-tag",
+      "summary": "Google Looker Studio is a business intelligence platform that helps companies make better business decisions through real-time access to data." 
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "[PT-BR]Cryptocurrencies: are these viable forms of money?",
+      "publisher": "Institute of Economics at Federal University of Rio de Janeiro",
+      "releaseDate": "2019-09-24",
+      "url": "https://pantheon.ufrj.br/handle/11422/11747",
+      "summary": "The present work aims to present an introduction to the study of cryptocurrencies, focusing on Bitcoin, the first cryptocurrency created. The basic concepts of cryptography, the technology behind cryptocurrencies, and the functioning of Bitcoin will be presented. The main challenges faced by Bitcoin and the main criticisms made to it will also be presented."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "[PT-BR]Cryptocurrencies – Viable Forms Of Money? A Brief Analysis Of The Characteristics And Functions Of Currency Compared To Electronic Currencies",
+      "publisher": "[PT-BR]VIII Federal University of Rio de Janeiro Academic Integration Week",
+      "releaseDate": "2017-10-24",
+      "url": "https://sistemas2.macae.ufrj.br/8siac/arquivo/Caderno_de_resumos_CCJE_2017.pdf",
+      "summary": "In recent years, technological advancements have significantly impacted society, exemplified by the proliferation of smartphones and the emergence of electronic currencies, with Bitcoin being the most prominent. These cryptocurrencies, based on encryption, have evolved into financial assets with over a $100 billion market capitalization in just nine years, blurring the lines between traditional currencies and investment instruments."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "[PT-BR]Entrepreneurial Attitude Paradigms: An Analysis of the Elements that Facilitate the Creation of New ICT Businesses in Brazil",
+      "publisher": "[PT-BR]XXXIV Giulio Massarani Journey of Scientific, Artistic and Cultural Initiation - Federal University of Rio de Janeiro",
+      "releaseDate": "2012-10-02",
+      "url": "https://posgraduacao.ufrj.br/public/suporte/jicac/livroResumo/2012/Humanas.pdf",
+      "summary": "In the evolving landscape of the post-Fordist era and the rise of the knowledge society, the Brazilian technology, information, and communication (TIC) sector is witnessing growth opportunities fueled by an expanding middle class and increasing digital inclusion. This study delves into the factors influencing the creation of new businesses within the Brazilian TIC sector, shedding light on the pivotal role of individual entrepreneurial traits, socio-cultural context, and access to information and knowledge, while also revealing challenges in access to funding, internationalization, and government support. With insights from 76 valid responses, this research underscores the significance of individual attributes in the entrepreneurial decision-making process, ultimately presenting a comprehensive analysis of the sector's dynamics."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Soft Skills",
+      "level": "",
+      "icon": "fa fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership"
+      ]
+    },
+    {
+      "name": "Hard Skills",
+      "level": "",
+      "icon": "fa fa-hashtag",
+      "keywords": [
+        "Personal Financial Planning","Investments","Data Analysis","Economics"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "icon": "fa fa-hashtag",
+      "keywords": [
+        "Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "icon": "fa fa-hashtag",
+      "keywords": [
+        "SQL","Laravel","R","AMP HTML","D3.JS","HTML","CSS","JavaScript"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Portuguese",      
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa fa-hashtag"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa fa-hashtag"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Economics",
+      "icon": "fa fa-thumbtack",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Inovation","Entrepreneurship","Startup","Cryptocurrency","Time Series","Economic Development","Economic Policy"
+      ]
+    },
+    {
+      "name": "Technology",
+      "icon": "fa fa-thumbtack",
+      "keywords": [
+        "Data Science","Machine Learning","Artificial Intelligence","Web3","Blockchain","Web Development","Mobile Development"
+      ]
+    },
+    {
+      "name": "Sports",
+      "icon": "fa fa-thumbtack",
+      "keywords": [
+        "Football(Soccer)","E-Sports"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [{"name": "", "icon": "", "reference": ""}],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "PabloDiegoo Github Page",
+      "summary": "Personal Website",
+      "highlights": [
+        "Data Analysis","AMP HTML","D3.JS","Laravel","PHP","SQL","Web Development","Data Visualization","Web3","Blockchain","Cryptocurrency"
+      ],
+      "url": "https://pablodiegoo.github.io/",
+      "startDate": "2023-10-10"
+    },
+    {
+      "name":"L96.APP",
+      "summary": "Web Application",
+      "highlights": [
+        "AMP HTML","D3.JS","Google Looker","Laravel","PHP","SQL","Javascript","HTML","CSS","Wordpress", "Web Development","Data Visualization","Communication","Data Analysis"
+      ],
+      "url": "https://lab.l96.app/",
+      "startDate": "2023-05-23"
     }
   ]
 }
