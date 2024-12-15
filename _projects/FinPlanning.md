@@ -34,4 +34,4 @@ Thanks to this improvement, we had to open an area dedicated exclusively to insu
     In the image you can see the two pages of the spreadsheet. Where there is the form on one side and the output on the other. It was only made in Portuguese, as the target audience was only Brazilian investors.
 </div>
 
-The above output was the input needed for financial planning professionals to find business opportunities, such as insurance, health plans, and retirement plans. The impact on revenue and NPS was remarkable and I ended up getting promoted.
+The output above was the input needed for financial planning professionals to find business opportunities, such as insurance, health plans and retirement plans. The impact on revenue and NPS was notable and I ended up being promoted. The project was planned to be adapted to a cloud version, using R, but it ended up not being finalized because the company's leadership received a proposal
