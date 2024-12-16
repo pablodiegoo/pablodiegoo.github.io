@@ -14,13 +14,13 @@ related_publications: true
     </div>
 </div>
 
-In 2017, I was hired by an investment advisory firm to work as a Backoffice. Along with my duties, I tried to generate some improvements for the commercial side of the business, taking care of repetitive processes and improving them as much as possible.
+This project was designed to facilitate the analysis of clients' financial data and create a standard for questions asked in commercial interviews by advisors at an investment advisory firm.
 
-Many people used spreadsheets to provide customer service as a way to obtain information about their customers' financial lives in an organized manner. This would make it easier to adjust a proposal, based mainly on the customers' needs, but also to identify opportunities not yet seen in other contacts.
+There was a lot of redundant and disorganized information in the data collection and little clarity in some interviews. The investment advisors' methodologies revolved around the same questions, asked in different ways and means. They had forms, spreadsheets and some used paper and pen, which made it difficult to identify opportunities, analyze each case and even store all the data.
 
-I saw some of the spreadsheets and, in partnership with a CPF, we ended up creating a lean tool that already drew a general picture of the client's financial life.
+This spreadsheet was created to simplify the interviews, make the analysis clearer and much more standardized. In addition, the goal was to increase the production scale and quality of the commercial side and also of the back office, which was achieved.
 
-Thanks to this improvement, we had to open an area dedicated exclusively to insurance, which significantly improved the financial results of less experienced investment advisors.
+The increase in sales of insurance and health plans was very significant and ended up forcing the structuring of a team dedicated exclusively to this type of product. In addition, this process improved the relationship with clients, with increased satisfaction, seen in the improvement of the NPS of advisors who used the financial planning tool.
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
@@ -33,5 +33,3 @@ Thanks to this improvement, we had to open an area dedicated exclusively to insu
 <div class="caption">
     In the image you can see the two pages of the spreadsheet. Where there is the form on one side and the output on the other. It was only made in Portuguese, as the target audience was only Brazilian investors.
 </div>
-
-The output above was the input needed for financial planning professionals to find business opportunities, such as insurance, health plans and retirement plans. The impact on revenue and NPS was notable and I ended up being promoted. The project was planned to be adapted to a cloud version, using R, but it ended up not being finalized because the company's leadership received a proposal
