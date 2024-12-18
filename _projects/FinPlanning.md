@@ -33,3 +33,5 @@ The increase in sales of insurance and health plans was very significant and end
 <div class="caption">
     In the image you can see the two pages of the spreadsheet. Where there is the form on one side and the output on the other. It was only made in Portuguese, as the target audience was only Brazilian investors.
 </div>
+
+This spreadsheet ended up becoming a personal project and I aim to make it part of a personal finance ecosystem.
