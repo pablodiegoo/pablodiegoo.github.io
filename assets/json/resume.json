@@ -72,7 +72,7 @@
   "volunteer": [
     {
     "organization": "AIESEC- Association Internationale des Étudiants en Sciences Économiques et Commerciales",
-    "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
+    "location": "RJ, Brazil",
     "position": "Marketing and Communications Associate",
     "url": "https://aiesec.org.br/",
     "startDate": "2010-05-01",
@@ -84,6 +84,7 @@
     },
     {
       "institution": "Ayra Consultoria",
+      "location": "RJ, Brazil",
       "url": "https://www.ayraconsultoria.com.br/",
       "position": "Marketing and Communications Consultant",
       "startDate": "2012-01-01",
@@ -97,7 +98,7 @@
   "education": [
     {
       "institution": "University of São Paulo - Luiz de Queiroz College of Agriculture", 
-      "location": "Piracicaba, São Paulo, Brazil",
+      "location": "SP, Brazil",
       "url": "https://www.esalq.usp.br/",
       "area": "Data Science and Analytics",
       "studyType": "Master of Business Administration",
@@ -110,7 +111,7 @@
     },
     {
       "institution": "Institute of Economics at Federal University of Rio de Janeiro",
-      "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
+      "location": "RJ, Brazil",
       "url": "https://www.ie.ufrj.br/",
       "area": "Economics",
       "studyType": "Barchelor",
@@ -125,12 +126,52 @@
   "awards": [{"title": "", "date": "", "awarder": "", "url": "", "summary": ""}],
   "certificates":[
       {
+        "name": "Data Analysis with R Programming",
+        "date": "2025-02-10",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/verify/6VUL3H7I41LG",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Data Analysis with R Programming' on Coursera."
+      },
+      {
+        "name": "Share Data Through the Art of Visualization",
+        "date": "2025-02-07",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/verify/0X7KSS3FZVX1",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Share Data Through the Art of Visualization' on Coursera."
+      },
+      {
+        "name": "Analyze Data to Answer Questions",
+        "date": "2025-02-07",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/verify/9530R10UTO12",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Analyze Data to Answer Questions' on Coursera."
+      },
+      {
+        "name": "Formação Perito Judicial",
+        "date": "2025-01-29",
+        "issuer": "Academia do Perito",
+        "url": "https://academiadoperito.com.br/pdf_data/MzcxRURGMUUwNEIyRTc4QkJCRTlBNkZFQUVBNDk5MkJwYWJsb2RpZWdvb0BnbWFpbC5jb20=.pdf",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Formação Perito Judicial' on Academia do Perito."
+      },
+      {
+        "name": "Prepare Data for Exploration",
+        "date": "2024-12-04",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RJIVHXRPMZFG",
+        "icon": "fa fa-tag",
+        "summary": "Completed the course 'Prepare for data Exploration' on Coursera."
+      },
+      {
         "name": "Data Visualization",
         "date": "2023-10-17",
         "issuer": "Free Code Camp",
         "url": "https://www.freecodecamp.org/certification/fcc21bdd3b0-017c-4bcd-ac26-8f8191da73a8/data-visualization",
         "icon": "fa fa-tag",
-        "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100."
+        "summary": "Completed the course 'Data Visualization' on Free Code Camp."
       },
       {
         "name": "EF SET English Certificate (C2 Proficient)",
@@ -143,7 +184,7 @@
       {
         "name": "Prepare for data Exploration",
         "date": "2024-12-04",
-        "issuer": "Coursera",
+        "issuer": "Google",
         "url": "https://www.coursera.org/account/accomplishments/verify/RJIVHXRPMZFG",
         "icon":"fa fa-tag",
         "summary": "Completed the course 'Prepare for data Exploration' on Coursera."
@@ -151,7 +192,7 @@
       {
         "name": "Ask Questions to Make Data-Driven Decisions",
         "date": "2023-06-13",
-        "issuer": "Coursera",
+        "issuer": "Google",
         "url": "https://www.coursera.org/account/accomplishments/verify/RTXF3YGZCF6D",
         "icon":"fa fa-tag",
         "summary": "Completed the course 'Ask Questions to Make Data-Driven Decisions' on Coursera."
@@ -159,7 +200,7 @@
       {
         "name": "Foundations: Data, Data, Everywhere",
         "date": "2023-05-01",
-        "issuer": "Coursera",
+        "issuer": "Google",
         "url": "https://www.coursera.org/account/accomplishments/verify/RUTN96QWD9HF",
         "icon": "fa fa-tag",
         "summary": "Completed the course 'Foundations: Data, Data, Everywhere' on Coursera, covering analytical skills, Microsoft Excel, MySQL, and data analysis."
