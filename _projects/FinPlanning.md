@@ -4,7 +4,7 @@ title: Financial Planning Tool
 description: Spreadsheets client for analysis
 img: assets/img/FinPlanning_Cover.jpg
 importance: 1
-category: work
+category: "Data Analytics"
 related_publications: false
 ---
 
