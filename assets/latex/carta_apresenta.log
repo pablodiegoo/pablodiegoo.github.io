@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 13:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/resume.tex"
-(c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/resume.tex
+**"c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/carta_apresenta.tex"
+(c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/carta_apresenta.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (resume.cls
@@ -172,8 +172,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box54
-) (resume.aux)
-\openout1 = `resume.aux'.
+) (carta_apresenta.aux)
+\openout1 = `carta_apresenta.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -216,9 +216,9 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \everyMPtoPDFconversion=\toks21
 )) (C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 9.
- (resume.out) (resume.out)
+ (carta_apresenta.out) (carta_apresenta.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `carta_apresenta.out'.
 
 
 *geometry* driver: auto-detecting
@@ -267,17 +267,17 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 9--9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--81
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
 
  []
 
@@ -285,26 +285,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--91
 
 [1
 
-{C:/Users/tatia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resume.aux)
+{C:/Users/tatia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (carta_apresenta.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `resume.out' has not changed.
+Package rerunfilecheck Info: File `carta_apresenta.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8876 strings out of 473523
- 139843 string characters out of 5714630
- 558697 words of memory out of 5000000
- 32026 multiletter control sequences out of 15000+600000
- 563472 words of font info for 51 fonts, out of 8000000 for 9000
+ 8865 strings out of 473523
+ 139829 string characters out of 5714630
+ 545736 words of memory out of 5000000
+ 32017 multiletter control sequences out of 15000+600000
+ 562490 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,93p,725b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\tatia\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 103290 bytes).
+ 84i,5n,93p,898b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on carta_apresenta.pdf (1 page, 57558 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
