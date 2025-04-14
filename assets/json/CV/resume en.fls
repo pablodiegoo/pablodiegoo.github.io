@@ -3,8 +3,8 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/pablodp/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/json/CV/resume.tex
-OUTPUT resume.log
+INPUT /home/pablodp/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/json/CV/resume en.tex
+OUTPUT resume en.log
 INPUT ./resume.cls
 INPUT resume.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -85,10 +85,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./resume.aux
-INPUT ./resume.aux
-INPUT resume.aux
-OUTPUT resume.aux
+INPUT ./resume en.aux
+INPUT ./resume en.aux
+INPUT resume en.aux
+OUTPUT resume en.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -103,14 +103,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT ./resume.out
-INPUT ./resume.out
-INPUT resume.out
-INPUT resume.out
-INPUT ./resume.out
-INPUT ./resume.out
-OUTPUT resume.out
-OUTPUT resume.pdf
+INPUT ./resume en.out
+INPUT ./resume en.out
+INPUT resume en.out
+INPUT resume en.out
+INPUT ./resume en.out
+INPUT ./resume en.out
+OUTPUT resume en.out
+OUTPUT resume en.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -127,9 +127,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT resume.aux
-INPUT ./resume.out
-INPUT ./resume.out
+INPUT resume en.aux
+INPUT ./resume en.out
+INPUT ./resume en.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

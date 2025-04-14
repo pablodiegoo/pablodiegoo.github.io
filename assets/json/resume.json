@@ -8,7 +8,7 @@
     "url": "https://pablodiegoo.github.io/",
     "summary": "Economist, with extensive experience in the financial market, focusing on building investment portfolios and long and short operations. He has previous experience in back office, monitoring activity flows and team leadership.",
     "location": {
-      "address": "" ,
+      "address": "",
       "postalCode": "",
       "city": "Araruama",
       "countryCode": "BR",
@@ -41,46 +41,76 @@
       "endDate": "Today",
       "summary": "Investment Advisor for over 5 years, offering expert guidance and personalized financial strategies to clients, solidifying my expertise in the financial market.",
       "highlights": [
-        "Analytical Skills","Personal Financial Planning","Investments","Data Analysis","R","Microsoft Excel"
+        "Leveraged data analysis, market research, and critical thinking to translate complex data into actionable financial insights for client planning.",
+        "Developed and presented concise reports and portfolio analyses using data visualization tools (Excel, Google Sheets, Looker, Power BI).",
+        "Identified portfolio optimization opportunities aligned with client objectives and risk tolerance using financial market data.",
+        "Built and maintained strong client relationships through personalized financial strategy development and ongoing communication.",
+        "Monitored market trends and assessed investment risks to inform portfolio adjustments and ensure regulatory compliance.",
+        "Provided expert guidance on diverse investment products and strategies tailored to individual client needs."
       ]
     },
     {
       "name": "Meta&Actio Investimentos",
-      "position": "Back-office Manager and Investment Advisor",
+      "position": "Back-office Manager",
       "startDate": "2017-08-01",
       "endDate": "2020-05-01",
-      "summary": "During my time as an Investment Advisor at Meta&Actio Investimentos, I honed my skills in analytical thinking, process management, portifolio building and investment planning, monitoring activity flows and working as a team leader.",
-      "highlights": ["Analytical Skills", "Personal Financial Planning", "Investments", "Data Analysis", "R", "Microsoft Excel"]
+      "summary": "Started as the sole back-office operator and grew into a leadership role, managing operations, implementing key financial tools, and leading a team. Focused on analytical thinking, process management, portfolio building, and investment planning.",
+      "highlights": [
+        "Developed standardized personal financial planning spreadsheets and forms for advisors, reducing service time, boosting operational efficiency, identifying >20% tax savings opportunities for clients (avoiding 'come-cotas'), and driving >100% expansion in insurance sales.",
+        "Spearheaded the implementation of pair trading (long & short) operations, creating an R algorithm identifying >100 monthly arbitrage opportunities and establishing a new revenue stream.",
+        "Managed and streamlined back-office operations from the ground up, significantly improving workflow efficiency and accuracy.",
+        "Trained and led a growing back-office team, fostering a collaborative and high-performing environment as the department expanded.",
+        "Implemented process improvements and automation initiatives to optimize operational performance and minimize errors.",
+        "Ensured adherence to financial regulations and internal policies within all back-office procedures."
+      ]
     },
     {
       "name": "Espaço Champs Elysees",
       "position": "Owner",
       "startDate": "2017-07-01",
       "endDate": "2018-11-01",
-      "summary": "As the owner at Espaço Champs Elysees, I contributed to the organization's success with a focus on customer service and satisfaction, while also gaining valuable experience in leadership and team management.",
-      "highlights": ["Microsoft Excel","Sales","Leadership","Team Management","Event Planning","Wordpress","Corel Draw","Adobe Photoshop","Social Media"]
+      "summary": "As the sole owner and operator ('one-man company') of Espaço Champs Elysees, I managed all aspects of the business, from online presence and marketing to operations, supplier negotiations, and event execution, focusing on customer satisfaction and operational efficiency.",
+      "highlights": [
+        "Established and managed the complete online presence (Website, Social Media), achieving #1 ranking in regional organic search results.",
+        "Negotiated and drafted contracts with local suppliers for events, parties, and spa services, achieving a 70% reduction in payroll expenses through strategic outsourcing.",
+        "Designed and implemented automated sales and marketing workflows, resulting in an 80% faster response time and a 30% increase in conversion rates.",
+        "Executed operational optimizations that doubled kitchen service capacity and expanded spa service capacity by 300%.",
+        "Solely managed all business functions including finance, marketing, sales, operations, event planning, and customer service as a 'one-man company'.",
+        "Developed and executed successful marketing campaigns across digital and traditional channels to drive bookings and brand awareness.",
+        "Oversaw all financial aspects, including budgeting, invoicing, and expense management."
+      ]
     },
     {
       "name": "Institute of Economics at Federal University of Rio de Janeiro",
-      "position": "Intern Research Assistant at Economics Inovation Group",
+      "position": "Intern Research Assistant at Economics Innovation Group",
       "startDate": "2011-06-01",
       "endDate": "2012-01-01",
-      "summary": "As an Intern Research Assistant at the Federal University of Rio de Janeiro, I utilized my data management skills and worked with Google Sheet, Google Form and Google Docs for research support as the group where working on a international research project about the Brazilian technology, information, and communication (TIC) sector, focusing on the factors influencing the creation of new businesses within the Brazilian TIC sector, shedding light on the pivotal role of individual entrepreneurial traits, socio-cultural context, and access to information and knowledge, while also revealing challenges in access to funding, internationalization, and government support. With insights from 76 valid responses, this research underscores the significance of individual attributes in the entrepreneurial decision-making process, ultimately presenting a comprehensive analysis of the sector's dynamics.",
-      "highlights": ["Analytical Skills", "Google Sheets", "Google Forms", "Google Docs"]
+      "summary": "Supported an international research project on Brazil's ICT sector, focusing on factors influencing new business creation. Contributed to data management and analysis, highlighting entrepreneurial traits and sector challenges.",
+      "highlights": [
+        "Provided research support for an international project analyzing Brazil's Technology, Information, and Communication (ICT) sector.",
+        "Utilized Google Sheets, Google Forms, and Google Docs for data collection, management, and documentation related to the research.",
+        "Contributed to analyzing factors influencing new ICT business creation, including entrepreneurial traits, socio-cultural context, and access to information.",
+        "Assisted in identifying key challenges within the sector, such as funding access, internationalization, and government support, based on survey data.",
+        "Applied analytical skills to support the comprehensive analysis of the sector's dynamics."
+      ]
     }
   ],
   "volunteer": [
     {
-    "organization": "AIESEC- Association Internationale des Étudiants en Sciences Économiques et Commerciales",
-    "location": "RJ, Brazil",
-    "position": "Marketing and Communications Associate",
-    "url": "https://aiesec.org.br/",
-    "startDate": "2010-05-01",
-    "endDate": "2012-02-01",
-    "summary": "During my 1-year and 10-month tenure at AIESEC, I actively contributed to marketing and communications initiatives, implementing the use of cloud documents through Google Spreadsheet and Google Docs, and better understanding the needs and demands of exchange students and members with Google Forms, honing my skills in outreach and engagement within this global youth organization.",
-    "highlights": [
-      "Google Spreadsheet","Google Docs","Google Forms"
-    ]
+      "institution": "AIESEC - Association Internationale des Étudiants en Sciences Économiques et Commerciales",
+      "location": "RJ, Brazil",
+      "position": "Marketing and Communications Associate",
+      "url": "https://aiesec.org.br/",
+      "startDate": "2010-05-01",
+      "endDate": "2012-02-01",
+      "summary": "Contributed to marketing and communications for AIESEC, implementing cloud-based tools (Google Suite) for improved data gathering and outreach within the global youth organization.",
+      "highlights": [
+        "Actively contributed to marketing and communications initiatives for AIESEC over nearly two years.",
+        "Implemented Google Sheets and Google Docs to streamline document management and collaboration for marketing materials.",
+        "Utilized Google Forms to gather insights into the needs and demands of exchange students and members, improving engagement strategies.",
+        "Developed skills in outreach and engagement within a global youth organization context.",
+        "Supported communication campaigns aimed at promoting AIESEC programs and activities."
+      ]
     },
     {
       "institution": "Ayra Consultoria",
@@ -89,15 +119,22 @@
       "position": "Marketing and Communications Consultant",
       "startDate": "2012-01-01",
       "endDate": "2012-08-01",
-      "summary": "As a Marketing and Communications Consultant, I dedicated 9 months to Ayra Consultoria, gaining valuable problem solving experience and participating in various projects, wich the main one was the own company Marketing Plan",
+      "summary": "Served as a Marketing and Communications Consultant, contributing to various projects, including the development of the company's own marketing plan, and gaining problem-solving experience.",
       "highlights": [
-        "Social Media","Google Analytics","Google Spreadsheet","Google Docs","Google Forms","Leadership","Wordpress","Corel Draw","Adobe Photoshop"
+        "Provided marketing and communications consultancy for Ayra Consultoria over a 9-month period.",
+        "Played a key role in developing the company's internal marketing plan.",
+        "Participated in various client projects, enhancing problem-solving skills.",
+        "Utilized tools like Google Analytics for tracking and reporting on marketing performance.",
+        "Managed social media presence and content creation.",
+        "Leveraged Google Suite (Sheets, Docs, Forms) for project documentation and data management.",
+        "Applied design skills using Corel Draw and Adobe Photoshop for marketing materials.",
+        "Gained experience with WordPress for website content management."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of São Paulo - Luiz de Queiroz College of Agriculture", 
+      "institution": "University of São Paulo - Luiz de Queiroz College of Agriculture",
       "location": "SP, Brazil",
       "url": "https://www.esalq.usp.br/",
       "area": "Data Science and Analytics",
@@ -106,7 +143,13 @@
       "endDate": "2024-10-01",
       "score": "",
       "courses": [
-        "Data Science","Machine Learning","Artificial Intelligence","Data Visualization","Blockchain","Cryptocurrency","Deep Learning"
+        "Data Science",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Data Visualization",
+        "Blockchain",
+        "Cryptocurrency",
+        "Deep Learning"
       ]
     },
     {
@@ -119,12 +162,30 @@
       "endDate": "2014-01-01",
       "score": "",
       "courses": [
-        "Analytical Skills","Economics Inovation","Investments","Data Analysis","Macronomics","Microeconomics","Mathematics","Statistics","R","Microsoft Excel"
+        "Analytical Skills",
+        "Economics Inovation",
+        "Investments",
+        "Data Analysis",
+        "Macronomics",
+        "Microeconomics",
+        "Mathematics",
+        "Statistics",
+        "R",
+        "Microsoft Excel"
       ]
     }
   ],
   "awards": [{"title": "", "date": "", "awarder": "", "url": "", "summary": ""}],
   "certificates":[
+      
+      {
+        "name": "Data Analysos with Python",
+        "date": "2025-02-25",
+        "issuer": "Free Code Camp",
+        "url": "",
+        "icon": "fa fa-tag",
+        "summary": ""
+      },
       {
         "name": "Google Data Analytics",
         "date": "2025-02-25",
@@ -314,8 +375,8 @@
       "date": "2017-05-01",
       "issuer": "Digital Currency Council",
       "url": "https://t.cred.ly/0Gycog5I+ZPL+UmWF7Vc8g==$$$cLeJuoqlXCwHHd6UEAD65zNoDq90/C/yDtA1je15wk2K5/pWa3MwwH3qoK5RXG5piaAlDemhcV1d40PofFLWumEOQB+mi5amDrqWtO3xk4o=?r=https%3A%2F%2Fcredly.com%2Fcredit%2F13946902&t=1494890749&c=lip",
-      "icon":"fa fa-tag",
-      "summary": "Certified as a 'DCC Certified Professional' by the Digital Currency Council." 
+      "icon": "fa fa-tag",
+      "summary": "Certified as a 'DCC Certified Professional' by the Digital Currency Council."
     }
   ],
   "publications": [
@@ -411,7 +472,7 @@
   ],
   "languages": [
     {
-      "language": "Portuguese",      
+      "language": "Portuguese",
       "fluency": "Native speaker",
       "icon": "fa fa-hashtag"
     },
@@ -426,21 +487,34 @@
       "name": "Economics",
       "icon": "fa fa-thumbtack",
       "keywords": [
-        "Inovation","Entrepreneurship","Startup","Cryptocurrency","Time Series","Economic Development","Economic Policy"
+        "Inovation",
+        "Entrepreneurship",
+        "Startup",
+        "Cryptocurrency",
+        "Time Series",
+        "Economic Development",
+        "Economic Policy"
       ]
     },
     {
       "name": "Technology",
       "icon": "fa fa-thumbtack",
       "keywords": [
-        "Data Science","Machine Learning","Artificial Intelligence","Web3","Blockchain","Web Development","Mobile Development"
+        "Data Science",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Web3",
+        "Blockchain",
+        "Web Development",
+        "Mobile Development"
       ]
     },
     {
       "name": "Sports",
       "icon": "fa fa-thumbtack",
       "keywords": [
-        "Football(Soccer)","E-Sports"
+        "Football(Soccer)",
+        "E-Sports"
       ]
     }
   ],
@@ -450,7 +524,17 @@
       "name": "PabloDiegoo Github Page",
       "summary": "Personal Website",
       "highlights": [
-        "Data Analysis","AMP HTML","D3.JS","Laravel","PHP","SQL","Web Development","Data Visualization","Web3","Blockchain","Cryptocurrency"
+        "Data Analysis",
+        "AMP HTML",
+        "D3.JS",
+        "Laravel",
+        "PHP",
+        "SQL",
+        "Web Development",
+        "Data Visualization",
+        "Web3",
+        "Blockchain",
+        "Cryptocurrency"
       ],
       "url": "https://pablodiegoo.github.io/",
       "startDate": "2023-10-10"
@@ -459,7 +543,20 @@
       "name":"L96.APP",
       "summary": "Web Application",
       "highlights": [
-        "AMP HTML","D3.JS","Google Looker","Laravel","PHP","SQL","Javascript","HTML","CSS","Wordpress", "Web Development","Data Visualization","Communication","Data Analysis"
+        "AMP HTML",
+        "D3.JS",
+        "Google Looker",
+        "Laravel",
+        "PHP",
+        "SQL",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Wordpress",
+        "Web Development",
+        "Data Visualization",
+        "Communication",
+        "Data Analysis"
       ],
       "url": "https://lab.l96.app/",
       "startDate": "2023-05-23"
