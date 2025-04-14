@@ -126,12 +126,84 @@
   "awards": [{"title": "", "date": "", "awarder": "", "url": "", "summary": ""}],
   "certificates":[
       {
+        "name": "Google Data Analytics",
+        "date": "2025-02-25",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/professional-cert/",
+        "icon": "fa fa-tag",
+        "summary": "Completed comprehensive Google Data Analytics Professional Certificate covering data analysis, visualization, R programming, and SQL."
+      },
+      {
+        "name": "Investment Portfolio Analysis with R",
+        "date": "2025-02-22",
+        "issuer": "Udemy",
+        "url": "https://www.udemy.com/certificate/",
+        "icon": "fa fa-tag",
+        "summary": "Mastered portfolio analysis techniques using R, including risk assessment, return calculation, and optimization strategies."
+      },
+      {
+        "name": "Investments Risk Management",
+        "date": "2025-02-18",
+        "issuer": "Google",
+        "url": "https://www.coursera.org/account/accomplishments/verify/",
+        "icon": "fa fa-tag",
+        "summary": "Advanced course on investment risk management, covering portfolio theory, risk metrics, and mitigation strategies."
+      },
+      {
+        "name": "Compare Stock Returns with Google Sheets",
+        "date": "2025-02-17",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/verify/",
+        "icon": "fa fa-tag",
+        "summary": "Learned advanced techniques for stock return analysis and comparison using Google Sheets."
+      },
+      {
+        "name": "Dynamic Reports with R Markdown",
+        "date": "2025-02-11",
+        "issuer": "Udemy",
+        "url": "https://www.udemy.com/certificate/",
+        "icon": "fa fa-tag",
+        "summary": "Mastered creation of elegant and structured dynamic reports using R Markdown for data analysis presentation."
+      },
+      {
         "name": "Data Analysis with R Programming",
-        "date": "2025-02-10",
+        "date": "2025-02-03",
         "issuer": "Google",
         "url": "https://www.coursera.org/account/accomplishments/verify/6VUL3H7I41LG",
         "icon": "fa fa-tag",
-        "summary": "Completed the course 'Data Analysis with R Programming' on Coursera."
+        "summary": "Comprehensive course on data analysis using R, covering data manipulation, visualization, and statistical analysis."
+      },
+      {
+        "name": "Transformer Models and BERT",
+        "date": "2023-11-21",
+        "issuer": "Udacity",
+        "url": "https://graduation.udacity.com/confirm/",
+        "icon": "fa fa-tag",
+        "summary": "Deep dive into transformer architecture and BERT models for natural language processing with Google Cloud."
+      },
+      {
+        "name": "Encoder-Decoder Architecture",
+        "date": "2023-11-21",
+        "issuer": "Udacity",
+        "url": "https://graduation.udacity.com/confirm/",
+        "icon": "fa fa-tag",
+        "summary": "Advanced study of encoder-decoder architectures in machine learning using Google Cloud Platform."
+      },
+      {
+        "name": "Introduction to Large Language Models",
+        "date": "2023-10-27",
+        "issuer": "Udacity",
+        "url": "https://graduation.udacity.com/confirm/",
+        "icon": "fa fa-tag",
+        "summary": "Comprehensive introduction to LLMs, their architecture, and applications using Google Cloud."
+      },
+      {
+        "name": "Introduction to Generative AI",
+        "date": "2023-10-27",
+        "issuer": "Udacity",
+        "url": "https://graduation.udacity.com/confirm/",
+        "icon": "fa fa-tag",
+        "summary": "Explored fundamentals of generative AI and its applications using Google Cloud Platform."
       },
       {
         "name": "Share Data Through the Art of Visualization",
@@ -180,14 +252,6 @@
         "url": "https://www.efset.org/cert/sqaB64",
         "icon": "fa fa-tag",
         "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100."
-      },
-      {
-        "name": "Prepare for data Exploration",
-        "date": "2024-12-04",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/RJIVHXRPMZFG",
-        "icon":"fa fa-tag",
-        "summary": "Completed the course 'Prepare for data Exploration' on Coursera."
       },
       {
         "name": "Ask Questions to Make Data-Driven Decisions",
@@ -283,31 +347,65 @@
       "level": "",
       "icon": "fa fa-hashtag",
       "keywords": [
-        "Problem Solving","Analytical Thinking","Communication","Flexibility","Leadership"
+        "Problem Solving",
+        "Analytical Thinking",
+        "Communication",
+        "Team Work",
+        "Adaptability",
+        "Conflict Management",
+        "Negotiation",
+        "Proactivity",
+        "Entrepreneurship"
       ]
     },
     {
-      "name": "Hard Skills",
+      "name": "Financial Skills",
       "level": "",
       "icon": "fa fa-hashtag",
       "keywords": [
-        "Personal Financial Planning","Investments","Data Analysis","Economics"
+        "Investment Advisory",
+        "Financial Planning",
+        "Financial Expert Witness",
+        "Portfolio Analysis",
+        "Risk Management",
+        "Cryptocurrency"
       ]
     },
     {
-      "name": "Tools",
+      "name": "Programming Languages",
       "level": "",
       "icon": "fa fa-hashtag",
       "keywords": [
-        "Google Spreadsheet","Google Docs","Google Forms","Google Looker Studio","Microsoft Excel"
+        "R",
+        "Python",
+        "SQL",
+        "PHP",
+        "JavaScript",
+        "LaTeX",
+        "HTML",
+        "CSS"
       ]
     },
     {
-      "name": "Programming",
+      "name": "Tools & Libraries",
       "level": "",
       "icon": "fa fa-hashtag",
       "keywords": [
-        "SQL","Laravel","R","AMP HTML","D3.JS","HTML","CSS","JavaScript"
+        "Git",
+        "Google Looker",
+        "Power BI",
+        "Google Sheets",
+        "Excel",
+        "PowerPoint",
+        "Google Analytics",
+        "WordPress",
+        "Laravel",
+        "ggplot2",
+        "R Markdown",
+        "scikit-learn",
+        "D3.js",
+        "Matplotlib",
+        "Seaborn"
       ]
     }
   ],
