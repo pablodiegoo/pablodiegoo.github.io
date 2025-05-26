@@ -1,6 +1,5 @@
 # al-folio
 
-
 ```mermaid
 ---
 config:
