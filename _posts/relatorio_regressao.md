@@ -30,6 +30,16 @@ O modelo de regressão logística obteve os seguintes resultados:
 | nota_natal_num | -0.4107 | 0.66 | -33.7% |
 | avaliacao_limpeza_cod | -0.0220 | 0.98 | -2.2% |
 
+### Demais Fatores Analisados
+
+| Fator | Coeficiente | Odds Ratio | Impacto Estimado |
+|-------|-------------|------------|------------------|
+| genero_feminino | 0.2836 | 1.33 | +32.8% |
+| religiao_evangelico | 0.2482 | 1.28 | +28.2% |
+| avaliacao_agricultura_cod | 0.1689 | 1.18 | +18.4% |
+| avaliacao_transporte_cod | 0.0892 | 1.09 | +9.3% |
+| idade_29_44 | 0.0350 | 1.04 | +3.6% |
+
 ## 📈 Visualizações
 
 ### Coeficientes e Importância
