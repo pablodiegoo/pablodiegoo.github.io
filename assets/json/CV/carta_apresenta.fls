@@ -1,6 +1,6 @@
-PWD c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\latex
+PWD c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\json\CV
 INPUT C:\Users\tatia\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\latex\carta_apresenta.tex
+INPUT c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\json\CV\carta_apresenta.tex
 OUTPUT carta_apresenta.log
 INPUT .\resume.cls
 INPUT resume.cls

@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "https://pablodiegoo.github.io/",
-    "summary": "Economist, with extensive experience in the financial market, focusing on building investment portfolios and long and short operations. He has previous experience in back office, monitoring activity flows and team leadership.",
+    "summary": "Economist with a strong analytical focus, specializing in data-driven market research and intelligence. Expert in automating data collection (Typebot/WhatsApp) and performing mixed-methods analysis—combining quantitative rigor (Python/SQL) with qualitative depth.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,6 +33,19 @@
     ]
   },
   "work": [
+    {
+      "name": "Agora Pesquisa",
+      "position": "Data & Insights Analyst",
+      "startDate": "2025-01-01",
+      "endDate": "Today",
+      "summary": "Hands-on role focused on transforming raw data into strategic intelligence by combining automated collection and hybrid analysis.",
+      "highlights": [
+        "Implemented conversational flows and automated data collection via Typebot and WhatsApp to scale research efficiency.",
+        "Performed robust quantitative analysis using Python and SQL, alongside qualitative studies to extract deep consumer insights.",
+        "Developed data pipelines to integrate collection tools with structured databases for real-time reporting.",
+        "Delivered strategic analytical reports for public and private sectors, applying market research methodologies."
+      ]
+    },
     {
       "name": "Meta Investimentos",
       "position": "Investment Advisor",
@@ -139,8 +152,8 @@
       "url": "https://www.esalq.usp.br/",
       "area": "Data Science and Analytics",
       "studyType": "Master of Business Administration",
-      "startDate": "2023-04-01",
-      "endDate": "2024-10-01",
+      "startDate": "2024-10-01",
+      "endDate": "Present",
       "score": "",
       "courses": [
         "Data Science",
@@ -175,201 +188,208 @@
       ]
     }
   ],
-  "awards": [{"title": "", "date": "", "awarder": "", "url": "", "summary": ""}],
-  "certificates":[
-      
-      {
-        "name": "Data Analysos with Python",
-        "date": "2025-02-25",
-        "issuer": "Free Code Camp",
-        "url": "",
-        "icon": "fa fa-tag",
-        "summary": ""
-      },
-      {
-        "name": "Google Data Analytics",
-        "date": "2025-02-25",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/professional-cert/",
-        "icon": "fa fa-tag",
-        "summary": "Completed comprehensive Google Data Analytics Professional Certificate covering data analysis, visualization, R programming, and SQL."
-      },
-      {
-        "name": "Investment Portfolio Analysis with R",
-        "date": "2025-02-22",
-        "issuer": "Udemy",
-        "url": "https://www.udemy.com/certificate/",
-        "icon": "fa fa-tag",
-        "summary": "Mastered portfolio analysis techniques using R, including risk assessment, return calculation, and optimization strategies."
-      },
-      {
-        "name": "Investments Risk Management",
-        "date": "2025-02-18",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/",
-        "icon": "fa fa-tag",
-        "summary": "Advanced course on investment risk management, covering portfolio theory, risk metrics, and mitigation strategies."
-      },
-      {
-        "name": "Compare Stock Returns with Google Sheets",
-        "date": "2025-02-17",
-        "issuer": "Coursera",
-        "url": "https://www.coursera.org/account/accomplishments/verify/",
-        "icon": "fa fa-tag",
-        "summary": "Learned advanced techniques for stock return analysis and comparison using Google Sheets."
-      },
-      {
-        "name": "Dynamic Reports with R Markdown",
-        "date": "2025-02-11",
-        "issuer": "Udemy",
-        "url": "https://www.udemy.com/certificate/",
-        "icon": "fa fa-tag",
-        "summary": "Mastered creation of elegant and structured dynamic reports using R Markdown for data analysis presentation."
-      },
-      {
-        "name": "Data Analysis with R Programming",
-        "date": "2025-02-03",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/6VUL3H7I41LG",
-        "icon": "fa fa-tag",
-        "summary": "Comprehensive course on data analysis using R, covering data manipulation, visualization, and statistical analysis."
-      },
-      {
-        "name": "Transformer Models and BERT",
-        "date": "2023-11-21",
-        "issuer": "Udacity",
-        "url": "https://graduation.udacity.com/confirm/",
-        "icon": "fa fa-tag",
-        "summary": "Deep dive into transformer architecture and BERT models for natural language processing with Google Cloud."
-      },
-      {
-        "name": "Encoder-Decoder Architecture",
-        "date": "2023-11-21",
-        "issuer": "Udacity",
-        "url": "https://graduation.udacity.com/confirm/",
-        "icon": "fa fa-tag",
-        "summary": "Advanced study of encoder-decoder architectures in machine learning using Google Cloud Platform."
-      },
-      {
-        "name": "Introduction to Large Language Models",
-        "date": "2023-10-27",
-        "issuer": "Udacity",
-        "url": "https://graduation.udacity.com/confirm/",
-        "icon": "fa fa-tag",
-        "summary": "Comprehensive introduction to LLMs, their architecture, and applications using Google Cloud."
-      },
-      {
-        "name": "Introduction to Generative AI",
-        "date": "2023-10-27",
-        "issuer": "Udacity",
-        "url": "https://graduation.udacity.com/confirm/",
-        "icon": "fa fa-tag",
-        "summary": "Explored fundamentals of generative AI and its applications using Google Cloud Platform."
-      },
-      {
-        "name": "Share Data Through the Art of Visualization",
-        "date": "2025-02-07",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/0X7KSS3FZVX1",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Share Data Through the Art of Visualization' on Coursera."
-      },
-      {
-        "name": "Analyze Data to Answer Questions",
-        "date": "2025-02-07",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/9530R10UTO12",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Analyze Data to Answer Questions' on Coursera."
-      },
-      {
-        "name": "Formação Perito Judicial",
-        "date": "2025-01-29",
-        "issuer": "Academia do Perito",
-        "url": "https://academiadoperito.com.br/pdf_data/MzcxRURGMUUwNEIyRTc4QkJCRTlBNkZFQUVBNDk5MkJwYWJsb2RpZWdvb0BnbWFpbC5jb20=.pdf",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Formação Perito Judicial' on Academia do Perito."
-      },
-      {
-        "name": "Prepare Data for Exploration",
-        "date": "2024-12-04",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/RJIVHXRPMZFG",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Prepare for data Exploration' on Coursera."
-      },
-      {
-        "name": "Data Visualization",
-        "date": "2023-10-17",
-        "issuer": "Free Code Camp",
-        "url": "https://www.freecodecamp.org/certification/fcc21bdd3b0-017c-4bcd-ac26-8f8191da73a8/data-visualization",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Data Visualization' on Free Code Camp."
-      },
-      {
-        "name": "EF SET English Certificate (C2 Proficient)",
-        "date": "2023-07-01",
-        "issuer": "EF Standard English Test (EF SET)",
-        "url": "https://www.efset.org/cert/sqaB64",
-        "icon": "fa fa-tag",
-        "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100."
-      },
-      {
-        "name": "Ask Questions to Make Data-Driven Decisions",
-        "date": "2023-06-13",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/RTXF3YGZCF6D",
-        "icon":"fa fa-tag",
-        "summary": "Completed the course 'Ask Questions to Make Data-Driven Decisions' on Coursera."
-      },
-      {
-        "name": "Foundations: Data, Data, Everywhere",
-        "date": "2023-05-01",
-        "issuer": "Google",
-        "url": "https://www.coursera.org/account/accomplishments/verify/RUTN96QWD9HF",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Foundations: Data, Data, Everywhere' on Coursera, covering analytical skills, Microsoft Excel, MySQL, and data analysis."
-      },
-      {
-        "name": "Crowdfunding",
-        "date": "2022-10-01",
-        "issuer": "Coursera",
-        "url": "https://www.coursera.org/account/accomplishments/verify/9TFWN2X7DBDM",
-        "icon": "fa fa-tag",
-        "summary": "Completed the course 'Crowdfunding' on Coursera, focusing on investments."
-      },
-      {
-        "name": "FBB100 Correspondente Completo",
-        "date": "2020-11-01",
-        "issuer": "FEBRABAN",
-        "url": "",
-        "icon": "fa fa-tag",
-        "summary": "Certified as 'FBB100 Correspondente Completo' by FEBRABAN with an expiration date of November 2023."
-      },
-      {
-        "name": "Specialist Advisory",
-        "date": "2019-06-01",
-        "issuer": "Proseek",
-        "url": "",
-        "icon":"fa fa-tag",        
-        "summary": "Earned the 'Specialist Advisory' certification from Proseek, with a focus on investments, Microsoft Excel, and data analysis."
-      },
-      {
-        "name": "Agente Autonomo de Investimentos",
-        "date": "2018-02-01",
-        "issuer": "ANCORD",
-        "url": "http://54.209.169.151/Ancord/forms/home/Documentos/Lista%20de%20Aprovados/2018/Aprovados02.aspx",
-        "icon": "fa fa-tag",
-        "summary": "Certified as an 'Agente Autonomo de Investimentos' by ANCORD."
-      },
-      {
-        "name": "Bitcoin and Cryptocurrency Technologies",
-        "date": "2017-08-01",
-        "issuer": "Princeton University",
-        "url": "https://www.coursera.org/account/accomplishments/verify",
-        "icon": "fa-solid fa-tag",
-        "summary": "Completed the course 'Bitcoin and Cryptocurrency Technologies' at Princeton University, with a focus on investments and Microsoft Excel."
-      },
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Data Analysos with Python",
+      "date": "2025-02-25",
+      "issuer": "Free Code Camp",
+      "url": "",
+      "icon": "fa fa-tag",
+      "summary": ""
+    },
+    {
+      "name": "Google Data Analytics",
+      "date": "2025-02-25",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/",
+      "icon": "fa fa-tag",
+      "summary": "Completed comprehensive Google Data Analytics Professional Certificate covering data analysis, visualization, R programming, and SQL."
+    },
+    {
+      "name": "Investment Portfolio Analysis with R",
+      "date": "2025-02-22",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/",
+      "icon": "fa fa-tag",
+      "summary": "Mastered portfolio analysis techniques using R, including risk assessment, return calculation, and optimization strategies."
+    },
+    {
+      "name": "Investments Risk Management",
+      "date": "2025-02-18",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/",
+      "icon": "fa fa-tag",
+      "summary": "Advanced course on investment risk management, covering portfolio theory, risk metrics, and mitigation strategies."
+    },
+    {
+      "name": "Compare Stock Returns with Google Sheets",
+      "date": "2025-02-17",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/",
+      "icon": "fa fa-tag",
+      "summary": "Learned advanced techniques for stock return analysis and comparison using Google Sheets."
+    },
+    {
+      "name": "Dynamic Reports with R Markdown",
+      "date": "2025-02-11",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/",
+      "icon": "fa fa-tag",
+      "summary": "Mastered creation of elegant and structured dynamic reports using R Markdown for data analysis presentation."
+    },
+    {
+      "name": "Data Analysis with R Programming",
+      "date": "2025-02-03",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/6VUL3H7I41LG",
+      "icon": "fa fa-tag",
+      "summary": "Comprehensive course on data analysis using R, covering data manipulation, visualization, and statistical analysis."
+    },
+    {
+      "name": "Transformer Models and BERT",
+      "date": "2023-11-21",
+      "issuer": "Udacity",
+      "url": "https://graduation.udacity.com/confirm/",
+      "icon": "fa fa-tag",
+      "summary": "Deep dive into transformer architecture and BERT models for natural language processing with Google Cloud."
+    },
+    {
+      "name": "Encoder-Decoder Architecture",
+      "date": "2023-11-21",
+      "issuer": "Udacity",
+      "url": "https://graduation.udacity.com/confirm/",
+      "icon": "fa fa-tag",
+      "summary": "Advanced study of encoder-decoder architectures in machine learning using Google Cloud Platform."
+    },
+    {
+      "name": "Introduction to Large Language Models",
+      "date": "2023-10-27",
+      "issuer": "Udacity",
+      "url": "https://graduation.udacity.com/confirm/",
+      "icon": "fa fa-tag",
+      "summary": "Comprehensive introduction to LLMs, their architecture, and applications using Google Cloud."
+    },
+    {
+      "name": "Introduction to Generative AI",
+      "date": "2023-10-27",
+      "issuer": "Udacity",
+      "url": "https://graduation.udacity.com/confirm/",
+      "icon": "fa fa-tag",
+      "summary": "Explored fundamentals of generative AI and its applications using Google Cloud Platform."
+    },
+    {
+      "name": "Share Data Through the Art of Visualization",
+      "date": "2025-02-07",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/0X7KSS3FZVX1",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Share Data Through the Art of Visualization' on Coursera."
+    },
+    {
+      "name": "Analyze Data to Answer Questions",
+      "date": "2025-02-07",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/9530R10UTO12",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Analyze Data to Answer Questions' on Coursera."
+    },
+    {
+      "name": "Formação Perito Judicial",
+      "date": "2025-01-29",
+      "issuer": "Academia do Perito",
+      "url": "https://academiadoperito.com.br/pdf_data/MzcxRURGMUUwNEIyRTc4QkJCRTlBNkZFQUVBNDk5MkJwYWJsb2RpZWdvb0BnbWFpbC5jb20=.pdf",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Formação Perito Judicial' on Academia do Perito."
+    },
+    {
+      "name": "Prepare Data for Exploration",
+      "date": "2024-12-04",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/RJIVHXRPMZFG",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Prepare for data Exploration' on Coursera."
+    },
+    {
+      "name": "Data Visualization",
+      "date": "2023-10-17",
+      "issuer": "Free Code Camp",
+      "url": "https://www.freecodecamp.org/certification/fcc21bdd3b0-017c-4bcd-ac26-8f8191da73a8/data-visualization",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Data Visualization' on Free Code Camp."
+    },
+    {
+      "name": "EF SET English Certificate (C2 Proficient)",
+      "date": "2023-07-01",
+      "issuer": "EF Standard English Test (EF SET)",
+      "url": "https://www.efset.org/cert/sqaB64",
+      "icon": "fa fa-tag",
+      "summary": "Achieved a C2 Proficient level in the EF Standard English Test (EF SET) with a score of 79/100."
+    },
+    {
+      "name": "Ask Questions to Make Data-Driven Decisions",
+      "date": "2023-06-13",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/RTXF3YGZCF6D",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Ask Questions to Make Data-Driven Decisions' on Coursera."
+    },
+    {
+      "name": "Foundations: Data, Data, Everywhere",
+      "date": "2023-05-01",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/RUTN96QWD9HF",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Foundations: Data, Data, Everywhere' on Coursera, covering analytical skills, Microsoft Excel, MySQL, and data analysis."
+    },
+    {
+      "name": "Crowdfunding",
+      "date": "2022-10-01",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/9TFWN2X7DBDM",
+      "icon": "fa fa-tag",
+      "summary": "Completed the course 'Crowdfunding' on Coursera, focusing on investments."
+    },
+    {
+      "name": "FBB100 Correspondente Completo",
+      "date": "2020-11-01",
+      "issuer": "FEBRABAN",
+      "url": "",
+      "icon": "fa fa-tag",
+      "summary": "Certified as 'FBB100 Correspondente Completo' by FEBRABAN with an expiration date of November 2023."
+    },
+    {
+      "name": "Specialist Advisory",
+      "date": "2019-06-01",
+      "issuer": "Proseek",
+      "url": "",
+      "icon": "fa fa-tag",
+      "summary": "Earned the 'Specialist Advisory' certification from Proseek, with a focus on investments, Microsoft Excel, and data analysis."
+    },
+    {
+      "name": "Agente Autonomo de Investimentos",
+      "date": "2018-02-01",
+      "issuer": "ANCORD",
+      "url": "http://54.209.169.151/Ancord/forms/home/Documentos/Lista%20de%20Aprovados/2018/Aprovados02.aspx",
+      "icon": "fa fa-tag",
+      "summary": "Certified as an 'Agente Autonomo de Investimentos' by ANCORD."
+    },
+    {
+      "name": "Bitcoin and Cryptocurrency Technologies",
+      "date": "2017-08-01",
+      "issuer": "Princeton University",
+      "url": "https://www.coursera.org/account/accomplishments/verify",
+      "icon": "fa-solid fa-tag",
+      "summary": "Completed the course 'Bitcoin and Cryptocurrency Technologies' at Princeton University, with a focus on investments and Microsoft Excel."
+    },
     {
       "name": "DCC Certified Professional",
       "date": "2017-05-01",
@@ -416,7 +436,9 @@
         "Conflict Management",
         "Negotiation",
         "Proactivity",
-        "Entrepreneurship"
+        "Entrepreneurship",
+        "Qualitative Analysis",
+        "Mixed Methods Research"
       ]
     },
     {
@@ -463,6 +485,10 @@
         "Laravel",
         "ggplot2",
         "R Markdown",
+        "Typebot",
+        "Meta API (WhatsApp) Automation",
+        "RAG",
+        "LangChain",
         "scikit-learn",
         "D3.js",
         "Matplotlib",
@@ -518,8 +544,29 @@
       ]
     }
   ],
-  "references": [{"name": "", "icon": "", "reference": ""}],
+  "references": [
+    {
+      "name": "",
+      "icon": "",
+      "reference": ""
+    }
+  ],
   "projects": [
+    {
+      "name": "Project Aporia",
+      "summary": "Development of an analytical platform for research data management and insight automation.",
+      "highlights": [
+        "Data Architecture",
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Python & SQL",
+        "Automated Insights Generation"
+      ],
+      "startDate": "2025-06-01"
+    },
     {
       "name": "PabloDiegoo Github Page",
       "summary": "Personal Website",
@@ -540,7 +587,7 @@
       "startDate": "2023-10-10"
     },
     {
-      "name":"L96.APP",
+      "name": "L96.APP",
       "summary": "Web Application",
       "highlights": [
         "AMP HTML",
