@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.25)  1 APR 2025 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.25)  11 FEB 2026 22:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/carta_apresenta.tex"
-(c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/carta_apresenta.tex
+**"c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/json/CV/carta_apresenta.tex"
+(c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/json/CV/carta_apresenta.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (resume.cls
@@ -267,17 +267,37 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 9--9
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--23
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--23
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
@@ -294,15 +314,15 @@ Package rerunfilecheck Info: File `carta_apresenta.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8865 strings out of 473523
- 139829 string characters out of 5714630
+ 8866 strings out of 473523
+ 139857 string characters out of 5714630
  545736 words of memory out of 5000000
- 32017 multiletter control sequences out of 15000+600000
+ 32018 multiletter control sequences out of 15000+600000
  562490 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,5n,93p,898b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,5n,93p,755b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on carta_apresenta.pdf (1 page, 57558 bytes).
+Output written on carta_apresenta.pdf (1 page, 59456 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

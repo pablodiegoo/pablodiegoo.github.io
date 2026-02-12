@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1743526510.47945 "c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/carta_apresenta.tex" "carta_apresenta.pdf" "carta_apresenta" 1743526511.82293 0
+["pdflatex"] 1770858340.88697 "c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/json/CV/carta_apresenta.tex" "carta_apresenta.pdf" "carta_apresenta" 1770858347.06665 0
   "C:/Users/tatia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742941136 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/tatia/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742940081 12036089 7c0ecc5ae345d1dd862a855a7862ea31 ""
   "C:/Users/tatia/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -61,10 +61,10 @@
   "C:/Users/tatia/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/tatia/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/tatia/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/latex/carta_apresenta.tex" 1743526509 2809 074670856f9b8d86045f0bcaa7aca440 ""
-  "carta_apresenta.aux" 1743526511 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "carta_apresenta.out" 1743526511 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "carta_apresenta.tex" 1743526509 2809 074670856f9b8d86045f0bcaa7aca440 ""
+  "c:/Users/tatia/Dropbox/Coding/Git Pages/pablodiegoo.github.io/assets/json/CV/carta_apresenta.tex" 1770858336 2791 91d00c246b88c4483034bab6bdcc8661 ""
+  "carta_apresenta.aux" 1770858343 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "carta_apresenta.out" 1770858343 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "carta_apresenta.tex" 1770858336 2791 91d00c246b88c4483034bab6bdcc8661 ""
   "resume.cls" 1742924349 4928 3b3b57f3c8b0790ce01c73fdc59aee7a ""
   (generated)
   "carta_apresenta.aux"
