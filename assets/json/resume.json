@@ -36,11 +36,13 @@
     {
       "name": "Agora Pesquisa",
       "position": "Data & Insights Analyst",
-      "startDate": "2025-01-01",
+      "url": "https://agorapesquisa.com.br",
+      "startDate": "2025-10-01",
       "endDate": "Today",
       "summary": "Hands-on role focused on transforming raw data into strategic intelligence by combining automated collection and hybrid analysis.",
       "highlights": [
-        "Implemented conversational flows and automated data collection via Typebot and WhatsApp to scale research efficiency.",
+        "Implemented conversational flows and automated data collection via Meta API (WhatsApp), reducing manual effort by 90% and increasing operational productivity by 3,500%.",
+        "Optimized research workflows to achieve a 65% increase in operational margin, managing a minimal cost trade-off to scale efficiency.",
         "Performed robust quantitative analysis using Python and SQL, alongside qualitative studies to extract deep consumer insights.",
         "Developed data pipelines to integrate collection tools with structured databases for real-time reporting.",
         "Delivered strategic analytical reports for public and private sectors, applying market research methodologies."
