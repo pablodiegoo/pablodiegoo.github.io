@@ -1,7 +1,7 @@
 PWD c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\json\CV
 INPUT C:\Users\tatia\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\json\CV\resume.tex
-OUTPUT resume.log
+INPUT c:\Users\tatia\Dropbox\Coding\Git Pages\pablodiegoo.github.io\assets\json\CV\carta_apresenta.tex
+OUTPUT carta_apresenta.log
 INPUT .\resume.cls
 INPUT resume.cls
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -84,10 +84,10 @@ INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.c
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\resume.aux
-INPUT .\resume.aux
-INPUT resume.aux
-OUTPUT resume.aux
+INPUT .\carta_apresenta.aux
+INPUT .\carta_apresenta.aux
+INPUT carta_apresenta.aux
+OUTPUT carta_apresenta.aux
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -102,14 +102,14 @@ INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT .\resume.out
-INPUT .\resume.out
-INPUT resume.out
-INPUT resume.out
-INPUT .\resume.out
-INPUT .\resume.out
-OUTPUT resume.out
-OUTPUT resume.pdf
+INPUT .\carta_apresenta.out
+INPUT .\carta_apresenta.out
+INPUT carta_apresenta.out
+INPUT carta_apresenta.out
+INPUT .\carta_apresenta.out
+INPUT .\carta_apresenta.out
+OUTPUT carta_apresenta.out
+OUTPUT carta_apresenta.pdf
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -121,24 +121,15 @@ INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tf
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0900.tfm
 INPUT C:\Users\tatia\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT resume.aux
-INPUT .\resume.out
-INPUT .\resume.out
-INPUT C:\Users\tatia\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
-INPUT C:\Users\tatia\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
+INPUT carta_apresenta.aux
+INPUT .\carta_apresenta.out
+INPUT .\carta_apresenta.out
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\tatia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
