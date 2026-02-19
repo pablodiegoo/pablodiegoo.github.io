@@ -1,0 +1,6 @@
+PWD c:/Users/pablo/OneDrive/Coding/pablodiegoo.github.io/assets/json/CV
+INPUT c:/Users/pablo/AppData/Roaming/TinyTeX/TinyTeX/texmf.cnf
+INPUT c:/Users/pablo/AppData/Roaming/TinyTeX/TinyTeX/texmf-dist/web2c/texmf.cnf
+INPUT c:/Users/pablo/AppData/Roaming/TinyTeX/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/pablo/OneDrive/Coding/pablodiegoo.github.io/assets/json/CV/CV_PabloDiego.tex
+OUTPUT CV_PabloDiego.log
