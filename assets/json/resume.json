@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Pablo Diego Pereira",
-    "label": "Economist",
+    "label": "Economics | Data Analyst | Data Scientist",
     "image": "prof_pic.jpg",
-    "email": "",
-    "phone": "",
+    "email": "pablodiegoo@gmail.com",
+    "phone": "(21)979381580",
     "url": "https://pablodiegoo.github.io/",
-    "summary": "Economist with a strong analytical focus, specializing in data-driven market research and intelligence. Expert in automating data collection (Typebot/WhatsApp) and performing mixed-methods analysis—combining quantitative rigor (Python/SQL) with qualitative depth.",
+    "summary": "Economist with a strong analytical focus, specializing in data-driven decisions and Customer Experience (CX). Expert in automating data collection (NPS, CSAT) and performing mixed-methods analysis—combining quantitative rigor (Python/SQL) with qualitative depth.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,15 +37,15 @@
       "name": "Agora Pesquisa",
       "position": "Data & Insights Analyst",
       "url": "https://agorapesquisa.com.br",
-      "startDate": "2025-10-01",
+      "startDate": "2025-04-28",
       "endDate": "Today",
       "summary": "Hands-on role focused on transforming raw data into strategic intelligence by combining automated collection and hybrid analysis.",
       "highlights": [
-        "Implemented conversational flows and automated data collection via Meta API (WhatsApp), reducing manual effort by 90% and increasing operational productivity by 3,500%.",
+        "Implemented conversational flows and automated collection of CX metrics (NPS, CSAT) via Meta API (WhatsApp), reducing manual effort by 90% and increasing operational productivity by 3,500%.",
         "Optimized research workflows to achieve a 65% increase in operational margin, managing a minimal cost trade-off to scale efficiency.",
-        "Performed robust quantitative analysis using Python and SQL, alongside qualitative studies to extract deep consumer insights.",
-        "Developed data pipelines to integrate collection tools with structured databases for real-time reporting.",
-        "Delivered strategic analytical reports for public and private sectors, applying market research methodologies."
+        "Performed robust quantitative analysis using Python and SQL, alongside qualitative studies to extract deep consumer insights and satisfaction indicators.",
+        "Developed data pipelines to integrate collection tools with structured databases for real-time reporting on customer experience.",
+        "Delivered strategic analytical reports for public and private sectors, applying market research and CX methodologies."
       ]
     },
     {
@@ -56,17 +56,18 @@
       "endDate": "Today",
       "summary": "Investment Advisor for over 5 years, offering expert guidance and personalized financial strategies to clients, solidifying my expertise in the financial market.",
       "highlights": [
+        "Provide investment advice to clients, creating and maintaining assessments to identify risk profiles, financial planning flaws and potential client needs.",
+        "Create portfolio analysis graphs and reports using financial market data, identifying potential opportunities for portfolio optimization.",
         "Leveraged data analysis, market research, and critical thinking to translate complex data into actionable financial insights for client planning.",
         "Developed and presented concise reports and portfolio analyses using data visualization tools (Excel, Google Sheets, Looker, Power BI).",
-        "Identified portfolio optimization opportunities aligned with client objectives and risk tolerance using financial market data.",
-        "Built and maintained strong client relationships through personalized financial strategy development and ongoing communication.",
+        "Financial modeling, using historical data series and quantitative methods to project potential performance risks.",
         "Monitored market trends and assessed investment risks to inform portfolio adjustments and ensure regulatory compliance.",
         "Provided expert guidance on diverse investment products and strategies tailored to individual client needs."
       ]
     },
     {
       "name": "Meta&Actio Investimentos",
-      "position": "Back-office Manager",
+      "position": "Back-office Manager & Investment Advisor",
       "startDate": "2017-08-01",
       "endDate": "2020-05-01",
       "summary": "Started as the sole back-office operator and grew into a leadership role, managing operations, implementing key financial tools, and leading a team. Focused on analytical thinking, process management, portfolio building, and investment planning.",
@@ -81,8 +82,8 @@
     },
     {
       "name": "Espaço Champs Elysees",
-      "position": "Owner",
-      "startDate": "2017-07-01",
+      "position": "Co-Founder",
+      "startDate": "2014-01-01",
       "endDate": "2018-11-01",
       "summary": "As the sole owner and operator ('one-man company') of Espaço Champs Elysees, I managed all aspects of the business, from online presence and marketing to operations, supplier negotiations, and event execution, focusing on customer satisfaction and operational efficiency.",
       "highlights": [
@@ -94,6 +95,14 @@
         "Developed and executed successful marketing campaigns across digital and traditional channels to drive bookings and brand awareness.",
         "Oversaw all financial aspects, including budgeting, invoicing, and expense management."
       ]
+    },
+    {
+      "name": "BX House",
+      "position": "Digital Marketing Consultant",
+      "startDate": "2002-11-01",
+      "endDate": "2014-01-01",
+      "summary": "Digital Marketing Consultant for Rio de Janeiro and region.",
+      "highlights": []
     },
     {
       "name": "Institute of Economics at Federal University of Rio de Janeiro",
@@ -204,6 +213,22 @@
       "name": "Data Analysos with Python",
       "date": "2025-02-25",
       "issuer": "Free Code Camp",
+      "url": "",
+      "icon": "fa fa-tag",
+      "summary": ""
+    },
+    {
+      "name": "Create Image Captioning Models with Google Cloud",
+      "date": "2024-01-01",
+      "issuer": "Google Cloud",
+      "url": "",
+      "icon": "fa fa-tag",
+      "summary": ""
+    },
+    {
+      "name": "Data Analyst Associate",
+      "date": "2024-01-01",
+      "issuer": "DataCamp",
       "url": "",
       "icon": "fa fa-tag",
       "summary": ""
@@ -457,44 +482,57 @@
       ]
     },
     {
-      "name": "Programming Languages",
+      "name": "Data Science & Analytics",
       "level": "",
       "icon": "fa fa-hashtag",
       "keywords": [
         "R",
         "Python",
         "SQL",
-        "PHP",
-        "JavaScript",
-        "LaTeX",
-        "HTML",
-        "CSS"
+        "Extract, Transform, Load (ETL)",
+        "Exploratory Data Analysis",
+        "Statistical Data Analysis",
+        "Customer Experience (CX)",
+        "NPS / CSAT / CES",
+        "Machine Learning",
+        "RAG",
+        "LangChain",
+        "scikit-learn",
+        "ggplot2",
+        "Matplotlib",
+        "Seaborn",
+        "R Markdown"
       ]
     },
     {
-      "name": "Tools & Libraries",
+      "name": "Web & Software Development",
       "level": "",
       "icon": "fa fa-hashtag",
       "keywords": [
-        "Git",
+        "PHP",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "LaTeX",
+        "WordPress",
+        "Laravel",
+        "D3.js",
+        "Meta API (WhatsApp) Automation",
+        "Git"
+      ]
+    },
+    {
+      "name": "Tools & Productivity",
+      "level": "",
+      "icon": "fa fa-hashtag",
+      "keywords": [
         "Google Looker",
         "Power BI",
         "Google Sheets",
         "Excel",
         "PowerPoint",
         "Google Analytics",
-        "WordPress",
-        "Laravel",
-        "ggplot2",
-        "R Markdown",
-        "Typebot",
-        "Meta API (WhatsApp) Automation",
-        "RAG",
-        "LangChain",
-        "scikit-learn",
-        "D3.js",
-        "Matplotlib",
-        "Seaborn"
+        "Typebot"
       ]
     }
   ],
