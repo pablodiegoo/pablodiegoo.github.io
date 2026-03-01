@@ -454,86 +454,34 @@
       "name": "Soft Skills",
       "level": "",
       "icon": "fa fa-hashtag",
-      "keywords": [
-        "Problem Solving",
-        "Analytical Thinking",
-        "Communication",
-        "Team Work",
-        "Adaptability",
-        "Conflict Management",
-        "Negotiation",
-        "Proactivity",
-        "Entrepreneurship",
-        "Qualitative Analysis",
-        "Mixed Methods Research"
-      ]
+      "keywords": "Problem Solving, Analytical Thinking, Communication, Team Work, Adaptability, Conflict Management, Negotiation, Proactivity, Entrepreneurship, Qualitative Analysis, Mixed Methods Research"
     },
     {
       "name": "Financial Skills",
       "level": "",
       "icon": "fa fa-hashtag",
-      "keywords": [
-        "Investment Advisory",
-        "Financial Planning",
-        "Financial Expert Witness",
-        "Portfolio Analysis",
-        "Risk Management",
-        "Cryptocurrency"
-      ]
+      "keywords": "Investment Advisory, Financial Planning, Financial Expert Witness, Portfolio Analysis, Risk Management, Cryptocurrency"
     },
     {
       "name": "Data Science & Analytics",
       "level": "",
       "icon": "fa fa-hashtag",
-      "keywords": [
-        "R",
-        "Python",
-        "SQL",
-        "Extract, Transform, Load (ETL)",
-        "Exploratory Data Analysis",
-        "Statistical Data Analysis",
-        "Customer Experience (CX)",
-        "NPS / CSAT / CES",
-        "Machine Learning",
-        "RAG",
-        "LangChain",
-        "scikit-learn",
-        "ggplot2",
-        "Matplotlib",
-        "Seaborn",
-        "R Markdown"
-      ]
+      "keywords": "R, Python, SQL, Extract, Transform, Load (ETL), Exploratory Data Analysis, Statistical Data Analysis, Customer Experience (CX), NPS / CSAT / CES, Machine Learning, RAG, LangChain, scikit-learn, ggplot2, Matplotlib, Seaborn, R Markdown"
     },
     {
       "name": "Web & Software Development",
       "level": "",
       "icon": "fa fa-hashtag",
-      "keywords": [
-        "PHP",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "LaTeX",
-        "WordPress",
-        "Laravel",
-        "D3.js",
-        "Meta API (WhatsApp) Automation",
-        "Git"
-      ]
+      "keywords": "PHP, JavaScript, HTML, CSS, LaTeX, WordPress, Laravel, D3.js, Meta API (WhatsApp) Automation, Git, R Markdown"
+    },
+    {
+      "reference": "jnkfdjnkfjnsdfj"
     },
     {
       "name": "Tools & Productivity",
       "level": "",
       "icon": "fa fa-hashtag",
-      "keywords": [
-        "Google Looker",
-        "Power BI",
-        "Google Sheets",
-        "Excel",
-        "PowerPoint",
-        "Google Analytics",
-        "Typebot"
-      ]
+      "keywords": "Google Looker, Power BI, Google Sheets, Excel, PowerPoint, Google Analytics, Typebot"
     }
   ],
   "languages": [
