@@ -552,36 +552,17 @@
     {
       "name": "Economics",
       "icon": "fa fa-thumbtack",
-      "keywords": [
-        "Inovation",
-        "Entrepreneurship",
-        "Startup",
-        "Cryptocurrency",
-        "Time Series",
-        "Economic Development",
-        "Economic Policy"
-      ]
+      "keywords": "Inovation, Entrepreneurship, Startup, Cryptocurrency, Time Series, Economic Development, Economic Policy"
     },
     {
       "name": "Technology",
       "icon": "fa fa-thumbtack",
-      "keywords": [
-        "Data Science",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Web3",
-        "Blockchain",
-        "Web Development",
-        "Mobile Development"
-      ]
+      "keywords": "Data Science, Machine Learning, Artificial Intelligence, Web3, Blockchain, Web Development, Mobile Development"
     },
     {
       "name": "Sports",
       "icon": "fa fa-thumbtack",
-      "keywords": [
-        "Football(Soccer)",
-        "E-Sports"
-      ]
+      "keywords": "Football(Soccer), E-Sports"
     }
   ],
   "references": [
