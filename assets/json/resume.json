@@ -34,7 +34,7 @@
   },
   "work": [
     {
-      "name": "Agora Pesquisa",
+      "name": "NKIN Consultoria (Agora Pesquisa)",
       "position": "Data & Insights Analyst",
       "url": "https://agorapesquisa.com.br",
       "startDate": "2025-04-28",
@@ -596,6 +596,8 @@
       "name": "Project Aporia",
       "summary": "Development of an analytical platform for research data management and insight automation.",
       "highlights": [
+        "Multi-mode surveys",
+        "Survey Automation",
         "Data Architecture",
         "PHP",
         "Laravel",
