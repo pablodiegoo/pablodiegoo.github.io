@@ -3,6 +3,7 @@
 ## Basic Diagrams
 
 ### State Diagram
+
 Useful for finite state machines.
 
 ```mermaid
@@ -16,6 +17,7 @@ stateDiagram-v2
 ```
 
 ### Gantt Chart
+
 Useful for project timelines.
 
 ```mermaid
@@ -31,6 +33,7 @@ gantt
 ```
 
 ### Entity Relationship Diagram (ERD)
+
 Useful for database schemas.
 
 ```mermaid
@@ -41,6 +44,7 @@ erDiagram
 ```
 
 ### User Journey
+
 Useful for product design and UX mapping.
 
 ```mermaid
@@ -60,6 +64,7 @@ journey
 ## Advanced Diagrams (v10+)
 
 ### Pie Chart
+
 Useful for showing proportions and distributions.
 
 ```mermaid
@@ -71,6 +76,7 @@ pie showData
 ```
 
 ### Mindmap
+
 Useful for brainstorming and hierarchical concepts.
 
 ```mermaid
@@ -91,6 +97,7 @@ mindmap
 ```
 
 ### Timeline
+
 Useful for historical events and milestones.
 
 ```mermaid
@@ -107,6 +114,7 @@ timeline
 ```
 
 ### Quadrant Chart
+
 Useful for strategic analysis (like BCG matrix, priority matrix).
 
 ```mermaid
@@ -127,6 +135,7 @@ quadrantChart
 ```
 
 ### Sankey Diagram (Beta)
+
 Useful for flow visualization and energy/resource distribution.
 
 ```mermaid
@@ -142,6 +151,7 @@ Salary,Transport,10
 ```
 
 ### XY Chart
+
 Useful for bar charts and line charts with data.
 
 ```mermaid
@@ -154,6 +164,7 @@ xychart-beta
 ```
 
 ### Gitgraph
+
 Useful for visualizing git branching and merging.
 
 ```mermaid
@@ -176,12 +187,13 @@ gitGraph
 ## Diagrams v11+
 
 ### Block Diagram
+
 Useful for system architecture and component layouts.
 
 ```mermaid
 block-beta
     columns 3
-    
+
     doc>"Document"]:3
     space down1<["   "]>(down) space
 
@@ -190,12 +202,13 @@ block-beta
         m("Center")
         r["Right"]
     end
-    
+
     space down2<["   "]>(down) space
     db[("Database")]:3
 ```
 
 ### Architecture Diagram (v11.1.0+)
+
 Useful for cloud and system architecture.
 
 ```mermaid
@@ -213,6 +226,7 @@ architecture-beta
 ```
 
 ### Packet Diagram (v11+)
+
 Useful for network protocols and data structures.
 
 ```mermaid
@@ -232,6 +246,7 @@ packet-beta
 ```
 
 ### Kanban Board (v11.4+)
+
 Useful for agile project management.
 
 ```mermaid
@@ -240,17 +255,18 @@ kanban
         task1[Research]
         task2[Design mockups]
         task3[Write specs]
-    
+
     column2[In Progress]
         task4[Develop feature]
         task5[Code review]
-    
+
     column3[Done]
         task6[Testing]
         task7[Deploy]
 ```
 
 ### Requirement Diagram
+
 Useful for systems engineering and requirements traceability.
 
 ```mermaid
@@ -287,6 +303,7 @@ requirementDiagram
 ```
 
 ### C4 Context Diagram
+
 Useful for software architecture documentation (C4 model).
 
 ```mermaid
@@ -306,17 +323,18 @@ C4Context
 ---
 
 ## ZenUML Sequence Diagram
+
 Alternative syntax for sequence diagrams (more readable).
 
 ```mermaid
 zenuml
     title Order Process
-    
+
     @Actor Client
     @Boundary OrderController
     @Entity OrderService
     @Database OrderDB
-    
+
     Client->OrderController.createOrder(items) {
         OrderController->OrderService.validate(items)
         OrderService->OrderDB.save(order)

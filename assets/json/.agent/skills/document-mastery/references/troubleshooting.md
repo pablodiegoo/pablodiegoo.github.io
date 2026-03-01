@@ -68,6 +68,7 @@ graph TD
 **Problem**: Arrows point wrong direction.
 
 **Solution**: Remember arrow rules:
+
 - `A --> B` = A points TO B
 - `A <-- B` = A receives FROM B
 - Graph direction affects layout, not arrow meaning
@@ -135,6 +136,7 @@ gantt
 ```
 
 Common formats:
+
 - `YYYY-MM-DD` (recommended)
 - `DD-MM-YYYY`
 - `MM-DD-YYYY`
@@ -147,12 +149,12 @@ Common formats:
 
 **Solution**: Use correct cardinality notation.
 
-| Notation | Meaning |
-|----------|---------|
-| `\|\|` | Exactly one |
-| `o\|` | Zero or one |
-| `\|{` | One or more |
-| `o{` | Zero or more |
+| Notation | Meaning      |
+| -------- | ------------ |
+| `\|\|`   | Exactly one  |
+| `o\|`    | Zero or one  |
+| `\|{`    | One or more  |
+| `o{`     | Zero or more |
 
 ---
 
@@ -201,10 +203,10 @@ xychart-beta
 
 ## Version-Specific Issues
 
-| Feature | Issue | Solution |
-|---------|-------|----------|
-| `sankey-beta` | Not rendering | Needs v10.0+ |
-| `architecture-beta` | Unknown diagram | Needs v11.1+ |
-| `kanban` | Not recognized | Needs v11.4+ |
-| Mindmap icons | Not showing | Limited icon support |
-| Themes | Not applying | Check `%%{init}%%` syntax |
+| Feature             | Issue           | Solution                  |
+| ------------------- | --------------- | ------------------------- |
+| `sankey-beta`       | Not rendering   | Needs v10.0+              |
+| `architecture-beta` | Unknown diagram | Needs v11.1+              |
+| `kanban`            | Not recognized  | Needs v11.4+              |
+| Mindmap icons       | Not showing     | Limited icon support      |
+| Themes              | Not applying    | Check `%%{init}%%` syntax |

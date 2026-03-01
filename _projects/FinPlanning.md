@@ -15,15 +15,19 @@ related_publications: false
 </div>
 
 ## Intro
+
 This project was designed to facilitate the analysis of clients' financial data and create a standard for questions asked in commercial interviews by advisors at an investment advisory firm.
 
-## Problem 
+## Problem
+
 There was a lot of redundant and disorganized information in the data collection and little clarity in some interviews. The investment advisors' methodologies revolved around the same questions, asked in different ways and means. They had forms, spreadsheets and some used paper and pen, which made it difficult to identify opportunities, analyze each case and even store all the data.
 
 ## Solution
+
 This spreadsheet was created to simplify the interviews, make the analysis clearer and much more standardized. In addition, the goal was to increase the production scale and quality of the commercial side and also of the back office, which was achieved.
 
 ## Conclusion
+
 The increase in sales of insurance and health plans was very significant and ended up forcing the structuring of a team dedicated exclusively to this type of product. In addition, this process improved the relationship with clients, with increased satisfaction, seen in the improvement of the NPS of advisors who used the financial planning tool.
 
 <div class="row">
@@ -39,4 +43,5 @@ The increase in sales of insurance and health plans was very significant and end
 </div>
 
 ## Next Step
+
 This spreadsheet ended up becoming a personal project and I aim to make it part of a personal finance ecosystem.

@@ -2,29 +2,29 @@
 
 ## Diagram Type Keywords
 
-| Diagram | Keyword | Direction |
-|---------|---------|-----------|
-| Flowchart | `graph TD` or `flowchart LR` | TD, LR, BT, RL |
-| Sequence | `sequenceDiagram` | - |
-| Class | `classDiagram` | - |
-| State | `stateDiagram-v2` | - |
-| ERD | `erDiagram` | - |
-| Gantt | `gantt` | - |
-| Pie | `pie` | - |
-| Mindmap | `mindmap` | - |
-| Timeline | `timeline` | - |
-| Quadrant | `quadrantChart` | - |
-| XY Chart | `xychart-beta` | - |
-| Sankey | `sankey-beta` | - |
-| Gitgraph | `gitGraph` | TB, LR, BT |
-| User Journey | `journey` | - |
-| Block | `block-beta` | - |
-| Architecture | `architecture-beta` | - |
-| Packet | `packet-beta` | - |
-| Kanban | `kanban` | - |
-| Requirement | `requirementDiagram` | - |
-| C4 Context | `C4Context` | - |
-| ZenUML | `zenuml` | - |
+| Diagram      | Keyword                      | Direction      |
+| ------------ | ---------------------------- | -------------- |
+| Flowchart    | `graph TD` or `flowchart LR` | TD, LR, BT, RL |
+| Sequence     | `sequenceDiagram`            | -              |
+| Class        | `classDiagram`               | -              |
+| State        | `stateDiagram-v2`            | -              |
+| ERD          | `erDiagram`                  | -              |
+| Gantt        | `gantt`                      | -              |
+| Pie          | `pie`                        | -              |
+| Mindmap      | `mindmap`                    | -              |
+| Timeline     | `timeline`                   | -              |
+| Quadrant     | `quadrantChart`              | -              |
+| XY Chart     | `xychart-beta`               | -              |
+| Sankey       | `sankey-beta`                | -              |
+| Gitgraph     | `gitGraph`                   | TB, LR, BT     |
+| User Journey | `journey`                    | -              |
+| Block        | `block-beta`                 | -              |
+| Architecture | `architecture-beta`          | -              |
+| Packet       | `packet-beta`                | -              |
+| Kanban       | `kanban`                     | -              |
+| Requirement  | `requirementDiagram`         | -              |
+| C4 Context   | `C4Context`                  | -              |
+| ZenUML       | `zenuml`                     | -              |
 
 ## Node Shapes (Flowchart)
 
@@ -60,15 +60,15 @@ graph LR
     A x--x J
 ```
 
-| Syntax | Description |
-|--------|-------------|
-| `-->` | Arrow |
-| `---` | Line |
-| `-.->` | Dotted arrow |
-| `==>` | Thick arrow |
-| `--o` | Circle end |
-| `--x` | Cross end |
-| `<-->` | Bidirectional |
+| Syntax        | Description      |
+| ------------- | ---------------- |
+| `-->`         | Arrow            |
+| `---`         | Line             |
+| `-.->`        | Dotted arrow     |
+| `==>`         | Thick arrow      |
+| `--o`         | Circle end       |
+| `--x`         | Cross end        |
+| `<-->`        | Bidirectional    |
 | `-- text -->` | Arrow with label |
 
 ## Subgraphs
@@ -87,6 +87,7 @@ graph TB
 ## Styling
 
 ### Inline Style
+
 ```mermaid
 graph LR
     A:::className --> B
@@ -94,6 +95,7 @@ graph LR
 ```
 
 ### Theme Directive
+
 ```
 %%{init: {'theme': 'forest'}}%%
 ```
@@ -103,6 +105,7 @@ Available themes: `default`, `forest`, `dark`, `neutral`, `base`
 ## Common Syntax Patterns
 
 ### Sequence Diagram
+
 ```
 participant A as Alias
 A->>B: Solid arrow
@@ -118,6 +121,7 @@ par Parallel ... and ... end
 ```
 
 ### Class Diagram
+
 ```
 class ClassName {
     +publicMethod()
@@ -135,6 +139,7 @@ ClassA ..|> ClassB : realization
 ```
 
 ### State Diagram
+
 ```
 [*] --> State1 : start
 State1 --> State2 : trigger
@@ -146,6 +151,7 @@ state State1 {
 ```
 
 ### ERD Relationships
+
 ```
 ENTITY1 ||--o{ ENTITY2 : one-to-many
 ENTITY1 ||--|{ ENTITY2 : one-to-many (required)
@@ -155,13 +161,13 @@ ENTITY1 ||--|| ENTITY2 : one-to-one
 
 ## Escape Rules
 
-| Problem | Solution |
-|---------|----------|
+| Problem             | Solution                            |
+| ------------------- | ----------------------------------- |
 | Parentheses in text | Wrap in quotes: `id["Text (note)"]` |
-| Brackets in text | Wrap in quotes: `id["Array [0]"]` |
-| Special chars | Use HTML entities: `&#35;` for # |
-| Newlines | Use `<br>` or `<br/>` |
-| Long text | Use `<br>` for breaks |
+| Brackets in text    | Wrap in quotes: `id["Array [0]"]`   |
+| Special chars       | Use HTML entities: `&#35;` for #    |
+| Newlines            | Use `<br>` or `<br/>`               |
+| Long text           | Use `<br>` for breaks               |
 
 ## Configuration Directives
 

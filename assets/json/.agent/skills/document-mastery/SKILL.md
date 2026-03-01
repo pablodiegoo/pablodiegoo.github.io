@@ -10,7 +10,9 @@ This skill consolidates technical documentation standards and Mermaid diagram vi
 ## 1. Markdown Patterns (Premium Visuals)
 
 ### Alerts (GitHub Style)
+
 Use for highlighting critical information visually.
+
 ```markdown
 > [!NOTE]
 > Additional context or neutral observations.
@@ -29,6 +31,7 @@ Use for highlighting critical information visually.
 ```
 
 ### Code Blocks and Links
+
 - **Code Blocks**: Always specify the language and use the `language:path/to/file` format if applicable.
 - **Relative Links**: Always use relative links `./file.md` for internal movement between documents.
 
@@ -37,12 +40,15 @@ Use for highlighting critical information visually.
 Use Mermaid diagrams to explain complex flows, architectures, and data pipelines.
 
 ### Common Patterns:
+
 - **Sequence Diagram**: For interaction flows between systems/actors.
 - **Graph (Flowchart)**: For architectures and logical processes.
 - **ER Diagram**: For data modeling and database schemas.
 
 ### Diagramming References:
+
 For technical syntax details and complex examples, consult the reference documents:
+
 - [Selection Guide](./references/selection-guide.md): Which diagram to choose for each situation.
 - [Mermaid Syntax](./references/syntax.md): Quick guide to commands and shapes.
 - [Practical Examples](./references/examples.md): Library of ready-to-use templates.
@@ -70,5 +76,6 @@ When producing a final report or documentation:
 - [ ] Ensure the document follows the Standard Document Structure (Section 3).
 
 ---
+
 > [!TIP]
 > When creating Mermaid diagrams, avoid node overload. If the diagram gets too large, break it into subgraphs or multiple files.

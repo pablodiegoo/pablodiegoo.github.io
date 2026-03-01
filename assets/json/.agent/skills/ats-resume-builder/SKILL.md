@@ -10,6 +10,7 @@ This skill guides you through the process of creating a high-quality, ATS-friend
 ## When to Use This Skill
 
 Use this skill when the user:
+
 - Wants to create a new resume or update an existing one.
 - Explicitly asks for an "ATS-friendly" or "FAANG" style resume.
 - Needs to convert their resume data into a structured LaTeX format.
@@ -20,6 +21,7 @@ Use this skill when the user:
 ### 1. Analyze User Information
 
 First, gather and analyze the user's professional information. If the user hasn't provided a current resume, ask for:
+
 - Contact Information (Name, Phone, Email, LinkedIn, Github/Portfolio)
 - Education (University, Degree, Graduation Date, GPA/Coursework if relevant)
 - Skills (Technical, Soft, Tools/Frameworks)
@@ -33,6 +35,7 @@ First, gather and analyze the user's professional information. If the user hasn'
 The template uses the `resume.cls` class. Structure the data as follows:
 
 #### Preamble & Contact
+
 ```latex
 \name{Firstname Lastname}
 \address{Phone \\ Location}
@@ -40,6 +43,7 @@ The template uses the `resume.cls` class. Structure the data as follows:
 ```
 
 #### Education
+
 ```latex
 \begin{rSection}{Education}
 {\bf Degree}, University \hfill {Date}\\
@@ -48,6 +52,7 @@ Relevant Coursework: A, B, C.
 ```
 
 #### Skills
+
 ```latex
 \begin{rSection}{SKILLS}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
@@ -58,6 +63,7 @@ Category & Item 1, Item 2, Item 3 \\
 ```
 
 #### Experience
+
 ```latex
 \begin{rSection}{EXPERIENCE}
 \textbf{Role} \hfill Dates\\
@@ -71,6 +77,7 @@ Company \hfill \textit{Location}
 ```
 
 #### Projects
+
 ```latex
 \begin{rSection}{PROJECTS}
 \vspace{-1.25em}
@@ -81,6 +88,7 @@ Company \hfill \textit{Location}
 ### 3. Generate Output
 
 Provide the user with two files:
+
 1.  **`resume.tex`**: The content file containing their specific data.
 2.  **`resume.cls`**: The class file (located in `assets/resume.cls`), which is required to compile the `.tex` file.
 
@@ -96,5 +104,6 @@ Provide the user with two files:
 ## Assets
 
 This skill includes:
+
 - `assets/resume.tex`: The reference template file.
 - `assets/resume.cls`: The required class file.
