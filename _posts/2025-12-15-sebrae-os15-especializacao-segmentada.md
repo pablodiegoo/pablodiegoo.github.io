@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Sebrae-SP OS 15: Análise de Briefing e Especialização Segmentada"
+date: 2025-12-15 10:00:00
+description: "Investigação estratégica sobre impacto de modelos de atendimento genérico vs. especializado para micro e pequenas empresas (MPEs)."
+tags: [sebrae, consultoria, estrategia, mpe, pesquisa-mercado]
+categories: [consultoria]
+---
+
 # Análise do Briefing: Especialização Segmentada
 
 ## 1.0 Objetivos da Pesquisa

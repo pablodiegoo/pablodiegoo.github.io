@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Sebrae-SP OS 18: Marketplace — Diagnóstico das Relações de Vendas"
+date: 2025-12-15 14:00:00
+description: "Diagnóstico profundo das dores operacionais, taxas, logística e estratégias de sucesso de pequenos negócios em marketplaces."
+tags: [sebrae, marketplace, ecommerce, estrategia, pesquisa-mercado]
+categories: [consultoria]
+mermaid:
+  enabled: true
+  zoomable: true
+---
+
 # Análise do Briefing: MARKETPLACE – DIAGNÓSTICO DAS RELAÇÕES DE VENDAS EM PLATAFORMAS DIGITAIS
 
 ## 1.0 Objetivos da Pesquisa

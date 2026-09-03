@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Pesquisa de Percepção dos Serviços de Saúde de Saquarema"
+date: 2025-11-11 14:30:00
+description: "Mapeamento do roteiro de discussão e análise qualitativa em profundidade sobre acesso, atendimento e infraestrutura de saúde pública."
+tags: [pesquisa-qualitativa, saude-publica, saquarema, insights]
+categories: [pesquisas]
+---
+
 ## Mapeamento do Roteiro de Discussão
 
 ### Bloco 1: Bloco A: Abertura e Contexto de Uso

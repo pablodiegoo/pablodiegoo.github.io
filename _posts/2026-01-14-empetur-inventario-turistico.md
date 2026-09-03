@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Relatório Técnico de Inventário Turístico — EMPETUR"
+date: 2026-01-14 10:00:00
+description: "Consolidação das etapas de levantamento, georreferenciamento e diagnóstico técnico do Inventário Turístico do Estado de Pernambuco para 31 municípios."
+tags: [gis, analytics, turismo, pernambuco, inteligencia-geografica]
+categories: [relatorios]
+thumbnail: assets/img/posts/mapa_inventario_pernambuco.png
+---
+
 # RELATÓRIO TÉCNICO DE INVENTÁRIO TURÍSTICO (ETAPAS 1 E 2)
 
 **Data:** 14/01/2026
@@ -120,7 +130,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Maternidade Maria Coelho Cavalcanti Rodrigues** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Afrânio](cidades/afranio.png)
+![Mapa Turístico de Afrânio](/assets/img/posts/cidades/afranio.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Afrânio. Os pontos coloridos indicam a classificação de relevância._
 
@@ -136,7 +146,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Hotel Recanto Vip** (Serviço Turístico) - Nota: 4.5 | Relevância: Alta
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Araripina](cidades/araripina.png)
+![Mapa Turístico de Araripina](/assets/img/posts/cidades/araripina.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Araripina. Os pontos coloridos indicam a classificação de relevância._
 
@@ -152,7 +162,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Hotel Cruzeiro** (Serviço Turístico) - Nota: 4.6 | Relevância: Alta
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Arcoverde](cidades/arcoverde.png)
+![Mapa Turístico de Arcoverde](/assets/img/posts/cidades/arcoverde.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Arcoverde. Os pontos coloridos indicam a classificação de relevância._
 
@@ -168,7 +178,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **FACESF** (Infraestrutura de Apoio) - Nota: 4.1 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Belém de S. Francisco](cidades/belem_de_s_francisco.png)
+![Mapa Turístico de Belém de S. Francisco](/assets/img/posts/cidades/belem_de_s_francisco.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Belém de S. Francisco. Os pontos coloridos indicam a classificação de relevância._
 
@@ -184,7 +194,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Museu Dalila Ferreira de Souza** (Atrativo Cultural) - Nota: 5.0 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Betânia](cidades/betania.png)
+![Mapa Turístico de Betânia](/assets/img/posts/cidades/betania.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Betânia. Os pontos coloridos indicam a classificação de relevância._
 
@@ -200,7 +210,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Roberlânia Lima conceito de beleza e bem estar** (Serviço Turístico) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Bodocó](cidades/bodoco.png)
+![Mapa Turístico de Bodocó](/assets/img/posts/cidades/bodoco.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Bodocó. Os pontos coloridos indicam a classificação de relevância._
 
@@ -216,7 +226,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **cabrobovip** (Serviço Turístico) - Nota: 5.0 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Cabrobó](cidades/cabrobo.png)
+![Mapa Turístico de Cabrobó](/assets/img/posts/cidades/cabrobo.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Cabrobó. Os pontos coloridos indicam a classificação de relevância._
 
@@ -232,7 +242,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Praça de vôlei** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Carnaubeira da Penha](cidades/carnaubeira_da_penha.png)
+![Mapa Turístico de Carnaubeira da Penha](/assets/img/posts/cidades/carnaubeira_da_penha.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Carnaubeira da Penha. Os pontos coloridos indicam a classificação de relevância._
 
@@ -248,7 +258,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Armarinho São Francisco** (Infraestrutura de Apoio) - Nota: 4.7 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Custódia](cidades/custodia.png)
+![Mapa Turístico de Custódia](/assets/img/posts/cidades/custodia.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Custódia. Os pontos coloridos indicam a classificação de relevância._
 
@@ -264,7 +274,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Pizzaria Tradição** (Serviço Turístico) - Nota: 3.9 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Dormentes](cidades/dormentes.png)
+![Mapa Turístico de Dormentes](/assets/img/posts/cidades/dormentes.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Dormentes. Os pontos coloridos indicam a classificação de relevância._
 
@@ -280,7 +290,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Estátua de Luiz Gonzaga** (Atrativo Cultural) - Nota: 4.6 | Relevância: Alta
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Exu](cidades/exu.png)
+![Mapa Turístico de Exu](/assets/img/posts/cidades/exu.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Exu. Os pontos coloridos indicam a classificação de relevância._
 
@@ -296,7 +306,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Restaurante Estacao Do Sabor** (Serviço Turístico) - Nota: 4.3 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Floresta](cidades/floresta.png)
+![Mapa Turístico de Floresta](/assets/img/posts/cidades/floresta.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Floresta. Os pontos coloridos indicam a classificação de relevância._
 
@@ -312,7 +322,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Câmara Municipal de Granito** (Infraestrutura de Apoio) - Nota: 3.7 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Granito](cidades/granito.png)
+![Mapa Turístico de Granito](/assets/img/posts/cidades/granito.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Granito. Os pontos coloridos indicam a classificação de relevância._
 
@@ -328,7 +338,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Restaurante e marmitaria dona Jane** (Serviço Turístico) - Nota: 3.5 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Ibimirim](cidades/ibimirim.png)
+![Mapa Turístico de Ibimirim](/assets/img/posts/cidades/ibimirim.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Ibimirim. Os pontos coloridos indicam a classificação de relevância._
 
@@ -344,7 +354,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **M & A - Sacolas** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Inajá](cidades/inaja.png)
+![Mapa Turístico de Inajá](/assets/img/posts/cidades/inaja.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Inajá. Os pontos coloridos indicam a classificação de relevância._
 
@@ -360,7 +370,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Estádio Municipal O Vilão** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Ipubi](cidades/ipubi.png)
+![Mapa Turístico de Ipubi](/assets/img/posts/cidades/ipubi.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Ipubi. Os pontos coloridos indicam a classificação de relevância._
 
@@ -376,7 +386,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Observatório Nacional de Itacuruba** (Atrativo Cultural) - Nota: 4.9 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Itacuruba](cidades/itacuruba.png)
+![Mapa Turístico de Itacuruba](/assets/img/posts/cidades/itacuruba.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Itacuruba. Os pontos coloridos indicam a classificação de relevância._
 
@@ -392,7 +402,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Volta do Moxotó** (Atrativo Natural) - Nota: 5.0 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Jatobá](cidades/jatoba.png)
+![Mapa Turístico de Jatobá](/assets/img/posts/cidades/jatoba.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Jatobá. Os pontos coloridos indicam a classificação de relevância._
 
@@ -408,7 +418,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Monumento da Cidade - Lagoa Grande, Pernambuco** (Atrativo Cultural) - Nota: 5.0 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Lagoa Grande](cidades/lagoa_grande.png)
+![Mapa Turístico de Lagoa Grande](/assets/img/posts/cidades/lagoa_grande.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Lagoa Grande. Os pontos coloridos indicam a classificação de relevância._
 
@@ -424,7 +434,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Biblioteca Pública de Manari** (Atrativo Cultural) - Nota: 5.0 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Manari](cidades/manari.png)
+![Mapa Turístico de Manari](/assets/img/posts/cidades/manari.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Manari. Os pontos coloridos indicam a classificação de relevância._
 
@@ -440,7 +450,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **(((MARMITEX POPULAR)))** (Serviço Turístico) - Nota: nan | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Moreilândia](cidades/moreilandia.png)
+![Mapa Turístico de Moreilândia](/assets/img/posts/cidades/moreilandia.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Moreilândia. Os pontos coloridos indicam a classificação de relevância._
 
@@ -456,7 +466,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Ceasa umburana** (Infraestrutura de Apoio) - Nota: 4.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Orocó](cidades/oroco.png)
+![Mapa Turístico de Orocó](/assets/img/posts/cidades/oroco.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Orocó. Os pontos coloridos indicam a classificação de relevância._
 
@@ -472,7 +482,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Policlínica Helena Barreto Alencar** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Ouricuri](cidades/ouricuri.png)
+![Mapa Turístico de Ouricuri](/assets/img/posts/cidades/ouricuri.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Ouricuri. Os pontos coloridos indicam a classificação de relevância._
 
@@ -488,7 +498,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Totem Bem Vindo a Petrolina** (Marco Arquitetônico/Ponto Turístico) - Nota: 5.0 | Relevância: Alta
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Petrolina](cidades/petrolina.png)
+![Mapa Turístico de Petrolina](/assets/img/posts/cidades/petrolina.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Petrolina. Os pontos coloridos indicam a classificação de relevância._
 
@@ -504,7 +514,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Rio Hotel - Petrolândia** (Serviço Turístico) - Nota: 4.7 | Relevância: Alta
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Petrolândia](cidades/petrolandia.png)
+![Mapa Turístico de Petrolândia](/assets/img/posts/cidades/petrolandia.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Petrolândia. Os pontos coloridos indicam a classificação de relevância._
 
@@ -520,7 +530,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **CHURRASCARIA BOI NA BRASA** (Serviço Turístico) - Nota: 4.7 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Santa Cruz](cidades/santa_cruz.png)
+![Mapa Turístico de Santa Cruz](/assets/img/posts/cidades/santa_cruz.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Santa Cruz. Os pontos coloridos indicam a classificação de relevância._
 
@@ -536,7 +546,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Barragem De Juscelio** (Atrativo Natural) - Nota: 5.0 | Relevância: Média
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Santa Filomena](cidades/santa_filomena.png)
+![Mapa Turístico de Santa Filomena](/assets/img/posts/cidades/santa_filomena.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Santa Filomena. Os pontos coloridos indicam a classificação de relevância._
 
@@ -552,7 +562,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Forno da Praça** (Serviço Turístico) - Nota: 4.3 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Santa Maria da Boa Vista](cidades/santa_maria_da_boa_vista.png)
+![Mapa Turístico de Santa Maria da Boa Vista](/assets/img/posts/cidades/santa_maria_da_boa_vista.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Santa Maria da Boa Vista. Os pontos coloridos indicam a classificação de relevância._
 
@@ -568,7 +578,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Centro Médico Maria Guedes de Lima** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Sertânia](cidades/sertania.png)
+![Mapa Turístico de Sertânia](/assets/img/posts/cidades/sertania.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Sertânia. Os pontos coloridos indicam a classificação de relevância._
 
@@ -584,7 +594,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Centro Tacaratuense de Assistencia Social** (Infraestrutura de Apoio) - Nota: 4.6 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Tacaratu](cidades/tacaratu.png)
+![Mapa Turístico de Tacaratu](/assets/img/posts/cidades/tacaratu.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Tacaratu. Os pontos coloridos indicam a classificação de relevância._
 
@@ -600,7 +610,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 - **Hospital Municipal Maria Veneri** (Infraestrutura de Apoio) - Nota: 5.0 | Relevância: Baixa
 
 **Mapa de Distribuição Espacial:**
-![Mapa Turístico de Trindade](cidades/trindade.png)
+![Mapa Turístico de Trindade](/assets/img/posts/cidades/trindade.png)
 
 > _Figura: Distribuição geoespacial dos atrativos em Trindade. Os pontos coloridos indicam a classificação de relevância._
 
@@ -608,7 +618,7 @@ A etapa de validação classificou os equipamentos quanto à sua aptidão turís
 
 A espacialização dos dados permite identificar clusters de desenvolvimento turístico e vazios assistenciais.
 
-![Mapa Consolidado de Pernambuco](mapa_inventario_pernambuco.png)
+![Mapa Consolidado de Pernambuco](/assets/img/posts/mapa_inventario_pernambuco.png)
 
 **Parecer Técnico sobre a Distribuição:**
 

@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Relatório de Análise de Desaprovação do Governo"
+date: 2025-12-10 12:00:00
+description: "Modelagem econométrica e regressão logística avaliando os principais determinantes da probabilidade de desaprovação governamental."
+tags: [data-science, econometria, regressao, machine-learning]
+categories: [relatorios]
+thumbnail: assets/img/posts/regressao_resultados.png
+---
+
 # Relatório de Análise de Desaprovação do Governo
 
 ## 📊 Performance do Modelo
@@ -34,11 +44,11 @@ A tabela abaixo apresenta todos os fatores analisados, ordenados pelo impacto (a
 
 ### Coeficientes e Importância
 
-![Resultados da Regressão](regressao_resultados.png)
+![Resultados da Regressão](/assets/img/posts/regressao_resultados.png)
 
 ### Matriz de Confusão
 
-![Matriz de Confusão](matriz_confusao.png)
+![Matriz de Confusão](/assets/img/posts/matriz_confusao.png)
 
 ## 💡 Interpretação
 
