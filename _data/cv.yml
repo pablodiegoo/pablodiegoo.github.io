@@ -1,189 +1,304 @@
-cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+- title: General Information
+  type: map
+  contents:
+  - name: Full Name
+    value: Pablo Diego Pereira
+  - name: Academic Citation
+    value: PEREIRA, P. D. A.
+  - name: Headline
+    value: M.Sc. Student in Production Eng. (UFF/MESC) | MBA in Data Science & Analytics
+      (USP) | Economist (UFRJ) | Operations Research & Quant Finance
+  - name: Location
+    value: Araruama, RJ, Brasil
+  - name: Email
+    value: pablodiegoo@gmail.com
+  - name: Profiles & IDs
+    links:
+    - name: Lattes
+      link: http://lattes.cnpq.br/2639308457750524
+    - name: ORCID
+      link: https://orcid.org/0009-0000-7422-980X
+    - name: GitHub
+      link: https://github.com/pablodiegoo
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/pablodiegoo/
+- title: Education
+  type: time_table
+  contents:
+  - title: Professional Master's in Production Engineering & Computational Systems
+    institution: Universidade Federal Fluminense (UFF)
+    year: 2026 - Presente
+    description:
+    - 'Advisor: Prof. Dr. Dalessandro Soares Vianna'
+    - 'Dissertation: Modelagem e Otimização Combinatória sob Restrições de Cardinalidade
+      e Fricções Reais Aplicada à Alocação Dinâmica de Portfólios de Arbitragem Estatística
+      na B3'
+  - title: MBA in Data Science & Analytics
+    institution: Universidade de São Paulo (USP / ESALQ)
+    year: 2024 - 2026
+    description:
+    - 'Advisor: Diego Pedroso dos Santos'
+    - 'Evaluation: Nota 10'
+    - 'Thesis: Pair Trading com Machine Learning no Mercado Brasileiro: Uma Comparação
+      com a Abordagem Clássica de Cointegração'
+    - 'Carga: 425 horas (Portaria MEC nº 503 de 19/07/2022)'
+  - title: Bachelor of Science in Economics
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: 2010 - 2019
+    description:
+    - 'Advisor: Prof. Dr. João Felippe Cury Marinho Mathias'
+    - 'Thesis: Criptomoedas: seriam essas formas viáveis de dinheiro?'
+- title: Experience
+  type: time_table
+  contents:
+  - title: Senior Investment Advisor & Partner
+    institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
+    year: Jun 2020 - Present
+    description:
+    - Conducted quantitative risk-return modeling for recommended client portfolios
+      using Python, R, and econometric toolsets.
+    - Oversaw operational controls, internal compliance, and regulatory governance
+      under CVM, ANBIMA, and Central Bank standards.
+    - Architected business intelligence dashboards in Power BI, Google Looker Studio,
+      and advanced Excel for wealth management.
+  - title: Data & Insights Analyst
+    institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
+    year: Apr 2025 - Aug 2026
+    description:
+    - Engineered automated ingestion pipelines via Meta API (WhatsApp), slashing manual
+      data processing effort by 90%.
+    - Modeled analytical relational databases in SQL and Python for high-throughput
+      NPS and CSAT customer satisfaction metrics.
+    - Technical lead in the development and architectural definition of the proprietary
+      platform Project Aporia.
+  - title: Backoffice Manager & Investment Advisor (Partner)
+    institution: Meta & Actio Agente Autônomo de Investimentos
+    year: Aug 2017 - May 2020
+    description:
+    - Conceived and implemented a proprietary statistical arbitrage algorithm in R
+      (pair trading / cointegration) on B3 (+100 opportunities/month).
+    - Managed operational backoffice infrastructure and built financial planning tools
+      that streamlined client onboarding and tax optimization.
+  - title: Co-Founder & Commercial Director
+    institution: Espaço Champs Elyseés
+    year: Jan 2014 - Nov 2018
+    description:
+    - Commercial operations management, supplier contract renegotiation resulting
+      in 70% payroll cost reductions, and digital presence expansion.
+    - Operational workflow enhancements that increased venue throughput capacity.
+  - title: Digital Marketing Consultant & Webmaster
+    institution: BX House
+    year: Nov 2002 - Jan 2014
+    description:
+    - Consulted on corporate web development, search engine optimization (SEO), and
+      digital infrastructure deployment.
+  - title: Marketing Consultant Intern
+    institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
+    year: Jan 2012 - Aug 2012
+    description:
+    - Delivered market research studies, strategic planning assessments, and commercial
+      lead acquisition campaigns.
+  - title: Undergraduate Research Assistant
+    institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
+    year: Jun 2011 - Jul 2012
+    description:
+    - Undergraduate researcher in the Innovation Economics Group, surveying entrepreneurship
+      determinants across the Brazilian ICT sector.
+    - Delivered oral presentation and co-authored scientific abstract published in
+      the XXXIV JICTAC conference proceedings (2012).
+  - title: Marketing and Communications Associate
+    institution: AIESEC no Rio de Janeiro
+    year: May 2010 - Feb 2012
+    description:
+    - Promoted university exchange and international leadership development programs,
+      managing institutional outreach campaigns.
+- title: Projects & Research
+  type: time_table
+  contents:
+  - title: Project Aporia — Opinion & Market Survey Spatial Analytics Platform
+    institution: Ágora Pesquisa / NKIN Consultoria
+    year: 2025 - 2026
+    description:
+    - Spatial analytics and sampling intelligence platform engineered to automate
+      probabilistic survey sampling and opinion poll data processing. Converts census
+      tracts into Uber H3 spatial cells and delivers dynamic decision-support dashboards.
+    - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
+      H3, SQLAlchemy, PostgreSQL, Docker
+    - <em>[Sanitized Public Specification]</em>
+  - title: Pair Trading with Machine Learning in the Brazilian Market (USP Thesis
+      - Grade 10/10)
+    institution: USP / ESALQ
+    year: 2024 - 2026
+    description:
+    - MBA thesis in Data Science and Analytics evaluated with maximum honors (Grade
+      10/10). Implemented a rigorous empirical benchmark comparing classical Engle-Granger
+      econometric cointegration models against supervised Machine Learning classifiers
+      for statistical arbitrage pairs trading on B3 equities.
+    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
+  - title: Combinatorial Optimization under Cardinality Constraints and Real Market
+      Frictions on B3
+    institution: UFF / MESC
+    year: 2026 - Present
+    description:
+    - Professional master's thesis developing exact Mixed-Integer Quadratic Programming
+      (MIQP) and Mixed-Integer Linear Programming (MILP) formulations incorporating
+      linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation of statistical
+      arbitrage equity portfolios on B3 while factoring in transaction costs, borrowing
+      fees, and cardinality constraints.
+    - <b>Stack:</b> Python, Gurobi, Pyomo, SciPy, R, LaTeX
+  - title: Automated CX Data Ingestion Pipeline via Meta API (WhatsApp)
+    institution: Ágora Pesquisa
+    year: 2025 - 2026
+    description:
+    - Automated data engineering pipeline ingesting and validating conversational
+      survey responses via Meta WhatsApp Business API for real-time NPS and CSAT calculation,
+      achieving a 90% reduction in manual data processing overhead.
+    - <b>Stack:</b> Python, Meta Graph API, Webhooks, FastAPI, SQL, PostgreSQL, Power
+      BI
+    - <em>[Sanitized Public Specification]</em>
+  - title: Unified Media Transcription, OCR & Qualitative NLP Pipeline (agp-media)
+    institution: Ágora Pesquisa / AGP
+    year: 2025 - 2026
+    description:
+    - Modular command-line toolkit (CLI) engineered to streamline field research workflows.
+      Handles media conversion, audio transcription with multi-speaker diarization
+      (Whisper, Gemini, Google STT), document OCR, and qualitative AI sentiment profiling.
+    - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
+      Pydantic, FFmpeg, CLI
+    - <em>[Sanitized Public Specification]</em>
+  - title: Geospatial Engineering & Tourism Data Quality Audit Pipeline (EMPETUR)
+    institution: Ágora Pesquisa / EMPETUR
+    year: '2025'
+    description:
+    - Automated data engineering and geospatial audit pipeline built to validate and
+      reconcile the official tourism inventory of Pernambuco. Performs coordinate
+      boundary validation against IBGE shapefiles, fuzzy deduplication, and automated
+      data quality reporting.
+    - <b>Stack:</b> Python, GeoPandas, Shapely, Pandas, Matplotlib, Shapefiles IBGE,
+      OpenStreetMap
+    - <em>[Sanitized Public Specification]</em>
+  - title: Financial Planning & Wealth Optimization Client Engine
+    institution: Portfólio Pessoal / Meta Investimentos
+    year: 2017 - Present
+    description:
+    - Financial lifecycle modeling tool featuring cash flow simulations and tax drag
+      optimization models across Brazilian investment funds and tax-exempt fixed income
+      vehicles.
+    - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
+    - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentação
+      / Link do Projeto</a>
+  - title: Algorithmic Statistical Arbitrage System in R (Meta & Actio)
+    institution: Meta & Actio Investimentos
+    year: 2017 - 2020
+    description:
+    - Systematic algorithm coded in R for daily universe-wide Engle-Granger cointegration
+      and Augmented Dickey-Fuller (ADF) screening on B3 equities. Scanned 100+ statistical
+      arbitrage candidates monthly with automated half-life and z-score calculations.
+    - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
+    - <em>[Sanitized Public Specification]</em>
+- title: Publications & Academic Theses
+  type: time_table
+  contents:
+  - title: 'Pair Trading com Machine Learning no Mercado Brasileiro: Uma Comparação
+      com a Abordagem Clássica de Cointegração'
+    institution: Universidade de São Paulo (USP / ESALQ)
+    year: '2026'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque; SANTOS, Diego Pedroso dos.
+  - title: 'Criptomoedas: seriam essas formas viáveis de dinheiro?'
+    institution: Universidade Federal do Rio de Janeiro (UFRJ) — Instituto de Economia
+    year: '2019'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque; MATHIAS, João Felippe Cury
+      Marinho.
+    - <a href="https://pantheon.ufrj.br/handle/11422/11747" target="_blank">Repositório
+      Institucional</a>
+  - title: Criptomoedas - Formas Viáveis de Dinheiro? Uma Breve Análise das Características
+      e Funções da Moeda Comparada às Moedas Eletrônicas
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: '2017'
+    description:
+    - <b>Citação:</b> PEREIRA, P. D. A.; BARREIROS, D. P.
+    - 'Veículo: Caderno de Resumos CCJE, p. 97'
+  - title: 'Paradigmas da Atitude Empreendedora: Uma Análise dos Elementos que Facilitam
+      a Criação de Novos Negócios de TICs no Brasil'
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: '2012'
+    description:
+    - <b>Citação:</b> PEREIRA, P. D. A.; ROVERE, R. L. L.
+    - 'Veículo: Livro de Resumos, p. 526'
+  - title: 'Criptomoedas: Mas seria o Bitcoin efetivamente uma moeda?'
+    institution: LinkedIn Pulse
+    year: '2017'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque.
+    - 'Veículo: LinkedIn Pulse'
+    - <a href="https://www.linkedin.com/pulse/criptomoedas-mas-seria-o-bitcoin-efetivamente-uma-moeda-pereira/"
+      target="_blank">Artigo Online</a>
+  - title: 'Criptomoedas: A expansão de um mercado'
+    institution: LinkedIn Pulse
+    year: '2017'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque.
+    - 'Veículo: LinkedIn Pulse'
+    - <a href="https://www.linkedin.com/pulse/criptomoedas-expans%C3%A3o-de-um-mercado-pablo-diego-pereira/"
+      target="_blank">Artigo Online</a>
+- title: Featured Certifications & Credentials
+  type: nested_list
+  contents:
+  - title: Destaques Profissionais e Acadêmicos (73 certificados catalogados na SSOT)
+    items:
+    - '<b>Declaração de Conclusão de Curso: MBA em Data Science e Analytics</b> —
+      USP / ESALQ (2026)'
+    - <b>Diploma de Bacharel em Ciências Econômicas</b> — Universidade Federal do
+      Rio de Janeiro (UFRJ) (2019)
+    - '<b>EF SET Certificate - C2 Proficient (Score: 79/100)</b> — EF SET (Standard
+      English Test) (2023) [<a href="https://www.efset.org/cert/sqaB64" target="_blank">Verificação</a>]'
+- title: Skills & Competencies
+  type: nested_list
+  contents:
+  - title: Programming Languages & Development Tools
+    items:
+    - '<b>Python</b> (Avançado): Pandas, Polars, NumPy, Scikit-Learn, Statsmodels,
+      Matplotlib, Seaborn'
+    - '<b>R</b> (Avançado): Tidyverse, Dplyr, Ggplot2, Caret, Urca, Tseries'
+    - '<b>SQL</b> (Avançado): PostgreSQL, SQLite, MySQL'
+    - <b>LaTeX</b> (Avançado)
+    - <b>Git & GitHub</b> (Avançado)
+    - <b>Bash / Shell Scripting</b> (Intermediário)
+    - <b>HTML5 / CSS3 / Markdown</b> (Intermediário)
+  - title: Operations Research & Quantitative Finance
+    items:
+    - <b>Otimização Combinatória Exata (MIQP, MILP)</b>
+    - <b>Medidas de Risco Coerentes (CVaR Linearizado)</b>
+    - <b>Modelagem de Problema da Mochila Multicritério</b>
+    - <b>Cointegração e Arbitragem Estatística (Engle-Granger, Johansen)</b>
+    - <b>Estratégias de Pair Trading Sistemático</b>
+    - <b>Alocação e Teoria de Portfólios de Markowitz</b>
+    - <b>Modelagem Econométrica e Séries Temporais (ARIMA, GARCH)</b>
+  - title: Machine Learning & Artificial Intelligence
+    items:
+    - <b>Algoritmos de Aprendizado Supervisionado (Classificação e Regressão)</b>
+    - <b>Engenharia de Recursos (Feature Engineering) e Pré-processamento</b>
+    - <b>Validação Cruzada para Séries Temporais (TimeSeriesSplit)</b>
+    - <b>Deep Learning & Redes Neurais</b>
+    - <b>Engenharia de Prompt e Aplicação de LLMs</b>
+  - title: Business Intelligence, Analytics & Data Visualization
+    items:
+    - '<b>Microsoft Power BI</b>: DAX, Power Query, Modelagem Dimensional Star Schema'
+    - <b>Google Looker Studio</b>
+    - <b>Microsoft Excel Avançado / VBA</b>
+    - <b>Visualização de Dados Científica e Executiva</b>
+  - title: Financial Markets, Regulation & Compliance
+    items:
+    - <b>Qualificação Técnica ANCORD (Agente Autônomo de Investimentos)</b>
+    - <b>Correspondente Bancário FEBRABAN (FBB100 Completo - Certificado Ativo até
+      2027)</b>
+    - <b>Normas e Resoluções CVM / ANBIMA / BACEN</b>
+    - <b>Prevenção à Lavagem de Dinheiro e Combate ao Financiamento do Terrorismo
+      (PLD/CFT)</b>
+    - <b>Lei Geral de Proteção de Dados (LGPD) no Setor Financeiro</b>
+  - title: Languages & Proficiency
+    items:
+    - '<b>Português</b>: Nativo'
+    - '<b>Inglês</b>: Fluente / Proficiente (C2 Proficient)'
