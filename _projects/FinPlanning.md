@@ -8,6 +8,9 @@ description_pt: "Ferramenta de modelagem de ciclo de vida financeiro, projeção
 img: assets/img/FinPlanning_Cover.jpg
 importance: 7
 category: "Data Analytics"
+confidentiality: "public"
+institution: "Portfólio Pessoal / Meta Investimentos"
+period: "2017 - Present"
 tags: [data-analytics, wealth-management, financial-planning, vba, python, looker-studio]
 related_publications: false
 mermaid:

@@ -9,13 +9,21 @@
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h3 class="card-title">
-              {% if site.active_lang == 'pt-br' and project.title_pt %}
-                {{ project.title_pt }}
-              {% else %}
-                {{ project.title }}
+            <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+              <h3 class="card-title m-0">
+                {% if site.active_lang == 'pt-br' and project.title_pt %}
+                  {{ project.title_pt }}
+                {% else %}
+                  {{ project.title }}
+                {% endif %}
+              </h3>
+              {% assign conf = project.confidentiality | default: project.confidentiality_level %}
+              {% if conf %}
+                <span class="badge-status badge-{{ conf }} shrink-0">
+                  {{ conf }}
+                </span>
               {% endif %}
-            </h3>
+            </div>
             <p class="card-text">
               {% if site.active_lang == 'pt-br' and project.description_pt %}
                 {{ project.description_pt }}

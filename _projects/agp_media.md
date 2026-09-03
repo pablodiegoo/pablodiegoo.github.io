@@ -8,6 +8,9 @@ description_pt: "Toolkit modular em linha de comando (CLI) desenvolvido para oti
 img: assets/img/5.jpg
 importance: 5
 category: "Data Engineering"
+confidentiality: "proprietary_sanitized"
+institution: "Ágora Pesquisa / AGP"
+period: "2025 - 2026"
 tags: [data-engineering, python, whisper, nlp, ocr, gemini, ffmpeg, speech-to-text]
 related_publications: false
 mermaid:

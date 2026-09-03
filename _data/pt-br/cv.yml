@@ -128,16 +128,14 @@
     - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
       H3, SQLAlchemy, PostgreSQL, Docker
     - <em>[Ficha Pública Sanitizada]</em>
-  - title: Pair Trading com Machine Learning no Mercado Brasileiro (TCC USP - Nota
-      10)
+  - title: Pair Trading com Machine Learning na B3 (Monografia USP/ESALQ)
     institution: USP / ESALQ
     year: 2024 - 2026
     description:
-    - Monografia de conclusão do MBA em Data Science e Analytics avaliada com nota
-      máxima (10/10). Desenvolveu um estudo comparativo exaustivo entre o arcabouço
-      clássico econométrico de cointegração de Engle-Granger e algoritmos supervisionados
-      de Machine Learning aplicados à geração de sinais de arbitragem estatística
-      em ações da B3.
+    - Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu
+      um estudo comparativo empírico rigoroso entre o arcabouço clássico econométrico
+      de cointegração de Engle-Granger e algoritmos supervisionados de Machine Learning
+      aplicados à geração de sinais de arbitragem estatística em ações da B3.
     - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
   - title: Otimização Combinatória sob Restrições de Cardinalidade e Fricções na B3
     institution: UFF / MESC

@@ -8,6 +8,9 @@ description_pt: "Algoritmo desenvolvido em linguagem R para varredura sistemáti
 img: assets/img/7.jpg
 importance: 8
 category: "Quantitative Finance"
+confidentiality: "proprietary_sanitized"
+institution: "Meta & Actio Investimentos"
+period: "2017 - 2020"
 tags: [quantitative-finance, r, statistical-arbitrage, cointegration, time-series, b3]
 related_publications: false
 mermaid:

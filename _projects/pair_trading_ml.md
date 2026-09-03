@@ -1,13 +1,16 @@
 ---
 layout: page
-title: "Pair Trading with Machine Learning in the Brazilian Market (USP Thesis - Grade 10/10)"
-title_pt: "Pair Trading com Machine Learning no Mercado Brasileiro (TCC USP - Nota 10)"
+title: "Pairs Trading with Machine Learning on B3 (USP Thesis)"
+title_pt: "Pair Trading com Machine Learning na B3 (Monografia USP/ESALQ)"
 page_id: "project_pair_trading_ml"
-description: "MBA thesis in Data Science and Analytics evaluated with maximum honors (Grade 10/10). Implemented a rigorous empirical benchmark comparing c..."
-description_pt: "Monografia de conclusão do MBA em Data Science e Analytics avaliada com nota máxima (10/10). Desenvolveu um estudo comparativo exaustivo ent..."
+description: "MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous empirical benchmark comparing classical Engle-Granger economet..."
+description_pt: "Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu um estudo comparativo empírico rigoroso entre o arcabou..."
 img: assets/img/1.jpg
 importance: 2
 category: "Quantitative Finance"
+confidentiality: "public"
+institution: "USP / ESALQ"
+period: "2024 - 2026"
 tags: [quantitative-finance, machine-learning, python, statsmodels, scikit-learn, b3, pairs-trading]
 related_publications: false
 mermaid:
@@ -25,7 +28,7 @@ mermaid:
 
 ## Visão Geral Executiva
 
-Monografia de conclusão do MBA em Data Science e Analytics avaliada com nota máxima (10/10). Desenvolveu um estudo comparativo exaustivo entre o arcabouço clássico econométrico de cointegração de Engle-Granger e algoritmos supervisionados de Machine Learning aplicados à geração de sinais de arbitragem estatística em ações da B3.
+Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu um estudo comparativo empírico rigoroso entre o arcabouço clássico econométrico de cointegração de Engle-Granger e algoritmos supervisionados de Machine Learning aplicados à geração de sinais de arbitragem estatística em ações da B3.
 
 {% else %}
 **Organization / Context**: USP / ESALQ  
@@ -37,7 +40,7 @@ Monografia de conclusão do MBA em Data Science e Analytics avaliada com nota m�
 
 ## Executive Overview
 
-MBA thesis in Data Science and Analytics evaluated with maximum honors (Grade 10/10). Implemented a rigorous empirical benchmark comparing classical Engle-Granger econometric cointegration models against supervised Machine Learning classifiers for statistical arbitrage pairs trading on B3 equities.
+MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous empirical benchmark comparing classical Engle-Granger econometric cointegration models against supervised Machine Learning classifiers for statistical arbitrage pairs trading on B3 equities.
 
 {% endif %}
 
@@ -66,14 +69,14 @@ flowchart LR
 
 - **Modelagem Empírica Rigorosa: Análise comparativa entre métodos econométricos paramétricos (ADF, Engle-Granger) e modelos de aprendizado supervisionado.**
 - **Simulação de Carteiras: Backtesting robusto em dados históricos intradiários e diários na B3, controlando custos de transação e fricções de mercado.**
-- **Reconhecimento Acadêmico: Aprovado com nota máxima 10/10 pela banca examinadora da USP/ESALQ.**
+- **Aprovação Acadêmica: Defesa homologada pela banca examinadora da USP/ESALQ.**
 
 {% else %}
 ## Key Engineering Highlights
 
 - **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and supervised machine learning classifiers.**
 - **Portfolio Backtesting: Realistic backtesting on B3 historical equities accounting for transaction costs and market friction.**
-- **Academic Honors: Defended with maximum grade (10/10) before the USP/ESALQ examination board.**
+- **Academic Defense: Successfully defended before the USP/ESALQ examination board.**
 
 {% endif %}
 

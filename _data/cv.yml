@@ -125,15 +125,14 @@
     - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
       H3, SQLAlchemy, PostgreSQL, Docker
     - <em>[Sanitized Public Specification]</em>
-  - title: Pair Trading with Machine Learning in the Brazilian Market (USP Thesis
-      - Grade 10/10)
+  - title: Pairs Trading with Machine Learning on B3 (USP Thesis)
     institution: USP / ESALQ
     year: 2024 - 2026
     description:
-    - MBA thesis in Data Science and Analytics evaluated with maximum honors (Grade
-      10/10). Implemented a rigorous empirical benchmark comparing classical Engle-Granger
-      econometric cointegration models against supervised Machine Learning classifiers
-      for statistical arbitrage pairs trading on B3 equities.
+    - MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous
+      empirical benchmark comparing classical Engle-Granger econometric cointegration
+      models against supervised Machine Learning classifiers for statistical arbitrage
+      pairs trading on B3 equities.
     - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
   - title: Combinatorial Optimization under Cardinality Constraints and Real Market
       Frictions on B3

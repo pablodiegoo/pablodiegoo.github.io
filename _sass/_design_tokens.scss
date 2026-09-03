@@ -1,0 +1,371 @@
+/*******************************************************************************
+ * DESIGN.md Design Tokens & Visual Contract (A1.3)
+ * Reference: Google Labs Visual Contract & DTCG format
+ * Scope: pablodiegoo.github.io
+ ******************************************************************************/
+
+/* ==========================================================================
+   1. Tailwind v4 @theme Block
+   ========================================================================== */
+@theme {
+  --color-oxford-navy: #1E3A8A;
+  --color-brand-primary: #1E3A8A;
+  --color-brand-primary-dark: #60A5FA;
+  --color-brand-accent: #2563EB;
+  --color-brand-accent-subtle: #EFF6FF;
+
+  --color-slate-50: #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-300: #CBD5E1;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1F2937;
+  --color-slate-900: #0F172A;
+
+  --color-dark-surface: #0B0F17;
+  --color-dark-card: #111827;
+
+  --font-serif: 'Source Serif 4', Charter, 'Bitstream Charter', Georgia, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'Fira Code', 'JetBrains Mono', monospace;
+}
+
+/* ==========================================================================
+   2. Design Tokens / CSS Custom Properties
+   ========================================================================== */
+:root {
+  /* Brand Tokens */
+  --color-brand-oxford: #1E3A8A;
+  --color-brand-primary: #1E3A8A;
+  --color-brand-primary-dark: #60A5FA;
+  --color-brand-accent: #2563EB;
+  --color-brand-accent-subtle: #EFF6FF;
+
+  /* Surfaces & Neutrals (Light Mode) */
+  --color-surface-canvas: #FFFFFF;
+  --color-surface-card: #F8FAFC;        /* Slate 50 */
+  --color-surface-subtle: #F1F5F9;      /* Slate 100 */
+  --color-text-primary: #0F172A;        /* Slate 900 (16.5:1 contrast) */
+  --color-text-secondary: #334155;      /* Slate 700 (7.2:1 contrast) */
+  --color-text-muted: #475569;          /* Slate 600 (5.5:1 contrast) */
+  --color-border-subtle: #E2E8F0;       /* Slate 200 */
+  --color-border-strong: #CBD5E1;       /* Slate 300 */
+
+  /* Dark Surface Tokens (Exposed for both modes) */
+  --color-dark-surface: #0B0F17;
+  --color-dark-card: #111827;
+
+  /* Status Protocols */
+  --color-status-sanitized-bg: #EFF6FF;
+  --color-status-sanitized-text: #1E3A8A;
+  --color-status-sanitized-border: #BFDBFE;
+  --color-status-public-bg: #F0FDF4;
+  --color-status-public-text: #166534;
+  --color-status-public-border: #BBF7D0;
+
+  /* Typography Stacks (A1.3) */
+  --font-family-heading: 'Source Serif 4', Charter, 'Bitstream Charter', Georgia, serif;
+  --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-family-mono: 'Fira Code', 'JetBrains Mono', monospace;
+
+  /* al-folio theme variable overrides for light mode */
+  --global-bg-color: #FFFFFF;
+  --global-card-bg-color: #F8FAFC;
+  --global-text-color: #0F172A;
+  --global-text-color-light: #334155;
+  --global-theme-color: #1E3A8A;
+  --global-hover-color: #2563EB;
+  --global-hover-text-color: #FFFFFF;
+  --global-divider-color: #E2E8F0;
+  --global-footer-bg-color: #0F172A;
+  --global-footer-text-color: #CBD5E1;
+  --global-footer-link-color: #FFFFFF;
+}
+
+html[data-theme="dark"],
+html.dark {
+  /* Surfaces & Neutrals (Dark Mode) */
+  --color-surface-canvas: #0B0F17;      /* Dark Surface */
+  --color-surface-card: #111827;        /* Dark Card */
+  --color-surface-subtle: #1F2937;      /* Gray 800 */
+  --color-text-primary: #F8FAFC;        /* Slate 50 (17.8:1 contrast) */
+  --color-text-secondary: #CBD5E1;      /* Slate 300 (11.2:1 contrast) */
+  --color-text-muted: #94A3B8;          /* Slate 400 */
+  --color-border-subtle: #1F2937;
+  --color-border-strong: #334155;       /* Slate 700 */
+
+  /* al-folio theme variable overrides for dark mode */
+  --global-bg-color: #0B0F17;
+  --global-card-bg-color: #111827;
+  --global-text-color: #F8FAFC;
+  --global-text-color-light: #CBD5E1;
+  --global-theme-color: #60A5FA;
+  --global-hover-color: #93C5FD;
+  --global-hover-text-color: #0B0F17;
+  --global-divider-color: #334155;
+  --global-footer-bg-color: #0B0F17;
+  --global-footer-text-color: #94A3B8;
+  --global-footer-link-color: #F8FAFC;
+}
+
+/* ==========================================================================
+   3. Typography Rules (Strict A1.3 enforcement)
+   ========================================================================== */
+body {
+  font-family: var(--font-family-body) !important;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.post-title,
+.navbar-brand,
+.card-title {
+  font-family: var(--font-family-heading) !important;
+}
+
+code, kbd, samp, pre,
+.font-fira-code,
+.font-mono {
+  font-family: var(--font-family-mono) !important;
+}
+
+/* Helper Font Classes */
+.font-charter,
+.font-serif,
+.font-source-serif {
+  font-family: 'Source Serif 4', Charter, 'Bitstream Charter', Georgia, serif !important;
+}
+
+.font-system-ui,
+.font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.font-fira-code,
+.font-mono {
+  font-family: 'Fira Code', 'JetBrains Mono', monospace !important;
+}
+
+/* ==========================================================================
+   4. Booktabs Table Styles
+   ========================================================================== */
+table.booktabs,
+.table-booktabs,
+.booktabs table,
+.post table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid var(--color-border-strong, #CBD5E1) !important;
+  border-bottom: 2px solid var(--color-border-strong, #CBD5E1) !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+table.booktabs th,
+.table-booktabs th,
+.booktabs table th,
+.post table th {
+  border-top: none !important;
+  border-bottom: 1px solid var(--color-border-strong, #CBD5E1) !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-align: left;
+  background-color: var(--color-surface-subtle, #F1F5F9);
+  color: var(--color-text-primary, #0F172A);
+}
+
+html[data-theme="dark"] table.booktabs th,
+html[data-theme="dark"] .table-booktabs th,
+html[data-theme="dark"] .booktabs table th,
+html[data-theme="dark"] .post table th {
+  background-color: var(--color-surface-subtle, #1F2937);
+  color: var(--color-text-primary, #F8FAFC);
+  border-bottom-color: var(--color-border-strong, #334155) !important;
+}
+
+table.booktabs td,
+.table-booktabs td,
+.booktabs table td,
+.post table td {
+  border-top: none !important;
+  border-bottom: 1px solid var(--color-border-subtle, #E2E8F0);
+  border-left: none !important;
+  border-right: none !important;
+  padding: 0.75rem 1rem;
+  color: var(--global-text-color);
+}
+
+html[data-theme="dark"] table.booktabs td,
+html[data-theme="dark"] .table-booktabs td,
+html[data-theme="dark"] .booktabs table td,
+html[data-theme="dark"] .post table td {
+  border-bottom-color: var(--color-border-subtle, #1F2937);
+}
+
+table.booktabs tr:last-child td,
+.table-booktabs tr:last-child td,
+.booktabs table tr:last-child td,
+.post table tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* ==========================================================================
+   5. Status Badges
+   ========================================================================== */
+.badge-status,
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-family-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.badge-proprietary_sanitized,
+.status-badge.proprietary_sanitized,
+.badge-sanitized {
+  background-color: #EFF6FF !important; /* bg-blue-50 */
+  color: #1E3A8A !important;           /* text-blue-900 */
+  border-color: #BFDBFE !important;      /* border-blue-200 */
+}
+
+.badge-public,
+.status-badge.public {
+  background-color: #F0FDF4 !important; /* bg-green-50 */
+  color: #166534 !important;           /* text-green-900 */
+  border-color: #BBF7D0 !important;      /* border-green-200 */
+}
+
+html[data-theme="dark"] .badge-proprietary_sanitized,
+html[data-theme="dark"] .status-badge.proprietary_sanitized,
+html[data-theme="dark"] .badge-sanitized {
+  background-color: rgba(30, 58, 138, 0.25) !important;
+  color: #93C5FD !important;
+  border-color: #1E3A8A !important;
+}
+
+html[data-theme="dark"] .badge-public,
+html[data-theme="dark"] .status-badge.public {
+  background-color: rgba(22, 101, 52, 0.25) !important;
+  color: #86EFAC !important;
+  border-color: #166534 !important;
+}
+
+/* ==========================================================================
+   6. Contact Icons & Contextual Note
+   ========================================================================== */
+.contact-icons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 1rem !important; /* gap-4 (16px) */
+  font-size: 1.3rem !important; /* 1.25rem - 1.4rem (20-22px) */
+  line-height: 1 !important;
+
+  a {
+    color: var(--color-text-secondary, #334155) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: color 0.15s ease-in-out, transform 0.15s ease-in-out;
+    text-decoration: none !important;
+
+    i {
+      font-size: 1.3rem !important;
+      line-height: 1 !important;
+    }
+
+    &:hover {
+      color: var(--color-brand-primary, #1E3A8A) !important;
+      transform: translateY(-1px);
+    }
+  }
+}
+
+html[data-theme="dark"] .contact-icons a {
+  color: var(--color-text-secondary, #CBD5E1) !important;
+
+  &:hover {
+    color: #F8FAFC !important; /* text-slate-100 */
+  }
+}
+
+.contact-note {
+  font-family: var(--font-family-body) !important;
+  font-size: 0.75rem !important; /* text-xs / 12px */
+  color: var(--color-text-muted, #475569) !important; /* Slate 600 */
+  line-height: 1.4 !important;
+}
+
+html[data-theme="dark"] .contact-note {
+  color: #94A3B8 !important; /* Slate 400 */
+}
+
+/* ==========================================================================
+   7. Profile Photo Circular Containment Ring
+   ========================================================================== */
+.profile-photo-container {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  @media (min-width: 640px) {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  figure,
+  picture {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    display: block !important;
+    border-radius: 9999px;
+  }
+
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 9999px !important;
+    display: block !important;
+  }
+}
+
+/* ==========================================================================
+   8. Trajectory Divided List
+   ========================================================================== */
+.trajectory-section {
+  .trajectory-list {
+    > div {
+      padding-top: 0.875rem;
+      padding-bottom: 0.875rem;
+    }
+  }
+}
+
+/* ==========================================================================
+   9. Navbar Brand Polish
+   ========================================================================== */
+.navbar-brand.title {
+  font-family: var(--font-family-heading) !important;
+  font-weight: 700 !important;
+  color: var(--global-text-color) !important;
+  letter-spacing: -0.015em;
+}

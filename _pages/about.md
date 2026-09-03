@@ -3,24 +3,14 @@ layout: about
 title: Sobre
 page_id: about
 permalink: /
-subtitle: "Economista e Assessor de Investimentos."
-subtitle_pt: "Economista e Assessor de Investimentos."
-subtitle_en: "Economist and Investment Advisor."
+subtitle: "Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional & Finanças Quantitativas"
+subtitle_pt: "Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional & Finanças Quantitativas"
+subtitle_en: "M.Sc. Student in Production Eng. & Computational Systems (UFF/MESC) | MBA in Data Science & Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research & Quantitative Finance"
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p>"Those who have a 'why'</p>
-    <p> to live, can bear with</p>
-    <p> almost any 'how'."</p>
-    <p><b>- Viktor Frankl</b></p>
-  more_info_pt: >
-    <p>"Quem tem um 'porquê'</p>
-    <p> para viver, pode suportar</p>
-    <p> quase qualquer 'como'."</p>
-    <p><b>- Viktor Frankl</b></p>
+  image_circular: true
 
 news: false
 selected_papers: true

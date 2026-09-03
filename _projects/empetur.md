@@ -8,6 +8,9 @@ description_pt: "Pipeline automatizado de engenharia de dados e auditoria geoesp
 img: assets/img/6.jpg
 importance: 6
 category: "Data Analytics"
+confidentiality: "proprietary_sanitized"
+institution: "Ágora Pesquisa / EMPETUR"
+period: "2025"
 tags: [data-analytics, geospatial, geopandas, python, shapely, fuzzy-matching, ibge]
 related_publications: false
 mermaid:

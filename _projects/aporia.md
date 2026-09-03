@@ -8,6 +8,9 @@ description_pt: "Plataforma analítica e arquitetura de dados desenvolvida para 
 img: assets/img/3.jpg
 importance: 1
 category: "Data Science"
+confidentiality: "proprietary_sanitized"
+institution: "Ágora Pesquisa / NKIN Consultoria"
+period: "2025 - 2026"
 tags: [data-science, fastapi, python, react-18, typescript, leaflet, geoparquet, uber-h3, postgresql, docker]
 related_publications: false
 mermaid:

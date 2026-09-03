@@ -1,0 +1,39 @@
+- org: "UFF / MESC"
+  role:
+    pt: "Mestrado Profissional em Engenharia de Produção e Sistemas Computacionais"
+    en: "Professional Master's in Production Eng. & Computational Systems"
+  focus:
+    pt: "Pesquisa Operacional & Otimização Combinatória"
+    en: "Operations Research & Combinatorial Optimization"
+  period: "2026 - Presente"
+  period_en: "2026 - Present"
+
+- org: "USP / ESALQ"
+  role:
+    pt: "MBA em Data Science & Analytics"
+    en: "MBA in Data Science & Analytics"
+  focus:
+    pt: "Cointegração Engle-Granger & Modelos Supervisionados"
+    en: "Engle-Granger Cointegration & Supervised Models"
+  period: "2024 - 2026"
+  period_en: "2024 - 2026"
+
+- org: "UFRJ"
+  role:
+    pt: "Bacharelado em Ciências Econômicas"
+    en: "B.A. in Economics"
+  focus:
+    pt: "Econometria & Microeconomia Aplicada"
+    en: "Econometrics & Applied Microeconomics"
+  period: "2010 - 2019"
+  period_en: "2010 - 2019"
+
+- org: "Meta Investimentos"
+  role:
+    pt: "Sócio & Assessor Sênior de Investimentos"
+    en: "Partner & Senior Investment Advisor"
+  focus:
+    pt: "Alocação de Ativos & Gestão Quantitativa de Risco"
+    en: "Asset Allocation & Quantitative Risk Management"
+  period: "2018 - 2024"
+  period_en: "2018 - 2024"

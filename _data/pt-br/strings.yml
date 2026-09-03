@@ -25,6 +25,7 @@ ui:
   switch_lang_label: "EN"
   all: "Todos"
   back_to_top: "Voltar ao topo"
+  contact_note: "WhatsApp é a forma mais rápida de contato direto."
 
 archive:
   prefix: "um arquivo de"

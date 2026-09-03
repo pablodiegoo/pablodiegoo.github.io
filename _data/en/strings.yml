@@ -25,6 +25,7 @@ ui:
   switch_lang_label: "PT"
   all: "All"
   back_to_top: "Back to top"
+  contact_note: "WhatsApp is the fastest way to reach me directly."
 
 archive:
   prefix: "an archive of"

@@ -1,60 +1,98 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">
-      {% if site.active_lang == 'pt-br' and page.subtitle_pt %}
-        {{ page.subtitle_pt }}
-      {% elsif site.active_lang == 'en' and page.subtitle_en %}
-        {{ page.subtitle_en }}
-      {% else %}
-        {{ page.subtitle }}
-      {% endif %}
-    </p>
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+<div class="post about-l2">
+  <!-- Hero L2 Header -->
+  <header class="hero-l2 border-b border-slate-200 dark:border-slate-800 pb-8 mb-8">
+    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8">
+      {% if page.profile and page.profile.image %}
+        <div class="profile-photo-container w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden shrink-0 ring-2 ring-slate-300 dark:ring-slate-700 shadow-sm aspect-square">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% capture sizes %}(min-width: 640px) 144px, 128px{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class="w-full h-full object-cover rounded-full" sizes=sizes alt="Pablo Diego Pereira"
             cache_bust=true
           %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">
-            {% if site.active_lang == 'pt-br' and page.profile.more_info_pt %}
-              {{ page.profile.more_info_pt }}
-            {% else %}
-              {{ page.profile.more_info }}
-            {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="hero-details space-y-2 text-center sm:text-left flex-1">
+        <h1 class="post-title font-serif text-4xl sm:text-5xl font-bold tracking-tight text-slate-950 dark:text-white leading-tight">
+          Pablo Diego Pereira
+        </h1>
+
+        <p class="hero-degrees text-base text-slate-700 dark:text-slate-300 font-normal leading-relaxed mt-2">
+          {% if site.active_lang == 'pt-br' %}
+            {% if page.subtitle_pt %}{{ page.subtitle_pt }}{% else %}Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science &amp; Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional &amp; Finanças Quantitativas{% endif %}
+          {% else %}
+            {% if page.subtitle_en %}{{ page.subtitle_en }}{% else %}M.Sc. Student in Production Eng. &amp; Computational Systems (UFF/MESC) | MBA in Data Science &amp; Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research &amp; Quantitative Finance{% endif %}
+          {% endif %}
+        </p>
+
+        <div class="hero-citation font-mono text-xs text-slate-600 dark:text-slate-400 font-semibold pt-1">
+          CITAÇÃO: <span class="text-slate-900 dark:text-slate-100 font-bold">PEREIRA, P. D. A.</span> · Pablo Diego de Albuquerque Pereira
+        </div>
+
+        {% if page.social %}
+          <div class="hero-social pt-3">
+            <div class="contact-icons flex flex-wrap items-center justify-center sm:justify-start gap-4">
+              {% social_links %}
+            </div>
+
+            <div class="contact-note text-xs text-slate-600 dark:text-slate-400 mt-2">
+              {% if site.active_lang == 'pt-br' %}
+                WhatsApp é a forma mais rápida de contato direto.
+              {% else %}
+                WhatsApp is the fastest way to reach me directly.
+              {% endif %}
+            </div>
           </div>
         {% endif %}
       </div>
-    {% endif %}
+    </div>
+  </header>
 
-    <div class="clearfix">{{ content }}</div>
+  <article>
+    <!-- Biography / Main Narrative -->
+    <div class="clearfix text-base leading-relaxed text-slate-800 dark:text-slate-200 mb-8">
+      {{ content }}
+    </div>
+
+    <!-- Trajectory & Affiliations Section -->
+    {% if site.data.affiliations %}
+      <section class="trajectory-section space-y-4 pt-6 border-t border-slate-200 dark:border-slate-800 mb-8">
+        <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white flex items-center justify-between">
+          <span>
+            {% if site.active_lang == 'pt-br' %}Trajetória Acadêmica &amp; Mercado{% else %}Academic &amp; Professional Trajectory{% endif %}
+          </span>
+          <span class="font-mono text-xs text-slate-500 dark:text-slate-400 uppercase font-normal">
+            {% if site.active_lang == 'pt-br' %}Marcos Principais{% else %}Key Milestones{% endif %}
+          </span>
+        </h2>
+
+        <div class="trajectory-list divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
+          {% for a in site.data.affiliations %}
+            <div class="py-3.5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+              <div>
+                <div class="font-bold text-slate-950 dark:text-white text-sm">
+                  {% if site.active_lang == 'pt-br' %}{{ a.role.pt }}{% else %}{{ a.role.en }}{% endif %}
+                </div>
+                <div class="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
+                  {{ a.org }} · <span class="font-mono text-slate-700 dark:text-slate-300 font-semibold">{% if site.active_lang == 'pt-br' %}{{ a.focus.pt }}{% else %}{{ a.focus.en }}{% endif %}</span>
+                </div>
+              </div>
+              <span class="font-mono text-xs font-semibold text-slate-500 shrink-0">
+                {% if site.active_lang == 'pt-br' %}{{ a.period }}{% else %}{{ a.period_en }}{% endif %}
+              </span>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 border-t border-slate-200 dark:border-slate-800 mt-8 mb-4">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">
           {% if site.active_lang == 'pt-br' %}novidades{% else %}news{% endif %}
         </a>
@@ -64,7 +102,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
+      <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 border-t border-slate-200 dark:border-slate-800 mt-8 mb-4">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">
           {% if site.active_lang == 'pt-br' %}últimas postagens{% else %}latest posts{% endif %}
         </a>
@@ -74,21 +112,12 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 border-t border-slate-200 dark:border-slate-800 mt-8 mb-4">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">
           {% if site.active_lang == 'pt-br' %}publicações selecionadas{% else %}selected publications{% endif %}
         </a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

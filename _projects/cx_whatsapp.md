@@ -8,6 +8,9 @@ description_pt: "Pipeline automatizado de coleta, validação e tabulação de d
 img: assets/img/4.jpg
 importance: 4
 category: "Data Engineering"
+confidentiality: "proprietary_sanitized"
+institution: "Ágora Pesquisa"
+period: "2025 - 2026"
 tags: [data-engineering, python, meta-api, whatsapp, fastapi, webhooks, postgresql, power-bi]
 related_publications: false
 mermaid:

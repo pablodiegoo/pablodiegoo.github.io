@@ -8,6 +8,9 @@ description_pt: "Pesquisa de mestrado profissional stricto sensu formulando mode
 img: assets/img/2.jpg
 importance: 3
 category: "Quantitative Finance"
+confidentiality: "public"
+institution: "UFF / MESC"
+period: "2026 - Present"
 tags: [quantitative-finance, operations-research, optimization, gurobi, pyomo, cvar, b3]
 related_publications: false
 mermaid:
