@@ -8,7 +8,6 @@ manage_gemfile_lock() {
     if command -v git &> /dev/null && [ -f Gemfile.lock ]; then
         if git ls-files --error-unmatch Gemfile.lock &> /dev/null; then
             echo "Gemfile.lock is tracked by git, keeping it intact"
-            git restore Gemfile.lock 2>/dev/null || true
         else
             echo "Gemfile.lock is not tracked by git, removing it"
             rm Gemfile.lock
@@ -27,8 +26,7 @@ while true; do
     inotifywait -q -e modify,move,create,delete $CONFIG_FILE
     if [ $? -eq 0 ]; then
         echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
+        pkill -KILL -f jekyll 2>/dev/null || true
         start_jekyll
     fi
 done
