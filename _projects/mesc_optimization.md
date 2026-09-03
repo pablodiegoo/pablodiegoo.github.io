@@ -41,6 +41,9 @@ flowchart TD
 
 ## Key Engineering Highlights
 
-- **Applied Operations Research: Exact MIQP and MILP formulations tailored to high-dimensional quantitative asset allocation.**
-- **Coherent Risk Management: Linearized Conditional Value-at-Risk (CVaR) minimization outperforming classical Markowitz variance.**
-- **Real-World Market Frictions: Direct integration of brokerage fees, tax drag, slippage, and short-selling borrowing costs.**
+- **Applied Operations Research: Exact MIQP and MILP formulations tailored to high-dimensional quantitative asset allocation.**  
+  *Pesquisa Operacional Aplicada: Formulações exatas de MIQP e MILP aplicadas a finanças quantitativas de alta complexidade.*
+- **Coherent Risk Management: Linearized Conditional Value-at-Risk (CVaR) minimization outperforming classical Markowitz variance.**  
+  *Gestão Coerente de Risco: Minimização de CVaR linearizado em substituição à variância clássica markowitziana.*
+- **Real-World Market Frictions: Direct integration of brokerage fees, tax drag, slippage, and short-selling borrowing costs.**  
+  *Fricções de Mercado Real: Incorporação explícita de custos de corretagem, impostos, slippage e aluguel de ações (BTC).*

@@ -45,6 +45,9 @@ flowchart LR
 
 ## Key Engineering Highlights
 
-- **Operational Efficiency: 90% reduction in manual data processing and survey tabulation overhead.**
-- **Real-Time Event Architecture: Event-driven webhooks tracking delivery, read receipts, and user responses asynchronously.**
-- **Data Integrity: Strict response parsing and schema validation prior to database persistence.**
+- **Operational Efficiency: 90% reduction in manual data processing and survey tabulation overhead.**  
+  *Automação Extrema: 90% de redução na intervenção manual de processamento e tabulação de dados de pesquisa.*
+- **Real-Time Event Architecture: Event-driven webhooks tracking delivery, read receipts, and user responses asynchronously.**  
+  *Tratamento de Eventos em Tempo Real: Arquitetura orientada a eventos com webhooks para confirmação de entrega, leitura e resposta.*
+- **Data Integrity: Strict response parsing and schema validation prior to database persistence.**  
+  *Governança e Integridade: Validação estrita de respostas com parser de integridade antes da persistência no banco de dados.*

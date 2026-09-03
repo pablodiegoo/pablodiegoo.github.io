@@ -41,9 +41,12 @@ flowchart LR
 
 ## Key Engineering Highlights
 
-- **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and supervised machine learning classifiers.**
-- **Portfolio Backtesting: Realistic backtesting on B3 historical equities accounting for transaction costs and market friction.**
-- **Academic Honors: Defended with maximum grade (10/10) before the USP/ESALQ examination board.**
+- **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and supervised machine learning classifiers.**  
+  *Modelagem Empírica Rigorosa: Análise comparativa entre métodos econométricos paramétricos (ADF, Engle-Granger) e modelos de aprendizado supervisionado.*
+- **Portfolio Backtesting: Realistic backtesting on B3 historical equities accounting for transaction costs and market friction.**  
+  *Simulação de Carteiras: Backtesting robusto em dados históricos intradiários e diários na B3, controlando custos de transação e fricções de mercado.*
+- **Academic Honors: Defended with maximum grade (10/10) before the USP/ESALQ examination board.**  
+  *Reconhecimento Acadêmico: Aprovado com nota máxima 10/10 pela banca examinadora da USP/ESALQ.*
 
 ## References & Verification
 

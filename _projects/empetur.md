@@ -46,6 +46,9 @@ flowchart LR
 
 ## Key Engineering Highlights
 
-- **Geospatial Boundary Audit: Algorithmic validation of thousands of tourism points of interest against official IBGE municipal shapefile boundaries.**
-- **Fuzzy Deduplication: Fuzzy string matching and spatial proximity logic to flag duplicate records and cadastral discrepancies.**
-- **Automated Reporting: Automated generation of comprehensive data quality reports and geographic coverage heatmaps.**
+- **Geospatial Boundary Audit: Algorithmic validation of thousands of tourism points of interest against official IBGE municipal shapefile boundaries.**  
+  *Auditoria Geoespacial: Validação algorítmica de milhares de pontos turísticos contra as fronteiras poligonais oficiais dos 184 municípios de Pernambuco.*
+- **Fuzzy Deduplication: Fuzzy string matching and spatial proximity logic to flag duplicate records and cadastral discrepancies.**  
+  *Deduplicação Inteligente: Algoritmo de correspondência fuzzy para identificar e corrigir cadastros duplicados e inconsistências cadastrais.*
+- **Automated Reporting: Automated generation of comprehensive data quality reports and geographic coverage heatmaps.**  
+  *Automação de Relatórios: Geração automática de relatórios executivos de cobertura territorial e indicadores de qualidade da base.*

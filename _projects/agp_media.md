@@ -47,6 +47,9 @@ flowchart TD
 
 ## Key Engineering Highlights
 
-- **Multi-Engine Pipeline: Pluggable speech-to-text and LLM support for diarization, transcription, and sentiment analysis.**
-- **Multimodal Engineering: High-accuracy OCR for physical field survey sheets and unified structured JSON exports.**
-- **Field Productivity: Packaged via pipx providing single-command execution for non-technical research analysts.**
+- **Multi-Engine Pipeline: Pluggable speech-to-text and LLM support for diarization, transcription, and sentiment analysis.**  
+  *Pipeline Multimodelo: Suporte configurável a múltiplos provedores de speech-to-text e LLMs para diarização e análise de sentimento.*
+- **Multimodal Engineering: High-accuracy OCR for physical field survey sheets and unified structured JSON exports.**  
+  *Engenharia Multimodal: OCR avançado de formulários físicos e unificação estruturada de transcrições em JSON canônico.*
+- **Field Productivity: Packaged via pipx providing single-command execution for non-technical research analysts.**  
+  *Alta Produtividade de Campo: Empacotamento via pipx com execução simplificada por comando único para analistas.*

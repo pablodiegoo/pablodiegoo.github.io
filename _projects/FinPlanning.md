@@ -39,9 +39,12 @@ flowchart LR
 
 ## Key Engineering Highlights
 
-- **Lifecycle Wealth Simulation: Dynamic cash flow and wealth accumulation projections with parameterized macroeconomic scenarios.**
-- **Tax Efficiency Optimization: Systematic minimization of tax drag across mutual funds, tax-exempt fixed income, and pension plans.**
-- **Commercial Scalability: Standardized client wealth diagnostic workflows accelerating customer onboarding.**
+- **Lifecycle Wealth Simulation: Dynamic cash flow and wealth accumulation projections with parameterized macroeconomic scenarios.**  
+  *Simulação de Ciclo de Vida: Projeção dinâmica de fluxo de caixa e acumulação patrimonial com premissas macroeconômicas parametrizadas.*
+- **Tax Efficiency Optimization: Systematic minimization of tax drag across mutual funds, tax-exempt fixed income, and pension plans.**  
+  *Eficiência Tributária: Otimização sistemática de perdas com come-cotas em fundos versus ativos isentos e previdência complementar.*
+- **Commercial Scalability: Standardized client wealth diagnostic workflows accelerating customer onboarding.**  
+  *Escalabilidade Comercial: Diagnóstico patrimonial padronizado para acelerar o processo de onboarding de clientes.*
 
 ## References & Verification
 

@@ -47,6 +47,9 @@ flowchart TD
 
 ## Key Engineering Highlights
 
-- **Sampling Conservation: Algorithmic guarantee of 100% census tract population conservation across Uber H3 hexagonal cells (resolution 8) without discarding marginal boundary polygons.**
-- **Decoupled Architecture: Strict separation between the spatial sampling calculation engine (useSamplingPlanEngine) and interactive Leaflet map rendering in the React frontend.**
-- **Spatial Performance: High-performance ingestion of census tracts and geographic profiles using GeoParquet with lazy route calculation.**
+- **Sampling Conservation: Algorithmic guarantee of 100% census tract population conservation across Uber H3 hexagonal cells (resolution 8) without discarding marginal boundary polygons.**  
+  *Conservação Amostral: Garantia algorítmica de 100% de conservação da população censitária em células hexagonais H3 (resolução 8) sem descarte de polígonos marginais de fronteira.*
+- **Decoupled Architecture: Strict separation between the spatial sampling calculation engine (useSamplingPlanEngine) and interactive Leaflet map rendering in the React frontend.**  
+  *Arquitetura Desacoplada: Separação estrita entre o motor de cálculo amostral (useSamplingPlanEngine) e a renderização do mapa geográfico interativo no frontend.*
+- **Spatial Performance: High-performance ingestion of census tracts and geographic profiles using GeoParquet with lazy route calculation.**  
+  *Otimização Espacial: Ingestão de setores censitários e perfis espaciais de alta performance utilizando GeoParquet com carregamento preguiçoso de rotas.*
