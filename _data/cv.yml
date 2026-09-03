@@ -115,6 +115,26 @@
 - title: Projects & Research
   type: time_table
   contents:
+  - title: Project Aporia — Opinion & Market Survey Spatial Analytics Platform
+    institution: Ágora Pesquisa / NKIN Consultoria
+    year: 2025 - 2026
+    description:
+    - Spatial analytics and sampling intelligence platform engineered to automate
+      probabilistic survey sampling and opinion poll data processing. Converts census
+      tracts into Uber H3 spatial cells and delivers dynamic decision-support dashboards.
+    - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
+      H3, SQLAlchemy, PostgreSQL, Docker
+    - <em>[Sanitized Public Specification]</em>
+  - title: Pair Trading with Machine Learning in the Brazilian Market (USP Thesis
+      - Grade 10/10)
+    institution: USP / ESALQ
+    year: 2024 - 2026
+    description:
+    - MBA thesis in Data Science and Analytics evaluated with maximum honors (Grade
+      10/10). Implemented a rigorous empirical benchmark comparing classical Engle-Granger
+      econometric cointegration models against supervised Machine Learning classifiers
+      for statistical arbitrage pairs trading on B3 equities.
+    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
   - title: Combinatorial Optimization under Cardinality Constraints and Real Market
       Frictions on B3
     institution: UFF / MESC
@@ -126,33 +146,36 @@
       arbitrage equity portfolios on B3 while factoring in transaction costs, borrowing
       fees, and cardinality constraints.
     - <b>Stack:</b> Python, Gurobi, Pyomo, SciPy, R, LaTeX
-  - title: Pair Trading with Machine Learning in the Brazilian Market (USP Thesis
-      - Grade 10/10)
-    institution: USP / ESALQ
-    year: 2024 - 2026
-    description:
-    - MBA thesis in Data Science and Analytics evaluated with maximum honors (Grade
-      10/10). Implemented a rigorous empirical benchmark comparing classical Engle-Granger
-      econometric cointegration models against supervised Machine Learning classifiers
-      for statistical arbitrage pairs trading on B3 equities.
-    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
-  - title: Project Aporia — Market & Opinion Survey Analytics Platform
-    institution: Ágora Pesquisa / NKIN Consultoria
+  - title: Automated CX Data Ingestion Pipeline via Meta API (WhatsApp)
+    institution: Ágora Pesquisa
     year: 2025 - 2026
     description:
-    - Analytics platform engineered to automate multichannel data ingestion from market
-      surveys and public opinion polls. Transforms raw survey samples into dynamic
-      executive dashboards and automated statistical insight summaries.
-    - <b>Stack:</b> Python, SQL, PostgreSQL, Meta API, Power BI, Pandas
+    - Automated data engineering pipeline ingesting and validating conversational
+      survey responses via Meta WhatsApp Business API for real-time NPS and CSAT calculation,
+      achieving a 90% reduction in manual data processing overhead.
+    - <b>Stack:</b> Python, Meta Graph API, Webhooks, FastAPI, SQL, PostgreSQL, Power
+      BI
     - <em>[Sanitized Public Specification]</em>
-  - title: Algorithmic Statistical Arbitrage System in R (Meta & Actio)
-    institution: Meta & Actio Investimentos
-    year: 2017 - 2020
+  - title: Unified Media Transcription, OCR & Qualitative NLP Pipeline (agp-media)
+    institution: Ágora Pesquisa / AGP
+    year: 2025 - 2026
     description:
-    - Systematic algorithm coded in R for daily universe-wide Engle-Granger cointegration
-      and Augmented Dickey-Fuller (ADF) screening on B3 equities. Scanned 100+ statistical
-      arbitrage candidates monthly with automated half-life and z-score calculations.
-    - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
+    - Modular command-line toolkit (CLI) engineered to streamline field research workflows.
+      Handles media conversion, audio transcription with multi-speaker diarization
+      (Whisper, Gemini, Google STT), document OCR, and qualitative AI sentiment profiling.
+    - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
+      Pydantic, FFmpeg, CLI
+    - <em>[Sanitized Public Specification]</em>
+  - title: Geospatial Engineering & Tourism Data Quality Audit Pipeline (EMPETUR)
+    institution: Ágora Pesquisa / EMPETUR
+    year: '2025'
+    description:
+    - Automated data engineering and geospatial audit pipeline built to validate and
+      reconcile the official tourism inventory of Pernambuco. Performs coordinate
+      boundary validation against IBGE shapefiles, fuzzy deduplication, and automated
+      data quality reporting.
+    - <b>Stack:</b> Python, GeoPandas, Shapely, Pandas, Matplotlib, Shapefiles IBGE,
+      OpenStreetMap
     - <em>[Sanitized Public Specification]</em>
   - title: Financial Planning & Wealth Optimization Client Engine
     institution: Portfólio Pessoal / Meta Investimentos
@@ -164,14 +187,14 @@
     - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
     - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentação
       / Link do Projeto</a>
-  - title: Automated CX Data Ingestion Pipeline via Meta API (WhatsApp)
-    institution: Ágora Pesquisa
-    year: 2025 - 2026
+  - title: Algorithmic Statistical Arbitrage System in R (Meta & Actio)
+    institution: Meta & Actio Investimentos
+    year: 2017 - 2020
     description:
-    - Automated data pipeline ingesting conversational responses via Meta WhatsApp
-      Business API for real-time NPS and CSAT calculation, achieving a 90% reduction
-      in manual data processing overhead.
-    - <b>Stack:</b> Python, Meta Graph API, Webhooks, SQL, Power BI
+    - Systematic algorithm coded in R for daily universe-wide Engle-Granger cointegration
+      and Augmented Dickey-Fuller (ADF) screening on B3 equities. Scanned 100+ statistical
+      arbitrage candidates monthly with automated half-life and z-score calculations.
+    - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
     - <em>[Sanitized Public Specification]</em>
 - title: Publications & Academic Theses
   type: time_table
