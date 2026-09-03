@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.active_lang == 'pt-br' and page.title_pt %}
+        {{ page.title_pt }}
+      {% elsif site.active_lang == 'en' and page.title_en %}
+        {{ page.title_en }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+    </h1>
+    <p class="post-description">
+      {% if site.active_lang == 'pt-br' and page.description_pt %}
+        {{ page.description_pt }}
+      {% elsif site.active_lang == 'en' and page.description_en %}
+        {{ page.description_en }}
+      {% else %}
+        {{ page.description }}
+      {% endif %}
+    </p>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>{% if site.active_lang == 'pt-br' %}Referências{% else %}References{% endif %}</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.plugins contains 'al_comments' %}
+    {% include plugins/al_comments.liquid %}
+  {% endif %}
+</div>

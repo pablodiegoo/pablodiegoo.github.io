@@ -1,0 +1,73 @@
+# Canonical String Dictionary for English (EN)
+# Governance Guidelines: DESIGN.md and Issue #26
+
+navigation:
+  about: "About"
+  home: "About"
+  projects: "Projects"
+  projetos: "Projects"
+  cv: "Resume"
+  resume: "Resume"
+  currículo: "Resume"
+  publications: "Publications"
+  publicações: "Publications"
+  repositories: "Repositories"
+  repositórios: "Repositories"
+  news: "News"
+  novidades: "News"
+  blog: "Blog"
+
+ui:
+  search: "Search"
+  search_placeholder: "Press Ctrl+K to search..."
+  change_theme: "Toggle light/dark theme"
+  switch_lang_title: "Mudar para Português"
+  switch_lang_label: "PT"
+  all: "All"
+  back_to_top: "Back to top"
+
+archive:
+  prefix: "an archive of"
+  category_suffix: "in this category"
+  tag_suffix: "with this tag"
+  year_suffix: "from this year"
+
+bibliography:
+  abstract: "Abstract"
+  awarded: "Awarded"
+  blog: "Blog"
+  book_prefix: "In"
+  code: "Code"
+  last_author_prefix: "and"
+  poster: "Poster"
+  slides: "Slides"
+  supp: "Supp"
+  video: "Video"
+  website: "Website"
+
+categories:
+  data_science: "Data Science"
+  quantitative_finance: "Quantitative Finance"
+  data_engineering: "Data Engineering"
+  data_analytics: "Data Analytics"
+
+cv:
+  download_pdf: "Download Resume PDF"
+  basics: "General Information"
+  education: "Education"
+  experience: "Professional Experience"
+  projects: "Technical & Research Projects"
+  publications: "Publications & Academic Theses"
+  certificates: "Featured Certifications & Credentials"
+  skills: "Skills & Competencies"
+  full_name: "Full Name"
+  academic_citation: "Academic Citation"
+  headline: "Headline"
+  location: "Location"
+  email: "Email"
+  profiles: "Profiles & Identifiers"
+
+footer:
+  copyright: "All rights reserved"
+  last_updated: "Last updated:"
+  powered_by: "Powered by"

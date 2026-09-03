@@ -1,28 +1,42 @@
 ---
 layout: about
-title: Home
+title: Sobre
+page_id: about
 permalink: /
-subtitle: Economist and Investment Advisor.
+subtitle: "Economista e Assessor de Investimentos."
+subtitle_pt: "Economista e Assessor de Investimentos."
+subtitle_en: "Economist and Investment Advisor."
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>"Those who have a 'why'</p>
     <p> to live, can bear with</p>
     <p> almost any 'how'."</p>
     <p><b>- Viktor Frankl</b></p>
+  more_info_pt: >
+    <p>"Quem tem um 'porquê'</p>
+    <p> para viver, pode suportar</p>
+    <p> quase qualquer 'como'."</p>
+    <p><b>- Viktor Frankl</b></p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false
+selected_papers: true
+social: true
 ---
 
-Hello! I'm Pablo Diego Pereira, 37 yrs, married, and I'm excited to introduce myself as a data analysis and investment advisor with a strong background in economics, data analysis and a passion for technology, cryptocurrencies, and financial planning. With over 5 years of experience as a Registered Investment Advisor at XP Investimentos and a CoFounder Investment Advisor at [Meta Investimentos](http://invistameta.com.br), I have honed my skills in personal portifolio analysis, financial planning and investments.
+{% if site.active_lang == "pt-br" %}
 
-My educational journey includes a Bachelor's degree in Economics from UFRJ and an ongoing MBA in Data Science and Analytics from USP/Esalq and Google Analytics Certification Course, which will further enhance my expertise in making data-driven decisions. I hold various certifications, including PQO (BM&FBovespa), Specialist Advisory (Proseek), AAI (Ancord), and FBB100 (FEBRABAN), all of which reflect my commitment to excellence in the Brazilian financial market.
+Economista formado pela Universidade Federal do Rio de Janeiro (UFRJ) e pós-graduado com MBA em Data Science e Analytics pela USP/ESALQ. Atualmente é aluno regular do Mestrado Profissional em Engenharia de Produção e Sistemas Computacionais da Universidade Federal Fluminense (UFF/MESC), desenvolvendo pesquisa em Pesquisa Operacional e Otimização Combinatória aplicada à alocação de portfólios e arbitragem estatística na B3 sob orientação do Prof. Dr. Dalessandro Soares Vianna.
 
-Throughout my career, I have been involved in various roles, from Back Office Manager to Marketing and Communications Associate at AIESEC. These experiences have equipped me with a diverse skill set that complements my core expertise in investment advising and data driven decisions.
+Possui quase 6 anos de experiência consolidada como Assessor de Investimentos e Sócio na Meta Investimentos, atuando na modelagem quantitativa de risco e retorno em Python, R e SQL, além da liderança de controles e conformidade regulatória. Anteriormente atuou como Analista de Dados na Ágora Pesquisa (NKIN Consultoria), estruturando pipelines automatizados de ingestão via Meta API e liderando tecnicamente a plataforma analítica Project Aporia.
 
-I am genuinely passionate about economics, investments, technology, cryptocurrencies, and blockchain, and I'm eager to leverage my skills and knowledge to provide innovative and data-driven solutions to clients and organizations. Connect with me on [LinkedIn](https://www.linkedin.com/in/pablodiegoo/) or visit my profile to learn more about my journey and how I can contribute to your team's success.
+{% else %}
+
+Economist graduated from the Federal University of Rio de Janeiro (UFRJ) with an MBA in Data Science and Analytics from USP/ESALQ. Currently a graduate student in the Professional Master's Program in Production Engineering and Computational Systems at Fluminense Federal University (UFF/MESC), conducting research in Operations Research and Combinatorial Optimization applied to dynamic statistical arbitrage on B3 under the supervision of Prof. Dr. Dalessandro Soares Vianna.
+
+Brings nearly 6 years of solid experience as a Senior Investment Advisor and Partner at Meta Investimentos, specializing in econometric modeling, portfolio risk-return optimization using Python, R, and SQL, and regulatory compliance oversight. Previously served as Data Analyst at Ágora Pesquisa (NKIN Consultoria), engineering automated ETL pipelines via Meta API and leading technical development of the analytical platform Project Aporia.
+
+{% endif %}

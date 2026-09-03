@@ -1,8 +1,13 @@
 ---
 layout: page
 title: Projects
+title_pt: Projetos
+title_en: Projects
+page_id: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
+description_pt: Fichas técnicas públicas e projetos de pesquisa aplicada.
+description_en: Technical specifications and applied research projects.
 nav: true
 nav_order: 1
 display_categories: ["Data Science", "Quantitative Finance", "Data Engineering", "Data Analytics"]

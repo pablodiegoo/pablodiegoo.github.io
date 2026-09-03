@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{% assign cv_title = site.data.strings.navigation.cv | default: page.title %}
+{% assign cv_desc = site.data.strings.cv.basics | default: page.description %}
+{% if site.active_lang == 'pt-br' %}
+  {% assign cv_pdf_path = page.cv_pdf_pt | default: '/assets/pdf/CV_PabloDiego_PTBR.pdf' %}
+{% else %}
+  {% assign cv_pdf_path = page.cv_pdf_en | default: page.cv_pdf | default: '/assets/pdf/CV_PabloDiego_EN.pdf' %}
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ cv_title }}
+      {% if cv_pdf_path %}
+        <a
+          {% if cv_pdf_path contains '://' %}
+            href="{{ cv_pdf_path }}"
+          {% else %}
+            href="{{ cv_pdf_path | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+          title="{% if site.active_lang == 'pt-br' %}Baixar Currículo em PDF{% else %}Download Resume PDF{% endif %}"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      {% endif %}
+    </h1>
+    {% if cv_desc %}
+      <p class="post-description">{{ cv_desc }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% for entry in site.data.cv %}
+        <a class="anchor" id="{{ entry.title | slugify }}"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <div>
+            {% if entry.type == 'list' %}
+              {% include cv/list.liquid %}
+            {% elsif entry.type == 'map' %}
+              {% include cv/map.liquid %}
+            {% elsif entry.type == 'nested_list' %}
+              {% include cv/nested_list.liquid %}
+            {% elsif entry.type == 'time_table' %}
+              {% include cv/time_table.liquid %}
+            {% elsif entry.type == 'list_groups' %}
+              {% include cv/list_groups.liquid %}
+            {% else %}
+              {{ entry.contents }}
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

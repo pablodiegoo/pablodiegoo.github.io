@@ -1,0 +1,311 @@
+- title: Informações Gerais
+  type: map
+  contents:
+  - name: Nome Completo
+    value: Pablo Diego Pereira
+  - name: Citação Acadêmica
+    value: PEREIRA, P. D. A.
+  - name: Atuação Profissional
+    value: Mestrando em Engenharia de Produção (UFF/MESC) | MBA em Data Science &
+      Analytics (USP) | Economista (UFRJ) | Pesquisa Operacional & Finanças Quantitativas
+  - name: Localização
+    value: Araruama, RJ, Brasil
+  - name: E-mail
+    value: pablodiegoo@gmail.com
+  - name: Perfis e IDs
+    links:
+    - name: Lattes
+      link: http://lattes.cnpq.br/2639308457750524
+    - name: ORCID
+      link: https://orcid.org/0009-0000-7422-980X
+    - name: GitHub
+      link: https://github.com/pablodiegoo
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/pablodiegoo/
+- title: Educação
+  type: time_table
+  contents:
+  - title: Mestrado Profissional em Engenharia de Produção e Sistemas Computacionais
+      (MESC)
+    institution: Universidade Federal Fluminense (UFF)
+    year: 2026 - Presente
+    description:
+    - 'Orientador: Prof. Dr. Dalessandro Soares Vianna'
+    - 'Dissertação: Modelagem e Otimização Combinatória sob Restrições de Cardinalidade
+      e Fricções Reais Aplicada à Alocação Dinâmica de Portfólios de Arbitragem Estatística
+      na B3'
+  - title: MBA em Data Science e Analytics
+    institution: Universidade de São Paulo (USP / ESALQ)
+    year: 2024 - 2026
+    description:
+    - 'Orientador: Diego Pedroso dos Santos'
+    - 'Avaliação: Nota 10'
+    - 'Monografia/TCC: Pair Trading com Machine Learning no Mercado Brasileiro: Uma
+      Comparação com a Abordagem Clássica de Cointegração'
+    - 'Carga: 425 horas (Portaria MEC nº 503 de 19/07/2022)'
+  - title: Bacharelado em Ciências Econômicas
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: 2010 - 2019
+    description:
+    - 'Orientador: Prof. Dr. João Felippe Cury Marinho Mathias'
+    - 'Monografia/TCC: Criptomoedas: seriam essas formas viáveis de dinheiro?'
+- title: Experiência Profissional
+  type: time_table
+  contents:
+  - title: Assessor de Investimentos & Sócio
+    institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
+    year: Jun 2020 - Presente
+    description:
+    - Modelagem quantitativa de risco e retorno para estruturação de carteiras recomendadas
+      via Python, R e pacotes econométricos.
+    - Supervisão direta da esteira de controles internos, compliance e governança
+      regulatória perante normas da CVM, ANBIMA e Banco Central.
+    - Desenvolvimento de painéis analíticos gerenciais em Power BI, Google Looker
+      Studio e Excel para tomada de decisão patrimonial.
+  - title: Analista de Dados & Insights
+    institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
+    year: Abr 2025 - Ago 2026
+    description:
+    - Construção e sustentação de pipelines automatizados de ingestão via Meta API
+      (WhatsApp), reduzindo em 90% o esforço operacional de tabulação.
+    - Estruturação de bancos de dados analíticos em SQL e Python para processamento
+      em larga escala de indicadores NPS e CSAT.
+    - Liderança técnica no desenvolvimento da solução analítica proprietária Project
+      Aporia.
+  - title: Gestor de Backoffice & Assessor de Investimentos (Sócio)
+    institution: Meta & Actio Agente Autônomo de Investimentos
+    year: Ago 2017 - Mai 2020
+    description:
+    - Concepção e implantação de algoritmo proprietário em linguagem R para arbitragem
+      estatística (pair trading / cointegração) na B3 (+100 pares/mês).
+    - Gestão da infraestrutura operacional de backoffice e automação de planilhas
+      de planejamento financeiro, eliminando retrabalhos comerciais.
+  - title: Sócio & Diretor Comercial
+    institution: Espaço Champs Elyseés
+    year: Jan 2014 - Nov 2018
+    description:
+    - Gestão comercial, renegociação de contratos de fornecimento com redução de 70%
+      em despesas de pessoal e estruturação de presença digital orgânica.
+    - Otimização dos fluxos de atendimento e capacidade operacional do complexo de
+      eventos e spa.
+  - title: Consultor de Marketing Digital & Webmaster
+    institution: BX House
+    year: Nov 2002 - Jan 2014
+    description:
+    - Consultoria em desenvolvimento web, otimização de motores de busca (SEO) e implementação
+      de infraestruturas digitais para clientes corporativos.
+  - title: Estagiário & Consultor de Marketing
+    institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
+    year: Jan 2012 - Ago 2012
+    description:
+    - Elaboração de estudos de mercado, planejamento estratégico e estruturação de
+      campanhas comerciais de captação de clientes.
+  - title: Assistente de Pesquisa / Bolsista de Iniciação Científica
+    institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
+    year: Jun 2011 - Jul 2012
+    description:
+    - Pesquisador no Grupo de Economia da Inovação, atuando na coleta multicanal e
+      tabulação de dados sobre empreendedorismo no setor de TICs.
+    - Apresentação de trabalho científico e coautoria de resumo publicado nos anais
+      da XXXIV JICTAC (2012).
+  - title: Membro de Marketing e Comunicação
+    institution: AIESEC no Rio de Janeiro
+    year: Mai 2010 - Fev 2012
+    description:
+    - Promoção de programas de intercâmbio profissional e universitário, relacionamento
+      institucional e campanhas de captação de voluntários.
+- title: Projetos e Pesquisa
+  type: time_table
+  contents:
+  - title: Project Aporia — Plataforma Analítica e Amostral de Pesquisa de Opinião
+    institution: Ágora Pesquisa / NKIN Consultoria
+    year: 2025 - 2026
+    description:
+    - Plataforma analítica e arquitetura de dados desenvolvida para automatizar o
+      planejamento amostral e a ingestão de questionários de opinião pública e pesquisas
+      de mercado. Transforma setores censitários em células espaciais H3 e gera painéis
+      analíticos dinâmicos de suporte à decisão executiva.
+    - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
+      H3, SQLAlchemy, PostgreSQL, Docker
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Pair Trading com Machine Learning no Mercado Brasileiro (TCC USP - Nota
+      10)
+    institution: USP / ESALQ
+    year: 2024 - 2026
+    description:
+    - Monografia de conclusão do MBA em Data Science e Analytics avaliada com nota
+      máxima (10/10). Desenvolveu um estudo comparativo exaustivo entre o arcabouço
+      clássico econométrico de cointegração de Engle-Granger e algoritmos supervisionados
+      de Machine Learning aplicados à geração de sinais de arbitragem estatística
+      em ações da B3.
+    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
+  - title: Otimização Combinatória sob Restrições de Cardinalidade e Fricções na B3
+    institution: UFF / MESC
+    year: 2026 - Presente
+    description:
+    - Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de
+      Programação Quadrática Inteira Mista (MIQP) e Programação Linear Inteira Mista
+      (MILP) com minimização de Conditional Value-at-Risk (CVaR) linearizado. O modelo
+      busca a alocação dinâmica de portfólios ótimos de arbitragem estatística na
+      B3, incorporando custos de transação, slippage, taxas de aluguel e restrições
+      de cardinalidade.
+    - <b>Stack:</b> Python, Gurobi, Pyomo, SciPy, R, LaTeX
+  - title: Pipeline Automatizado de Engenharia de Dados via Meta API (WhatsApp)
+    institution: Ágora Pesquisa
+    year: 2025 - 2026
+    description:
+    - Pipeline automatizado de coleta, validação e tabulação de dados conversacionais
+      via WhatsApp Business API para apuração contínua e em tempo real de métricas
+      de Customer Experience (NPS/CSAT), reduzindo em 90% a necessidade de intervenção
+      humana.
+    - <b>Stack:</b> Python, Meta Graph API, Webhooks, FastAPI, SQL, PostgreSQL, Power
+      BI
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas de Campo
+    institution: Ágora Pesquisa / AGP
+    year: 2025 - 2026
+    description:
+    - Toolkit modular em linha de comando (CLI) desenvolvido para otimizar o ciclo
+      de pesquisas qualitativas e quantitativas de campo. Executa conversão e compressão
+      de mídia, transcrição de áudio com diarização de interlocutores (Whisper, Gemini,
+      Google STT), OCR de formulários e análise semântica estruturada.
+    - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
+      Pydantic, FFmpeg, CLI
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Engenharia Geoespacial e Auditoria de Qualidade de Dados Turísticos (EMPETUR)
+    institution: Ágora Pesquisa / EMPETUR
+    year: '2025'
+    description:
+    - Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação
+      e enriquecimento do inventário turístico do estado de Pernambuco. Executa reconciliação
+      de coordenadas contra shapefiles oficiais do IBGE, deduplicação fuzzy e geração
+      automatizada de relatórios analíticos de qualidade de dados.
+    - <b>Stack:</b> Python, GeoPandas, Shapely, Pandas, Matplotlib, Shapefiles IBGE,
+      OpenStreetMap
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Ferramenta de Planejamento Patrimonial e Eficiência Tributária
+    institution: Portfólio Pessoal / Meta Investimentos
+    year: 2017 - Presente
+    description:
+    - Ferramenta de modelagem de ciclo de vida financeiro, projeção de fluxo de caixa
+      pessoal e alocação tributária eficiente (otimização de come-cotas em fundos
+      de investimento vs renda fixa/isenções).
+    - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
+    - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentação
+      / Link do Projeto</a>
+  - title: Algoritmo de Arbitragem Estatística em R (Meta & Actio)
+    institution: Meta & Actio Investimentos
+    year: 2017 - 2020
+    description:
+    - Algoritmo desenvolvido em linguagem R para varredura sistemática diária de testes
+      de raiz unitária (ADF) e cointegração de Engle-Granger sobre todo o universo
+      de ações da B3. Monitorava mais de 100 oportunidades mensais de arbitragem estatística
+      com cálculo automatizado de meias-vidas (half-life) e z-scores.
+    - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
+    - <em>[Ficha Pública Sanitizada]</em>
+- title: Publicações e Produção Acadêmica
+  type: time_table
+  contents:
+  - title: 'Pair Trading com Machine Learning no Mercado Brasileiro: Uma Comparação
+      com a Abordagem Clássica de Cointegração'
+    institution: Universidade de São Paulo (USP / ESALQ)
+    year: '2026'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque; SANTOS, Diego Pedroso dos.
+  - title: 'Criptomoedas: seriam essas formas viáveis de dinheiro?'
+    institution: Universidade Federal do Rio de Janeiro (UFRJ) — Instituto de Economia
+    year: '2019'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque; MATHIAS, João Felippe Cury
+      Marinho.
+    - <a href="https://pantheon.ufrj.br/handle/11422/11747" target="_blank">Repositório
+      Institucional</a>
+  - title: Criptomoedas - Formas Viáveis de Dinheiro? Uma Breve Análise das Características
+      e Funções da Moeda Comparada às Moedas Eletrônicas
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: '2017'
+    description:
+    - <b>Citação:</b> PEREIRA, P. D. A.; BARREIROS, D. P.
+    - 'Veículo: Caderno de Resumos CCJE, p. 97'
+  - title: 'Paradigmas da Atitude Empreendedora: Uma Análise dos Elementos que Facilitam
+      a Criação de Novos Negócios de TICs no Brasil'
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: '2012'
+    description:
+    - <b>Citação:</b> PEREIRA, P. D. A.; ROVERE, R. L. L.
+    - 'Veículo: Livro de Resumos, p. 526'
+  - title: 'Criptomoedas: Mas seria o Bitcoin efetivamente uma moeda?'
+    institution: LinkedIn Pulse
+    year: '2017'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque.
+    - 'Veículo: LinkedIn Pulse'
+    - <a href="https://www.linkedin.com/pulse/criptomoedas-mas-seria-o-bitcoin-efetivamente-uma-moeda-pereira/"
+      target="_blank">Artigo Online</a>
+  - title: 'Criptomoedas: A expansão de um mercado'
+    institution: LinkedIn Pulse
+    year: '2017'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque.
+    - 'Veículo: LinkedIn Pulse'
+    - <a href="https://www.linkedin.com/pulse/criptomoedas-expans%C3%A3o-de-um-mercado-pablo-diego-pereira/"
+      target="_blank">Artigo Online</a>
+- title: Certificações em Destaque
+  type: nested_list
+  contents:
+  - title: Destaques Profissionais e Acadêmicos (73 certificados catalogados na SSOT)
+    items:
+    - '<b>Declaração de Conclusão de Curso: MBA em Data Science e Analytics</b> —
+      USP / ESALQ (2026)'
+    - <b>Diploma de Bacharel em Ciências Econômicas</b> — Universidade Federal do
+      Rio de Janeiro (UFRJ) (2019)
+    - '<b>EF SET Certificate - C2 Proficient (Score: 79/100)</b> — EF SET (Standard
+      English Test) (2023) [<a href="https://www.efset.org/cert/sqaB64" target="_blank">Verificação</a>]'
+- title: Habilidades e Competências
+  type: nested_list
+  contents:
+  - title: Linguagens de Programação e Ferramentas de Desenvolvimento
+    items:
+    - '<b>Python</b> (Avançado): Pandas, Polars, NumPy, Scikit-Learn, Statsmodels,
+      Matplotlib, Seaborn'
+    - '<b>R</b> (Avançado): Tidyverse, Dplyr, Ggplot2, Caret, Urca, Tseries'
+    - '<b>SQL</b> (Avançado): PostgreSQL, SQLite, MySQL'
+    - <b>LaTeX</b> (Avançado)
+    - <b>Git & GitHub</b> (Avançado)
+    - <b>Bash / Shell Scripting</b> (Intermediário)
+    - <b>HTML5 / CSS3 / Markdown</b> (Intermediário)
+  - title: Pesquisa Operacional e Finanças Quantitativas
+    items:
+    - <b>Otimização Combinatória Exata (MIQP, MILP)</b>
+    - <b>Medidas de Risco Coerentes (CVaR Linearizado)</b>
+    - <b>Modelagem de Problema da Mochila Multicritério</b>
+    - <b>Cointegração e Arbitragem Estatística (Engle-Granger, Johansen)</b>
+    - <b>Estratégias de Pair Trading Sistemático</b>
+    - <b>Alocação e Teoria de Portfólios de Markowitz</b>
+    - <b>Modelagem Econométrica e Séries Temporais (ARIMA, GARCH)</b>
+  - title: Machine Learning e Inteligência Artificial
+    items:
+    - <b>Algoritmos de Aprendizado Supervisionado (Classificação e Regressão)</b>
+    - <b>Engenharia de Recursos (Feature Engineering) e Pré-processamento</b>
+    - <b>Validação Cruzada para Séries Temporais (TimeSeriesSplit)</b>
+    - <b>Deep Learning & Redes Neurais</b>
+    - <b>Engenharia de Prompt e Aplicação de LLMs</b>
+  - title: Business Intelligence, Analytics e Visualização de Dados
+    items:
+    - '<b>Microsoft Power BI</b>: DAX, Power Query, Modelagem Dimensional Star Schema'
+    - <b>Google Looker Studio</b>
+    - <b>Microsoft Excel Avançado / VBA</b>
+    - <b>Visualização de Dados Científica e Executiva</b>
+  - title: Mercado Financeiro, Regulação e Compliance
+    items:
+    - <b>Qualificação Técnica ANCORD (Agente Autônomo de Investimentos)</b>
+    - <b>Correspondente Bancário FEBRABAN (FBB100 Completo - Certificado Ativo até
+      2027)</b>
+    - <b>Normas e Resoluções CVM / ANBIMA / BACEN</b>
+    - <b>Prevenção à Lavagem de Dinheiro e Combate ao Financiamento do Terrorismo
+      (PLD/CFT)</b>
+    - <b>Lei Geral de Proteção de Dados (LGPD) no Setor Financeiro</b>
+  - title: Idiomas e Proficiência
+    items:
+    - '<b>Português</b>: Nativo'
+    - '<b>Inglês</b>: Fluente / Proficiente (C2 Proficient)'

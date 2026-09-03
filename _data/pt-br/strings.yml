@@ -1,0 +1,73 @@
+# Dicionário de Strings Canônicas em Português do Brasil (PT-BR)
+# Diretrizes de Governança: DESIGN.md e Issue #26
+
+navigation:
+  about: "Sobre"
+  home: "Sobre"
+  projects: "Projetos"
+  projetos: "Projetos"
+  cv: "Currículo"
+  resume: "Currículo"
+  currículo: "Currículo"
+  publications: "Publicações"
+  publicações: "Publicações"
+  repositories: "Repositórios"
+  repositórios: "Repositórios"
+  news: "Novidades"
+  novidades: "Novidades"
+  blog: "Blog"
+
+ui:
+  search: "Pesquisar"
+  search_placeholder: "Pressione Ctrl+K para buscar..."
+  change_theme: "Alterar tema claro/escuro"
+  switch_lang_title: "Switch to English"
+  switch_lang_label: "EN"
+  all: "Todos"
+  back_to_top: "Voltar ao topo"
+
+archive:
+  prefix: "um arquivo de"
+  category_suffix: "desta categoria"
+  tag_suffix: "com este marcador"
+  year_suffix: "deste ano"
+
+bibliography:
+  abstract: "Resumo"
+  awarded: "Premiado"
+  blog: "Post"
+  book_prefix: "Em"
+  code: "Código"
+  last_author_prefix: "e"
+  poster: "Poster"
+  slides: "Apresentação"
+  supp: "Suplementar"
+  video: "Vídeo"
+  website: "Website"
+
+categories:
+  data_science: "Data Science"
+  quantitative_finance: "Quantitative Finance"
+  data_engineering: "Data Engineering"
+  data_analytics: "Data Analytics"
+
+cv:
+  download_pdf: "Baixar Currículo em PDF"
+  basics: "Informações Gerais"
+  education: "Educação e Formação Acadêmica"
+  experience: "Experiência Profissional"
+  projects: "Projetos Técnicos e de Pesquisa"
+  publications: "Publicações e Produção Acadêmica"
+  certificates: "Certificações e Credenciais em Destaque"
+  skills: "Habilidades e Competências"
+  full_name: "Nome Completo"
+  academic_citation: "Citação Acadêmica"
+  headline: "Atuação Profissional"
+  location: "Localização"
+  email: "E-mail"
+  profiles: "Perfis e Identificadores"
+
+footer:
+  copyright: "Direitos reservados"
+  last_updated: "Última atualização:"
+  powered_by: "Desenvolvido com"

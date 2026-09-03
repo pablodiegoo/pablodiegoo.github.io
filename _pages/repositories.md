@@ -1,47 +1,29 @@
 ---
 layout: page
 permalink: /repositories/
+page_id: repositories
 title: Repositories
+title_pt: Repositórios
+title_en: Repositories
 description: GitHub profile and featured open-source repositories.
+description_pt: Perfil no GitHub e repositórios de código aberto em destaque.
+description_en: GitHub profile and featured open-source repositories.
 nav: true
 nav_order: 6
 ---
 
 {% if site.data.repositories.github_users %}
-
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
   <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
+    {% for user in site.data.repositories.github_users %}
+      {% include repository/repo_user.liquid username=user %}
+    {% endfor %}
   </div>
-
----
-
-{% endfor %}
-{% endif %}
 {% endif %}
 
 {% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% for repo in site.data.repositories.github_repos %}
+      {% include repository/repo.liquid repository=repo %}
+    {% endfor %}
+  </div>
 {% endif %}
