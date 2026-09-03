@@ -13,7 +13,7 @@ mermaid:
 ---
 
 **Organization / Context**: Portfólio Pessoal / Meta Investimentos  
-**Timeline**: 2017 - Presente  
+**Timeline**: 2017 - Present  
 **Domain Category**: Data Analytics  
 **Technologies**: `Excel Avançado`, `VBA`, `Python`, `Google Looker Studio`  
 

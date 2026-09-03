@@ -13,7 +13,7 @@ mermaid:
 ---
 
 **Organization / Context**: UFF / MESC  
-**Timeline**: 2026 - Presente  
+**Timeline**: 2026 - Present  
 **Domain Category**: Quantitative Finance  
 **Technologies**: `Python`, `Gurobi`, `Pyomo`, `SciPy`, `R`, `LaTeX`  
 
