@@ -5,7 +5,6 @@ title_pt: "Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas de Campo
 page_id: "project_agp_media"
 description: "Modular command-line toolkit (CLI) engineered to streamline field research workflows. Handles media conversion, audio transcription with mul..."
 description_pt: "Toolkit modular em linha de comando (CLI) desenvolvido para otimizar o ciclo de pesquisas qualitativas e quantitativas de campo. Executa con..."
-img: assets/img/5.jpg
 importance: 5
 category: "Data Engineering"
 confidentiality: "proprietary_sanitized"

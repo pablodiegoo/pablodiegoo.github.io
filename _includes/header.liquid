@@ -131,13 +131,13 @@
             <!-- Language Switcher -->
             <li class="nav-item flex items-center">
               {% if site.active_lang == site.default_lang %}
-                <a class="nav-link font-semibold text-xs tracking-widest px-2 py-1 border border-zinc-300 dark:border-zinc-700 rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
+                <a class="nav-link font-mono font-semibold text-xs tracking-widest px-2 py-1 border border-slate-300 dark:border-slate-700 rounded hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 transition"
                    {% static_href %} href="{{ site.baseurl }}/en{{ page.url }}" {% endstatic_href %}
                    title="Switch to English">
                   EN
                 </a>
               {% else %}
-                <a class="nav-link font-semibold text-xs tracking-widest px-2 py-1 border border-zinc-300 dark:border-zinc-700 rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 transition"
+                <a class="nav-link font-mono font-semibold text-xs tracking-widest px-2 py-1 border border-slate-300 dark:border-slate-700 rounded hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 transition"
                    {% static_href %} href="{{ site.baseurl }}{{ page.url }}" {% endstatic_href %}
                    title="Mudar para Português">
                   PT

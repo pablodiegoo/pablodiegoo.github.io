@@ -5,7 +5,6 @@ title_pt: "Otimização Combinatória sob Restrições de Cardinalidade e Fricç
 page_id: "project_mesc_optimization"
 description: "Professional master's thesis developing exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formula..."
 description_pt: "Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Linea..."
-img: assets/img/2.jpg
 importance: 3
 category: "Quantitative Finance"
 confidentiality: "public"

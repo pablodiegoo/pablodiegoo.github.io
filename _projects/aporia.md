@@ -5,7 +5,6 @@ title_pt: "Project Aporia — Plataforma Analítica e Amostral de Pesquisa de Op
 page_id: "project_aporia"
 description: "Spatial analytics and sampling intelligence platform engineered to automate probabilistic survey sampling and opinion poll data processing. ..."
 description_pt: "Plataforma analítica e arquitetura de dados desenvolvida para automatizar o planejamento amostral e a ingestão de questionários de opinião p..."
-img: assets/img/3.jpg
 importance: 1
 category: "Data Science"
 confidentiality: "proprietary_sanitized"

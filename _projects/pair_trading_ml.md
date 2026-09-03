@@ -5,7 +5,6 @@ title_pt: "Pair Trading com Machine Learning na B3 (Monografia USP/ESALQ)"
 page_id: "project_pair_trading_ml"
 description: "MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous empirical benchmark comparing classical Engle-Granger economet..."
 description_pt: "Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu um estudo comparativo empírico rigoroso entre o arcabou..."
-img: assets/img/1.jpg
 importance: 2
 category: "Quantitative Finance"
 confidentiality: "public"
