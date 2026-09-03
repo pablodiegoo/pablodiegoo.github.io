@@ -5,6 +5,7 @@ description: "Automated data engineering and geospatial audit pipeline built to 
 img: assets/img/6.jpg
 importance: 6
 category: "Data Analytics"
+tags: [data-analytics, geospatial, geopandas, python, shapely, fuzzy-matching, ibge]
 related_publications: false
 mermaid:
   enabled: true
@@ -12,7 +13,9 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to the repository's data governance standards. Source code, production database instances, and API credentials remain strictly confidential and proprietary to the sponsoring organization.
+> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to strict intellectual property compliance and Brazilian LGPD (Lei Geral de Proteção de Dados) compliance. Proprietary source code, production database instances, raw databases, confidential credentials, and client Personally Identifiable Information (PII) remain strictly protected and are not exposed.
+>
+> *Ficha técnica pública autorizada sob diretriz proprietary_sanitized. Dados cadastrais sensíveis e contatos comerciais privados do inventário permanecem protegidos.*
 
 **Organization / Context**: Ágora Pesquisa / EMPETUR  
 **Timeline**: 2025  

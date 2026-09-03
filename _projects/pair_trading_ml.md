@@ -5,6 +5,7 @@ description: "MBA thesis in Data Science and Analytics evaluated with maximum ho
 img: assets/img/1.jpg
 importance: 2
 category: "Quantitative Finance"
+tags: [quantitative-finance, machine-learning, python, statsmodels, scikit-learn, b3, pairs-trading]
 related_publications: false
 mermaid:
   enabled: true

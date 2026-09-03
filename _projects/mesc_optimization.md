@@ -5,6 +5,7 @@ description: "Professional master's thesis developing exact Mixed-Integer Quadra
 img: assets/img/2.jpg
 importance: 3
 category: "Quantitative Finance"
+tags: [quantitative-finance, operations-research, optimization, gurobi, pyomo, cvar, b3]
 related_publications: false
 mermaid:
   enabled: true
@@ -23,6 +24,20 @@ mermaid:
 Professional master's thesis developing exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formulations incorporating linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation of statistical arbitrage equity portfolios on B3 while factoring in transaction costs, borrowing fees, and cardinality constraints.
 
 *Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Linear Inteira Mista (MILP) com minimização de Conditional Value-at-Risk (CVaR) linearizado. O modelo busca a alocação dinâmica de portfólios ótimos de arbitragem estatística na B3, incorporando custos de transação, slippage, taxas de aluguel e restrições de cardinalidade.*
+
+## Architecture & Data Flow
+
+The diagram below illustrates the sanitized high-level component topology and data processing pipeline:
+
+```mermaid
+flowchart TD
+  A[Dados de Ativos & Spreads B3] --> B[Estimador de Covariância & Retorno Esperado]
+  B --> C[Mecanismo de Otimização MIQP / MILP]
+  D[Restrições de Cardinalidade & Fricções Reais] --> C
+  E[Linearização de CVaR & Controle de Drawdown] --> C
+  C --> F[Resolvedor Matemático Gurobi / Pyomo]
+  F --> G[Alocação Ótima de Portfólio de Arbitragem]
+```
 
 ## Key Engineering Highlights
 

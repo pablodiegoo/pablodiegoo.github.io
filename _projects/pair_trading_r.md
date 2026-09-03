@@ -5,6 +5,7 @@ description: "Systematic algorithm coded in R for daily universe-wide Engle-Gran
 img: assets/img/7.jpg
 importance: 8
 category: "Quantitative Finance"
+tags: [quantitative-finance, r, statistical-arbitrage, cointegration, time-series, b3]
 related_publications: false
 mermaid:
   enabled: true
@@ -12,7 +13,9 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to the repository's data governance standards. Source code, production database instances, and API credentials remain strictly confidential and proprietary to the sponsoring organization.
+> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to strict intellectual property compliance and Brazilian LGPD (Lei Geral de Proteção de Dados) compliance. Proprietary source code, production database instances, raw databases, confidential credentials, and client Personally Identifiable Information (PII) remain strictly protected and are not exposed.
+>
+> *Ficha técnica pública autorizada. Os códigos de execução em corretora e parâmetros de limites de risco permanecem de propriedade da Meta & Actio.*
 
 **Organization / Context**: Meta & Actio Investimentos  
 **Timeline**: 2017 - 2020  

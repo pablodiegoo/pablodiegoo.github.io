@@ -5,6 +5,7 @@ description: "Spatial analytics and sampling intelligence platform engineered to
 img: assets/img/3.jpg
 importance: 1
 category: "Data Science"
+tags: [data-science, fastapi, python, react-18, typescript, leaflet, geoparquet, uber-h3, postgresql, docker]
 related_publications: false
 mermaid:
   enabled: true
@@ -12,7 +13,9 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to the repository's data governance standards. Source code, production database instances, and API credentials remain strictly confidential and proprietary to the sponsoring organization.
+> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to strict intellectual property compliance and Brazilian LGPD (Lei Geral de Proteção de Dados) compliance. Proprietary source code, production database instances, raw databases, confidential credentials, and client Personally Identifiable Information (PII) remain strictly protected and are not exposed.
+>
+> *Ficha técnica pública autorizada. O código-fonte, bancos de dados transacionais e credenciais de infraestrutura permanecem de propriedade exclusiva da NKIN Consultoria / Ágora Pesquisa.*
 
 **Organization / Context**: Ágora Pesquisa / NKIN Consultoria  
 **Timeline**: 2025 - 2026  

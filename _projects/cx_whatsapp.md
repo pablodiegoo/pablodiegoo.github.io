@@ -5,6 +5,7 @@ description: "Automated data engineering pipeline ingesting and validating conve
 img: assets/img/4.jpg
 importance: 4
 category: "Data Engineering"
+tags: [data-engineering, python, meta-api, whatsapp, fastapi, webhooks, postgresql, power-bi]
 related_publications: false
 mermaid:
   enabled: true
@@ -12,7 +13,9 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to the repository's data governance standards. Source code, production database instances, and API credentials remain strictly confidential and proprietary to the sponsoring organization.
+> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to strict intellectual property compliance and Brazilian LGPD (Lei Geral de Proteção de Dados) compliance. Proprietary source code, production database instances, raw databases, confidential credentials, and client Personally Identifiable Information (PII) remain strictly protected and are not exposed.
+>
+> *Ficha técnica pública autorizada sob diretriz proprietary_sanitized. Tokens da Meta API, dados de contato e mensagens privadas permanecem protegidos sob estrita confidencialidade.*
 
 **Organization / Context**: Ágora Pesquisa  
 **Timeline**: 2025 - 2026  

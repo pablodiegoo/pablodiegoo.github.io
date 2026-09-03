@@ -5,6 +5,7 @@ description: "Modular command-line toolkit (CLI) engineered to streamline field 
 img: assets/img/5.jpg
 importance: 5
 category: "Data Engineering"
+tags: [data-engineering, python, whisper, nlp, ocr, gemini, ffmpeg, speech-to-text]
 related_publications: false
 mermaid:
   enabled: true
@@ -12,7 +13,9 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to the repository's data governance standards. Source code, production database instances, and API credentials remain strictly confidential and proprietary to the sponsoring organization.
+> **Sanitized Technical Specification (`proprietary_sanitized`)**: This technical sheet is an authorized public specification adhering to strict intellectual property compliance and Brazilian LGPD (Lei Geral de Proteção de Dados) compliance. Proprietary source code, production database instances, raw databases, confidential credentials, and client Personally Identifiable Information (PII) remain strictly protected and are not exposed.
+>
+> *Ficha técnica pública autorizada sob diretriz proprietary_sanitized. Arquivos de áudio originais de entrevistas e documentos confidenciais de pesquisa permanecem confidenciais.*
 
 **Organization / Context**: Ágora Pesquisa / AGP  
 **Timeline**: 2025 - 2026  
