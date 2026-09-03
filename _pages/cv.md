@@ -4,8 +4,8 @@ permalink: /cv/
 title: Resume
 nav: true
 nav_order: 2
-cv_pdf: https://pablodiegoo.github.io/assets/json/CV/CV_PabloDiego_EN.pdf # you can also use external links here
-description: Here you can see some of my main experiences
+cv_pdf: CV_PabloDiego_EN.pdf # compiled via scripts/build_cv.py from SSOT
+description: Resumo profissional e acadêmico gerado a partir da SSOT
 toc:
   sidebar: left
 ---
