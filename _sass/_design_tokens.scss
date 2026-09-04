@@ -110,7 +110,7 @@ html.dark {
 }
 
 /* ==========================================================================
-   3. Typography Rules (Strict A1.3 enforcement)
+   3. Typography Rules & Global Overrides (Strict A1.3 enforcement)
    ========================================================================== */
 body {
   font-family: var(--font-family-body) !important;
@@ -134,7 +134,7 @@ code, kbd, samp, pre,
   font-family: var(--font-family-mono) !important;
 }
 
-/* Helper Font Classes */
+/* Helper Font Family Classes */
 .font-charter,
 .font-serif,
 .font-source-serif {
@@ -152,7 +152,625 @@ code, kbd, samp, pre,
 }
 
 /* ==========================================================================
-   4. Booktabs Table Styles
+   4. Dividers, Rules & Separators
+   ========================================================================== */
+/* Border Width & Directional Helpers */
+.border {
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: var(--color-border-subtle, #E2E8F0) !important;
+}
+
+.border-2 {
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: var(--color-border-strong, #CBD5E1) !important;
+}
+
+.border-t {
+  border-top-width: 1px !important;
+  border-top-style: solid !important;
+  border-top-color: var(--color-border-subtle, #E2E8F0) !important;
+}
+
+.border-t-2 {
+  border-top-width: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: var(--color-border-strong, #CBD5E1) !important;
+}
+
+.border-b {
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: var(--color-border-subtle, #E2E8F0) !important;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: var(--color-border-strong, #CBD5E1) !important;
+}
+
+.border-y {
+  border-top-width: 1px !important;
+  border-top-style: solid !important;
+  border-top-color: var(--color-border-subtle, #E2E8F0) !important;
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: var(--color-border-subtle, #E2E8F0) !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+/* Border Colors */
+.border-transparent { border-color: transparent !important; }
+.border-white       { border-color: #FFFFFF !important; }
+.border-slate-100   { border-color: #F1F5F9 !important; }
+.border-slate-200   { border-color: #E2E8F0 !important; }
+.border-slate-300   { border-color: #CBD5E1 !important; }
+.border-slate-400   { border-color: #94A3B8 !important; }
+.border-slate-700   { border-color: #334155 !important; }
+.border-slate-800   { border-color: #1F2937 !important; }
+.border-slate-900   { border-color: #0F172A !important; }
+
+/* Dark Mode Border Classes */
+html[data-theme="dark"],
+html.dark {
+  .border {
+    border-color: var(--color-border-subtle, #1F2937) !important;
+  }
+  .border-2 {
+    border-color: var(--color-border-strong, #334155) !important;
+  }
+  .border-t {
+    border-top-color: var(--color-border-subtle, #1F2937) !important;
+  }
+  .border-t-2 {
+    border-top-color: var(--color-border-strong, #334155) !important;
+  }
+  .border-b {
+    border-bottom-color: var(--color-border-subtle, #1F2937) !important;
+  }
+  .border-b-2 {
+    border-bottom-color: var(--color-border-strong, #334155) !important;
+  }
+  .border-y {
+    border-top-color: var(--color-border-subtle, #1F2937) !important;
+    border-bottom-color: var(--color-border-subtle, #1F2937) !important;
+  }
+  .dark\:border-slate-700 { border-color: #334155 !important; }
+  .dark\:border-slate-800 { border-color: #1F2937 !important; }
+  .dark\:border-slate-900 { border-color: #0F172A !important; }
+  .dark\:border-white     { border-color: #FFFFFF !important; }
+}
+
+/* Divided Lists (divide-y) */
+.divide-y > * + * {
+  border-top-width: 1px !important;
+  border-top-style: solid !important;
+  border-top-color: var(--color-border-subtle, #E2E8F0) !important;
+  border-bottom-width: 0 !important;
+}
+
+.divide-slate-200 > * + * {
+  border-top-color: #E2E8F0 !important;
+}
+
+.divide-slate-800 > * + * {
+  border-top-color: #1F2937 !important;
+}
+
+html[data-theme="dark"],
+html.dark {
+  .divide-y > * + * {
+    border-top-color: var(--color-border-subtle, #1F2937) !important;
+  }
+  .dark\:divide-slate-800 > * + * {
+    border-top-color: #1F2937 !important;
+  }
+  .dark\:divide-slate-700 > * + * {
+    border-top-color: #334155 !important;
+  }
+}
+
+/* ==========================================================================
+   5. Typographic Scale A1.3 Classes
+   ========================================================================== */
+/* Font Sizes & Line Heights */
+.text-5xl {
+  font-size: 3rem !important;        /* 48px */
+  line-height: 1.15 !important;
+}
+
+.text-4xl {
+  font-size: 2.25rem !important;     /* 36px */
+  line-height: 1.2 !important;
+}
+
+.text-3xl {
+  font-size: 1.875rem !important;    /* 30px */
+  line-height: 1.25 !important;
+}
+
+.text-2xl {
+  font-size: 1.5rem !important;      /* 24px */
+  line-height: 1.3 !important;
+}
+
+.text-xl {
+  font-size: 1.25rem !important;     /* 20px */
+  line-height: 1.4 !important;
+}
+
+.text-lg {
+  font-size: 1.125rem !important;    /* 18px */
+  line-height: 1.5 !important;
+}
+
+.text-base {
+  font-size: 1rem !important;        /* 16px */
+  line-height: 1.6 !important;
+}
+
+.text-sm {
+  font-size: 0.875rem !important;    /* 14px */
+  line-height: 1.5 !important;
+}
+
+.text-xs {
+  font-size: 0.75rem !important;     /* 12px */
+  line-height: 1.4 !important;
+}
+
+.text-\[11px\] {
+  font-size: 0.6875rem !important;   /* 11px */
+  line-height: 1.3 !important;
+}
+
+.text-\[1\.3rem\] {
+  font-size: 1.3rem !important;
+  line-height: 1 !important;
+}
+
+/* Responsive Font Sizes */
+@media (min-width: 640px) {
+  .sm\:text-5xl {
+    font-size: 3rem !important;
+    line-height: 1.15 !important;
+  }
+  .sm\:text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 1.2 !important;
+  }
+  .sm\:text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 1.25 !important;
+  }
+  .sm\:text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+  }
+}
+
+/* Font Weights */
+.font-extrabold { font-weight: 800 !important; }
+.font-bold      { font-weight: 700 !important; }
+.font-semibold  { font-weight: 600 !important; }
+.font-medium    { font-weight: 500 !important; }
+.font-normal    { font-weight: 400 !important; }
+
+/* Tracking (Letter Spacing) */
+.tracking-tighter { letter-spacing: -0.03em !important; }
+.tracking-tight   { letter-spacing: -0.015em !important; }
+.tracking-normal  { letter-spacing: 0 !important; }
+.tracking-wide    { letter-spacing: 0.025em !important; }
+.tracking-wider   { letter-spacing: 0.05em !important; }
+.tracking-widest  { letter-spacing: 0.1em !important; }
+
+/* Leading (Line Height) */
+.leading-none    { line-height: 1 !important; }
+.leading-tight   { line-height: 1.2 !important; }
+.leading-snug    { line-height: 1.375 !important; }
+.leading-normal  { line-height: 1.5 !important; }
+.leading-relaxed { line-height: 1.625 !important; }
+.leading-loose   { line-height: 2 !important; }
+
+/* ==========================================================================
+   6. Spacing & Flow Utilities
+   ========================================================================== */
+/* Vertical Flow (.space-y-* > * + *) */
+.space-y-1 > * + *     { margin-top: 0.25rem !important; margin-bottom: 0 !important; }
+.space-y-1\.5 > * + *  { margin-top: 0.375rem !important; margin-bottom: 0 !important; }
+.space-y-2 > * + *     { margin-top: 0.5rem !important; margin-bottom: 0 !important; }
+.space-y-2\.5 > * + *  { margin-top: 0.625rem !important; margin-bottom: 0 !important; }
+.space-y-3 > * + *     { margin-top: 0.75rem !important; margin-bottom: 0 !important; }
+.space-y-4 > * + *     { margin-top: 1rem !important; margin-bottom: 0 !important; }
+.space-y-5 > * + *     { margin-top: 1.25rem !important; margin-bottom: 0 !important; }
+.space-y-6 > * + *     { margin-top: 1.5rem !important; margin-bottom: 0 !important; }
+.space-y-8 > * + *     { margin-top: 2rem !important; margin-bottom: 0 !important; }
+.space-y-10 > * + *    { margin-top: 2.5rem !important; margin-bottom: 0 !important; }
+.space-y-12 > * + *    { margin-top: 3rem !important; margin-bottom: 0 !important; }
+
+/* Flex & Grid Gaps */
+.gap-1     { gap: 0.25rem !important; }
+.gap-1\.5  { gap: 0.375rem !important; }
+.gap-2     { gap: 0.5rem !important; }
+.gap-2\.5  { gap: 0.625rem !important; }
+.gap-3     { gap: 0.75rem !important; }
+.gap-4     { gap: 1rem !important; }
+.gap-6     { gap: 1.5rem !important; }
+.gap-8     { gap: 2rem !important; }
+.gap-10    { gap: 2.5rem !important; }
+
+/* Padding Helpers */
+.p-0   { padding: 0 !important; }
+.p-1   { padding: 0.25rem !important; }
+.p-2   { padding: 0.5rem !important; }
+.p-2\.5 { padding: 0.625rem !important; }
+.p-3   { padding: 0.75rem !important; }
+.p-4   { padding: 1rem !important; }
+.p-5   { padding: 1.25rem !important; }
+.p-6   { padding: 1.5rem !important; }
+.p-7   { padding: 1.75rem !important; }
+.p-8   { padding: 2rem !important; }
+
+.py-0   { padding-top: 0 !important; padding-bottom: 0 !important; }
+.py-0\.5 { padding-top: 0.125rem !important; padding-bottom: 0.125rem !important; }
+.py-1   { padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; }
+.py-2   { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+.py-2\.5 { padding-top: 0.625rem !important; padding-bottom: 0.625rem !important; }
+.py-3   { padding-top: 0.75rem !important; padding-bottom: 0.75rem !important; }
+.py-3\.5 { padding-top: 0.875rem !important; padding-bottom: 0.875rem !important; }
+.py-4   { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+.py-6   { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+.py-8   { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+.py-12  { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+
+.px-0   { padding-left: 0 !important; padding-right: 0 !important; }
+.px-1   { padding-left: 0.25rem !important; padding-right: 0.25rem !important; }
+.px-2   { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+.px-2\.5 { padding-left: 0.625rem !important; padding-right: 0.625rem !important; }
+.px-3   { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+.px-4   { padding-left: 1rem !important; padding-right: 1rem !important; }
+.px-6   { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+.px-8   { padding-left: 2rem !important; padding-right: 2rem !important; }
+
+.pt-0  { padding-top: 0 !important; }
+.pt-1  { padding-top: 0.25rem !important; }
+.pt-2  { padding-top: 0.5rem !important; }
+.pt-3  { padding-top: 0.75rem !important; }
+.pt-4  { padding-top: 1rem !important; }
+.pt-6  { padding-top: 1.5rem !important; }
+.pt-8  { padding-top: 2rem !important; }
+.pt-12 { padding-top: 3rem !important; }
+
+.pb-0   { padding-bottom: 0 !important; }
+.pb-0\.5 { padding-bottom: 0.125rem !important; }
+.pb-1   { padding-bottom: 0.25rem !important; }
+.pb-2   { padding-bottom: 0.5rem !important; }
+.pb-3   { padding-bottom: 0.75rem !important; }
+.pb-4   { padding-bottom: 1rem !important; }
+.pb-6   { padding-bottom: 1.5rem !important; }
+.pb-8   { padding-bottom: 2rem !important; }
+.pb-10  { padding-bottom: 2.5rem !important; }
+.pb-12  { padding-bottom: 3rem !important; }
+.pb-32  { padding-bottom: 8rem !important; }
+
+/* Margin Helpers */
+.m-0     { margin: 0 !important; }
+.mx-auto { margin-left: auto !important; margin-right: auto !important; }
+.my-1    { margin-top: 0.25rem !important; margin-bottom: 0.25rem !important; }
+.my-2    { margin-top: 0.5rem !important; margin-bottom: 0.5rem !important; }
+.my-4    { margin-top: 1rem !important; margin-bottom: 1rem !important; }
+
+.mt-0    { margin-top: 0 !important; }
+.mt-0\.5 { margin-top: 0.125rem !important; }
+.mt-1    { margin-top: 0.25rem !important; }
+.mt-2    { margin-top: 0.5rem !important; }
+.mt-3    { margin-top: 0.75rem !important; }
+.mt-4    { margin-top: 1rem !important; }
+.mt-6    { margin-top: 1.5rem !important; }
+.mt-8    { margin-top: 2rem !important; }
+.mt-10   { margin-top: 2.5rem !important; }
+.mt-12   { margin-top: 3rem !important; }
+
+.mb-0    { margin-bottom: 0 !important; }
+.mb-1    { margin-bottom: 0.25rem !important; }
+.mb-2    { margin-bottom: 0.5rem !important; }
+.mb-3    { margin-bottom: 0.75rem !important; }
+.mb-4    { margin-bottom: 1rem !important; }
+.mb-6    { margin-bottom: 1.5rem !important; }
+.mb-8    { margin-bottom: 2rem !important; }
+.mb-10   { margin-bottom: 2.5rem !important; }
+.mb-12   { margin-bottom: 3rem !important; }
+
+/* ==========================================================================
+   7. Layout & Flex Utilities
+   ========================================================================== */
+.flex         { display: flex !important; }
+.inline-flex  { display: inline-flex !important; }
+.block        { display: block !important; }
+.inline-block { display: inline-block !important; }
+.hidden       { display: none !important; }
+
+.flex-col     { flex-direction: column !important; }
+.flex-row     { flex-direction: row !important; }
+.flex-wrap    { flex-wrap: wrap !important; }
+.flex-nowrap  { flex-wrap: nowrap !important; }
+
+.items-start    { align-items: flex-start !important; }
+.items-center   { align-items: center !important; }
+.items-end      { align-items: flex-end !important; }
+.items-baseline { align-items: baseline !important; }
+
+.justify-start   { justify-content: flex-start !important; }
+.justify-center  { justify-content: center !important; }
+.justify-end     { justify-content: flex-end !important; }
+.justify-between { justify-content: space-between !important; }
+
+.shrink-0 { flex-shrink: 0 !important; }
+.flex-1   { flex: 1 1 0% !important; }
+.grow     { flex-grow: 1 !important; }
+
+.aspect-square { aspect-ratio: 1 / 1 !important; }
+
+.rounded-none { border-radius: 0 !important; }
+.rounded      { border-radius: 0.25rem !important; }
+.rounded-md   { border-radius: 0.375rem !important; }
+.rounded-lg   { border-radius: 0.5rem !important; }
+.rounded-xl   { border-radius: 0.75rem !important; }
+.rounded-full { border-radius: 9999px !important; }
+
+.overflow-hidden { overflow: hidden !important; }
+.overflow-x-auto { overflow-x: auto !important; }
+
+.ring-1         { box-shadow: 0 0 0 1px var(--color-border-strong, #CBD5E1) !important; }
+.ring-2         { box-shadow: 0 0 0 2px var(--color-border-strong, #CBD5E1) !important; }
+.ring-slate-300 { box-shadow: 0 0 0 2px #CBD5E1 !important; }
+.ring-slate-700 { box-shadow: 0 0 0 2px #334155 !important; }
+
+html[data-theme="dark"],
+html.dark {
+  .dark\:ring-slate-700 { box-shadow: 0 0 0 2px #334155 !important; }
+  .ring-2               { box-shadow: 0 0 0 2px var(--color-border-strong, #334155) !important; }
+}
+
+.max-w-xl { max-width: 36rem !important; }
+.max-w-2xl { max-width: 42rem !important; }
+.max-w-3xl { max-width: 48rem !important; }
+.max-w-4xl { max-width: 56rem !important; }
+.max-w-5xl { max-width: 64rem !important; }
+
+.w-32   { width: 8rem !important; }
+.h-32   { height: 8rem !important; }
+.w-36   { width: 9rem !important; }
+.h-36   { height: 9rem !important; }
+.w-full { width: 100% !important; }
+.h-full { height: 100% !important; }
+
+.text-left    { text-align: left !important; }
+.text-center  { text-align: center !important; }
+.text-right   { text-align: right !important; }
+.text-justify { text-align: justify !important; }
+
+.uppercase  { text-transform: uppercase !important; }
+.lowercase  { text-transform: lowercase !important; }
+.capitalize { text-transform: capitalize !important; }
+.italic     { font-style: italic !important; }
+
+.shadow-none { box-shadow: none !important; }
+.shadow-sm   { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important; }
+.shadow      { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important; }
+.shadow-md   { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) !important; }
+
+.object-cover   { object-fit: cover !important; }
+.object-contain { object-fit: contain !important; }
+
+.cursor-pointer { cursor: pointer !important; }
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 150ms !important;
+}
+
+/* Responsive sm (min-width: 640px) */
+@media (min-width: 640px) {
+  .sm\:flex-row       { flex-direction: row !important; }
+  .sm\:flex-col       { flex-direction: column !important; }
+  .sm\:items-start    { align-items: flex-start !important; }
+  .sm\:items-center   { align-items: center !important; }
+  .sm\:items-baseline { align-items: baseline !important; }
+  .sm\:justify-start  { justify-content: flex-start !important; }
+  .sm\:justify-center { justify-content: center !important; }
+  .sm\:justify-between{ justify-content: space-between !important; }
+  .sm\:text-left      { text-align: left !important; }
+  .sm\:text-center    { text-align: center !important; }
+  .sm\:w-36           { width: 9rem !important; }
+  .sm\:h-36           { height: 9rem !important; }
+  .sm\:inline         { display: inline !important; }
+  .sm\:block          { display: block !important; }
+}
+
+/* Responsive md (min-width: 768px) */
+@media (min-width: 768px) {
+  .md\:inline         { display: inline !important; }
+  .md\:block          { display: block !important; }
+  .md\:grid-cols-12   { grid-template-columns: repeat(12, minmax(0, 1fr)) !important; }
+  .md\:col-span-8     { grid-column: span 8 / span 8 !important; }
+  .md\:col-span-4     { grid-column: span 4 / span 4 !important; }
+}
+
+/* ==========================================================================
+   8. Color & Surface Classes
+   ========================================================================== */
+/* Text Colors */
+.text-slate-950 { color: #020617 !important; }
+.text-slate-900 { color: #0F172A !important; }
+.text-slate-800 { color: #1F2937 !important; }
+.text-slate-700 { color: #334155 !important; }
+.text-slate-600 { color: #475569 !important; }
+.text-slate-500 { color: #64748B !important; }
+.text-slate-400 { color: #94A3B8 !important; }
+.text-slate-300 { color: #CBD5E1 !important; }
+.text-slate-200 { color: #E2E8F0 !important; }
+.text-slate-100 { color: #F1F5F9 !important; }
+.text-slate-50  { color: #F8FAFC !important; }
+.text-white     { color: #FFFFFF !important; }
+.text-blue-700  { color: #1D4ED8 !important; }
+.text-blue-900  { color: #1E3A8A !important; }
+.text-rose-700  { color: #BE123C !important; }
+
+/* Dark Mode Text */
+html[data-theme="dark"],
+html.dark {
+  .dark\:text-white     { color: #FFFFFF !important; }
+  .dark\:text-slate-50  { color: #F8FAFC !important; }
+  .dark\:text-slate-100 { color: #F1F5F9 !important; }
+  .dark\:text-slate-200 { color: #E2E8F0 !important; }
+  .dark\:text-slate-300 { color: #CBD5E1 !important; }
+  .dark\:text-slate-400 { color: #94A3B8 !important; }
+  .dark\:text-rose-400  { color: #FB7185 !important; }
+  .dark\:text-blue-400  { color: #60A5FA !important; }
+}
+
+/* Background Colors */
+.bg-white        { background-color: #FFFFFF !important; }
+.bg-slate-50     { background-color: #F8FAFC !important; }
+.bg-slate-100    { background-color: #F1F5F9 !important; }
+.bg-slate-200    { background-color: #E2E8F0 !important; }
+.bg-slate-800    { background-color: #1F2937 !important; }
+.bg-slate-900    { background-color: #0F172A !important; }
+.bg-slate-950    { background-color: #0B0F17 !important; }
+.bg-slate-50\/50 { background-color: rgba(248, 250, 252, 0.5) !important; }
+.bg-slate-50\/70 { background-color: rgba(248, 250, 252, 0.7) !important; }
+
+/* Dark Mode Backgrounds */
+html[data-theme="dark"],
+html.dark {
+  .dark\:bg-slate-800    { background-color: #1F2937 !important; }
+  .dark\:bg-slate-900    { background-color: #111827 !important; }
+  .dark\:bg-slate-950    { background-color: #0B0F17 !important; }
+  .dark\:bg-slate-900\/40 { background-color: rgba(17, 24, 39, 0.4) !important; }
+  .dark\:bg-slate-900\/60 { background-color: rgba(17, 24, 39, 0.6) !important; }
+}
+
+/* Hover States */
+.hover\:border-slate-400:hover { border-color: #94A3B8 !important; }
+.hover\:border-slate-300:hover { border-color: #CBD5E1 !important; }
+.hover\:text-white:hover       { color: #FFFFFF !important; }
+.hover\:text-blue-900:hover    { color: #1E3A8A !important; }
+.hover\:text-blue-700:hover    { color: #1D4ED8 !important; }
+.hover\:underline:hover        { text-decoration: underline !important; }
+
+/* ==========================================================================
+   9. Project Cards & Monospace Tech Pills
+   ========================================================================== */
+/* Project Card Container & Hover Effects */
+.project-card,
+.project-card-container {
+  border-radius: 0.5rem !important; /* rounded-lg */
+  border: 1px solid var(--color-border-subtle, #E2E8F0) !important;
+  background-color: var(--color-surface-card, #F8FAFC) !important;
+  padding: 1.25rem !important;      /* p-5 */
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+
+  &:hover {
+    border-color: var(--color-border-strong, #CBD5E1) !important;
+    transform: translateY(-1px);
+  }
+}
+
+html[data-theme="dark"] .project-card,
+html.dark .project-card,
+html[data-theme="dark"] .project-card-container,
+html.dark .project-card-container {
+  border-color: var(--color-border-subtle, #1F2937) !important;
+  background-color: var(--color-surface-card, #111827) !important;
+
+  &:hover {
+    border-color: var(--color-border-strong, #334155) !important;
+  }
+}
+
+/* Monospace Tech Pills (11px Fira Code) */
+.tech-pill,
+.tech-tag {
+  font-family: var(--font-family-mono) !important;
+  font-size: 0.6875rem !important;   /* 11px */
+  line-height: 1.3 !important;
+  font-weight: 500 !important;
+  padding: 0.125rem 0.5rem !important; /* px-2 py-0.5 */
+  border-radius: 0.25rem !important;   /* rounded */
+  background-color: #F1F5F9 !important; /* bg-slate-100 */
+  color: #1F2937 !important;           /* text-slate-800 */
+  border: 1px solid #E2E8F0 !important; /* border border-slate-200 */
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  letter-spacing: normal !important;
+}
+
+html[data-theme="dark"] .tech-pill,
+html.dark .tech-pill,
+html[data-theme="dark"] .tech-tag,
+html.dark .tech-tag {
+  background-color: #1F2937 !important; /* dark:bg-slate-800 */
+  color: #E2E8F0 !important;           /* dark:text-slate-200 */
+  border-color: #334155 !important;     /* dark:border-slate-700 */
+}
+
+/* ==========================================================================
+   10. Status Badges
+   ========================================================================== */
+.badge-status,
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-family-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.badge-proprietary_sanitized,
+.status-badge.proprietary_sanitized,
+.badge-sanitized {
+  background-color: #EFF6FF !important; /* bg-blue-50 */
+  color: #1E3A8A !important;           /* text-blue-900 */
+  border-color: #BFDBFE !important;      /* border-blue-200 */
+}
+
+.badge-public,
+.status-badge.public {
+  background-color: #F0FDF4 !important; /* bg-green-50 */
+  color: #166534 !important;           /* text-green-900 */
+  border-color: #BBF7D0 !important;      /* border-green-200 */
+}
+
+html[data-theme="dark"] .badge-proprietary_sanitized,
+html[data-theme="dark"] .status-badge.proprietary_sanitized,
+html[data-theme="dark"] .badge-sanitized {
+  background-color: rgba(30, 58, 138, 0.25) !important;
+  color: #93C5FD !important;
+  border-color: #1E3A8A !important;
+}
+
+html[data-theme="dark"] .badge-public,
+html[data-theme="dark"] .status-badge.public {
+  background-color: rgba(22, 101, 52, 0.25) !important;
+  color: #86EFAC !important;
+  border-color: #166534 !important;
+}
+
+/* ==========================================================================
+   11. Booktabs Table Styles
    ========================================================================== */
 table.booktabs,
 .table-booktabs,
@@ -219,54 +837,7 @@ table.booktabs tr:last-child td,
 }
 
 /* ==========================================================================
-   5. Status Badges
-   ========================================================================== */
-.badge-status,
-.status-badge {
-  display: inline-flex;
-  align-items: center;
-  font-family: var(--font-family-mono);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.2rem 0.6rem;
-  border-radius: 0.25rem;
-  border: 1px solid transparent;
-  line-height: 1.2;
-  white-space: nowrap;
-}
-
-.badge-proprietary_sanitized,
-.status-badge.proprietary_sanitized,
-.badge-sanitized {
-  background-color: #EFF6FF !important; /* bg-blue-50 */
-  color: #1E3A8A !important;           /* text-blue-900 */
-  border-color: #BFDBFE !important;      /* border-blue-200 */
-}
-
-.badge-public,
-.status-badge.public {
-  background-color: #F0FDF4 !important; /* bg-green-50 */
-  color: #166534 !important;           /* text-green-900 */
-  border-color: #BBF7D0 !important;      /* border-green-200 */
-}
-
-html[data-theme="dark"] .badge-proprietary_sanitized,
-html[data-theme="dark"] .status-badge.proprietary_sanitized,
-html[data-theme="dark"] .badge-sanitized {
-  background-color: rgba(30, 58, 138, 0.25) !important;
-  color: #93C5FD !important;
-  border-color: #1E3A8A !important;
-}
-
-html[data-theme="dark"] .badge-public,
-html[data-theme="dark"] .status-badge.public {
-  background-color: rgba(22, 101, 52, 0.25) !important;
-  color: #86EFAC !important;
-  border-color: #166534 !important;
-}
-
-/* ==========================================================================
-   6. Contact Icons & Contextual Note
+   12. Contact Icons & Contextual Note
    ========================================================================== */
 .contact-icons {
   display: flex !important;
@@ -316,7 +887,7 @@ html[data-theme="dark"] .contact-note {
 }
 
 /* ==========================================================================
-   7. Profile Photo Circular Containment Ring
+   13. Profile Photo Circular Containment Ring
    ========================================================================== */
 .profile-photo-container {
   width: 8rem;
@@ -349,7 +920,7 @@ html[data-theme="dark"] .contact-note {
 }
 
 /* ==========================================================================
-   8. Trajectory Divided List
+   14. Trajectory Divided List
    ========================================================================== */
 .trajectory-section {
   .trajectory-list {
@@ -361,7 +932,7 @@ html[data-theme="dark"] .contact-note {
 }
 
 /* ==========================================================================
-   9. Navbar Brand Polish
+   15. Navbar Brand Polish
    ========================================================================== */
 .navbar-brand.title {
   font-family: var(--font-family-heading) !important;
