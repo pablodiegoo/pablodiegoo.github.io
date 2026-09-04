@@ -1285,7 +1285,8 @@ html.dark #toc-sidebar {
 }
 
 /* Grid 12-Column System */
-.grid {
+.grid,
+.cv-layout-grid {
   display: grid !important;
 }
 
