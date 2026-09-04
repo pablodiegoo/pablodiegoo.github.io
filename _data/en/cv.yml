@@ -194,6 +194,45 @@
       arbitrage candidates monthly with automated half-life and z-score calculations.
     - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
     - <em>[Sanitized Public Specification]</em>
+  - title: Econometric Modeling of Government Disapproval
+    institution: Ágora Pesquisa
+    year: '2025'
+    description:
+    - Econometric logistic regression model identifying the key statistical determinants
+      and odds ratios driving government disapproval from public opinion survey microdata.
+    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib,
+      Logistic Regression, ROC-AUC
+    - <em>[Sanitized Public Specification]</em>
+  - title: Saquarema Public Health Qualitative & Sentiment Research
+    institution: Ágora Pesquisa / Prefeitura de Saquarema
+    year: '2025'
+    description:
+    - In-depth qualitative research, semi-structured discussion guide mapping, and
+      text mining on public healthcare services in Saquarema (Rio de Janeiro), evaluating
+      access, triage, clinical care, and municipal infrastructure.
+    - <b>Stack:</b> Python, NLP, Análise Qualitativa, Roteiros Semiestruturados, Text
+      Mining, Sentiment Analysis
+    - <em>[Sanitized Public Specification]</em>
+  - title: Sebrae-SP OS 15 Advisory (SME Segmented Specialization)
+    institution: Ágora Pesquisa / Sebrae-SP
+    year: '2025'
+    description:
+    - Strategic consulting investigation evaluating how generic, adjusted, and specialized
+      service delivery models impact perceived value, customer experience, and business
+      competitiveness for small and medium enterprises (SMEs) supported by Sebrae-SP.
+    - <b>Stack:</b> Python, Pesquisa de Mercado, Análise Qualitativa e Quantitativa,
+      Focus Groups, Estatística Descritiva
+    - <em>[Sanitized Public Specification]</em>
+  - title: Sebrae-SP OS 18 Advisory (Marketplace & Digital Sales Diagnostic)
+    institution: Ágora Pesquisa / Sebrae-SP
+    year: '2025'
+    description:
+    - Strategic and operational diagnostic of SME merchant dynamics across Brazilian
+      digital marketplaces (Mercado Livre, Amazon, Shopee, Magalu, TikTok Shop), evaluating
+      commission fees, fulfillment, and omnichannel retention.
+    - <b>Stack:</b> Python, E-commerce Analytics, Marketplaces, Análise Mista Quali-Quanti,
+      WhatsApp Survey, Diagramas de Fluxo
+    - <em>[Sanitized Public Specification]</em>
 - title: Publications & Academic Theses
   type: time_table
   contents:

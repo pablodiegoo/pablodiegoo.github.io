@@ -200,6 +200,46 @@
       com cálculo automatizado de meias-vidas (half-life) e z-scores.
     - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
     - <em>[Ficha Pública Sanitizada]</em>
+  - title: Modelagem Econométrica de Desaprovação Governamental
+    institution: Ágora Pesquisa
+    year: '2025'
+    description:
+    - Modelagem econométrica e regressão logística avaliando os principais determinantes
+      da probabilidade de desaprovação governamental a partir de microdados amostrais
+      de opinião pública.
+    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib,
+      Logistic Regression, ROC-AUC
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Pesquisa Qualitativa de Saúde Pública de Saquarema
+    institution: Ágora Pesquisa / Prefeitura de Saquarema
+    year: '2025'
+    description:
+    - Mapeamento semiestruturado, análise qualitativa em profundidade e mineração
+      de texto sobre a percepção dos serviços de saúde pública do município de Saquarema-RJ,
+      abrangendo acesso, triagem, atendimento e infraestrutura.
+    - <b>Stack:</b> Python, NLP, Análise Qualitativa, Roteiros Semiestruturados, Text
+      Mining, Sentiment Analysis
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Consultoria Sebrae-SP OS 15 (Especialização Segmentada de MPEs)
+    institution: Ágora Pesquisa / Sebrae-SP
+    year: '2025'
+    description:
+    - Investigação estratégica sobre o impacto de modelos de atendimento genérico,
+      ajustado e especializado na percepção de valor, experiência e competitividade
+      de micro e pequenas empresas (MPEs) paulistas atendidas pelo Sebrae-SP.
+    - <b>Stack:</b> Python, Pesquisa de Mercado, Análise Qualitativa e Quantitativa,
+      Focus Groups, Estatística Descritiva
+    - <em>[Ficha Pública Sanitizada]</em>
+  - title: Consultoria Sebrae-SP OS 18 (Diagnóstico de Vendas em Marketplaces)
+    institution: Ágora Pesquisa / Sebrae-SP
+    year: '2025'
+    description:
+    - Diagnóstico estratégico e operacional das relações de vendas de pequenos negócios
+      em marketplaces digitais no Estado de São Paulo, avaliando taxas, logística,
+      canais (Mercado Livre, Amazon, Shopee, Magalu, TikTok Shop) e retenção.
+    - <b>Stack:</b> Python, E-commerce Analytics, Marketplaces, Análise Mista Quali-Quanti,
+      WhatsApp Survey, Diagramas de Fluxo
+    - <em>[Ficha Pública Sanitizada]</em>
 - title: Publicações e Produção Acadêmica
   type: time_table
   contents:
