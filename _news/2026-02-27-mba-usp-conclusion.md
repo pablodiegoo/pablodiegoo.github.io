@@ -3,7 +3,7 @@ layout: post
 date: 2026-02-27 18:00:00-0300
 inline: true
 related_posts: false
-certificate_id: 27-02-2026-usp-mbadatascience
+certificate_id: 2026-02-27-usp-mbadatascience
 ---
 
 {% if site.active_lang == "pt-br" %}

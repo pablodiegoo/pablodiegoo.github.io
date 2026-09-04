@@ -1,0 +1,56 @@
+<div class="divide-y divide-slate-200 dark:divide-slate-800">
+  {% if entry.featured_credentials and entry.featured_credentials.size > 0 %}
+    {% for c in entry.featured_credentials %}
+      <div class="py-3 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 text-xs">
+        <div>
+          <strong class="text-slate-950 dark:text-white font-bold font-sans">{{ c.title }}</strong>
+          <span class="text-slate-600 dark:text-slate-400"> — {{ c.institution }}</span>
+          {% if c.audit != "" and c.audit != nil %}
+            <span class="font-mono text-[11px] text-slate-500 ml-1">({{ c.audit }})</span>
+          {% endif %}
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <span class="font-mono text-slate-600 dark:text-slate-400">{{ c.year }}</span>
+          {% if c.url != "" and c.url != nil %}
+            <a href="{{ c.url }}" target="_blank" rel="noopener noreferrer" class="font-mono text-[11px] text-oxford dark:text-blue-400 hover:underline">
+              [{% if site.active_lang == 'pt-br' %}Verificação ↗{% else %}Verify ↗{% endif %}]
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    {% for grp in entry.contents %}
+      {% for it in grp.items %}
+        <div class="py-2.5 text-xs text-slate-700 dark:text-slate-300">{{ it }}</div>
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+</div>
+
+<!-- Banner de Certificações Complementares -->
+{% assign total_certs = entry.total_certificates | default: 75 %}
+<div class="mt-4 p-4 rounded-lg border border-slate-300 dark:border-slate-700 bg-slate-100/70 dark:bg-slate-900/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+  <div class="flex items-center gap-3 text-left">
+    <i class="fa-solid fa-certificate text-oxford dark:text-blue-400 text-lg shrink-0"></i>
+    <div>
+      <div class="font-bold text-slate-900 dark:text-white font-sans">
+        {% if site.active_lang == 'pt-br' %}
+          {{ total_certs }}+ Certificados e Credenciais Complementares
+        {% else %}
+          {{ total_certs }}+ Additional Certifications and Credentials
+        {% endif %}
+      </div>
+      <div class="text-slate-600 dark:text-slate-400 text-[11px]">
+        {% if site.active_lang == 'pt-br' %}
+          Cursos &gt;= 40h, habilitações regulatórias e titulações com código probatório auditável.
+        {% else %}
+          Courses &gt;= 40h, regulatory licenses, and degrees with auditable evidence.
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <a href="{{ '/news/' | relative_url }}" class="font-mono text-xs font-semibold px-3 py-1.5 rounded border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 transition shrink-0 whitespace-nowrap">
+    {% if site.active_lang == 'pt-br' %}Ver em Novidades / Marcos →{% else %}View in News / Milestones →{% endif %}
+  </a>
+</div>

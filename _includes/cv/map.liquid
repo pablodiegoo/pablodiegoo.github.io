@@ -1,29 +1,21 @@
-<table class="table table-cv table-sm table-borderless table-responsive">
+<div class="cv-map divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800 my-2">
   {% for content in entry.contents %}
-    <tr>
-      <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content.name }}</b>
-      </td>
+    <div class="py-2.5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 text-xs">
+      <span class="font-bold text-slate-900 dark:text-slate-100 font-mono">{{ content.name }}</span>
       {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td>
+        <span class="text-slate-700 dark:text-slate-300">{{ content.value }}</span>
       {% endif %}
       {% if content.links %}
-        <td class="p-1 pl-2 font-weight-light text">
-          <div class="container-pdf">
-            {% for item in content.links %}
-              {% if item.link %}
-                <div class="container-link-button">
-                  {% if item.name %}
-                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.name }}</a>
-                  {% else %}
-                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
-                  {% endif %}
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-        </td>
+        <div class="flex flex-wrap gap-1.5">
+          {% for item in content.links %}
+            {% if item.link %}
+              <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
+                {{ item.name | default: "Link" }} ↗
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
       {% endif %}
-    </tr>
+    </div>
   {% endfor %}
-</table>
+</div>

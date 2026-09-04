@@ -859,8 +859,48 @@ html.dark .hero-badge-pill {
   }
 }
 
+/* Hero Badge Pill Primary (Destacado para Download de PDF) */
+.hero-badge-pill-primary {
+  font-family: var(--font-family-mono) !important;
+  font-size: 0.75rem !important; /* 12px */
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  padding: 0.25rem 0.65rem !important;
+  border-radius: 0.25rem !important;
+  background-color: #1E3A8A !important;
+  color: #FFFFFF !important;
+  border: 1px solid #1E3A8A !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  text-decoration: none !important;
+  transition: all 0.15s ease-in-out !important;
+
+  &:hover {
+    background-color: #2563EB !important;
+    color: #FFFFFF !important;
+    border-color: #2563EB !important;
+    text-decoration: none !important;
+  }
+}
+
+html[data-theme="dark"] .hero-badge-pill-primary,
+html.dark .hero-badge-pill-primary {
+  background-color: #2563EB !important;
+  color: #FFFFFF !important;
+  border-color: #2563EB !important;
+
+  &:hover {
+    background-color: #3B82F6 !important;
+    color: #FFFFFF !important;
+    border-color: #3B82F6 !important;
+    text-decoration: none !important;
+  }
+}
+
 /* Hero L2 Viktor Frankl Quote Container */
 .hero-quote {
+
   blockquote {
     font-style: italic !important;
     font-size: 0.75rem !important;
@@ -1115,3 +1155,74 @@ html.dark .contact-note {
   color: var(--global-text-color) !important;
   letter-spacing: -0.015em;
 }
+
+/* ==========================================================================
+   16. Editorial CV Page & Tocbot Refinements
+   ========================================================================== */
+.cv-editorial {
+  .hero-cv {
+    .cta-pdf-btn {
+      text-decoration: none !important;
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+  }
+
+  .cv-timeline {
+    .cv-item {
+      &:first-child {
+        padding-top: 0.25rem !important;
+      }
+    }
+  }
+}
+
+/* Tocbot Sidebar Polish (Oxford Navy & Slate) */
+#toc-sidebar {
+  font-family: var(--font-family-mono) !important;
+  font-size: 0.75rem !important;
+
+  .toc-list {
+    border-left: 2px solid var(--color-border-subtle, #E2E8F0) !important;
+    padding-left: 0.75rem !important;
+    list-style: none !important;
+    margin-left: 0 !important;
+  }
+
+  .toc-link {
+    color: var(--color-text-muted, #64748B) !important;
+    text-decoration: none !important;
+    transition: color 0.15s ease-in-out !important;
+    display: block !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+
+    &:hover {
+      color: var(--color-brand-primary, #1E3A8A) !important;
+      text-decoration: none !important;
+    }
+
+    &.is-active-link {
+      color: var(--color-brand-primary, #1E3A8A) !important;
+      font-weight: 700 !important;
+    }
+  }
+}
+
+html[data-theme="dark"] #toc-sidebar,
+html.dark #toc-sidebar {
+  .toc-list {
+    border-left-color: var(--color-border-subtle, #1F2937) !important;
+  }
+
+  .toc-link {
+    color: var(--color-text-muted, #94A3B8) !important;
+
+    &:hover,
+    &.is-active-link {
+      color: var(--color-brand-primary-dark, #60A5FA) !important;
+    }
+  }
+}
+

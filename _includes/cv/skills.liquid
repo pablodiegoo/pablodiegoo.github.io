@@ -1,0 +1,30 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+  {% for grp in entry.contents %}
+    <div class="p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/40 space-y-2">
+      <h3 class="font-sans text-sm font-bold text-slate-950 dark:text-white m-0">
+        {{ grp.title }}
+      </h3>
+      <div class="space-y-1.5">
+        {% if grp.skills and grp.skills.size > 0 %}
+          {% for it in grp.skills %}
+            <div class="text-xs leading-snug">
+              <span class="font-bold text-slate-900 dark:text-slate-100">{{ it.name }}</span>
+              {% if it.level != "" and it.level != nil %}
+                <span class="font-mono text-[10px] text-slate-500">({{ it.level }})</span>
+              {% endif %}
+              {% if it.details != "" and it.details != nil %}
+                : <span class="text-slate-600 dark:text-slate-400">{{ it.details }}</span>
+              {% endif %}
+            </div>
+          {% endfor %}
+        {% else %}
+          {% for it in grp.items %}
+            <div class="text-xs leading-snug text-slate-700 dark:text-slate-300">
+              {{ it }}
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -33,6 +33,22 @@
     - 'Dissertation: Modelagem e Otimização Combinatória sob Restrições de Cardinalidade
       e Fricções Reais Aplicada à Alocação Dinâmica de Portfólios de Arbitragem Estatística
       na B3'
+    focus: Operations Research & Combinatorial Optimization
+    advisor: Prof. Dr. Dalessandro Soares Vianna
+    thesis_label: Dissertation
+    thesis: Modelagem e Otimização Combinatória sob Restrições de Cardinalidade e
+      Fricções Reais Aplicada à Alocação Dinâmica de Portfólios de Arbitragem Estatística
+      na B3
+    thesis_url: ''
+    workload: ''
+    tags:
+    - MIQP
+    - MILP
+    - CVaR Linearizado
+    - Gurobi
+    - Pyomo
+    - Python
+    - R
   - title: MBA in Data Science & Analytics
     institution: Universidade de São Paulo (USP / ESALQ)
     year: 2024 - 2026
@@ -41,66 +57,133 @@
     - 'Thesis: Pair Trading com Machine Learning no Mercado Brasileiro: Uma Comparação
       com a Abordagem Clássica de Cointegração'
     - 'Carga: 425 horas (Portaria MEC nº 503 de 19/07/2022)'
+    focus: Engle-Granger Cointegration & Supervised Models
+    advisor: Diego Pedroso dos Santos
+    thesis_label: Thesis
+    thesis: 'Pair Trading com Machine Learning no Mercado Brasileiro: Uma Comparação
+      com a Abordagem Clássica de Cointegração'
+    thesis_url: ''
+    workload: 425 horas (Portaria MEC nº 503 de 19/07/2022)
+    tags:
+    - Python
+    - Statsmodels
+    - Scikit-Learn
+    - Engle-Granger
+    - Random Forest
+    - XGBoost
   - title: Bachelor of Science in Economics
     institution: Universidade Federal do Rio de Janeiro (UFRJ)
     year: 2010 - 2019
     description:
     - 'Advisor: Prof. Dr. João Felippe Cury Marinho Mathias'
     - 'Thesis: Criptomoedas: seriam essas formas viáveis de dinheiro?'
+    focus: Econometrics & Applied Microeconomics
+    advisor: Prof. Dr. João Felippe Cury Marinho Mathias
+    thesis_label: Thesis
+    thesis: 'Criptomoedas: seriam essas formas viáveis de dinheiro?'
+    thesis_url: https://pantheon.ufrj.br/handle/11422/11747
+    workload: ''
+    tags:
+    - Econometria
+    - Teoria Monetária
+    - Análise de Dados
+    - Mercados Financeiros
 - title: Experience
   type: time_table
   contents:
-  - title: Senior Investment Advisor & Partner
+  - title: Investment Advisor & Partner
     institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
     year: Jun 2020 - Present
-    description:
+    description: &id001
     - Conducted quantitative risk-return modeling for recommended client portfolios
       using Python, R, and econometric toolsets.
     - Oversaw operational controls, internal compliance, and regulatory governance
       under CVM, ANBIMA, and Central Bank standards.
     - Architected business intelligence dashboards in Power BI, Google Looker Studio,
       and advanced Excel for wealth management.
+    location: Rio de Janeiro / Araruama, RJ, Brasil
+    bullets: *id001
+    stack:
+    - Python
+    - R
+    - Power BI
+    - Compliance CVM/ANBIMA
+    - Alocação de Ativos
   - title: Data & Insights Analyst
     institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
     year: Apr 2025 - Aug 2026
-    description:
+    description: &id002
     - Engineered automated ingestion pipelines via Meta API (WhatsApp), slashing manual
       data processing effort by 90%.
     - Modeled analytical relational databases in SQL and Python for high-throughput
       NPS and CSAT customer satisfaction metrics.
     - Technical lead in the development and architectural definition of the proprietary
       platform Project Aporia.
+    location: Araruama, RJ, Brasil
+    bullets: *id002
+    stack:
+    - FastAPI
+    - Python
+    - PostgreSQL
+    - Meta Graph API
+    - Uber H3
+    - Pandas
   - title: Backoffice Manager & Investment Advisor (Partner)
     institution: Meta & Actio Agente Autônomo de Investimentos
     year: Aug 2017 - May 2020
-    description:
+    description: &id003
     - Conceived and implemented a proprietary statistical arbitrage algorithm in R
       (pair trading / cointegration) on B3 (+100 opportunities/month).
     - Managed operational backoffice infrastructure and built financial planning tools
       that streamlined client onboarding and tax optimization.
+    location: Rio de Janeiro, RJ, Brasil
+    bullets: *id003
+    stack:
+    - R (Urca, Tseries, Dplyr)
+    - Cointegração
+    - Engle-Granger
+    - Backoffice
+    - VBA
   - title: Co-Founder & Commercial Director
     institution: Espaço Champs Elyseés
     year: Jan 2014 - Nov 2018
-    description:
+    description: &id004
     - Commercial operations management, supplier contract renegotiation resulting
       in 70% payroll cost reductions, and digital presence expansion.
     - Operational workflow enhancements that increased venue throughput capacity.
+    location: Rio de Janeiro / Araruama, RJ, Brasil
+    bullets: *id004
+    stack:
+    - Gestão Operacional
+    - Negociação
+    - Planejamento Orçamentário
   - title: Digital Marketing Consultant & Webmaster
     institution: BX House
     year: Nov 2002 - Jan 2014
-    description:
+    description: &id005
     - Consulted on corporate web development, search engine optimization (SEO), and
       digital infrastructure deployment.
+    location: Rio de Janeiro, RJ, Brasil
+    bullets: *id005
+    stack:
+    - SEO
+    - Web Development
+    - Infraestrutura Digital
   - title: Marketing Consultant Intern
     institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
     year: Jan 2012 - Aug 2012
-    description:
+    description: &id006
     - Delivered market research studies, strategic planning assessments, and commercial
       lead acquisition campaigns.
+    location: Rio de Janeiro, RJ, Brasil
+    bullets: *id006
+    stack:
+    - Pesquisa de Mercado
+    - Planejamento Estratégico
   - title: Undergraduate Research Assistant
     institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
     year: Jun 2011 - Jul 2012
-    description:
+    description: &id007
     - Undergraduate researcher in the Innovation Economics Group, surveying entrepreneurship
       determinants across the Brazilian ICT sector.
     - Delivered oral presentation and co-authored scientific abstract published in
@@ -108,12 +191,25 @@
     - Contributed to field research surveying 76 entrepreneurs that informed the international
       paper "A Profile of ICT Entrepreneurs in Brazil" (CONF-IRM 2012), formally acknowledged
       in the paper credits.
+    location: Rio de Janeiro, RJ, Brasil
+    bullets: *id007
+    stack:
+    - Economia Industrial
+    - Estatística Descritiva
+    - Pesquisa de Campo
+    - SPSS
   - title: Marketing and Communications Associate
     institution: AIESEC no Rio de Janeiro
     year: May 2010 - Feb 2012
-    description:
+    description: &id008
     - Promoted university exchange and international leadership development programs,
       managing institutional outreach campaigns.
+    location: Rio de Janeiro, RJ, Brasil
+    bullets: *id008
+    stack:
+    - Comunicação
+    - Captação
+    - Intercâmbio
 - title: Projects & Research
   type: time_table
   contents:
@@ -127,6 +223,24 @@
     - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
       H3, SQLAlchemy, PostgreSQL, Docker
     - <em>[Sanitized Public Specification]</em>
+    summary: Spatial analytics and sampling intelligence platform engineered to automate
+      probabilistic survey sampling and opinion poll data processing. Converts census
+      tracts into Uber H3 spatial cells and delivers dynamic decision-support dashboards.
+    category: Data Science
+    status: proprietary_sanitized
+    stack:
+    - FastAPI
+    - Python
+    - React 18
+    - TypeScript
+    - Leaflet
+    - GeoParquet
+    - Uber H3
+    - SQLAlchemy
+    - PostgreSQL
+    - Docker
+    documentation_url: ''
+    jekyll_slug: aporia
   - title: Pairs Trading with Machine Learning on B3 (USP Thesis)
     institution: USP / ESALQ
     year: 2024 - 2026
@@ -136,6 +250,21 @@
       models against supervised Machine Learning classifiers for statistical arbitrage
       pairs trading on B3 equities.
     - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
+    summary: MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a
+      rigorous empirical benchmark comparing classical Engle-Granger econometric cointegration
+      models against supervised Machine Learning classifiers for statistical arbitrage
+      pairs trading on B3 equities.
+    category: Quantitative Finance
+    status: public
+    stack:
+    - Python
+    - Statsmodels
+    - Scikit-Learn
+    - Pandas
+    - NumPy
+    - Matplotlib
+    documentation_url: ''
+    jekyll_slug: pair_trading_ml
   - title: Combinatorial Optimization under Cardinality Constraints and Real Market
       Frictions on B3
     institution: UFF / MESC
@@ -147,6 +276,22 @@
       arbitrage equity portfolios on B3 while factoring in transaction costs, borrowing
       fees, and cardinality constraints.
     - <b>Stack:</b> Python, Gurobi, Pyomo, SciPy, R, LaTeX
+    summary: Professional master's thesis developing exact Mixed-Integer Quadratic
+      Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formulations
+      incorporating linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation
+      of statistical arbitrage equity portfolios on B3 while factoring in transaction
+      costs, borrowing fees, and cardinality constraints.
+    category: Quantitative Finance
+    status: public
+    stack:
+    - Python
+    - Gurobi
+    - Pyomo
+    - SciPy
+    - R
+    - LaTeX
+    documentation_url: ''
+    jekyll_slug: mesc_optimization
   - title: Automated CX Data Ingestion Pipeline via Meta API (WhatsApp)
     institution: Ágora Pesquisa
     year: 2025 - 2026
@@ -157,6 +302,21 @@
     - <b>Stack:</b> Python, Meta Graph API, Webhooks, FastAPI, SQL, PostgreSQL, Power
       BI
     - <em>[Sanitized Public Specification]</em>
+    summary: Automated data engineering pipeline ingesting and validating conversational
+      survey responses via Meta WhatsApp Business API for real-time NPS and CSAT calculation,
+      achieving a 90% reduction in manual data processing overhead.
+    category: Data Engineering
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - Meta Graph API
+    - Webhooks
+    - FastAPI
+    - SQL
+    - PostgreSQL
+    - Power BI
+    documentation_url: ''
+    jekyll_slug: cx_whatsapp
   - title: Unified Media Transcription, OCR & Qualitative NLP Pipeline (agp-media)
     institution: Ágora Pesquisa / AGP
     year: 2025 - 2026
@@ -167,6 +327,24 @@
     - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
       Pydantic, FFmpeg, CLI
     - <em>[Sanitized Public Specification]</em>
+    summary: Modular command-line toolkit (CLI) engineered to streamline field research
+      workflows. Handles media conversion, audio transcription with multi-speaker
+      diarization (Whisper, Gemini, Google STT), document OCR, and qualitative AI
+      sentiment profiling.
+    category: Data Engineering
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - OpenAI Whisper
+    - Google STT
+    - Gemini API
+    - PaddleOCR
+    - Mistral
+    - Pydantic
+    - FFmpeg
+    - CLI
+    documentation_url: ''
+    jekyll_slug: agp_media
   - title: Geospatial Engineering & Tourism Data Quality Audit Pipeline (EMPETUR)
     institution: Ágora Pesquisa / EMPETUR
     year: '2025'
@@ -178,6 +356,22 @@
     - <b>Stack:</b> Python, GeoPandas, Shapely, Pandas, Matplotlib, Shapefiles IBGE,
       OpenStreetMap
     - <em>[Sanitized Public Specification]</em>
+    summary: Automated data engineering and geospatial audit pipeline built to validate
+      and reconcile the official tourism inventory of Pernambuco. Performs coordinate
+      boundary validation against IBGE shapefiles, fuzzy deduplication, and automated
+      data quality reporting.
+    category: Data Analytics
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - GeoPandas
+    - Shapely
+    - Pandas
+    - Matplotlib
+    - Shapefiles IBGE
+    - OpenStreetMap
+    documentation_url: ''
+    jekyll_slug: empetur
   - title: Financial Planning & Wealth Optimization Client Engine
     institution: Portfólio Pessoal / Meta Investimentos
     year: 2017 - Present
@@ -188,6 +382,18 @@
     - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
     - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentation
       / Project Link</a>
+    summary: Financial lifecycle modeling tool featuring cash flow simulations and
+      tax drag optimization models across Brazilian investment funds and tax-exempt
+      fixed income vehicles.
+    category: Data Analytics
+    status: public
+    stack:
+    - Excel Avançado
+    - VBA
+    - Python
+    - Google Looker Studio
+    documentation_url: https://pablodiegoo.github.io/projects/FinPlanning/
+    jekyll_slug: FinPlanning
   - title: Algorithmic Statistical Arbitrage System in R (Meta & Actio)
     institution: Meta & Actio Investimentos
     year: 2017 - 2020
@@ -197,6 +403,20 @@
       arbitrage candidates monthly with automated half-life and z-score calculations.
     - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
     - <em>[Sanitized Public Specification]</em>
+    summary: Systematic algorithm coded in R for daily universe-wide Engle-Granger
+      cointegration and Augmented Dickey-Fuller (ADF) screening on B3 equities. Scanned
+      100+ statistical arbitrage candidates monthly with automated half-life and z-score
+      calculations.
+    category: Quantitative Finance
+    status: proprietary_sanitized
+    stack:
+    - R
+    - Tseries
+    - Urca
+    - Dplyr
+    - Ggplot2
+    documentation_url: ''
+    jekyll_slug: pair_trading_r
   - title: Econometric Modeling of Government Disapproval
     institution: Ágora Pesquisa
     year: '2025'
@@ -206,6 +426,22 @@
     - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib,
       Logistic Regression, ROC-AUC
     - <em>[Sanitized Public Specification]</em>
+    summary: Econometric logistic regression model identifying the key statistical
+      determinants and odds ratios driving government disapproval from public opinion
+      survey microdata.
+    category: Data Analytics
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - Statsmodels
+    - Scikit-Learn
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Logistic Regression
+    - ROC-AUC
+    documentation_url: ''
+    jekyll_slug: gov_disapproval
   - title: Saquarema Public Health Qualitative & Sentiment Research
     institution: Ágora Pesquisa / Prefeitura de Saquarema
     year: '2025'
@@ -216,6 +452,20 @@
     - <b>Stack:</b> Python, NLP, Análise Qualitativa, Roteiros Semiestruturados, Text
       Mining, Sentiment Analysis
     - <em>[Sanitized Public Specification]</em>
+    summary: In-depth qualitative research, semi-structured discussion guide mapping,
+      and text mining on public healthcare services in Saquarema (Rio de Janeiro),
+      evaluating access, triage, clinical care, and municipal infrastructure.
+    category: Data Analytics
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - NLP
+    - Análise Qualitativa
+    - Roteiros Semiestruturados
+    - Text Mining
+    - Sentiment Analysis
+    documentation_url: ''
+    jekyll_slug: saquarema_health
   - title: Sebrae-SP OS 15 Advisory (SME Segmented Specialization)
     institution: Ágora Pesquisa / Sebrae-SP
     year: '2025'
@@ -226,6 +476,20 @@
     - <b>Stack:</b> Python, Pesquisa de Mercado, Análise Qualitativa e Quantitativa,
       Focus Groups, Estatística Descritiva
     - <em>[Sanitized Public Specification]</em>
+    summary: Strategic consulting investigation evaluating how generic, adjusted,
+      and specialized service delivery models impact perceived value, customer experience,
+      and business competitiveness for small and medium enterprises (SMEs) supported
+      by Sebrae-SP.
+    category: Data Analytics
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - Pesquisa de Mercado
+    - Análise Qualitativa e Quantitativa
+    - Focus Groups
+    - Estatística Descritiva
+    documentation_url: ''
+    jekyll_slug: sebrae_os15
   - title: Sebrae-SP OS 18 Advisory (Marketplace & Digital Sales Diagnostic)
     institution: Ágora Pesquisa / Sebrae-SP
     year: '2025'
@@ -236,6 +500,20 @@
     - <b>Stack:</b> Python, E-commerce Analytics, Marketplaces, Análise Mista Quali-Quanti,
       WhatsApp Survey, Diagramas de Fluxo
     - <em>[Sanitized Public Specification]</em>
+    summary: Strategic and operational diagnostic of SME merchant dynamics across
+      Brazilian digital marketplaces (Mercado Livre, Amazon, Shopee, Magalu, TikTok
+      Shop), evaluating commission fees, fulfillment, and omnichannel retention.
+    category: Data Analytics
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - E-commerce Analytics
+    - Marketplaces
+    - Análise Mista Quali-Quanti
+    - WhatsApp Survey
+    - Diagramas de Fluxo
+    documentation_url: ''
+    jekyll_slug: sebrae_os18
 - title: Publications & Academic Theses
   type: time_table
   contents:
@@ -245,6 +523,10 @@
     year: '2026'
     description:
     - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque; SANTOS, Diego Pedroso dos.
+    citation: PEREIRA, Pablo Diego de Albuquerque; SANTOS, Diego Pedroso dos.
+    venue: ''
+    url: ''
+    is_repository: false
   - title: 'Criptomoedas: seriam essas formas viáveis de dinheiro?'
     institution: Universidade Federal do Rio de Janeiro (UFRJ) — Instituto de Economia
     year: '2019'
@@ -253,6 +535,10 @@
       Marinho.
     - <a href="https://pantheon.ufrj.br/handle/11422/11747" target="_blank">Repositório
       Institucional</a>
+    citation: PEREIRA, Pablo Diego de Albuquerque; MATHIAS, João Felippe Cury Marinho.
+    venue: ''
+    url: https://pantheon.ufrj.br/handle/11422/11747
+    is_repository: true
   - title: Criptomoedas - Formas Viáveis de Dinheiro? Uma Breve Análise das Características
       e Funções da Moeda Comparada às Moedas Eletrônicas
     institution: Universidade Federal do Rio de Janeiro (UFRJ)
@@ -260,6 +546,10 @@
     description:
     - <b>Citação:</b> PEREIRA, P. D. A.; BARREIROS, D. P.
     - 'Veículo: Caderno de Resumos CCJE, p. 97'
+    citation: PEREIRA, P. D. A.; BARREIROS, D. P.
+    venue: Caderno de Resumos CCJE, p. 97
+    url: ''
+    is_repository: false
   - title: 'Paradigmas da Atitude Empreendedora: Uma Análise dos Elementos que Facilitam
       a Criação de Novos Negócios de TICs no Brasil'
     institution: Universidade Federal do Rio de Janeiro (UFRJ)
@@ -267,6 +557,10 @@
     description:
     - <b>Citação:</b> PEREIRA, P. D. A.; ROVERE, R. L. L.
     - 'Veículo: Livro de Resumos, p. 526'
+    citation: PEREIRA, P. D. A.; ROVERE, R. L. L.
+    venue: Livro de Resumos, p. 526
+    url: ''
+    is_repository: false
   - title: 'Criptomoedas: Mas seria o Bitcoin efetivamente uma moeda?'
     institution: LinkedIn Pulse
     year: '2017'
@@ -275,6 +569,10 @@
     - 'Veículo: LinkedIn Pulse'
     - <a href="https://www.linkedin.com/pulse/criptomoedas-mas-seria-o-bitcoin-efetivamente-uma-moeda-pereira/"
       target="_blank">Artigo Online</a>
+    citation: PEREIRA, Pablo Diego de Albuquerque.
+    venue: LinkedIn Pulse
+    url: https://www.linkedin.com/pulse/criptomoedas-mas-seria-o-bitcoin-efetivamente-uma-moeda-pereira/
+    is_repository: false
   - title: 'Criptomoedas: A expansão de um mercado'
     institution: LinkedIn Pulse
     year: '2017'
@@ -283,17 +581,10 @@
     - 'Veículo: LinkedIn Pulse'
     - <a href="https://www.linkedin.com/pulse/criptomoedas-expans%C3%A3o-de-um-mercado-pablo-diego-pereira/"
       target="_blank">Artigo Online</a>
-- title: Featured Certifications & Credentials
-  type: nested_list
-  contents:
-  - title: Professional and Academic Highlights (75 certificates cataloged in SSOT)
-    items:
-    - '<b>Declaração de Conclusão de Curso: MBA em Data Science e Analytics</b> —
-      USP / ESALQ (2026)'
-    - <b>Diploma de Bacharel em Ciências Econômicas</b> — Universidade Federal do
-      Rio de Janeiro (UFRJ) (2019)
-    - '<b>EF SET Certificate - C2 Proficient (Score: 79/100)</b> — EF SET (Standard
-      English Test) (2023) [<a href="https://www.efset.org/cert/sqaB64" target="_blank">Verification</a>]'
+    citation: PEREIRA, Pablo Diego de Albuquerque.
+    venue: LinkedIn Pulse
+    url: https://www.linkedin.com/pulse/criptomoedas-expans%C3%A3o-de-um-mercado-pablo-diego-pereira/
+    is_repository: false
 - title: Skills & Competencies
   type: nested_list
   contents:
@@ -307,6 +598,28 @@
     - <b>Git & GitHub</b> (Avançado)
     - <b>Bash / Shell Scripting</b> (Intermediário)
     - <b>HTML5 / CSS3 / Markdown</b> (Intermediário)
+    skills:
+    - name: Python
+      level: Avançado
+      details: Pandas, Polars, NumPy, Scikit-Learn, Statsmodels, Matplotlib, Seaborn
+    - name: R
+      level: Avançado
+      details: Tidyverse, Dplyr, Ggplot2, Caret, Urca, Tseries
+    - name: SQL
+      level: Avançado
+      details: PostgreSQL, SQLite, MySQL
+    - name: LaTeX
+      level: Avançado
+      details: ''
+    - name: Git & GitHub
+      level: Avançado
+      details: ''
+    - name: Bash / Shell Scripting
+      level: Intermediário
+      details: ''
+    - name: HTML5 / CSS3 / Markdown
+      level: Intermediário
+      details: ''
   - title: Operations Research & Quantitative Finance
     items:
     - <b>Otimização Combinatória Exata (MIQP, MILP)</b>
@@ -316,6 +629,28 @@
     - <b>Estratégias de Pair Trading Sistemático</b>
     - <b>Alocação e Teoria de Portfólios de Markowitz</b>
     - <b>Modelagem Econométrica e Séries Temporais (ARIMA, GARCH)</b>
+    skills:
+    - name: Otimização Combinatória Exata (MIQP, MILP)
+      level: ''
+      details: ''
+    - name: Medidas de Risco Coerentes (CVaR Linearizado)
+      level: ''
+      details: ''
+    - name: Modelagem de Problema da Mochila Multicritério
+      level: ''
+      details: ''
+    - name: Cointegração e Arbitragem Estatística (Engle-Granger, Johansen)
+      level: ''
+      details: ''
+    - name: Estratégias de Pair Trading Sistemático
+      level: ''
+      details: ''
+    - name: Alocação e Teoria de Portfólios de Markowitz
+      level: ''
+      details: ''
+    - name: Modelagem Econométrica e Séries Temporais (ARIMA, GARCH)
+      level: ''
+      details: ''
   - title: Machine Learning & Artificial Intelligence
     items:
     - <b>Algoritmos de Aprendizado Supervisionado (Classificação e Regressão)</b>
@@ -323,12 +658,41 @@
     - <b>Validação Cruzada para Séries Temporais (TimeSeriesSplit)</b>
     - <b>Deep Learning & Redes Neurais</b>
     - <b>Engenharia de Prompt e Aplicação de LLMs</b>
+    skills:
+    - name: Algoritmos de Aprendizado Supervisionado (Classificação e Regressão)
+      level: ''
+      details: ''
+    - name: Engenharia de Recursos (Feature Engineering) e Pré-processamento
+      level: ''
+      details: ''
+    - name: Validação Cruzada para Séries Temporais (TimeSeriesSplit)
+      level: ''
+      details: ''
+    - name: Deep Learning & Redes Neurais
+      level: ''
+      details: ''
+    - name: Engenharia de Prompt e Aplicação de LLMs
+      level: ''
+      details: ''
   - title: Business Intelligence, Analytics & Data Visualization
     items:
     - '<b>Microsoft Power BI</b>: DAX, Power Query, Modelagem Dimensional Star Schema'
     - <b>Google Looker Studio</b>
     - <b>Microsoft Excel Avançado / VBA</b>
     - <b>Visualização de Dados Científica e Executiva</b>
+    skills:
+    - name: Microsoft Power BI
+      level: ''
+      details: DAX, Power Query, Modelagem Dimensional Star Schema
+    - name: Google Looker Studio
+      level: ''
+      details: ''
+    - name: Microsoft Excel Avançado / VBA
+      level: ''
+      details: ''
+    - name: Visualização de Dados Científica e Executiva
+      level: ''
+      details: ''
   - title: Financial Markets, Regulation & Compliance
     items:
     - <b>Qualificação Técnica ANCORD (Agente Autônomo de Investimentos)</b>
@@ -338,7 +702,61 @@
     - <b>Prevenção à Lavagem de Dinheiro e Combate ao Financiamento do Terrorismo
       (PLD/CFT)</b>
     - <b>Lei Geral de Proteção de Dados (LGPD) no Setor Financeiro</b>
+    skills:
+    - name: Qualificação Técnica ANCORD (Agente Autônomo de Investimentos)
+      level: ''
+      details: ''
+    - name: Correspondente Bancário FEBRABAN (FBB100 Completo - Certificado Ativo
+        até 2027)
+      level: ''
+      details: ''
+    - name: Normas e Resoluções CVM / ANBIMA / BACEN
+      level: ''
+      details: ''
+    - name: Prevenção à Lavagem de Dinheiro e Combate ao Financiamento do Terrorismo
+        (PLD/CFT)
+      level: ''
+      details: ''
+    - name: Lei Geral de Proteção de Dados (LGPD) no Setor Financeiro
+      level: ''
+      details: ''
   - title: Languages & Proficiency
     items:
     - '<b>Português</b>: Nativo'
     - '<b>Inglês</b>: Fluente / Proficiente (C2 Proficient)'
+    skills:
+    - name: Português
+      level: Nativo
+      details: Nativo
+    - name: Inglês
+      level: C2 Proficient
+      details: Fluente / Proficiente
+- title: Featured Certifications & Credentials
+  type: nested_list
+  total_certificates: 75
+  featured_credentials:
+  - title: 'Declaração de Conclusão de Curso: MBA em Data Science e Analytics'
+    institution: USP / ESALQ
+    year: '2026'
+    audit: Verificado
+    url: null
+  - title: Diploma de Bacharel em Ciências Econômicas
+    institution: Universidade Federal do Rio de Janeiro (UFRJ)
+    year: '2019'
+    audit: Verificado
+    url: null
+  - title: 'EF SET Certificate - C2 Proficient (Score: 79/100)'
+    institution: EF SET (Standard English Test)
+    year: '2023'
+    audit: Verificado
+    url: https://www.efset.org/cert/sqaB64
+  contents:
+  - title: Professional and Academic Highlights (75 additional certifications and
+      credentials)
+    items:
+    - '<b>Declaração de Conclusão de Curso: MBA em Data Science e Analytics</b> —
+      USP / ESALQ (2026)'
+    - <b>Diploma de Bacharel em Ciências Econômicas</b> — Universidade Federal do
+      Rio de Janeiro (UFRJ) (2019)
+    - '<b>EF SET Certificate - C2 Proficient (Score: 79/100)</b> — EF SET (Standard
+      English Test) (2023) [<a href="https://www.efset.org/cert/sqaB64" target="_blank">Verification</a>]'

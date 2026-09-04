@@ -1,118 +1,87 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<div class="cv-timeline divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
   {% for content in entry.contents %}
-    <li class="list-group-item">
-      <div class="row">
-        {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
-            <table class="table-cv">
-              <tbody>
-                <tr>
-                  <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
-                      {{- content.year -}}
-                    </span>
-                  </td>
-                </tr>
-                {% if content.location %}
-                  <tr>
-                    <td>
-                      <p class="location">
-                        <i class="fa-solid fa-location-dot iconlocation"></i>
-                        {{ content.location }}
-                      </p>
-                    </td>
-                  </tr>
-                {% endif %}
-              </tbody>
-            </table>
-          </div>
-        {% endif %}
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+    <div class="cv-item py-3.5 space-y-1.5">
+      <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+        <div>
           {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+            <div class="font-bold text-slate-950 dark:text-white text-sm sm:text-base">
+              {{ content.title }}
+            </div>
           {% endif %}
-          {% if content.department or content.institution %}
-            <table class="table-cv ml-1 ml-md-4 institution">
-              <tbody>
-                {% if content.institution %}
-                  <tr>
-                    <td style="vertical-align: top; text-align: center" class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
-                    </td>
-                    <td class="institution">{{ content.institution }}</td>
-                  </tr>
-                {% endif %}
-                {% if content.department %}
-                  <tr>
-                    <td style="vertical-align: top; text-align: center" class="department">
-                      <i class="fa-regular fa-circle-dot icondepartment"></i>
-                    </td>
-                    <td class="department">{{ content.department }}</td>
-                  </tr>
-                {% endif %}
-              </tbody>
-            </table>
-          {% endif %}
-          {% if content.maindescription %}
-            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
-          {% endif %}
-          {% if content.description %}
-            <ul class="items">
-              {% for item in content.description %}
-                <li>
-                  {% if item.contents %}
-                    <span class="item-title">{{ item.title }}</span>
-                    <ul class="subitems">
-                      {% for subitem in item.contents %}
-                        <li>
-                          <span class="subitem">{{ subitem }}</span>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  {% else %}
-                    <span class="item">{{ item }}</span>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-          {% if content.items %}
-            <ul class="items">
-              {% for item in content.items %}
-                <li>
-                  {% if item.contents %}
-                    <span class="item-title">{{ item.title }}</span>
-                    <ul class="subitems">
-                      {% for subitem in item.contents %}
-                        <li>
-                          <span class="subitem">{{ subitem }}</span>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  {% else %}
-                    <span class="item">{{ item }}</span>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-          {% if content.linkitems %}
-            <div class="container-links ml-1 ml-md-4">
-              {% for item in content.linkitems %}
-                {% if item.link %}
-                  <div class="container-link-button">
-                    {% if item.linkname %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
-                    {% else %}
-                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
-                    {% endif %}
-                  </div>
-                {% endif %}
-              {% endfor %}
+          {% if content.institution or content.department or content.location %}
+            <div class="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
+              {% if content.institution %}
+                <span class="text-slate-700 dark:text-slate-300">{{ content.institution }}</span>
+              {% endif %}
+              {% if content.department %}
+                · <span class="font-mono text-slate-700 dark:text-slate-300 font-semibold">{{ content.department }}</span>
+              {% endif %}
+              {% if content.location %}
+                · <span class="font-mono text-slate-500">{{ content.location }}</span>
+              {% endif %}
             </div>
           {% endif %}
         </div>
+        {% if content.year %}
+          <span class="font-mono text-xs font-semibold text-slate-600 dark:text-slate-300 shrink-0">
+            {{ content.year }}
+          </span>
+        {% endif %}
       </div>
-    </li>
+
+      {% if content.maindescription %}
+        <div class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">{{ content.maindescription }}</div>
+      {% endif %}
+
+      {% if content.description %}
+        <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 pl-4 list-disc marker:text-slate-400 m-0">
+          {% for item in content.description %}
+            {% if item.contents %}
+              <li class="leading-relaxed text-justify">
+                <span class="font-semibold text-slate-900 dark:text-slate-100">{{ item.title }}</span>
+                <ul class="subitems pl-4 list-circle mt-1 space-y-1">
+                  {% for subitem in item.contents %}
+                    <li class="text-slate-600 dark:text-slate-400">{{ subitem }}</li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="leading-relaxed text-justify">{{ item }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if content.items %}
+        <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 pl-4 list-disc marker:text-slate-400 m-0">
+          {% for item in content.items %}
+            {% if item.contents %}
+              <li class="leading-relaxed text-justify">
+                <span class="font-semibold text-slate-900 dark:text-slate-100">{{ item.title }}</span>
+                <ul class="subitems pl-4 list-circle mt-1 space-y-1">
+                  {% for subitem in item.contents %}
+                    <li class="text-slate-600 dark:text-slate-400">{{ subitem }}</li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="leading-relaxed text-justify">{{ item }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if content.linkitems %}
+        <div class="flex flex-wrap gap-2 pt-1">
+          {% for item in content.linkitems %}
+            {% if item.link %}
+              <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
+                {{ item.linkname | default: "Link" }} ↗
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
   {% endfor %}
-</ul>
+</div>

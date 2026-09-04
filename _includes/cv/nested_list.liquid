@@ -1,16 +1,18 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<div class="cv-nested-list grid grid-cols-1 md:grid-cols-2 gap-4">
   {% for content in entry.contents %}
-    <li class="list-group-item">
-      <h5 class="font-italic">{{ content.title }}</h5>
+    <div class="nested-group p-4 rounded-lg border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/40 space-y-2">
+      {% if content.title %}
+        <h4 class="font-sans text-sm font-bold text-slate-950 dark:text-white m-0">
+          {{ content.title }}
+        </h4>
+      {% endif %}
       {% if content.items %}
-        <ul class="subitems">
+        <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1.5 pl-4 list-disc marker:text-slate-400 m-0">
           {% for subitem in content.items %}
-            <li>
-              <span class="subitem">{{ subitem }}</span>
-            </li>
+            <li class="leading-relaxed">{{ subitem }}</li>
           {% endfor %}
         </ul>
       {% endif %}
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>

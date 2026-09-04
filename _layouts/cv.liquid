@@ -1,62 +1,290 @@
 ---
 layout: default
 ---
-{% assign cv_title = site.data.strings.navigation.cv | default: page.title %}
-{% assign cv_desc = site.data.strings.cv.basics | default: page.description %}
 {% if site.active_lang == 'pt-br' %}
   {% assign cv_pdf_path = page.cv_pdf_pt | default: '/assets/pdf/CV_PabloDiego_PTBR.pdf' %}
+  {% assign is_pt = true %}
 {% else %}
   {% assign cv_pdf_path = page.cv_pdf_en | default: page.cv_pdf | default: '/assets/pdf/CV_PabloDiego_EN.pdf' %}
+  {% assign is_pt = false %}
 {% endif %}
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {{ cv_title }}
-      {% if cv_pdf_path %}
-        <a
-          {% if cv_pdf_path contains '://' %}
-            href="{{ cv_pdf_path }}"
+<div class="post about-l2 cv-page">
+  <!-- Hero Header Compacto L2 -->
+  <header class="border-b border-slate-200 dark:border-slate-800 pb-8 mb-8">
+    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+      <!-- Foto circular com anel Slate -->
+      <div class="profile-photo-container w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden shrink-0 ring-2 ring-slate-300 dark:ring-slate-700 aspect-square shadow-sm">
+        {% assign profile_image_path = 'assets/img/prof_pic.jpg' %}
+        {% capture sizes %}(min-width: 640px) 112px, 96px{% endcapture %}
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class="w-full h-full object-cover rounded-full" sizes=sizes alt="Pablo Diego Pereira"
+          cache_bust=true
+        %}
+      </div>
+
+      <!-- Dados Principais -->
+      <div class="space-y-2 text-center sm:text-left flex-1">
+        <h1 class="post-title font-serif text-3xl sm:text-4xl font-bold tracking-tight text-slate-950 dark:text-white m-0">
+          {{ site.first_name | default: "Pablo Diego" }} <span class="font-normal text-slate-800 dark:text-slate-200">{{ site.last_name | default: "Pereira" }}</span>
+        </h1>
+
+        <p class="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl m-0">
+          {% if is_pt %}
+            {{ site.data.profile.headline.pt | default: "Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional & Finanças Quantitativas" }}
           {% else %}
-            href="{{ cv_pdf_path | relative_url }}"
+            {{ site.data.profile.headline.en | default: "M.Sc. Student in Production Eng. & Computational Systems (UFF/MESC) | MBA in Data Science & Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research & Quantitative Finance" }}
           {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-          title="{% if site.active_lang == 'pt-br' %}Baixar Currículo em PDF{% else %}Download Resume PDF{% endif %}"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
-      {% endif %}
-    </h1>
-    {% if cv_desc %}
-      <p class="post-description">{{ cv_desc }}</p>
-    {% endif %}
+        </p>
+
+        <div class="font-mono text-xs text-slate-600 dark:text-slate-400 font-semibold pt-1">
+          {% if is_pt %}
+            CITAÇÃO: <span class="text-slate-900 dark:text-slate-100 font-bold">PEREIRA, P. D. A.</span> · Pablo Diego de Albuquerque Pereira · Araruama, RJ, Brasil
+          {% else %}
+            CITATION: <span class="text-slate-900 dark:text-slate-100 font-bold">PEREIRA, P. D. A.</span> · Pablo Diego de Albuquerque Pereira · Araruama, RJ, Brazil
+          {% endif %}
+        </div>
+
+        {% assign lattes_id = site.data.socials.lattes_id | default: site.lattes_id %}
+        {% assign orcid_id = site.data.socials.orcid_id | default: site.orcid_id %}
+        {% assign github_id = site.data.socials.github_username | default: site.github_username %}
+        {% assign linkedin_id = site.data.socials.linkedin_username | default: site.linkedin_username %}
+        {% assign email = site.data.socials.email | default: site.email %}
+
+        <!-- Badges de Identificadores Canônicos com PDF em Destaque Primário -->
+        <div class="flex flex-wrap gap-2 pt-2 justify-center sm:justify-start items-center">
+          {% if cv_pdf_path %}
+            <a
+              {% if cv_pdf_path contains '://' %}
+                href="{{ cv_pdf_path }}"
+              {% else %}
+                href="{{ cv_pdf_path | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-badge-pill-primary shadow-sm"
+              title="{% if is_pt %}Baixar Currículo em PDF{% else %}Download Resume PDF{% endif %}"
+            >
+              <i class="fa-solid fa-file-arrow-down mr-1"></i>
+              <span>{% if is_pt %}Baixar Currículo em PDF{% else %}Download Resume (PDF){% endif %}</span>
+              <span class="opacity-75 text-[10px] uppercase ml-1">· {% if is_pt %}PT-BR{% else %}EN{% endif %}</span>
+            </a>
+          {% endif %}
+          {% if lattes_id %}
+            <a href="http://lattes.cnpq.br/{{ lattes_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
+              <i class="fa-solid fa-graduation-cap text-slate-500 mr-1"></i> Lattes ↗
+            </a>
+          {% endif %}
+          {% if orcid_id %}
+            <a href="https://orcid.org/{{ orcid_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
+              <i class="fa-brands fa-orcid text-emerald-600 mr-1"></i> ORCID ↗
+            </a>
+          {% endif %}
+          {% if github_id %}
+            <a href="https://github.com/{{ github_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
+              <i class="fa-brands fa-github text-slate-700 dark:text-slate-300 mr-1"></i> GitHub ↗
+            </a>
+          {% endif %}
+          {% if linkedin_id %}
+            <a href="https://www.linkedin.com/in/{{ linkedin_id }}/" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
+              <i class="fa-brands fa-linkedin text-blue-600 mr-1"></i> LinkedIn ↗
+            </a>
+          {% endif %}
+          {% if email %}
+            <a href="mailto:{{ email }}" class="hero-badge-pill">
+              <i class="fa-solid fa-envelope text-slate-500 mr-1"></i> {{ email }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </header>
 
-  <article>
-    <div class="cv">
-      {% for entry in site.data.cv %}
-        <a class="anchor" id="{{ entry.title | slugify }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
-            {% if entry.type == 'list' %}
-              {% include cv/list.liquid %}
-            {% elsif entry.type == 'map' %}
-              {% include cv/map.liquid %}
-            {% elsif entry.type == 'nested_list' %}
-              {% include cv/nested_list.liquid %}
-            {% elsif entry.type == 'time_table' %}
-              {% include cv/time_table.liquid %}
-            {% elsif entry.type == 'list_groups' %}
-              {% include cv/list_groups.liquid %}
+  <!-- Mobile Jump-Nav Bar (Visível apenas em mobile < md) -->
+  <div class="block md:hidden sticky top-16 z-20 bg-white/95 dark:bg-[#0B0F17]/95 backdrop-blur border-b border-slate-200 dark:border-slate-800 py-2.5 mb-6 -mx-4 px-4">
+    <div class="flex items-center overflow-x-auto gap-2 text-xs font-mono">
+      <span class="text-slate-400 font-bold shrink-0">{% if is_pt %}SEÇÕES:{% else %}SECTIONS:{% endif %}</span>
+      <a href="#educacao" class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-800 hover:bg-oxford hover:text-white transition font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap">{% if is_pt %}Educação{% else %}Education{% endif %}</a>
+      <a href="#experiencia" class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-800 hover:bg-oxford hover:text-white transition font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap">{% if is_pt %}Experiência{% else %}Experience{% endif %}</a>
+      <a href="#projetos" class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-800 hover:bg-oxford hover:text-white transition font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap">{% if is_pt %}Projetos{% else %}Projects{% endif %}</a>
+      <a href="#publicacoes" class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-800 hover:bg-oxford hover:text-white transition font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap">{% if is_pt %}Publicações{% else %}Publications{% endif %}</a>
+      <a href="#habilidades" class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-800 hover:bg-oxford hover:text-white transition font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap">{% if is_pt %}Competências{% else %}Skills{% endif %}</a>
+      <a href="#certificacoes" class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-800 hover:bg-oxford hover:text-white transition font-semibold text-slate-700 dark:text-slate-300 whitespace-nowrap">{% if is_pt %}Certificações{% else %}Credentials{% endif %}</a>
+    </div>
+  </div>
+
+  <!-- Grid: 3 Colunas TOC Sticky + 9 Colunas Conteúdo Editorial -->
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+    <!-- Coluna 1: TOC Lateral Sticky (md:col-span-3) -->
+    <aside class="hidden md:block md:col-span-3">
+      <div class="sticky top-28 space-y-4">
+        <div class="font-mono text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">
+          {% if is_pt %}Sumário do Currículo{% else %}Curriculum Index{% endif %}
+        </div>
+        <nav class="flex flex-col space-y-1 font-mono text-xs border-l-2 border-slate-200 dark:border-slate-800 pl-3">
+          <a href="#educacao" class="py-1 text-oxford dark:text-blue-400 font-bold hover:underline">01. {% if is_pt %}Educação{% else %}Education{% endif %}</a>
+          <a href="#experiencia" class="py-1 text-slate-600 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white transition">02. {% if is_pt %}Experiência Profissional{% else %}Experience{% endif %}</a>
+          <a href="#projetos" class="py-1 text-slate-600 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white transition">03. {% if is_pt %}Projetos e Pesquisa{% else %}Projects &amp; Research{% endif %}</a>
+          <a href="#publicacoes" class="py-1 text-slate-600 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white transition">04. {% if is_pt %}Publicações &amp; Teses{% else %}Publications &amp; Theses{% endif %}</a>
+          <a href="#habilidades" class="py-1 text-slate-600 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white transition">05. {% if is_pt %}Competências &amp; Stack{% else %}Skills &amp; Stack{% endif %}</a>
+          <a href="#certificacoes" class="py-1 text-slate-600 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white transition">06. {% if is_pt %}Certificações &amp; Habilitações{% else %}Certifications &amp; Credentials{% endif %}</a>
+        </nav>
+
+        <!-- Box de Verificação Curricular -->
+        <div class="p-3.5 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-[11px] space-y-1.5">
+          <div class="font-mono font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+            <i class="fa-solid fa-circle-check text-oxford dark:text-blue-400"></i>
+            <span>{% if is_pt %}Registros Verificados{% else %}Curricular Verification{% endif %}</span>
+          </div>
+          <p class="text-slate-600 dark:text-slate-400 leading-snug m-0">
+            {% if is_pt %}
+              Diplomas, artigos e certificações com verificação digital e registros probatórios.
             {% else %}
-              {{ entry.contents }}
+              Degrees, publications, and credentials with digital verification and auditable records.
             {% endif %}
+          </p>
+          <div class="pt-1 font-mono text-[10px] text-slate-500">
+            {% if is_pt %}Atualizado em: Setembro/2026{% else %}Updated: September 2026{% endif %}
           </div>
         </div>
+      </div>
+    </aside>
+
+    <!-- Coluna 2: Conteúdo Principal em Fluxo Aberto (md:col-span-9) -->
+    <div class="col-span-12 md:col-span-9 space-y-12">
+      {% assign cv_data = site.data[site.active_lang].cv | default: site.data.cv %}
+      {% for entry in cv_data %}
+        {% if entry.title == 'Informações Gerais' or entry.title == 'General Information' or entry.type == 'map' %}
+          {% continue %}
+        {% endif %}
+        {% assign raw_slug = entry.title | slugify %}
+        {% assign section_id = raw_slug %}
+        {% assign section_subtitle = '' %}
+
+        {% if raw_slug contains 'educa' %}
+          {% assign section_id = 'educacao' %}
+          {% assign section_subtitle = 'STRICTO SENSU & LATO SENSU' %}
+        {% elsif raw_slug contains 'experi' %}
+          {% assign section_id = 'experiencia' %}
+          {% assign section_subtitle = 'MERCADO & PESQUISA' %}
+        {% elsif raw_slug contains 'projeto' or raw_slug contains 'project' %}
+          {% assign section_id = 'projetos' %}
+          {% assign section_subtitle = 'PESQUISA APLICADA' %}
+        {% elsif raw_slug contains 'publica' %}
+          {% assign section_id = 'publicacoes' %}
+          {% assign section_subtitle = 'PERIÓDICOS & ANAIS' %}
+        {% elsif raw_slug contains 'habilidade' or raw_slug contains 'skill' or raw_slug contains 'competen' %}
+          {% assign section_id = 'habilidades' %}
+          {% assign section_subtitle = '5 PILARES DE DOMÍNIO' %}
+        {% elsif raw_slug contains 'certifica' or raw_slug contains 'credential' %}
+          {% assign section_id = 'certificacoes' %}
+          {% assign feat_size = entry.featured_credentials.size | default: 9 %}
+          {% assign tot_size = entry.total_certificates | default: 75 %}
+          {% if is_pt %}
+            {% capture section_subtitle %}{{ feat_size }} PRINCIPAIS DE {{ tot_size }}{% endcapture %}
+          {% else %}
+            {% capture section_subtitle %}{{ feat_size }} OF {{ tot_size }} PRINCIPAL{% endcapture %}
+          {% endif %}
+        {% endif %}
+
+        <section id="{{ section_id }}" class="space-y-4 pt-2">
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-2 flex items-baseline justify-between">
+            <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white m-0">
+              {{ entry.title }}
+            </h2>
+            {% if section_id == 'projetos' %}
+              <a href="{{ '/projects/' | relative_url }}" class="font-mono text-xs text-oxford dark:text-blue-400 hover:underline">
+                {% if is_pt %}Ver catálogo completo (12) →{% else %}View full catalog (12) →{% endif %}
+              </a>
+            {% elsif section_subtitle != '' %}
+              <span class="font-mono text-xs text-slate-500 uppercase font-normal">{{ section_subtitle }}</span>
+            {% endif %}
+          </div>
+
+          <div>
+            {% if section_id == 'educacao' %}
+              {% include cv/education.liquid %}
+            {% elsif section_id == 'experiencia' %}
+              {% include cv/experience.liquid %}
+            {% elsif section_id == 'projetos' %}
+              {% include cv/projects.liquid %}
+            {% elsif section_id == 'publicacoes' %}
+              {% include cv/publications.liquid %}
+            {% elsif section_id == 'habilidades' %}
+              {% include cv/skills.liquid %}
+            {% elsif section_id == 'certificacoes' %}
+              {% include cv/certificates.liquid %}
+            {% else %}
+              {% if entry.type == 'time_table' %}
+                {% include cv/time_table.liquid %}
+              {% elsif entry.type == 'nested_list' %}
+                {% include cv/nested_list.liquid %}
+              {% else %}
+                {{ entry.contents }}
+              {% endif %}
+            {% endif %}
+          </div>
+        </section>
       {% endfor %}
+
+      <!-- Social & Contact Footer Block -->
+      <div class="footer-social pt-8 mt-12 mb-6 border-t border-slate-200 dark:border-slate-800 text-center">
+        <div class="contact-icons flex items-center justify-center gap-4 text-[1.3rem] mb-3">
+          {% social_links %}
+        </div>
+        <div class="contact-note text-xs text-slate-600 dark:text-slate-400 max-w-md mx-auto">
+          {% if is_pt %}WhatsApp é a forma mais rápida de contato direto.{% else %}WhatsApp is the fastest way to reach me directly.{% endif %}
+        </div>
+      </div>
     </div>
-  </article>
+  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var sections = document.querySelectorAll('.cv-page section[id]');
+    var desktopLinks = document.querySelectorAll('aside nav a[href^="#"]');
+    var mobileLinks = document.querySelectorAll('.overflow-x-auto a[href^="#"]');
+    if (!sections.length) return;
+
+    function updateActive() {
+      var scrollPos = window.scrollY + 130;
+      var currentId = '';
+
+      sections.forEach(function (section) {
+        if (section.offsetTop <= scrollPos) {
+          currentId = section.getAttribute('id');
+        }
+      });
+
+      if (!currentId && sections.length > 0) {
+        currentId = sections[0].getAttribute('id');
+      }
+
+      desktopLinks.forEach(function (link) {
+        var href = link.getAttribute('href').replace('#', '');
+        if (href === currentId) {
+          link.classList.add('text-oxford', 'dark:text-blue-400', 'font-bold');
+          link.classList.remove('text-slate-600', 'dark:text-slate-400');
+        } else {
+          link.classList.remove('text-oxford', 'dark:text-blue-400', 'font-bold');
+          link.classList.add('text-slate-600', 'dark:text-slate-400');
+        }
+      });
+
+      mobileLinks.forEach(function (link) {
+        var href = link.getAttribute('href').replace('#', '');
+        if (href === currentId) {
+          link.classList.add('bg-oxford', 'text-white');
+          link.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        } else {
+          link.classList.remove('bg-oxford', 'text-white');
+          link.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActive, { passive: true });
+    updateActive();
+  });
+</script>
