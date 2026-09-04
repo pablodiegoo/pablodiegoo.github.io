@@ -364,8 +364,8 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-display_tags: ["data-science", "econometria", "regressao", "machine-learning", "gis", "consultoria"] # these tags will be displayed on the front page of your blog
-display_categories: ["relatorios", "consultoria", "pesquisas"] # these categories will be displayed on the front page of your blog
+display_tags: ["data-analytics", "econometria", "regressao", "machine-learning", "gis", "consultoria"] # these tags will be displayed on the front page of your blog
+display_categories: ["relatorios"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

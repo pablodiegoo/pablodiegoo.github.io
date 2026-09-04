@@ -85,11 +85,11 @@ flowchart LR
 {% if site.active_lang == 'pt-br' %}
 ## Referências e Comprovações
 
-- [Certificado de Defesa / Comprovação de Credencial](/Certificados/2026/27-02-2026-USP-MBADataScience.pdf)
+- [Certificado de Defesa / Comprovação de Credencial](/assets/pdf/27-02-2026-USP-MBADataScience.pdf)
 
 {% else %}
 ## References & Verification
 
-- [Academic Defense Certificate / Credential Proof](/Certificados/2026/27-02-2026-USP-MBADataScience.pdf)
+- [Academic Defense Certificate / Credential Proof](/assets/pdf/27-02-2026-USP-MBADataScience.pdf)
 
 {% endif %}
