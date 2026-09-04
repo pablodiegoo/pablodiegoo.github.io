@@ -6,6 +6,7 @@ page_id: "project_empetur"
 description: "Automated data engineering and geospatial audit pipeline built to validate and reconcile the official tourism inventory of Pernambuco. Perfo..."
 description_pt: "Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação e enriquecimento do inventário turístico do estado de Pe..."
 img: assets/img/projects/empetur/thumbnail.png
+og_image: /assets/img/projects/empetur/thumbnail.png
 importance: 6
 category: "Data Analytics"
 confidentiality: "proprietary_sanitized"

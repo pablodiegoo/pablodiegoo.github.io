@@ -6,6 +6,7 @@ page_id: "project_sebrae_os18"
 description: "Strategic and operational diagnostic of SME merchant dynamics across Brazilian digital marketplaces (Mercado Livre, Amazon, Shopee, Magalu, ..."
 description_pt: "Diagnóstico estratégico e operacional das relações de vendas de pequenos negócios em marketplaces digitais no Estado de São Paulo, avaliando..."
 img: assets/img/projects/sebrae_os18/thumbnail.png
+og_image: /assets/img/projects/sebrae_os18/thumbnail.png
 importance: 12
 category: "Data Analytics"
 confidentiality: "proprietary_sanitized"

@@ -5,6 +5,8 @@ title_pt: "Algoritmo de Arbitragem Estatística em R (Meta & Actio)"
 page_id: "project_pair_trading_r"
 description: "Systematic algorithm coded in R for daily universe-wide Engle-Granger cointegration and Augmented Dickey-Fuller (ADF) screening on B3 equiti..."
 description_pt: "Algoritmo desenvolvido em linguagem R para varredura sistemática diária de testes de raiz unitária (ADF) e cointegração de Engle-Granger sob..."
+img: assets/img/projects/pair_trading_r/thumbnail.png
+og_image: /assets/img/projects/pair_trading_r/thumbnail.png
 importance: 8
 category: "Quantitative Finance"
 confidentiality: "proprietary_sanitized"

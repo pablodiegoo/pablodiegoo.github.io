@@ -6,6 +6,7 @@ page_id: "project_saquarema_health"
 description: "In-depth qualitative research, semi-structured discussion guide mapping, and text mining on public healthcare services in Saquarema (Rio de ..."
 description_pt: "Mapeamento semiestruturado, análise qualitativa em profundidade e mineração de texto sobre a percepção dos serviços de saúde pública do muni..."
 img: assets/img/projects/saquarema_health/thumbnail.png
+og_image: /assets/img/projects/saquarema_health/thumbnail.png
 importance: 10
 category: "Data Analytics"
 confidentiality: "proprietary_sanitized"

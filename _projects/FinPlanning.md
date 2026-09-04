@@ -5,7 +5,8 @@ title_pt: "Ferramenta de Planejamento Patrimonial e Eficiência Tributária"
 page_id: "project_FinPlanning"
 description: "Financial lifecycle modeling tool featuring cash flow simulations and tax drag optimization models across Brazilian investment funds and tax..."
 description_pt: "Ferramenta de modelagem de ciclo de vida financeiro, projeção de fluxo de caixa pessoal e alocação tributária eficiente (otimização de come-..."
-img: assets/img/FinPlanning_Cover.jpg
+img: assets/img/projects/FinPlanning/thumbnail.png
+og_image: /assets/img/projects/FinPlanning/thumbnail.png
 importance: 7
 category: "Data Analytics"
 confidentiality: "public"

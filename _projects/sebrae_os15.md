@@ -6,6 +6,7 @@ page_id: "project_sebrae_os15"
 description: "Strategic consulting investigation evaluating how generic, adjusted, and specialized service delivery models impact perceived value, custome..."
 description_pt: "Investigação estratégica sobre o impacto de modelos de atendimento genérico, ajustado e especializado na percepção de valor, experiência e c..."
 img: assets/img/projects/sebrae_os15/thumbnail.png
+og_image: /assets/img/projects/sebrae_os15/thumbnail.png
 importance: 11
 category: "Data Analytics"
 confidentiality: "proprietary_sanitized"

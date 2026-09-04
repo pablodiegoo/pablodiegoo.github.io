@@ -142,43 +142,57 @@ layout: default
 
       <div class="space-y-4">
         {% for project in sanitized_projects limit: 2 %}
-          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card p-5 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-600 transition space-y-2 block text-decoration-none">
-            {% if project.institution or project.period %}
-              <div class="project-meta font-mono text-xs text-slate-500 dark:text-slate-400">
-                {% if project.institution and project.period %}
-                  {{ project.institution }} // {{ project.period }}
-                {% elsif project.institution %}
-                  {{ project.institution }}
-                {% elsif project.period %}
-                  {{ project.period }}
+          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card overflow-hidden rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-slate-400 dark:hover:border-slate-600 transition block text-decoration-none">
+            {% if project.img %}
+              <div class="project-thumbnail aspect-video w-full overflow-hidden border-b border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-800">
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path=project.img
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  alt="project thumbnail"
+                  class="w-full h-full object-cover"
+                %}
+              </div>
+            {% endif %}
+            <div class="p-5 space-y-2">
+              {% if project.institution or project.period %}
+                <div class="project-meta font-mono text-xs text-slate-500 dark:text-slate-400">
+                  {% if project.institution and project.period %}
+                    {{ project.institution }} // {{ project.period }}
+                  {% elsif project.institution %}
+                    {{ project.institution }}
+                  {% elsif project.period %}
+                    {{ project.period }}
+                  {% endif %}
+                </div>
+              {% endif %}
+
+              <h3 class="font-sans text-xl font-semibold tracking-tight text-slate-950 dark:text-white m-0">
+                {% if site.active_lang == 'pt-br' and project.title_pt %}
+                  {{ project.title_pt }}
+                {% else %}
+                  {{ project.title }}
                 {% endif %}
-              </div>
-            {% endif %}
+              </h3>
 
-            <h3 class="font-sans text-xl font-semibold tracking-tight text-slate-950 dark:text-white m-0">
-              {% if site.active_lang == 'pt-br' and project.title_pt %}
-                {{ project.title_pt }}
-              {% else %}
-                {{ project.title }}
+              <p class="text-sm text-slate-700 dark:text-slate-300 font-normal leading-relaxed m-0">
+                {% if site.active_lang == 'pt-br' and project.description_pt %}
+                  {{ project.description_pt }}
+                {% else %}
+                  {{ project.description }}
+                {% endif %}
+              </p>
+
+              {% assign tech_items = project.tech_stack | default: project.tags %}
+              {% if tech_items and tech_items.size > 0 %}
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  {% for tech in tech_items limit: 5 %}
+                    <span class="tech-pill">{{ tech }}</span>
+                  {% endfor %}
+                </div>
               {% endif %}
-            </h3>
-
-            <p class="text-sm text-slate-700 dark:text-slate-300 font-normal leading-relaxed m-0">
-              {% if site.active_lang == 'pt-br' and project.description_pt %}
-                {{ project.description_pt }}
-              {% else %}
-                {{ project.description }}
-              {% endif %}
-            </p>
-
-            {% assign tech_items = project.tech_stack | default: project.tags %}
-            {% if tech_items and tech_items.size > 0 %}
-              <div class="flex flex-wrap gap-1.5 pt-1">
-                {% for tech in tech_items limit: 5 %}
-                  <span class="tech-pill">{{ tech }}</span>
-                {% endfor %}
-              </div>
-            {% endif %}
+            </div>
           </a>
         {% endfor %}
       </div>

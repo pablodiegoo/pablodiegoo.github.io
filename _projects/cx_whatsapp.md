@@ -5,6 +5,8 @@ title_pt: "Pipeline Automatizado de Engenharia de Dados via Meta API (WhatsApp)"
 page_id: "project_cx_whatsapp"
 description: "Automated data engineering pipeline ingesting and validating conversational survey responses via Meta WhatsApp Business API for real-time NP..."
 description_pt: "Pipeline automatizado de coleta, validação e tabulação de dados conversacionais via WhatsApp Business API para apuração contínua e em tempo ..."
+img: assets/img/projects/cx_whatsapp/thumbnail.png
+og_image: /assets/img/projects/cx_whatsapp/thumbnail.png
 importance: 4
 category: "Data Engineering"
 confidentiality: "proprietary_sanitized"

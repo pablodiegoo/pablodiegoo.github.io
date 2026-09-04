@@ -6,6 +6,7 @@ page_id: "project_gov_disapproval"
 description: "Econometric logistic regression model identifying the key statistical determinants and odds ratios driving government disapproval from publi..."
 description_pt: "Modelagem econométrica e regressão logística avaliando os principais determinantes da probabilidade de desaprovação governamental a partir d..."
 img: assets/img/projects/gov_disapproval/thumbnail.png
+og_image: /assets/img/projects/gov_disapproval/thumbnail.png
 importance: 9
 category: "Data Analytics"
 confidentiality: "proprietary_sanitized"
