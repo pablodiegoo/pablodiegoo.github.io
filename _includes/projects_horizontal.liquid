@@ -1,13 +1,18 @@
 <article class="project-card-wrapper w-full">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card flex flex-col md:flex-row overflow-hidden rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-slate-400 dark:hover:border-slate-600 transition text-decoration-none block">
     {% if project.img %}
-      <div class="project-thumbnail aspect-video md:aspect-auto md:w-2/5 overflow-hidden border-b md:border-b-0 md:border-r border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-800">
+      <div class="project-thumbnail aspect-video md:w-2/5 overflow-hidden border-b md:border-b-0 md:border-r border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-800">
+        {% if site.active_lang == 'pt-br' and project.title_pt %}
+          {% assign alt_title = project.title_pt | escape %}
+        {% else %}
+          {% assign alt_title = project.title | default: "Project thumbnail" | escape %}
+        {% endif %}
         {%
           include figure.liquid
           loading="eager"
           path=project.img
           sizes="(min-width: 768px) 40vw, 100vw"
-          alt="project thumbnail"
+          alt=alt_title
           class="w-full h-full object-cover"
         %}
       </div>
