@@ -10,6 +10,7 @@ category: "Quantitative Finance"
 confidentiality: "proprietary_sanitized"
 institution: "Meta & Actio Investimentos"
 period: "2017 - 2020"
+tech_stack: ['R', 'Tseries', 'Urca', 'Dplyr', 'Ggplot2']
 tags: [quantitative-finance, r, statistical-arbitrage, cointegration, time-series, b3]
 related_publications: false
 mermaid:

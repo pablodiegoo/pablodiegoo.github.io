@@ -10,6 +10,7 @@ category: "Quantitative Finance"
 confidentiality: "public"
 institution: "USP / ESALQ"
 period: "2024 - 2026"
+tech_stack: ['Python', 'Statsmodels', 'Scikit-Learn', 'Pandas', 'NumPy', 'Matplotlib']
 tags: [quantitative-finance, machine-learning, python, statsmodels, scikit-learn, b3, pairs-trading]
 related_publications: false
 mermaid:

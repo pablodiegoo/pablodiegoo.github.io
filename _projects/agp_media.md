@@ -10,6 +10,7 @@ category: "Data Engineering"
 confidentiality: "proprietary_sanitized"
 institution: "Ágora Pesquisa / AGP"
 period: "2025 - 2026"
+tech_stack: ['Python', 'OpenAI Whisper', 'Google STT', 'Gemini API', 'PaddleOCR', 'Mistral', 'Pydantic', 'FFmpeg', 'CLI']
 tags: [data-engineering, python, whisper, nlp, ocr, gemini, ffmpeg, speech-to-text]
 related_publications: false
 mermaid:

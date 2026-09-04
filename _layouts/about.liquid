@@ -33,28 +33,13 @@ layout: default
           CITAÇÃO: <span class="text-slate-900 dark:text-slate-100 font-bold">PEREIRA, P. D. A.</span> · Pablo Diego de Albuquerque Pereira
         </div>
 
-        {% if page.social %}
-          <div class="hero-social pt-3">
-            <div class="contact-icons flex flex-wrap items-center justify-center sm:justify-start gap-4">
-              {% social_links %}
-            </div>
-
-            <div class="contact-note text-xs text-slate-600 dark:text-slate-400 mt-2">
-              {% if site.active_lang == 'pt-br' %}
-                WhatsApp é a forma mais rápida de contato direto.
-              {% else %}
-                WhatsApp is the fastest way to reach me directly.
-              {% endif %}
-            </div>
-          </div>
-        {% endif %}
       </div>
     </div>
   </header>
 
   <article>
     <!-- Biography / Main Narrative -->
-    <div class="clearfix text-base leading-relaxed text-slate-800 dark:text-slate-200 mb-8">
+    <div class="clearfix text-base leading-relaxed text-slate-800 dark:text-slate-200 mb-8 text-justify">
       {{ content }}
     </div>
 
@@ -90,42 +75,60 @@ layout: default
       </section>
     {% endif %}
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 border-t border-slate-200 dark:border-slate-800 mt-8 mb-4">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">
-          {% if site.active_lang == 'pt-br' %}novidades{% else %}news{% endif %}
+    <!-- Featured Projects Showcase Section -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    <section class="featured-projects space-y-4 pt-6 border-t border-slate-200 dark:border-slate-800 mb-8">
+      <div class="flex justify-between items-baseline">
+        <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white">
+          {% if site.active_lang == 'pt-br' %}Projetos em Destaque{% else %}Featured Projects{% endif %}
+        </h2>
+        <a href="{{ '/projects/' | relative_url }}" class="font-mono text-xs font-bold text-slate-700 dark:text-slate-300 hover:underline">
+          {% if site.active_lang == 'pt-br' %}Ver catálogo completo &rarr;{% else %}View full catalog &rarr;{% endif %}
         </a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+      </div>
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 border-t border-slate-200 dark:border-slate-800 mt-8 mb-4">
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">
-          {% if site.active_lang == 'pt-br' %}últimas postagens{% else %}latest posts{% endif %}
-        </a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+      <div class="space-y-4">
+        {% for project in sorted_projects limit: 2 %}
+          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card p-5 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-600 transition space-y-2 block text-decoration-none">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <h3 class="font-serif text-xl font-bold text-slate-950 dark:text-white m-0">
+                {% if site.active_lang == 'pt-br' and project.title_pt %}
+                  {{ project.title_pt }}
+                {% else %}
+                  {{ project.title }}
+                {% endif %}
+              </h3>
+              {% assign conf = project.confidentiality | default: project.confidentiality_level %}
+              {% if conf %}
+                <span class="badge-status badge-{{ conf }} shrink-0">
+                  {{ conf }}
+                </span>
+              {% endif %}
+            </div>
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 border-t border-slate-200 dark:border-slate-800 mt-8 mb-4">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">
-          {% if site.active_lang == 'pt-br' %}publicações selecionadas{% else %}selected publications{% endif %}
-        </a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
+            <p class="text-sm text-slate-700 dark:text-slate-300 font-normal leading-relaxed m-0">
+              {% if site.active_lang == 'pt-br' and project.description_pt %}
+                {{ project.description_pt }}
+              {% elsif site.active_lang == 'pt-br' and project.summary_pt %}
+                {{ project.summary_pt }}
+              {% elsif project.description %}
+                {{ project.description }}
+              {% else %}
+                {{ project.summary }}
+              {% endif %}
+            </p>
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% if site.plugins contains 'al_newsletter' %}
-        {% include plugins/al_newsletter_form_center_margin.liquid %}
-      {% else %}
-        {% include newsletter.liquid center=true %}
-      {% endif %}
-    {% endif %}
+            {% assign tech_items = project.tech_stack | default: project.tags %}
+            {% if tech_items and tech_items.size > 0 %}
+              <div class="flex flex-wrap gap-1.5 pt-1">
+                {% for tech in tech_items limit: 5 %}
+                  <span class="font-mono text-[11px] px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 font-medium">{{ tech }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </section>
   </article>
 </div>

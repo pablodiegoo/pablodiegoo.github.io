@@ -10,6 +10,7 @@ category: "Quantitative Finance"
 confidentiality: "public"
 institution: "UFF / MESC"
 period: "2026 - Present"
+tech_stack: ['Python', 'Gurobi', 'Pyomo', 'SciPy', 'R', 'LaTeX']
 tags: [quantitative-finance, operations-research, optimization, gurobi, pyomo, cvar, b3]
 related_publications: false
 mermaid:

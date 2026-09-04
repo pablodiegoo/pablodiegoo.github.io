@@ -10,6 +10,7 @@ category: "Data Science"
 confidentiality: "proprietary_sanitized"
 institution: "Ágora Pesquisa / NKIN Consultoria"
 period: "2025 - 2026"
+tech_stack: ['FastAPI', 'Python', 'React 18', 'TypeScript', 'Leaflet', 'GeoParquet', 'Uber H3', 'SQLAlchemy', 'PostgreSQL', 'Docker']
 tags: [data-science, fastapi, python, react-18, typescript, leaflet, geoparquet, uber-h3, postgresql, docker]
 related_publications: false
 mermaid:

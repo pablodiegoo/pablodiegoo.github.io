@@ -10,6 +10,7 @@ category: "Data Analytics"
 confidentiality: "proprietary_sanitized"
 institution: "Ágora Pesquisa / EMPETUR"
 period: "2025"
+tech_stack: ['Python', 'GeoPandas', 'Shapely', 'Pandas', 'Matplotlib', 'Shapefiles IBGE', 'OpenStreetMap']
 tags: [data-analytics, geospatial, geopandas, python, shapely, fuzzy-matching, ibge]
 related_publications: false
 mermaid:

@@ -11,6 +11,7 @@ category: "Data Analytics"
 confidentiality: "public"
 institution: "Portfólio Pessoal / Meta Investimentos"
 period: "2017 - Present"
+tech_stack: ['Excel Avançado', 'VBA', 'Python', 'Google Looker Studio']
 tags: [data-analytics, wealth-management, financial-planning, vba, python, looker-studio]
 related_publications: false
 mermaid:

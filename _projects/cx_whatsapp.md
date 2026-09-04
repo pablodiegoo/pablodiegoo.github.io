@@ -10,6 +10,7 @@ category: "Data Engineering"
 confidentiality: "proprietary_sanitized"
 institution: "Ágora Pesquisa"
 period: "2025 - 2026"
+tech_stack: ['Python', 'Meta Graph API', 'Webhooks', 'FastAPI', 'SQL', 'PostgreSQL', 'Power BI']
 tags: [data-engineering, python, meta-api, whatsapp, fastapi, webhooks, postgresql, power-bi]
 related_publications: false
 mermaid:
