@@ -18,17 +18,18 @@ layout: default
 
           {% assign quote_text = nil %}
           {% if site.active_lang == 'pt-br' %}
-            {% assign quote_text = page.profile.more_info_pt | default: page.profile.quote_pt | default: page.profile.more_info | default: page.profile.quote %}
+            {% assign quote_text = site.data.profile.quote.text.pt | default: page.profile.more_info_pt | default: page.profile.quote_pt | default: page.profile.more_info | default: page.profile.quote %}
           {% else %}
-            {% assign quote_text = page.profile.more_info_en | default: page.profile.quote_en | default: page.profile.more_info | default: page.profile.quote %}
+            {% assign quote_text = site.data.profile.quote.text.en | default: page.profile.more_info_en | default: page.profile.quote_en | default: page.profile.more_info | default: page.profile.quote %}
           {% endif %}
+          {% assign quote_author = site.data.profile.quote.author | default: page.profile.quote_author | default: "Viktor Frankl" %}
           {% if quote_text %}
             <div class="hero-quote mt-3 text-center max-w-[160px] sm:max-w-[176px]">
               <blockquote class="italic text-xs text-slate-600 dark:text-slate-400 leading-snug m-0">
                 {{ quote_text }}
               </blockquote>
               <div class="quote-author text-[11px] font-medium text-slate-700 dark:text-slate-300 mt-1">
-                — {{ page.profile.quote_author | default: "Viktor Frankl" }}
+                — {{ quote_author }}
               </div>
             </div>
           {% endif %}
@@ -64,22 +65,22 @@ layout: default
 
         <div class="hero-badges flex flex-wrap gap-2 pt-3 font-mono text-xs font-semibold justify-center sm:justify-start">
           {% if lattes_id %}
-            <a href="http://lattes.cnpq.br/{{ lattes_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+            <a href="http://lattes.cnpq.br/{{ lattes_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
               Lattes ↗
             </a>
           {% endif %}
           {% if orcid_id %}
-            <a href="https://orcid.org/{{ orcid_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+            <a href="https://orcid.org/{{ orcid_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
               ORCID ↗
             </a>
           {% endif %}
           {% if github_id %}
-            <a href="https://github.com/{{ github_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+            <a href="https://github.com/{{ github_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
               GitHub ↗
             </a>
           {% endif %}
           {% if linkedin_id %}
-            <a href="https://www.linkedin.com/in/{{ linkedin_id }}/" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+            <a href="https://www.linkedin.com/in/{{ linkedin_id }}/" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
               LinkedIn ↗
             </a>
           {% endif %}
