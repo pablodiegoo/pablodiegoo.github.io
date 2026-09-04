@@ -23,9 +23,9 @@ layout: default
 
         <p class="hero-degrees text-base text-slate-700 dark:text-slate-300 font-normal leading-relaxed mt-2">
           {% if site.active_lang == 'pt-br' %}
-            {% if page.subtitle_pt %}{{ page.subtitle_pt }}{% else %}Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science &amp; Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional &amp; Finanças Quantitativas{% endif %}
+            {{ page.subtitle_pt | default: page.subtitle }}
           {% else %}
-            {% if page.subtitle_en %}{{ page.subtitle_en }}{% else %}M.Sc. Student in Production Eng. &amp; Computational Systems (UFF/MESC) | MBA in Data Science &amp; Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research &amp; Quantitative Finance{% endif %}
+            {{ page.subtitle_en | default: page.subtitle }}
           {% endif %}
         </p>
 
@@ -60,18 +60,18 @@ layout: default
         </h2>
 
         <div class="trajectory-list divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
-          {% for a in site.data.affiliations %}
+          {% for affiliation in site.data.affiliations %}
             <div class="py-3.5 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
               <div>
                 <div class="font-bold text-slate-950 dark:text-white text-sm">
-                  {% if site.active_lang == 'pt-br' %}{{ a.role.pt }}{% else %}{{ a.role.en }}{% endif %}
+                  {% if site.active_lang == 'pt-br' %}{{ affiliation.role.pt }}{% else %}{{ affiliation.role.en }}{% endif %}
                 </div>
                 <div class="text-xs text-slate-600 dark:text-slate-400 mt-0.5">
-                  {{ a.org }} · <span class="font-mono text-slate-700 dark:text-slate-300 font-semibold">{% if site.active_lang == 'pt-br' %}{{ a.focus.pt }}{% else %}{{ a.focus.en }}{% endif %}</span>
+                  {{ affiliation.org }} · <span class="font-mono text-slate-700 dark:text-slate-300 font-semibold">{% if site.active_lang == 'pt-br' %}{{ affiliation.focus.pt }}{% else %}{{ affiliation.focus.en }}{% endif %}</span>
                 </div>
               </div>
               <span class="font-mono text-xs font-semibold text-slate-600 dark:text-slate-300 shrink-0">
-                {% if site.active_lang == 'pt-br' %}{{ a.period }}{% else %}{{ a.period_en }}{% endif %}
+                {% if site.active_lang == 'pt-br' %}{{ affiliation.period }}{% else %}{{ affiliation.period_en }}{% endif %}
               </span>
             </div>
           {% endfor %}
@@ -86,7 +86,7 @@ layout: default
         <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white">
           {% if site.active_lang == 'pt-br' %}Projetos em Destaque{% else %}Featured Projects{% endif %}
         </h2>
-        <a href="{{ '/projects/' | relative_url }}" class="font-mono text-xs font-bold text-slate-700 dark:text-slate-300 hover:underline">
+        <a href="{{ '/projects/' | relative_url }}" class="cta-catalog-btn font-mono text-xs font-semibold px-3 py-1.5 rounded border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 hover:border-slate-400 dark:hover:border-slate-600 transition inline-flex items-center gap-1 text-decoration-none">
           {% if site.active_lang == 'pt-br' %}Ver catálogo completo &rarr;{% else %}View full catalog &rarr;{% endif %}
         </a>
       </div>
