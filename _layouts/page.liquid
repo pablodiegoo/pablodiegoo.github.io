@@ -19,6 +19,14 @@ layout: default
         {{ page.title }}
       {% endif %}
     </h1>
+    {% assign conf = page.confidentiality | default: page.confidentiality_level %}
+    {% if conf %}
+      <div class="project-header-badge mt-2 mb-3">
+        <span class="badge-status badge-{{ conf }}">
+          {{ conf }}
+        </span>
+      </div>
+    {% endif %}
     <p class="post-description">
       {% if site.active_lang == 'pt-br' and page.description_pt %}
         {{ page.description_pt }}

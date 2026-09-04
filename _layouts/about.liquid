@@ -143,21 +143,25 @@ layout: default
       <div class="space-y-4">
         {% for project in sanitized_projects limit: 2 %}
           <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card p-5 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-600 transition space-y-2 block text-decoration-none">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-              <h3 class="font-serif text-xl font-bold text-slate-950 dark:text-white m-0">
-                {% if site.active_lang == 'pt-br' and project.title_pt %}
-                  {{ project.title_pt }}
-                {% else %}
-                  {{ project.title }}
+            {% if project.institution or project.period %}
+              <div class="project-meta font-mono text-xs text-slate-500 dark:text-slate-400">
+                {% if project.institution and project.period %}
+                  {{ project.institution }} // {{ project.period }}
+                {% elsif project.institution %}
+                  {{ project.institution }}
+                {% elsif project.period %}
+                  {{ project.period }}
                 {% endif %}
-              </h3>
-              {% assign conf = project.confidentiality | default: project.confidentiality_level %}
-              {% if conf %}
-                <span class="badge-status badge-{{ conf }} shrink-0">
-                  {{ conf }}
-                </span>
+              </div>
+            {% endif %}
+
+            <h3 class="font-sans text-xl font-semibold tracking-tight text-slate-950 dark:text-white m-0">
+              {% if site.active_lang == 'pt-br' and project.title_pt %}
+                {{ project.title_pt }}
+              {% else %}
+                {{ project.title }}
               {% endif %}
-            </div>
+            </h3>
 
             <p class="text-sm text-slate-700 dark:text-slate-300 font-normal leading-relaxed m-0">
               {% if site.active_lang == 'pt-br' and project.description_pt %}
