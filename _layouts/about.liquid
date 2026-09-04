@@ -130,5 +130,17 @@ layout: default
         {% endfor %}
       </div>
     </section>
+
+    <!-- Social & Contact Footer Block -->
+    {% if page.social %}
+      <div class="footer-social pt-8 mt-12 mb-6 border-t border-slate-200 dark:border-slate-800 text-center">
+        <div class="contact-icons flex items-center justify-center gap-4 text-[1.3rem] mb-3">
+          {% social_links %}
+        </div>
+        <div class="contact-note text-xs text-slate-600 dark:text-slate-400 max-w-md mx-auto">
+          {% if site.active_lang == 'pt-br' %}WhatsApp é a forma mais rápida de contato direto.{% else %}WhatsApp is the fastest way to reach me directly.{% endif %}
+        </div>
+      </div>
+    {% endif %}
   </article>
 </div>

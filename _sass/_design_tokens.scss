@@ -537,6 +537,7 @@ html.dark {
   .ring-2               { box-shadow: 0 0 0 2px var(--color-border-strong, #334155) !important; }
 }
 
+.max-w-md { max-width: 28rem !important; }
 .max-w-xl { max-width: 36rem !important; }
 .max-w-2xl { max-width: 42rem !important; }
 .max-w-3xl { max-width: 48rem !important; }
@@ -846,10 +847,15 @@ table.booktabs tr:last-child td,
 /* ==========================================================================
    12. Contact Icons & Contextual Note
    ========================================================================== */
+.footer-social {
+  text-align: center !important;
+}
+
 .contact-icons {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: center !important;
+  justify-content: center !important;
   gap: 1rem !important; /* gap-4 (16px) */
   font-size: 1.3rem !important; /* 1.25rem - 1.4rem (20-22px) */
   line-height: 1 !important;
@@ -874,7 +880,8 @@ table.booktabs tr:last-child td,
   }
 }
 
-html[data-theme="dark"] .contact-icons a {
+html[data-theme="dark"] .contact-icons a,
+html.dark .contact-icons a {
   color: var(--color-text-secondary, #CBD5E1) !important;
 
   &:hover {
@@ -889,7 +896,8 @@ html[data-theme="dark"] .contact-icons a {
   line-height: 1.4 !important;
 }
 
-html[data-theme="dark"] .contact-note {
+html[data-theme="dark"] .contact-note,
+html.dark .contact-note {
   color: #94A3B8 !important; /* Slate 400 */
 }
 
