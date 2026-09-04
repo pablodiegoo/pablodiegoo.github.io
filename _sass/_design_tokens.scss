@@ -759,6 +759,75 @@ html.dark .tech-tag {
   border-color: #334155 !important;
 }
 
+/* Hero L2 Academic & Professional Identifier Badges */
+.hero-badge-pill {
+  font-family: var(--font-family-mono) !important;
+  font-size: 0.75rem !important; /* 12px */
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  padding: 0.25rem 0.625rem !important;
+  border-radius: 0.25rem !important;
+  background-color: #F1F5F9 !important;
+  color: #1E293B !important;
+  border: 1px solid #CBD5E1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  transition: all 0.15s ease-in-out !important;
+
+  &:hover {
+    background-color: #0F172A !important;
+    color: #FFFFFF !important;
+    border-color: #0F172A !important;
+    text-decoration: none !important;
+  }
+}
+
+html[data-theme="dark"] .hero-badge-pill,
+html.dark .hero-badge-pill {
+  background-color: #1F2937 !important;
+  color: #F8FAFC !important;
+  border-color: #334155 !important;
+
+  &:hover {
+    background-color: #F8FAFC !important;
+    color: #0F172A !important;
+    border-color: #F8FAFC !important;
+    text-decoration: none !important;
+  }
+}
+
+/* Hero L2 Viktor Frankl Quote Container */
+.hero-quote {
+  blockquote {
+    font-style: italic !important;
+    font-size: 0.75rem !important;
+    line-height: 1.35 !important;
+    color: #475569 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-left: none !important;
+  }
+
+  .quote-author {
+    font-size: 0.6875rem !important;
+    font-weight: 500 !important;
+    color: #334155 !important;
+    margin-top: 0.25rem !important;
+  }
+}
+
+html[data-theme="dark"] .hero-quote,
+html.dark .hero-quote {
+  blockquote {
+    color: #94A3B8 !important;
+  }
+
+  .quote-author {
+    color: #CBD5E1 !important;
+  }
+}
+
 /* ==========================================================================
    10. Status Badges
    ========================================================================== */

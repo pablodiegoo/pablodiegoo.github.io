@@ -11,6 +11,11 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
+  more_info: >
+    "Those who have a 'why' to live, can bear with almost any 'how'."
+  more_info_pt: >
+    "Quem tem um 'porquê' para viver, pode suportar quase qualquer 'como'."
+  quote_author: Viktor Frankl
 
 news: false
 selected_papers: true

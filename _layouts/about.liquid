@@ -6,19 +6,38 @@ layout: default
   <header class="hero-l2 border-b border-slate-200 dark:border-slate-800 pb-8 mb-8">
     <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8">
       {% if page.profile and page.profile.image %}
-        <div class="profile-photo-container w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden shrink-0 ring-2 ring-slate-300 dark:ring-slate-700 shadow-sm aspect-square">
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% capture sizes %}(min-width: 640px) 144px, 128px{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class="w-full h-full object-cover rounded-full" sizes=sizes alt="Pablo Diego Pereira"
-            cache_bust=true
-          %}
+        <div class="profile-column flex flex-col items-center shrink-0 w-36 sm:w-44 text-center">
+          <div class="profile-photo-container w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden shrink-0 ring-2 ring-slate-300 dark:ring-slate-700 shadow-sm aspect-square">
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% capture sizes %}(min-width: 640px) 144px, 128px{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class="w-full h-full object-cover rounded-full" sizes=sizes alt="Pablo Diego Pereira"
+              cache_bust=true
+            %}
+          </div>
+
+          {% assign quote_text = nil %}
+          {% if site.active_lang == 'pt-br' %}
+            {% assign quote_text = page.profile.more_info_pt | default: page.profile.quote_pt | default: page.profile.more_info | default: page.profile.quote %}
+          {% else %}
+            {% assign quote_text = page.profile.more_info_en | default: page.profile.quote_en | default: page.profile.more_info | default: page.profile.quote %}
+          {% endif %}
+          {% if quote_text %}
+            <div class="hero-quote mt-3 text-center max-w-[160px] sm:max-w-[176px]">
+              <blockquote class="italic text-xs text-slate-600 dark:text-slate-400 leading-snug m-0">
+                {{ quote_text }}
+              </blockquote>
+              <div class="quote-author text-[11px] font-medium text-slate-700 dark:text-slate-300 mt-1">
+                — {{ page.profile.quote_author | default: "Viktor Frankl" }}
+              </div>
+            </div>
+          {% endif %}
         </div>
       {% endif %}
 
       <div class="hero-details space-y-2 text-center sm:text-left flex-1">
-        <h1 class="post-title font-serif text-4xl sm:text-5xl font-bold tracking-tight text-slate-950 dark:text-white leading-tight">
-          Pablo Diego Pereira
+        <h1 class="post-title font-serif text-4xl sm:text-5xl tracking-tight text-slate-950 dark:text-white leading-tight">
+          <span class="font-bold">{{ site.first_name | default: "Pablo Diego" }}</span> <span class="font-normal text-slate-800 dark:text-slate-200">{{ site.last_name | default: "Pereira" }}</span>
         </h1>
 
         <p class="hero-degrees text-base text-slate-700 dark:text-slate-300 font-normal leading-relaxed mt-2">
@@ -34,6 +53,35 @@ layout: default
             CITATION: <span class="text-slate-900 dark:text-slate-100 font-bold">PEREIRA, P. D. A.</span> · Pablo Diego de Albuquerque Pereira · Rio de Janeiro, Brazil
           {% else %}
             CITAÇÃO: <span class="text-slate-900 dark:text-slate-100 font-bold">PEREIRA, P. D. A.</span> · Pablo Diego de Albuquerque Pereira · Rio de Janeiro, Brasil
+          {% endif %}
+        </div>
+
+        <!-- Dynamic Academic & Professional Identifier Badges (SSOT) -->
+        {% assign lattes_id = site.data.socials.lattes_id | default: site.lattes_id %}
+        {% assign orcid_id = site.data.socials.orcid_id | default: site.orcid_id %}
+        {% assign github_id = site.data.socials.github_username | default: site.github_username %}
+        {% assign linkedin_id = site.data.socials.linkedin_username | default: site.linkedin_username %}
+
+        <div class="hero-badges flex flex-wrap gap-2 pt-3 font-mono text-xs font-semibold justify-center sm:justify-start">
+          {% if lattes_id %}
+            <a href="http://lattes.cnpq.br/{{ lattes_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+              Lattes ↗
+            </a>
+          {% endif %}
+          {% if orcid_id %}
+            <a href="https://orcid.org/{{ orcid_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+              ORCID ↗
+            </a>
+          {% endif %}
+          {% if github_id %}
+            <a href="https://github.com/{{ github_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+              GitHub ↗
+            </a>
+          {% endif %}
+          {% if linkedin_id %}
+            <a href="https://www.linkedin.com/in/{{ linkedin_id }}/" target="_blank" rel="noopener noreferrer" class="hero-badge-pill px-2.5 py-1 rounded border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-900 hover:text-white dark:hover:bg-slate-100 dark:hover:text-slate-900 transition text-decoration-none no-underline inline-flex items-center gap-1">
+              LinkedIn ↗
+            </a>
           {% endif %}
         </div>
 
