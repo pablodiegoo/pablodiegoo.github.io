@@ -215,21 +215,24 @@
 - title: Projetos e Pesquisa
   type: time_table
   contents:
-  - title: Project Aporia — Plataforma Analítica e Amostral de Pesquisa de Opinião
-    institution: Ágora Pesquisa / NKIN Consultoria
+  - title: FieldCopilot — Motor de Otimização e Roteamento Logístico de Pesquisas
+      de Campo
+    institution: Instituto de Pesquisa de Opinião e Inteligência de Mercado
     year: 2025 - 2026
     description:
-    - Plataforma analítica e arquitetura de dados desenvolvida para automatizar o
-      planejamento amostral e a ingestão de questionários de opinião pública e pesquisas
-      de mercado. Transforma setores censitários em células espaciais H3 e gera painéis
-      analíticos dinâmicos de suporte à decisão executiva.
+    - Motor logístico e plataforma analítica espacial desenvolvida para automação
+      do planejamento amostral, roteamento de equipes e controle de cotas de pesquisas
+      de campo. Integra partição territorial restrita (Spatially Constrained Regionalization
+      n >= m), roteamento geodésico TSP 2-Opt, ingestão de setores censitários via
+      GeoParquet/H3 e auditoria de produtividade em tempo real.
     - <b>Stack:</b> FastAPI, Python, React 18, TypeScript, Leaflet, GeoParquet, Uber
-      H3, SQLAlchemy, PostgreSQL, Docker
+      H3, PostgreSQL, Docker, OR-Tools
     - <em>[Ficha Pública Sanitizada]</em>
-    summary: Plataforma analítica e arquitetura de dados desenvolvida para automatizar
-      o planejamento amostral e a ingestão de questionários de opinião pública e pesquisas
-      de mercado. Transforma setores censitários em células espaciais H3 e gera painéis
-      analíticos dinâmicos de suporte à decisão executiva.
+    summary: Motor logístico e plataforma analítica espacial desenvolvida para automação
+      do planejamento amostral, roteamento de equipes e controle de cotas de pesquisas
+      de campo. Integra partição territorial restrita (Spatially Constrained Regionalization
+      n >= m), roteamento geodésico TSP 2-Opt, ingestão de setores censitários via
+      GeoParquet/H3 e auditoria de produtividade em tempo real.
     category: Data Science
     status: proprietary_sanitized
     stack:
@@ -240,11 +243,152 @@
     - Leaflet
     - GeoParquet
     - Uber H3
-    - SQLAlchemy
     - PostgreSQL
     - Docker
+    - OR-Tools
     documentation_url: ''
-    jekyll_slug: aporia
+    jekyll_slug: FieldCopilot
+  - title: PerGo — Plataforma CPaaS Omnichannel Aberta em Go e NATS JetStream
+    institution: Projeto Autônomo / Open Source
+    year: 2025 - Presente
+    description:
+    - Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em
+      Go 1.25+ e Echo v5. Unifica o envio de mensagens através de múltiplos provedores
+      (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow e Telegram) sob um payload
+      REST padronizado, gerenciando filas resilientes com NATS JetStream, backpressure
+      automático e dashboard reativo com a-h/templ e HTMX.
+    - <b>Stack:</b> Go, Echo v5, NATS JetStream, PostgreSQL, pgx/v5, a-h/templ, HTMX,
+      Tailwind CSS, Docker, whatsmeow
+    summary: Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida
+      em Go 1.25+ e Echo v5. Unifica o envio de mensagens através de múltiplos provedores
+      (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow e Telegram) sob um payload
+      REST padronizado, gerenciando filas resilientes com NATS JetStream, backpressure
+      automático e dashboard reativo com a-h/templ e HTMX.
+    category: Data Engineering
+    status: public
+    stack:
+    - Go
+    - Echo v5
+    - NATS JetStream
+    - PostgreSQL
+    - pgx/v5
+    - a-h/templ
+    - HTMX
+    - Tailwind CSS
+    - Docker
+    - whatsmeow
+    documentation_url: ''
+    jekyll_slug: PerGo
+  - title: agp-media — Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas
+      de Campo
+    institution: Instituto de Pesquisas Aplicadas & Inteligência de Campo
+    year: 2025 - 2026
+    description:
+    - Toolkit modular em linha de comando (CLI) desenvolvido para acelerar o ciclo
+      de pesquisas qualitativas e quantitativas de campo. Executa conversão e compressão
+      de mídia, transcrição de áudio com diarização de interlocutores (Whisper, Gemini,
+      Google STT), OCR de formulários e análise semântica estruturada em JSON canônico.
+    - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
+      Pydantic, FFmpeg, CLI / Typer
+    - <em>[Ficha Pública Sanitizada]</em>
+    summary: Toolkit modular em linha de comando (CLI) desenvolvido para acelerar
+      o ciclo de pesquisas qualitativas e quantitativas de campo. Executa conversão
+      e compressão de mídia, transcrição de áudio com diarização de interlocutores
+      (Whisper, Gemini, Google STT), OCR de formulários e análise semântica estruturada
+      em JSON canônico.
+    category: Data Engineering
+    status: proprietary_sanitized
+    stack:
+    - Python
+    - OpenAI Whisper
+    - Google STT
+    - Gemini API
+    - PaddleOCR
+    - Mistral
+    - Pydantic
+    - FFmpeg
+    - CLI / Typer
+    documentation_url: ''
+    jekyll_slug: agp_media
+  - title: Ecoar AI — Plataforma Inteligente de Entrevistas Qualitativas e RAG com
+      Ent ORM e pgvector
+    institution: Projeto Autônomo / Open Source
+    year: 2025 - Presente
+    description:
+    - Plataforma de inteligência qualitativa e condução automatizada de entrevistas
+      de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant
+      rigoroso, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos
+      provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática
+      de depoimentos.
+    - <b>Stack:</b> Go, Ent ORM, PostgreSQL, pgvector, Docker, TypeScript, React,
+      Tailwind CSS, OpenAI API, Gemini API
+    summary: Plataforma de inteligência qualitativa e condução automatizada de entrevistas
+      de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant
+      rigoroso, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos
+      provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática
+      de depoimentos.
+    category: Data Science
+    status: public
+    stack:
+    - Go
+    - Ent ORM
+    - PostgreSQL
+    - pgvector
+    - Docker
+    - TypeScript
+    - React
+    - Tailwind CSS
+    - OpenAI API
+    - Gemini API
+    documentation_url: ''
+    jekyll_slug: ecoar_ai
+  - title: Ferramenta de Planejamento Patrimonial e Eficiência Tributária
+    institution: Portfólio Pessoal / Meta Investimentos
+    year: 2017 - Presente
+    description:
+    - Ferramenta de modelagem de ciclo de vida financeiro, projeção de fluxo de caixa
+      pessoal e alocação tributária eficiente (otimização de come-cotas em fundos
+      de investimento vs renda fixa/isenções).
+    - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
+    - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentação
+      / Link do Projeto</a>
+    summary: Ferramenta de modelagem de ciclo de vida financeiro, projeção de fluxo
+      de caixa pessoal e alocação tributária eficiente (otimização de come-cotas em
+      fundos de investimento vs renda fixa/isenções).
+    category: Data Analytics
+    status: public
+    stack:
+    - Excel Avançado
+    - VBA
+    - Python
+    - Google Looker Studio
+    documentation_url: https://pablodiegoo.github.io/projects/FinPlanning/
+    jekyll_slug: FinPlanning
+  - title: LongandShortR — Algoritmo de Arbitragem Estatística e Cointegração na B3
+      em R
+    institution: Meta & Actio Investimentos
+    year: 2017 - 2020
+    description:
+    - Algoritmo desenvolvido em linguagem R para varredura sistemática diária de testes
+      de raiz unitária (ADF) e cointegração de Engle-Granger sobre todo o universo
+      de ações da B3. Monitorava mais de 100 oportunidades mensais de arbitragem estatística
+      com cálculo automatizado de meias-vidas (half-life) e z-scores.
+    - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2, B3 Market Data
+    summary: Algoritmo desenvolvido em linguagem R para varredura sistemática diária
+      de testes de raiz unitária (ADF) e cointegração de Engle-Granger sobre todo
+      o universo de ações da B3. Monitorava mais de 100 oportunidades mensais de arbitragem
+      estatística com cálculo automatizado de meias-vidas (half-life) e z-scores.
+    category: Quantitative Finance
+    status: public
+    stack:
+    - R
+    - Tseries
+    - Urca
+    - Dplyr
+    - Ggplot2
+    - B3 Market Data
+    documentation_url: ''
+    jekyll_slug: LongandShortR
   - title: Pair Trading com Machine Learning na B3 (Monografia USP/ESALQ)
     institution: USP / ESALQ
     year: 2024 - 2026
@@ -298,232 +442,6 @@
     - LaTeX
     documentation_url: ''
     jekyll_slug: mesc_optimization
-  - title: Pipeline Automatizado de Engenharia de Dados via Meta API (WhatsApp)
-    institution: Ágora Pesquisa
-    year: 2025 - 2026
-    description:
-    - Pipeline automatizado de coleta, validação e tabulação de dados conversacionais
-      via WhatsApp Business API para apuração contínua e em tempo real de métricas
-      de Customer Experience (NPS/CSAT), reduzindo em 90% a necessidade de intervenção
-      humana.
-    - <b>Stack:</b> Python, Meta Graph API, Webhooks, FastAPI, SQL, PostgreSQL, Power
-      BI
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Pipeline automatizado de coleta, validação e tabulação de dados conversacionais
-      via WhatsApp Business API para apuração contínua e em tempo real de métricas
-      de Customer Experience (NPS/CSAT), reduzindo em 90% a necessidade de intervenção
-      humana.
-    category: Data Engineering
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - Meta Graph API
-    - Webhooks
-    - FastAPI
-    - SQL
-    - PostgreSQL
-    - Power BI
-    documentation_url: ''
-    jekyll_slug: cx_whatsapp
-  - title: Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas de Campo
-    institution: Ágora Pesquisa / AGP
-    year: 2025 - 2026
-    description:
-    - Toolkit modular em linha de comando (CLI) desenvolvido para otimizar o ciclo
-      de pesquisas qualitativas e quantitativas de campo. Executa conversão e compressão
-      de mídia, transcrição de áudio com diarização de interlocutores (Whisper, Gemini,
-      Google STT), OCR de formulários e análise semântica estruturada.
-    - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
-      Pydantic, FFmpeg, CLI
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Toolkit modular em linha de comando (CLI) desenvolvido para otimizar
-      o ciclo de pesquisas qualitativas e quantitativas de campo. Executa conversão
-      e compressão de mídia, transcrição de áudio com diarização de interlocutores
-      (Whisper, Gemini, Google STT), OCR de formulários e análise semântica estruturada.
-    category: Data Engineering
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - OpenAI Whisper
-    - Google STT
-    - Gemini API
-    - PaddleOCR
-    - Mistral
-    - Pydantic
-    - FFmpeg
-    - CLI
-    documentation_url: ''
-    jekyll_slug: agp_media
-  - title: Engenharia Geoespacial e Auditoria de Qualidade de Dados Turísticos (EMPETUR)
-    institution: Ágora Pesquisa / EMPETUR
-    year: '2025'
-    description:
-    - Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação
-      e enriquecimento do inventário turístico do estado de Pernambuco. Executa reconciliação
-      de coordenadas contra shapefiles oficiais do IBGE, deduplicação fuzzy e geração
-      automatizada de relatórios analíticos de qualidade de dados.
-    - <b>Stack:</b> Python, GeoPandas, Shapely, Pandas, Matplotlib, Shapefiles IBGE,
-      OpenStreetMap
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Pipeline automatizado de engenharia de dados e auditoria geoespacial
-      para validação e enriquecimento do inventário turístico do estado de Pernambuco.
-      Executa reconciliação de coordenadas contra shapefiles oficiais do IBGE, deduplicação
-      fuzzy e geração automatizada de relatórios analíticos de qualidade de dados.
-    category: Data Analytics
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - GeoPandas
-    - Shapely
-    - Pandas
-    - Matplotlib
-    - Shapefiles IBGE
-    - OpenStreetMap
-    documentation_url: ''
-    jekyll_slug: empetur
-  - title: Ferramenta de Planejamento Patrimonial e Eficiência Tributária
-    institution: Portfólio Pessoal / Meta Investimentos
-    year: 2017 - Presente
-    description:
-    - Ferramenta de modelagem de ciclo de vida financeiro, projeção de fluxo de caixa
-      pessoal e alocação tributária eficiente (otimização de come-cotas em fundos
-      de investimento vs renda fixa/isenções).
-    - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
-    - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentação
-      / Link do Projeto</a>
-    summary: Ferramenta de modelagem de ciclo de vida financeiro, projeção de fluxo
-      de caixa pessoal e alocação tributária eficiente (otimização de come-cotas em
-      fundos de investimento vs renda fixa/isenções).
-    category: Data Analytics
-    status: public
-    stack:
-    - Excel Avançado
-    - VBA
-    - Python
-    - Google Looker Studio
-    documentation_url: https://pablodiegoo.github.io/projects/FinPlanning/
-    jekyll_slug: FinPlanning
-  - title: Algoritmo de Arbitragem Estatística em R (Meta & Actio)
-    institution: Meta & Actio Investimentos
-    year: 2017 - 2020
-    description:
-    - Algoritmo desenvolvido em linguagem R para varredura sistemática diária de testes
-      de raiz unitária (ADF) e cointegração de Engle-Granger sobre todo o universo
-      de ações da B3. Monitorava mais de 100 oportunidades mensais de arbitragem estatística
-      com cálculo automatizado de meias-vidas (half-life) e z-scores.
-    - <b>Stack:</b> R, Tseries, Urca, Dplyr, Ggplot2
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Algoritmo desenvolvido em linguagem R para varredura sistemática diária
-      de testes de raiz unitária (ADF) e cointegração de Engle-Granger sobre todo
-      o universo de ações da B3. Monitorava mais de 100 oportunidades mensais de arbitragem
-      estatística com cálculo automatizado de meias-vidas (half-life) e z-scores.
-    category: Quantitative Finance
-    status: proprietary_sanitized
-    stack:
-    - R
-    - Tseries
-    - Urca
-    - Dplyr
-    - Ggplot2
-    documentation_url: ''
-    jekyll_slug: pair_trading_r
-  - title: Modelagem Econométrica de Desaprovação Governamental
-    institution: Ágora Pesquisa
-    year: '2025'
-    description:
-    - Modelagem econométrica e regressão logística avaliando os principais determinantes
-      da probabilidade de desaprovação governamental a partir de microdados amostrais
-      de opinião pública.
-    - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib,
-      Logistic Regression, ROC-AUC
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Modelagem econométrica e regressão logística avaliando os principais
-      determinantes da probabilidade de desaprovação governamental a partir de microdados
-      amostrais de opinião pública.
-    category: Data Analytics
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - Statsmodels
-    - Scikit-Learn
-    - Pandas
-    - NumPy
-    - Matplotlib
-    - Logistic Regression
-    - ROC-AUC
-    documentation_url: ''
-    jekyll_slug: gov_disapproval
-  - title: Pesquisa Qualitativa de Saúde Pública de Saquarema
-    institution: Ágora Pesquisa / Prefeitura de Saquarema
-    year: '2025'
-    description:
-    - Mapeamento semiestruturado, análise qualitativa em profundidade e mineração
-      de texto sobre a percepção dos serviços de saúde pública do município de Saquarema-RJ,
-      abrangendo acesso, triagem, atendimento e infraestrutura.
-    - <b>Stack:</b> Python, NLP, Análise Qualitativa, Roteiros Semiestruturados, Text
-      Mining, Sentiment Analysis
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Mapeamento semiestruturado, análise qualitativa em profundidade e mineração
-      de texto sobre a percepção dos serviços de saúde pública do município de Saquarema-RJ,
-      abrangendo acesso, triagem, atendimento e infraestrutura.
-    category: Data Analytics
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - NLP
-    - Análise Qualitativa
-    - Roteiros Semiestruturados
-    - Text Mining
-    - Sentiment Analysis
-    documentation_url: ''
-    jekyll_slug: saquarema_health
-  - title: Consultoria Sebrae-SP OS 15 (Especialização Segmentada de MPEs)
-    institution: Ágora Pesquisa / Sebrae-SP
-    year: '2025'
-    description:
-    - Investigação estratégica sobre o impacto de modelos de atendimento genérico,
-      ajustado e especializado na percepção de valor, experiência e competitividade
-      de micro e pequenas empresas (MPEs) paulistas atendidas pelo Sebrae-SP.
-    - <b>Stack:</b> Python, Pesquisa de Mercado, Análise Qualitativa e Quantitativa,
-      Focus Groups, Estatística Descritiva
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Investigação estratégica sobre o impacto de modelos de atendimento genérico,
-      ajustado e especializado na percepção de valor, experiência e competitividade
-      de micro e pequenas empresas (MPEs) paulistas atendidas pelo Sebrae-SP.
-    category: Data Analytics
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - Pesquisa de Mercado
-    - Análise Qualitativa e Quantitativa
-    - Focus Groups
-    - Estatística Descritiva
-    documentation_url: ''
-    jekyll_slug: sebrae_os15
-  - title: Consultoria Sebrae-SP OS 18 (Diagnóstico de Vendas em Marketplaces)
-    institution: Ágora Pesquisa / Sebrae-SP
-    year: '2025'
-    description:
-    - Diagnóstico estratégico e operacional das relações de vendas de pequenos negócios
-      em marketplaces digitais no Estado de São Paulo, avaliando taxas, logística,
-      canais (Mercado Livre, Amazon, Shopee, Magalu, TikTok Shop) e retenção.
-    - <b>Stack:</b> Python, E-commerce Analytics, Marketplaces, Análise Mista Quali-Quanti,
-      WhatsApp Survey, Diagramas de Fluxo
-    - <em>[Ficha Pública Sanitizada]</em>
-    summary: Diagnóstico estratégico e operacional das relações de vendas de pequenos
-      negócios em marketplaces digitais no Estado de São Paulo, avaliando taxas, logística,
-      canais (Mercado Livre, Amazon, Shopee, Magalu, TikTok Shop) e retenção.
-    category: Data Analytics
-    status: proprietary_sanitized
-    stack:
-    - Python
-    - E-commerce Analytics
-    - Marketplaces
-    - Análise Mista Quali-Quanti
-    - WhatsApp Survey
-    - Diagramas de Fluxo
-    documentation_url: ''
-    jekyll_slug: sebrae_os18
 - title: Publicações e Produção Acadêmica
   type: time_table
   contents:

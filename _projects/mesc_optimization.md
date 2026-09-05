@@ -7,13 +7,15 @@ description: "Professional master's thesis developing exact Mixed-Integer Quadra
 description_pt: "Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Linea..."
 img: assets/img/projects/mesc_optimization/thumbnail.png
 og_image: /assets/img/projects/mesc_optimization/thumbnail.png
-importance: 3
+importance: 1
 category: "Quantitative Finance"
 confidentiality: "public"
 institution: "UFF / MESC"
 period: "2026 - Present"
 tech_stack: ['Python', 'Gurobi', 'Pyomo', 'SciPy', 'R', 'LaTeX']
 tags: [quantitative-finance, operations-research, optimization, gurobi, pyomo, cvar, b3]
+redirect_from:
+  - /projects/mesc_thesis_project/
 related_publications: false
 mermaid:
   enabled: true
