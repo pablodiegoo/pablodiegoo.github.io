@@ -10,6 +10,8 @@ toc:
   beginning: true
 redirect_from:
   - /projects/empetur/
+  - /projects/EMPETUR/
+  - /projects/empetur-inventario-turistico/
 ---
 
 > [!NOTE]

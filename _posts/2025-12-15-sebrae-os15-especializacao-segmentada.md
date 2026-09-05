@@ -10,6 +10,7 @@ toc:
   beginning: true
 redirect_from:
   - /projects/sebrae_os15/
+  - /projects/sebrae-os15-especializacao-segmentada/
 ---
 
 > [!NOTE]

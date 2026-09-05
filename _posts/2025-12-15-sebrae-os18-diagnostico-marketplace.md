@@ -10,6 +10,7 @@ toc:
   beginning: true
 redirect_from:
   - /projects/sebrae_os18/
+  - /projects/sebrae-os18-diagnostico-marketplace/
 ---
 
 > [!NOTE]

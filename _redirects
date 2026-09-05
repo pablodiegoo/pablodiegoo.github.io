@@ -1,0 +1,32 @@
+# Redirecionamentos HTTP 301 Permanentes - Portfólio Pablo Diego
+# Gerado automaticamente via scripts/generate_project_pages.py
+/estudos/  /blog/  301
+/projects/EMPETUR/  /blog/2026/empetur-inventario-turistico/  301
+/projects/agp-media/  /projects/agp_media/  301
+/projects/aporia/  /projects/FieldCopilot/  301
+/projects/cx_whatsapp/  /projects/PerGo/  301
+/projects/desinformacao-punitiva-iptu-municipal/  /blog/2026/desinformacao-punitiva-iptu-municipal/  301
+/projects/desinformacao_iptu/  /blog/2026/desinformacao-punitiva-iptu-municipal/  301
+/projects/drivers-gestao-municipal-tarifa-zero/  /blog/2026/drivers-gestao-municipal-tarifa-zero/  301
+/projects/drivers_gestao_municipal/  /blog/2026/drivers-gestao-municipal-tarifa-zero/  301
+/projects/ecoar-ai/  /projects/ecoar_ai/  301
+/projects/empetur-inventario-turistico/  /blog/2026/empetur-inventario-turistico/  301
+/projects/empetur/  /blog/2026/empetur-inventario-turistico/  301
+/projects/fieldcopilot/  /projects/FieldCopilot/  301
+/projects/financial_planning_tool/  /projects/FinPlanning/  301
+/projects/finplanning/  /projects/FinPlanning/  301
+/projects/gov_disapproval/  /blog/2025/relatorio-regressao/  301
+/projects/iptu/  /blog/2026/desinformacao-punitiva-iptu-municipal/  301
+/projects/longandshortr/  /projects/LongandShortR/  301
+/projects/mesc_thesis_project/  /projects/mesc_optimization/  301
+/projects/pair_trading_r/  /projects/LongandShortR/  301
+/projects/pergo/  /projects/PerGo/  301
+/projects/project_aporia/  /projects/FieldCopilot/  301
+/projects/relatorio-regressao/  /blog/2025/relatorio-regressao/  301
+/projects/saquarema-pesquisa-saude/  /blog/2025/saquarema-pesquisa-saude/  301
+/projects/saquarema_health/  /blog/2025/saquarema-pesquisa-saude/  301
+/projects/sebrae-os15-especializacao-segmentada/  /blog/2025/sebrae-os15-especializacao-segmentada/  301
+/projects/sebrae-os18-diagnostico-marketplace/  /blog/2025/sebrae-os18-diagnostico-marketplace/  301
+/projects/sebrae_os15/  /blog/2025/sebrae-os15-especializacao-segmentada/  301
+/projects/sebrae_os18/  /blog/2025/sebrae-os18-diagnostico-marketplace/  301
+/projects/tarifa_zero/  /blog/2026/drivers-gestao-municipal-tarifa-zero/  301

@@ -8,6 +8,10 @@ categories: [estudos, relatorios]
 thumbnail: assets/img/posts/desinformacao-punitiva-iptu-municipal/thumbnail.png
 toc:
   beginning: true
+redirect_from:
+  - /projects/desinformacao-punitiva-iptu-municipal/
+  - /projects/desinformacao_iptu/
+  - /projects/iptu/
 ---
 
 > [!NOTE]

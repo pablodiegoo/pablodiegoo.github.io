@@ -10,6 +10,7 @@ toc:
   beginning: true
 redirect_from:
   - /projects/saquarema_health/
+  - /projects/saquarema-pesquisa-saude/
 ---
 
 > [!NOTE]

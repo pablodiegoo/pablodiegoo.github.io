@@ -15,7 +15,8 @@ navigation:
   repositórios: "Repositories"
   news: "News"
   novidades: "News"
-  blog: "Blog"
+  blog: "Studies"
+  estudos: "Studies"
 
 ui:
   search: "Search"

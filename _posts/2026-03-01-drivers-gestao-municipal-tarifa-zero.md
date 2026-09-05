@@ -8,6 +8,10 @@ categories: [estudos, relatorios]
 thumbnail: assets/img/posts/drivers-gestao-municipal-tarifa-zero/thumbnail.png
 toc:
   beginning: true
+redirect_from:
+  - /projects/drivers-gestao-municipal-tarifa-zero/
+  - /projects/drivers_gestao_municipal/
+  - /projects/tarifa_zero/
 ---
 
 > [!NOTE]

@@ -165,8 +165,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: Relatórios técnicos, artigos e análises aplicadas
+blog_name: Estudos # blog_name will be displayed in your blog page
+blog_description: Estudos de caso analíticos aplicados, ensaios econométricos e relatórios técnicos
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -245,7 +245,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "_redirects"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
@@ -363,7 +363,7 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-display_tags: ["data-analytics", "econometria", "regressao", "machine-learning", "gis", "consultoria"] # these tags will be displayed on the front page of your blog
+display_tags: ["data-science", "econometria", "regressao", "machine-learning", "gis", "consultoria"] # these tags will be displayed on the front page of your blog
 display_categories: ["relatorios"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

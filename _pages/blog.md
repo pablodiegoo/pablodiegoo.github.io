@@ -1,9 +1,16 @@
 ---
 layout: default
 permalink: /blog/
+redirect_from:
+  - /estudos/
 page_id: blog
-title: Blog
-nav: false
+title: Estudos
+title_pt: Estudos
+title_en: Studies
+description: Estudos de caso analíticos aplicados, ensaios econométricos e relatórios técnicos.
+description_pt: Estudos de caso analíticos aplicados, ensaios econométricos e relatórios técnicos.
+description_en: Applied analytical case studies, econometric essays, and technical reports.
+nav: true
 nav_order: 4
 pagination:
   enabled: true

@@ -10,6 +10,7 @@ toc:
   beginning: true
 redirect_from:
   - /projects/gov_disapproval/
+  - /projects/relatorio-regressao/
 ---
 
 > [!NOTE]
