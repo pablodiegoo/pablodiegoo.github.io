@@ -20,7 +20,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}" class="text-decoration-none">
-    <h2 class="category font-serif text-2xl font-bold text-slate-950 dark:text-white pt-6 pb-2 mb-4 border-b border-slate-200 dark:border-slate-800">{{ category }}</h2>
+    <h2 class="category font-sans text-2xl font-bold text-slate-950 dark:text-white pt-6 pb-2 mb-4 border-b border-slate-200 dark:border-slate-800">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
