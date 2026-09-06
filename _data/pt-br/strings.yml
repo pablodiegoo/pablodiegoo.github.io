@@ -17,6 +17,8 @@ navigation:
   novidades: "Novidades"
   blog: "Estudos"
   estudos: "Estudos"
+  investimentos: "Investimentos"
+  investments: "Investimentos"
 
 ui:
   search: "Pesquisar"

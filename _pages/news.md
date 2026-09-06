@@ -9,7 +9,7 @@ description: Institutional and academic announcements.
 description_pt: Anúncios institucionais e acadêmicos.
 description_en: Institutional and academic announcements.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 {% include news.liquid %}
