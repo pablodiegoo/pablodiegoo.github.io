@@ -13,6 +13,9 @@ redirect_from:
   - /projects/desinformacao-punitiva-iptu-municipal/
   - /projects/desinformacao_iptu/
   - /projects/iptu/
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 > [!NOTE]

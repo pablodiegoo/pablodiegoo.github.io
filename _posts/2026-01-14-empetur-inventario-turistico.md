@@ -13,6 +13,9 @@ redirect_from:
   - /projects/empetur/
   - /projects/EMPETUR/
   - /projects/empetur-inventario-turistico/
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 > [!NOTE]

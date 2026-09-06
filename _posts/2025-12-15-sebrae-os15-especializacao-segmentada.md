@@ -12,6 +12,9 @@ toc:
 redirect_from:
   - /projects/sebrae_os15/
   - /projects/sebrae-os15-especializacao-segmentada/
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 > [!NOTE]

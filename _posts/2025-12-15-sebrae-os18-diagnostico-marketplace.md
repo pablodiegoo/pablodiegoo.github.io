@@ -12,6 +12,9 @@ toc:
 redirect_from:
   - /projects/sebrae_os18/
   - /projects/sebrae-os18-diagnostico-marketplace/
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 > [!NOTE]

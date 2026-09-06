@@ -12,6 +12,9 @@ toc:
 redirect_from:
   - /projects/saquarema_health/
   - /projects/saquarema-pesquisa-saude/
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 > [!NOTE]

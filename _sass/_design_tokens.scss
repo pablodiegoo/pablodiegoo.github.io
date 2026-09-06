@@ -1579,3 +1579,44 @@ html.dark {
   }
 }
 
+/* ==========================================================================
+   13. Figuras Científicas e Imagens Responsivas (DESIGN.md Item 5)
+   ========================================================================== */
+.post-content img,
+.post img,
+article img,
+#markdown-content img,
+.markdown-content img,
+.img-fluid {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  border: 1px solid var(--color-border-subtle, #E2E8F0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+html[data-theme="dark"] .post-content img,
+html[data-theme="dark"] .post img,
+html[data-theme="dark"] article img,
+html[data-theme="dark"] #markdown-content img,
+html[data-theme="dark"] .markdown-content img,
+html[data-theme="dark"] .img-fluid {
+  border-color: var(--color-border-subtle, #334155);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Exceções explícitas: ícones inline, tags e avatares */
+.post-tags img,
+.profile img,
+.profile-avatar img,
+.footer-social img {
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+

@@ -13,6 +13,9 @@ redirect_from:
   - /projects/drivers-gestao-municipal-tarifa-zero/
   - /projects/drivers_gestao_municipal/
   - /projects/tarifa_zero/
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 > [!NOTE]
