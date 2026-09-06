@@ -1,0 +1,236 @@
+{% comment %}
+  ==============================================================================
+  _includes/seo/jsonld.liquid — Motor Canônico de Dados Estruturados Schema.org
+  Diretrizes: CONTEXT.md e docs/adr/0002-arquitetura-entidades-semanticas-seo-tripartite.md
+  Fonte de Dados: site.data.seo e site.data.profile (SSOT)
+  ==============================================================================
+{% endcomment %}
+
+{% assign active_lang = site.active_lang | default: site.lang | default: 'pt-br' %}
+{% if active_lang == 'en' %}
+  {% assign is_en = true %}
+{% else %}
+  {% assign is_en = false %}
+{% endif %}
+
+{% assign seo_person = nil %}
+{% assign seo_fs = nil %}
+{% assign seo_ws = nil %}
+{% if site.data.seo and site.data.seo['@graph'] %}
+  {% for node in site.data.seo['@graph'] %}
+    {% if node['@type'] == 'Person' %}
+      {% assign seo_person = node %}
+    {% elsif node['@type'] == 'FinancialService' %}
+      {% assign seo_fs = node %}
+    {% elsif node['@type'] == 'WebSite' %}
+      {% assign seo_ws = node %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign profile_name = site.data.profile.name %}
+{% assign person_canonical_name = profile_name.canonical | default: seo_person.name | default: site.title %}
+{% assign person_commercial_name = profile_name.commercial | default: seo_person.alternateName | default: site.title %}
+
+{% if is_en %}
+  {% assign person_title = seo_person.jobTitle.en | default: site.data.profile.headline.en | default: "Economist and Wealth & Investment Advisor" %}
+  {% assign person_desc = seo_person.description.en | default: site.data.profile.summary.en | default: site.description %}
+  {% assign fs_name = seo_fs.alternateName | default: seo_fs.name | default: "Pablo Diego Pereira - Wealth & Investment Advisory" %}
+  {% assign fs_alt_name = seo_fs.name | default: "Pablo Diego Pereira - Assessoria de Investimentos" %}
+  {% assign fs_service_type = seo_fs.serviceType.en | default: "Investment Advisory & Asset Allocation" %}
+  {% assign fs_desc = seo_fs.description.en | default: seo_person.description.en %}
+  {% assign ws_name = seo_ws.alternateName | default: seo_ws.name | default: site.title %}
+  {% assign ws_alt_name = seo_ws.name | default: site.title %}
+  {% assign ws_desc = seo_ws.description.en | default: site.description %}
+  {% assign ws_lang = "en" %}
+  {% assign localized_site_url = site.url | append: "/en/" %}
+{% else %}
+  {% assign person_title = seo_person.jobTitle.pt | default: site.data.profile.headline.pt | default: "Economista e Assessor de Investimentos" %}
+  {% assign person_desc = seo_person.description.pt | default: site.data.profile.summary.pt | default: site.description %}
+  {% assign fs_name = seo_fs.name | default: "Pablo Diego Pereira - Assessoria de Investimentos" %}
+  {% assign fs_alt_name = seo_fs.alternateName | default: "Pablo Diego Pereira - Wealth & Investment Advisory" %}
+  {% assign fs_service_type = seo_fs.serviceType.pt | default: "Assessoria de Investimentos e Alocação de Ativos" %}
+  {% assign fs_desc = seo_fs.description.pt | default: seo_person.description.pt %}
+  {% assign ws_name = seo_ws.name | default: site.title %}
+  {% assign ws_alt_name = seo_ws.alternateName | default: site.title %}
+  {% assign ws_desc = seo_ws.description.pt | default: site.description %}
+  {% assign ws_lang = "pt-BR" %}
+  {% assign localized_site_url = site.url | append: "/" %}
+{% endif %}
+
+{% assign person_same_as = seo_person.sameAs %}
+{% if person_same_as == nil or person_same_as.size == 0 %}
+  {% assign person_same_as = "" | split: "" %}
+  {% if site.data.profile.identifiers.lattes_url %}
+    {% assign person_same_as = person_same_as | push: site.data.profile.identifiers.lattes_url %}
+  {% endif %}
+  {% if site.data.profile.identifiers.orcid_url %}
+    {% assign person_same_as = person_same_as | push: site.data.profile.identifiers.orcid_url %}
+  {% endif %}
+  {% if site.data.profile.identifiers.linkedin_url %}
+    {% assign person_same_as = person_same_as | push: site.data.profile.identifiers.linkedin_url %}
+  {% endif %}
+  {% if site.data.profile.identifiers.github_url %}
+    {% assign person_same_as = person_same_as | push: site.data.profile.identifiers.github_url %}
+  {% endif %}
+  {% if site.data.profile.identifiers.kaggle_url %}
+    {% assign person_same_as = person_same_as | push: site.data.profile.identifiers.kaggle_url %}
+  {% endif %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://pablodiegoo.github.io/#person",
+      "name": {{ person_canonical_name | jsonify }},
+      "alternateName": {{ person_commercial_name | jsonify }},
+      "jobTitle": {{ person_title | jsonify }},
+      "description": {{ person_desc | jsonify }},
+      "url": {{ localized_site_url | jsonify }},
+      "sameAs": {{ person_same_as | jsonify }},
+      "hasOccupation": [
+        {% for occ in seo_person.hasOccupation %}
+          {
+            "@type": "Occupation",
+            {% if is_en %}
+              "name": {{ occ.name.en | default: occ.name | jsonify }},
+              "description": {{ occ.description.en | default: occ.description | jsonify }}
+            {% else %}
+              "name": {{ occ.name.pt | default: occ.name | jsonify }},
+              "description": {{ occ.description.pt | default: occ.description | jsonify }}
+            {% endif %}
+            {% if occ.occupationalCategory %}, "occupationalCategory": {{ occ.occupationalCategory | jsonify }}{% endif %}
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      "hasCredential": [
+        {% for cred in seo_person.hasCredential %}
+          {
+            "@type": {{ cred["@type"] | default: "EducationalOccupationalCredential" | jsonify }},
+            {% if is_en %}
+              "name": {{ cred.name.en | default: cred.name | jsonify }},
+            {% else %}
+              "name": {{ cred.name.pt | default: cred.name | jsonify }},
+            {% endif %}
+            "credentialCategory": {{ cred.credentialCategory | jsonify }}
+            {% if cred.credentialId %}, "credentialId": {{ cred.credentialId | jsonify }}{% endif %}
+            {% if cred.educationalLevel %}, "educationalLevel": {{ cred.educationalLevel | jsonify }}{% endif %}
+            {% if cred.status %}, "status": {{ cred.status | jsonify }}{% endif %}
+            {% if cred.regulatoryStandard %}, "regulatoryStandard": {{ cred.regulatoryStandard | jsonify }}{% endif %}
+            {% if cred.recognizedBy %}
+              , "recognizedBy": {
+                "@type": {{ cred.recognizedBy["@type"] | jsonify }},
+                "name": {{ cred.recognizedBy.name | jsonify }}
+                {% if cred.recognizedBy.alternateName %}, "alternateName": {{ cred.recognizedBy.alternateName | jsonify }}{% endif %}
+                {% if cred.recognizedBy.sameAs %}, "sameAs": {{ cred.recognizedBy.sameAs | jsonify }}{% endif %}
+                {% if cred.recognizedBy.url %}, "url": {{ cred.recognizedBy.url | jsonify }}{% endif %}
+              }
+            {% endif %}
+            {% if cred.validIn %}
+              , "validIn": {
+                "@type": {{ cred.validIn["@type"] | jsonify }},
+                "name": {{ cred.validIn.name | jsonify }}
+                {% if cred.validIn.sameAs %}, "sameAs": {{ cred.validIn.sameAs | jsonify }}{% endif %}
+              }
+            {% endif %}
+            {% if cred.regulatoryBody %}
+              , "regulatoryBody": {
+                "@type": {{ cred.regulatoryBody["@type"] | jsonify }},
+                "name": {{ cred.regulatoryBody.name | jsonify }}
+                {% if cred.regulatoryBody.alternateName %}, "alternateName": {{ cred.regulatoryBody.alternateName | jsonify }}{% endif %}
+                {% if cred.regulatoryBody.sameAs %}, "sameAs": {{ cred.regulatoryBody.sameAs | jsonify }}{% endif %}
+              }
+            {% endif %}
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ],
+      "knowsAbout": [
+        {% for item in seo_person.knowsAbout %}
+          {% if item["@id"] %}
+            {
+              "@type": "DefinedTerm",
+              "@id": {{ item["@id"] | jsonify }},
+              {% if is_en %}
+                "name": {{ item.name | jsonify }}
+              {% else %}
+                "name": {{ item.name_pt | default: item.name | jsonify }}
+              {% endif %}
+            }
+          {% else %}
+            {{ item | jsonify }}
+          {% endif %}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "FinancialService",
+      "@id": "https://pablodiegoo.github.io/#financial-service",
+      "name": {{ fs_name | jsonify }},
+      "alternateName": {{ fs_alt_name | jsonify }},
+      "provider": {
+        "@id": "https://pablodiegoo.github.io/#person"
+      },
+      "serviceType": {{ fs_service_type | jsonify }},
+      "description": {{ fs_desc | jsonify }},
+      "url": {{ localized_site_url | jsonify }},
+      "areaServed": [
+        {% for area in seo_fs.areaServed %}
+          {
+            "@type": {{ area["@type"] | jsonify }},
+            {% if is_en and area.alternateName %}
+              "name": {{ area.alternateName | jsonify }},
+              "alternateName": {{ area.name | jsonify }}
+            {% else %}
+              "name": {{ area.name | jsonify }}
+              {% if area.alternateName %}, "alternateName": {{ area.alternateName | jsonify }}{% endif %}
+            {% endif %}
+            {% if area.sameAs %}, "sameAs": {{ area.sameAs | jsonify }}{% endif %}
+            {% if area.addressRegion %}, "addressRegion": {{ area.addressRegion | jsonify }}{% endif %}
+            {% if area.addressCountry %}, "addressCountry": {{ area.addressCountry | jsonify }}{% endif %}
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pablodiegoo.github.io/#website",
+      "name": {{ ws_name | jsonify }},
+      "alternateName": {{ ws_alt_name | jsonify }},
+      "url": {{ localized_site_url | jsonify }},
+      "inLanguage": {{ ws_lang | jsonify }},
+      "author": {
+        "@id": "https://pablodiegoo.github.io/#person"
+      },
+      "publisher": {
+        "@id": "https://pablodiegoo.github.io/#person"
+      },
+      "description": {{ ws_desc | jsonify }}
+    }
+    {% if page.url %}
+      {% assign page_clean_url = page.url | replace: 'index.html', '' %}
+      {% if site.baseurl and site.baseurl != '' %}
+        {% assign page_clean_url = page_clean_url | prepend: site.baseurl %}
+      {% endif %}
+      {% assign page_canonical_url = page_clean_url | prepend: site.url %}
+      ,
+      {
+        "@type": "WebPage",
+        "@id": "{{ page_canonical_url }}#webpage",
+        "url": {{ page_canonical_url | jsonify }},
+        "name": {{ page.title | default: ws_name | jsonify }},
+        "description": {{ page.description | default: ws_desc | jsonify }},
+        "inLanguage": {{ ws_lang | jsonify }},
+        "isPartOf": {
+          "@id": "https://pablodiegoo.github.io/#website"
+        },
+        "about": {
+          "@id": "https://pablodiegoo.github.io/#person"
+        }
+      }
+    {% endif %}
+  ]
+}
+</script>
