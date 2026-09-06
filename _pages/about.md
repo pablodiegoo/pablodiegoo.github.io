@@ -28,12 +28,12 @@ social: true
 
 Economista formado pela Universidade Federal do Rio de Janeiro (UFRJ) e pós-graduado com MBA em Data Science e Analytics pela USP/ESALQ. Atualmente é aluno regular do Mestrado Profissional em Engenharia de Produção e Sistemas Computacionais da Universidade Federal Fluminense (UFF/MESC), desenvolvendo pesquisa em Pesquisa Operacional e Otimização Combinatória aplicada à alocação de portfólios e arbitragem estatística na B3 sob orientação do Prof. Dr. Dalessandro Soares Vianna.
 
-Possui quase 6 anos de experiência consolidada como Assessor de Investimentos e Sócio na Meta Investimentos, atuando na modelagem quantitativa de risco e retorno em Python, R e SQL, além da liderança de controles e conformidade regulatória. Anteriormente atuou como Analista de Dados na Ágora Pesquisa (NKIN Consultoria), estruturando pipelines automatizados de ingestão via Meta API e liderando tecnicamente a plataforma analítica Project Aporia.
+Atuou por quase 6 anos como Assessor de Investimentos e Sócio na Meta Investimentos, com foco em modelagem quantitativa de risco e retorno em Python, R e SQL, além da condução de controles regulatórios. Anteriormente atuou como Analista de Dados em consultoria especializada em inteligência de dados e pesquisas de mercado, estruturando pipelines automatizados de ingestão via Meta API e liderando tecnicamente a plataforma analítica FieldCopilot.
 
 {% else %}
 
 Economist graduated from the Federal University of Rio de Janeiro (UFRJ) with an MBA in Data Science and Analytics from USP/ESALQ. Currently a graduate student in the Professional Master's Program in Production Engineering and Computational Systems at Fluminense Federal University (UFF/MESC), conducting research in Operations Research and Combinatorial Optimization applied to dynamic statistical arbitrage on B3 under the supervision of Prof. Dr. Dalessandro Soares Vianna.
 
-Brings nearly 6 years of solid experience as a Senior Investment Advisor and Partner at Meta Investimentos, specializing in econometric modeling, portfolio risk-return optimization using Python, R, and SQL, and regulatory compliance oversight. Previously served as Data Analyst at Ágora Pesquisa (NKIN Consultoria), engineering automated ETL pipelines via Meta API and leading technical development of the analytical platform Project Aporia.
+Served for nearly 6 years as an Investment Advisor and Partner at Meta Investimentos, focusing on quantitative risk-return modeling in Python, R, and SQL, and regulatory compliance oversight. Previously served as Data Analyst at a specialized market intelligence and survey research consultancy, engineering automated ETL pipelines via Meta API and leading technical development of the analytical platform FieldCopilot.
 
 {% endif %}
