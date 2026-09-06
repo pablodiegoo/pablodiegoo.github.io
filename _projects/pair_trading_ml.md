@@ -70,14 +70,14 @@ flowchart LR
 ## Destaques de Engenharia
 
 - **Modelagem Empírica Rigorosa: Análise comparativa entre métodos econométricos paramétricos (ADF, Engle-Granger) e modelos de aprendizado supervisionado.**
-- **Simulação de Carteiras: Backtesting robusto em dados históricos intradiários e diários na B3, controlando custos de transação e fricções de mercado.**
+- **Simulação de Carteiras: Backtesting robusto em dados históricos com retorno acumulado de 202,48%, índice de Sharpe de 0,85 e volatilidade anualizada de 4,29%, superando o CDI no período.**
 - **Aprovação Acadêmica: Defesa homologada pela banca examinadora da USP/ESALQ.**
 
 {% else %}
 ## Key Engineering Highlights
 
 - **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and supervised machine learning classifiers.**
-- **Portfolio Backtesting: Realistic backtesting on B3 historical equities accounting for transaction costs and market friction.**
+- **Portfolio Backtesting: Realistic backtesting on B3 equities yielding 202.48% cumulative return, 0.85 Sharpe ratio, and 4.29% annualized volatility, outperforming the benchmark.**
 - **Academic Defense: Successfully defended before the USP/ESALQ examination board.**
 
 {% endif %}

@@ -82,15 +82,3 @@ flowchart LR
 - **Commercial Scalability: Standardized client wealth diagnostic workflows accelerating customer onboarding.**
 
 {% endif %}
-
-{% if site.active_lang == 'pt-br' %}
-## Referências e Comprovações
-
-- [Documentação do Projeto / Interface Online](https://pablodiegoo.github.io/projects/FinPlanning/)
-
-{% else %}
-## References & Verification
-
-- [Project Documentation / Live Interface](https://pablodiegoo.github.io/projects/FinPlanning/)
-
-{% endif %}

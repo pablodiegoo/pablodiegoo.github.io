@@ -14,7 +14,7 @@ institution: "Projeto Autônomo / Open Source"
 period: "2025 - Present"
 tech_stack: ['Go', 'Echo v5', 'NATS JetStream', 'PostgreSQL', 'pgx/v5', 'a-h/templ', 'HTMX', 'Tailwind CSS', 'Docker', 'whatsmeow']
 tags: [data-engineering, go, cpaas, omnichannel, nats-jetstream, echo-v5, htmx, templ, postgresql, whatsapp, telegram, docker]
-github: "https://github.com/pablodiegoo/OmniGo"
+github: "https://github.com/pablodiegoo/PerGo"
 redirect_from:
   - /projects/pergo/
   - /projects/cx_whatsapp/
@@ -78,7 +78,7 @@ flowchart TD
 
 - **Payload REST Unificado: Endpoint único (POST /api/v1/messages) abstraindo a complexidade de roteamento e fallback automático entre WABA, WhatsApp Web e Telegram.**
 - **Mensageria Resiliente com JetStream: Fila persistente e desacoplada em NATS JetStream com controle de backpressure (limite de 1.000 mensagens por sessão).**
-- **Interface Reativa SSR: Painel administrativo de alta performance compilado em tempo de compilação com a-h/templ e interações dinâmicas via HTMX sem overhead de SPA.**
+- **Interface Reativa SSR: Painel administrativo de alta performance renderizado via templates tipados em Go (a-h/templ) e interações dinâmicas via HTMX sem overhead de SPA.**
 
 {% else %}
 ## Key Engineering Highlights
@@ -92,11 +92,11 @@ flowchart TD
 {% if site.active_lang == 'pt-br' %}
 ## Referências e Comprovações
 
-- [Código-Fonte / Repositório Oficial no GitHub](https://github.com/pablodiegoo/OmniGo)
+- [Código-Fonte / Repositório Oficial no GitHub](https://github.com/pablodiegoo/PerGo)
 
 {% else %}
 ## References & Verification
 
-- [Source Code / Official GitHub Repository](https://github.com/pablodiegoo/OmniGo)
+- [Source Code / Official GitHub Repository](https://github.com/pablodiegoo/PerGo)
 
 {% endif %}

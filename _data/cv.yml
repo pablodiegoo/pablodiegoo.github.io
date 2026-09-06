@@ -307,7 +307,7 @@
     jekyll_slug: agp_media
   - title: Ecoar AI — AI-Powered Qualitative Research & Interview Platform with Ent
       ORM & pgvector
-    institution: Projeto Autônomo / Open Source
+    institution: Projeto Autônomo / Pesquisa Aplicada
     year: 2025 - Present
     description:
     - AI-powered qualitative research platform engineered in Go for conducting automated
@@ -344,8 +344,6 @@
       optimization models across Brazilian investment funds and tax-exempt fixed income
       vehicles.
     - <b>Stack:</b> Excel Avançado, VBA, Python, Google Looker Studio
-    - <a href="https://pablodiegoo.github.io/projects/FinPlanning/" target="_blank">Documentation
-      / Project Link</a>
     summary: Financial lifecycle modeling tool featuring cash flow simulations and
       tax drag optimization models across Brazilian investment funds and tax-exempt
       fixed income vehicles.
@@ -356,7 +354,7 @@
     - VBA
     - Python
     - Google Looker Studio
-    documentation_url: https://pablodiegoo.github.io/projects/FinPlanning/
+    documentation_url: ''
     jekyll_slug: FinPlanning
   - title: LongandShortR — Statistical Arbitrage & Cointegration Engine on B3 in R
     institution: Meta & Actio Investimentos

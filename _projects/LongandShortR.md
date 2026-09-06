@@ -14,7 +14,6 @@ institution: "Meta & Actio Investimentos"
 period: "2017 - 2020"
 tech_stack: ['R', 'Tseries', 'Urca', 'Dplyr', 'Ggplot2', 'B3 Market Data']
 tags: [quantitative-finance, r, statistical-arbitrage, cointegration, time-series, b3, pair-trading]
-github: "https://github.com/pablodiegoo/LongandShortR"
 redirect_from:
   - /projects/longandshortr/
   - /projects/pair_trading_r/
@@ -82,17 +81,5 @@ flowchart LR
 - **Systematic B3 Screening: Automated daily Augmented Dickey-Fuller (ADF) and Engle-Granger cointegration testing across liquid equity pairs.**
 - **Quantitative Signal Generation: Residual spread modeling featuring mean-reversion half-life calculation and Z-score standardization.**
 - **Execution Risk Framework: Optimal entry/exit band sizing accounting for market friction and statistical confidence intervals.**
-
-{% endif %}
-
-{% if site.active_lang == 'pt-br' %}
-## Referências e Comprovações
-
-- [Código-Fonte / Repositório Oficial no GitHub](https://github.com/pablodiegoo/LongandShortR)
-
-{% else %}
-## References & Verification
-
-- [Source Code / Official GitHub Repository](https://github.com/pablodiegoo/LongandShortR)
 
 {% endif %}

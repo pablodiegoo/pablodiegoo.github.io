@@ -10,11 +10,10 @@ og_image: /assets/img/projects/ecoar_ai/thumbnail.png
 importance: 2
 category: "Data Science"
 confidentiality: "public"
-institution: "Projeto Autônomo / Open Source"
+institution: "Projeto Autônomo / Pesquisa Aplicada"
 period: "2025 - Present"
 tech_stack: ['Go', 'Ent ORM', 'PostgreSQL', 'pgvector', 'Docker', 'TypeScript', 'React', 'Tailwind CSS', 'OpenAI API', 'Gemini API']
 tags: [data-science, go, ent-orm, postgresql, pgvector, semantic-search, qualitative-research, nlp, llm, rag, docker]
-github: "https://github.com/pablodiegoo/ecoar-ai"
 redirect_from:
   - /projects/ecoar-ai/
 related_publications: false
@@ -24,7 +23,7 @@ mermaid:
 ---
 
 {% if site.active_lang == 'pt-br' %}
-**Contexto / Organização**: Projeto Autônomo / Open Source  
+**Contexto / Organização**: Projeto Autônomo / Pesquisa Aplicada  
 **Período**: 2025 - Presente  
 **Categoria de Atuação**: Data Science  
 **Tecnologias**: `Go`, `Ent ORM`, `PostgreSQL`, `pgvector`, `Docker`, `TypeScript`, `React`, `Tailwind CSS`, `OpenAI API`, `Gemini API`  
@@ -36,7 +35,7 @@ mermaid:
 Plataforma de inteligência qualitativa e condução automatizada de entrevistas de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant rigoroso, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática de depoimentos.
 
 {% else %}
-**Organization / Context**: Projeto Autônomo / Open Source  
+**Organization / Context**: Projeto Autônomo / Pesquisa Aplicada  
 **Timeline**: 2025 - Present  
 **Domain Category**: Data Science  
 **Technologies**: `Go`, `Ent ORM`, `PostgreSQL`, `pgvector`, `Docker`, `TypeScript`, `React`, `Tailwind CSS`, `OpenAI API`, `Gemini API`  
@@ -83,17 +82,5 @@ flowchart TD
 - **Three-Layer Tenant Isolation: Strict multi-tenancy enforced across HTTP middleware, Ent Privacy policies, and PostgreSQL Row-Level Security.**
 - **Semantic Search with pgvector: Vector embeddings indexing interview excerpt transcripts for instantaneous semantic retrieval and thematic clustering.**
 - **BYOK Architecture: Secure agency-level API key management with automated fallback and pluggable LLM provider presets.**
-
-{% endif %}
-
-{% if site.active_lang == 'pt-br' %}
-## Referências e Comprovações
-
-- [Código-Fonte / Repositório Oficial no GitHub](https://github.com/pablodiegoo/ecoar-ai)
-
-{% else %}
-## References & Verification
-
-- [Source Code / Official GitHub Repository](https://github.com/pablodiegoo/ecoar-ai)
 
 {% endif %}
