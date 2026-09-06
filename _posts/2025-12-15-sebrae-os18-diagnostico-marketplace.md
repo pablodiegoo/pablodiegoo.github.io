@@ -5,6 +5,7 @@ date: 2025-12-15 15:00:00
 description: "Diagnóstico operacional e econométrico de fricções de vendas de pequenos varejistas em plataformas de e-commerce, abordando comissões, logística fulfillment e dependência de tráfego pago."
 tags: [marketplace, ecommerce, omnichannel, pesquisa-mercado, surveys]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/sebrae-os18-diagnostico-marketplace/thumbnail.png
 toc:
   beginning: true
@@ -30,7 +31,7 @@ O sentimento dominante entre os *sellers* é o de edificar um negócio próspero
 
 ## 2. Desenho Amostral e Arquitetura da Investigação
 
-A pesquisa combinou metodologias qualitativas e quantitativas para capturar a jornada de vendedores nos principais ecossistemas do varejo digital brasileiro:
+A pesquisa combinou metodologias qualitativas e quantitativas para capturar a jornada de vendedores nos principais canais e plataformas do varejo digital brasileiro:
 
 ```mermaid
 graph LR
@@ -51,7 +52,7 @@ O desenho amostral estratificou vendedores por maturidade operacional: **entrant
 
 ## 3. Arquétipos de Vendedores: Do Amadorismo à Gestão de Dados
 
-Identificaram-se dois perfis comportamentais e estratégicos predominantes no ecossistema:
+Identificaram-se dois perfis comportamentais e estratégicos predominantes entre os vendedores analisados:
 
 ```mermaid
 graph TB

@@ -5,6 +5,7 @@ date: 2026-01-14 10:00:00
 description: "Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação e reconciliação do inventário turístico do estado de Pernambuco contra bases vetoriais oficiais do IBGE."
 tags: [gis, analytics, turismo, pernambuco, geopandas, shapely, ibge]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/empetur-inventario-turistico/thumbnail.png
 toc:
   beginning: true

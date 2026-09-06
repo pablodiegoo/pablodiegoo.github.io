@@ -5,6 +5,7 @@ date: 2025-12-15 09:00:00
 description: "Investigação estratégica avaliando a eficácia e percepção de valor entre modelos de atendimento genérico, ajustado e especializado para micro e pequenas empresas (MPEs)."
 tags: [consultoria, estrategia, mpe, pesquisa-mercado, analise-qualitativa]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/sebrae-os15-especializacao-segmentada/thumbnail.png
 toc:
   beginning: true
@@ -100,7 +101,7 @@ graph LR
 
 ## 5. Recomendações Estratégicas de Desenho de Serviço (Service Design)
 
-Para preservar sua relevância e elevar o impacto econômico sobre o ecossistema empreendedor, recomenda-se à instituição paraestatal a adoção de quatro eixos de modernização:
+Para preservar sua relevância e elevar o impacto econômico sobre a competitividade de pequenas empresas, recomenda-se à entidade de fomento a adoção de quatro eixos de modernização:
 
 1. **Segmentação por Maturidade e Não por Porte Fiscal:**
    - Superar o corte simplista MEI vs. ME vs. EPP. Uma ME com 10 anos de operação possui desafios de governança e sucessão que exigem consultorias radicalmente diferentes de uma ME recém-aberta.

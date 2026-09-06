@@ -5,6 +5,7 @@ date: 2026-03-01 10:00:00
 description: "Modelagem preditiva via Random Forest Feature Importance e matrizes de correlação linear para mensurar o impacto marginal de políticas de Tarifa Zero, Moeda Social e secretarias municipais sobre a aprovação executiva."
 tags: [data-science, econometria, random-forest, machine-learning, pesquisa-opiniao, tarifa-zero, moeda-social]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/drivers-gestao-municipal-tarifa-zero/thumbnail.png
 toc:
   beginning: true

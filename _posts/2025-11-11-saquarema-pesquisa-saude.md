@@ -5,6 +5,7 @@ date: 2025-11-11 14:30:00
 description: "Mapeamento qualitativo semiestruturado e mineração de texto sobre a percepção de atendimento, marcação de consultas e abastecimento farmacêutico na rede municipal de saúde."
 tags: [pesquisa-qualitativa, saude-publica, nlp, text-mining, sentiment-analysis]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/saquarema-pesquisa-saude/thumbnail.png
 toc:
   beginning: true

@@ -5,6 +5,7 @@ date: 2026-01-15 11:00:00
 description: "Investigação empírica via regressão linear (OLS) e tabulação cruzada demonstrando como o desconhecimento da defasagem inflacionária histórica (17 anos) amplifica a rejeição punitiva e a polarização institucional em reajustes do IPTU."
 tags: [econometria, economia-comportamental, regressao-linear, ols, politica-fiscal, iptu]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/desinformacao-punitiva-iptu-municipal/thumbnail.png
 toc:
   beginning: true
@@ -176,7 +177,7 @@ A inspeção da Figura 3 elucida um mecanismo estratégico sofisticado:
 2. **Entre eleitores indecisos (Regular):** A Câmara continua sendo o alvo primário de desgaste ($41,5\%$), mas a cobrança sobre o executivo sobe para $34,2\%$.
 3. **Entre eleitores de oposição (Ruim/Péssimo):** A narrativa governista colapsa integralmente. Quase dois terços dos críticos ($63,5\%$) atribuem a culpa direta e pessoalmente ao Prefeito, repelindo qualquer tentativa de diluição da responsabilidade entre os parlamentares.
 
-Em suma: o esforço retórico de transferir a culpa tributária para o poder legislativo atua como um eficiente **mecanismo de contenção de danos na própria base**, mas é solenemente ignorado pelos estratos descontentes.
+Na prática, o esforço retórico de transferir a culpa tributária para o poder legislativo atua como um eficiente **mecanismo de contenção de danos na própria base**, mas é solenemente ignorado pelos estratos descontentes.
 
 ---
 

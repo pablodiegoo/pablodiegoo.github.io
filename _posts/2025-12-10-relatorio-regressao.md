@@ -5,6 +5,7 @@ date: 2025-12-10 12:00:00
 description: "Modelagem econométrica e regressão logística multivariada mensurando os determinantes empíricos e odds ratios da desaprovação política a partir de microdados amostrais domiciliares."
 tags: [data-science, econometria, regressao, machine-learning, pesquisa-opiniao]
 categories: [estudos, relatorios]
+author: "Pablo Diego Pereira"
 thumbnail: assets/img/posts/relatorio-regressao/thumbnail.png
 toc:
   beginning: true
@@ -43,7 +44,7 @@ Em que:
 
 ### 2.1. Desempenho e Validação Estatística do Modelo
 
-O modelo treinado apresentou calibração estatística robusta em partição cega de teste:
+O modelo treinado apresentou estabilidade estatística consistente em partição cega de teste:
 
 - **Acurácia em Partição de Teste:** 86,49%
 - **Acurácia em Partição de Treino:** 91,13%
