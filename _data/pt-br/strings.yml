@@ -33,6 +33,9 @@ archive:
   category_suffix: "desta categoria"
   tag_suffix: "com este marcador"
   year_suffix: "deste ano"
+  studies: "Estudos"
+  studies_title: "Arquivo de Estudos e Relatórios Técnicos"
+  studies_description: "Estudos de caso analíticos aplicados, ensaios econométricos e relatórios técnicos."
 
 bibliography:
   abstract: "Resumo"

@@ -33,6 +33,9 @@ archive:
   category_suffix: "in this category"
   tag_suffix: "with this tag"
   year_suffix: "from this year"
+  studies: "Studies"
+  studies_title: "Archive of Studies & Technical Reports"
+  studies_description: "Applied analytical case studies, econometric essays, and technical reports."
 
 bibliography:
   abstract: "Abstract"
