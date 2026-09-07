@@ -21,7 +21,7 @@ profile:
   quote_author: Viktor Frankl
   quote_source_pt: Em Busca de Sentido
   quote_source_en: Man's Search for Meaning
-news: true
+news: false
 selected_papers: true
 social: true
 ---
