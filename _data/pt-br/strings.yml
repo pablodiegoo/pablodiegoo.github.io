@@ -19,6 +19,10 @@ navigation:
   estudos: "Estudos"
   investimentos: "Investimentos"
   investments: "Investimentos"
+  more: "Mais"
+  mais: "Mais"
+  portfolio: "Portfólio"
+  portfólio: "Portfólio"
 
 ui:
   search: "Pesquisar"

@@ -8,7 +8,7 @@ title_en: Repositories
 description: GitHub profile and featured open-source repositories.
 description_pt: Perfil no GitHub e repositórios de código aberto em destaque.
 description_en: GitHub profile and featured open-source repositories.
-nav: true
+nav: false
 nav_order: 7
 ---
 

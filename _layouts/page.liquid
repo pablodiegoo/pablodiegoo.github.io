@@ -9,34 +9,9 @@ layout: default
 {% endif %}
 
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.active_lang == 'pt-br' and page.title_pt %}
-        {{ page.title_pt }}
-      {% elsif site.active_lang == 'en' and page.title_en %}
-        {{ page.title_en }}
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-    </h1>
-    {% assign conf = page.confidentiality | default: page.confidentiality_level %}
-    {% if conf %}
-      <div class="project-header-badge mt-2 mb-3">
-        <span class="badge-status badge-{{ conf }}">
-          {{ conf }}
-        </span>
-      </div>
-    {% endif %}
-    <p class="post-description">
-      {% if site.active_lang == 'pt-br' and page.description_pt %}
-        {{ page.description_pt }}
-      {% elsif site.active_lang == 'en' and page.description_en %}
-        {{ page.description_en }}
-      {% else %}
-        {{ page.description }}
-      {% endif %}
-    </p>
-  </header>
+  {% assign conf = page.confidentiality | default: page.confidentiality_level %}
+  {% comment %} badge-status encapsulated in page_header.liquid {% endcomment %}
+  {% include page_header.liquid badge=conf badge_class="badge-status" %}
 
   <article>
     {{ content }}

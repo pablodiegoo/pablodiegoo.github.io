@@ -1,0 +1,186 @@
+---
+---
+<div class="pub-item py-5 flex flex-col md:flex-row gap-5 border-b border-slate-200 dark:border-slate-800" id="{{ entry.key }}">
+  {% if site.enable_publication_thumbnails and entry.preview %}
+    <!-- Miniatura Gráfica / Thumbnail -->
+    <div class="pub-thumbnail-container shrink-0">
+      <div class="pub-thumbnail-box rounded border border-slate-200 dark:border-slate-700 overflow-hidden bg-slate-900 shadow-sm">
+        {% if entry.preview contains '://' %}
+          <img src="{{ entry.preview }}" class="pub-thumbnail-img" alt="{{ entry.title | escape }}">
+        {% else %}
+          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=entry_path
+            sizes="(min-width: 768px) 176px, 100vw"
+            class="pub-thumbnail-img"
+            zoomable=true
+            avoid_scaling=true
+            alt=entry.preview
+          %}
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- Conteúdo Principal da Publicação -->
+  <div class="pub-content-container flex-1 space-y-2">
+    <!-- Linha de Metadados em Fira Code -->
+    <div class="pub-meta flex flex-wrap items-center gap-2 font-mono text-xs">
+      {% if entry.abbr %}
+        <span class="px-2 py-0.5 rounded font-bold bg-oxford/10 dark:bg-blue-950/50 text-oxford dark:text-blue-300 border border-oxford/20 dark:border-blue-800">
+          {{ entry.abbr }}
+        </span>
+      {% endif %}
+      {% if entry.year %}
+        <span class="text-slate-500 dark:text-slate-400 font-medium">{{ entry.year }}</span>
+      {% endif %}
+      {% if entry.type %}
+        <span class="text-slate-400 dark:text-slate-600">·</span>
+        <span class="text-slate-600 dark:text-slate-400">{{ entry.type }}</span>
+      {% elsif entry.booktitle %}
+        <span class="text-slate-400 dark:text-slate-600">·</span>
+        <span class="text-slate-600 dark:text-slate-400">{{ entry.booktitle }}</span>
+      {% endif %}
+    </div>
+
+    <!-- Título Nobre -->
+    <h3 class="pub-title font-serif text-lg font-bold text-slate-950 dark:text-white leading-snug m-0">
+      {% if entry.url %}
+        <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" class="hover:text-oxford dark:hover:text-blue-400 transition text-decoration-none text-current">
+          {{ entry.title }}
+        </a>
+      {% elsif entry.pdf %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" class="hover:text-oxford dark:hover:text-blue-400 transition text-decoration-none text-current">
+          {{ entry.title }}
+        </a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </h3>
+
+    <!-- Autores com Destaque -->
+    <div class="pub-authors text-xs text-slate-700 dark:text-slate-300 leading-normal">
+      {%- for author in entry.author_array -%}
+        {%- assign author_is_self = false -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- if site.scholar.last_name contains author_last_name -%}
+          {%- if site.scholar.first_name contains author.first -%}
+            {%- assign author_is_self = true -%}
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if forloop.length > 1 -%}
+          {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+          {%- if forloop.last and forloop.length > 1 -%}{% if site.active_lang == 'pt-br' %}e&nbsp;{% else %}and&nbsp;{% endif %}{%- endif -%}
+        {%- endif -%}
+
+        {%- if author_is_self -%}
+          <span class="font-bold text-slate-950 dark:text-slate-100">{{ author.first }} {{ author.last }}</span>
+        {%- else -%}
+          <span>{{ author.first }} {{ author.last }}</span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <!-- Orientação Acadêmica Explícita (Supervisor) -->
+    {% if entry.supervisor %}
+      <div class="pub-supervisor text-xs text-slate-600 dark:text-slate-400 italic">
+        {% if site.active_lang == 'pt-br' %}Orientação:{% else %}Advisor:{% endif %}
+        <span class="font-semibold text-slate-800 dark:text-slate-200">{{ entry.supervisor }}</span>
+        {% if entry.publisher %}
+          · {{ entry.publisher }}
+        {% elsif entry.school %}
+          · {{ entry.school }}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <!-- Botões de Ação em Fira Code (Padrão Editorial) -->
+    <div class="pub-actions flex flex-wrap items-center gap-2 pt-1.5">
+      {% if entry.pdf %}
+        <a
+          {% if entry.pdf contains '://' %}
+            href="{{ entry.pdf }}"
+          {% else %}
+            href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="action-btn-pill"
+        >
+          <i class="fa-regular fa-file-pdf text-rose-600"></i> PDF ↗
+        </a>
+      {% endif %}
+
+      {% if entry.url %}
+        <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" class="action-btn-pill">
+          {% if entry.url contains 'pantheon' %}
+            <i class="fa-solid fa-landmark text-oxford dark:text-blue-400"></i> Pantheon ↗
+          {% else %}
+            <i class="fa-solid fa-arrow-up-right-from-square text-oxford dark:text-blue-400"></i> Link ↗
+          {% endif %}
+        </a>
+      {% endif %}
+
+      {% if entry.abstract %}
+        <a class="abstract action-btn-pill" role="button">
+          <i class="fa-solid fa-align-left text-oxford dark:text-blue-400"></i> {% if site.active_lang == 'pt-br' %}Resumo ▾{% else %}Abstract ▾{% endif %}
+        </a>
+      {% endif %}
+
+      {% if entry.bibtex_show %}
+        <a class="bibtex action-btn-pill" role="button">
+          <i class="fa-solid fa-quote-right text-slate-500"></i> BibTeX ▾
+        </a>
+      {% endif %}
+
+      {% if entry.code %}
+        <a href="{{ entry.code }}" target="_blank" rel="noopener noreferrer" class="action-btn-pill">
+          <i class="fa-solid fa-code text-emerald-600"></i> Code ↗
+        </a>
+      {% endif %}
+
+      {% if entry.html %}
+        <a href="{{ entry.html }}" target="_blank" rel="noopener noreferrer" class="action-btn-pill">
+          <i class="fa-solid fa-globe text-blue-600"></i> HTML ↗
+        </a>
+      {% endif %}
+
+      {% if site.enable_publication_badges and entry.dimensions and entry.dimensions != 'false' %}
+        <span
+          class="__dimensions_badge_embed__ ml-auto"
+          {% if entry.dimensions != blank and entry.dimensions != 'true' %}
+            data-id="{{ entry.dimensions }}"
+          {% elsif entry.doi %}
+            data-doi="{{ entry.doi }}"
+          {% else %}
+            data-pmid="{{ entry.pmid }}"
+          {% endif %}
+          data-style="small_rectangle"
+          data-legend="hover-right"
+        ></span>
+      {% endif %}
+    </div>
+
+    <!-- Painel Expansível de Abstract Inline -->
+    {% if entry.abstract %}
+      <div class="abstract hidden mt-3 p-4 bg-slate-50 dark:bg-slate-900/80 rounded border border-slate-200 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-sans">
+        <span class="font-mono font-bold text-slate-900 dark:text-slate-100 block mb-1">
+          {% if site.active_lang == 'pt-br' %}RESUMO EXECUTIVO:{% else %}EXECUTIVE SUMMARY:{% endif %}
+        </span>
+        {{ entry.abstract }}
+      </div>
+    {% endif %}
+
+    <!-- Painel Expansível de BibTeX Inline -->
+    {% if entry.bibtex_show %}
+      <div class="bibtex hidden mt-3 p-3 bg-slate-900 text-slate-200 rounded border border-slate-700 text-xs font-mono overflow-x-auto">
+        {% highlight bibtex %}
+        {{- entry.bibtex | hideCustomBibtex -}}
+        {% endhighlight %}
+      </div>
+    {% endif %}
+  </div>
+</div>

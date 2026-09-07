@@ -7,6 +7,24 @@
     en: Operations Research & Combinatorial Optimization
   period: 2026 - Presente
   period_en: 2026 - Present
+- org: Meta Investimentos
+  role:
+    pt: Sócio & Assessor de Investimentos
+    en: Partner & Investment Advisor
+  focus:
+    pt: Alocação de Ativos & Gestão Quantitativa de Risco
+    en: Asset Allocation & Quantitative Risk Management
+  period: 2020 - Presente
+  period_en: 2020 - Present
+- org: Ágora Pesquisa
+  role:
+    pt: Analista de Dados & Insights
+    en: Data & Insights Analyst
+  focus:
+    pt: Engenharia de Dados & Business Analytics
+    en: Data Engineering & Business Analytics
+  period: 2025 - 2026
+  period_en: 2025 - 2026
 - org: USP / ESALQ
   role:
     pt: MBA em Data Science e Analytics
@@ -16,6 +34,15 @@
     en: Engle-Granger Cointegration & Supervised Models
   period: 2024 - 2026
   period_en: 2024 - 2026
+- org: Meta & Actio
+  role:
+    pt: Sócio & Gestor de Backoffice
+    en: Partner & Backoffice Manager
+  focus:
+    pt: Arbitragem Estatística & Automação de Backoffice
+    en: Statistical Arbitrage & Backoffice Automation
+  period: 2017 - 2020
+  period_en: 2017 - 2020
 - org: UFRJ
   role:
     pt: Bacharelado em Ciências Econômicas
@@ -25,12 +52,3 @@
     en: Econometrics & Applied Microeconomics
   period: 2010 - 2019
   period_en: 2010 - 2019
-- org: Meta Investimentos
-  role:
-    pt: Sócio & Assessor de Investimentos
-    en: Partner & Investment Advisor
-  focus:
-    pt: Alocação de Ativos & Gestão Quantitativa de Risco
-    en: Asset Allocation & Quantitative Risk Management
-  period: 2018 - 2024
-  period_en: 2018 - 2024

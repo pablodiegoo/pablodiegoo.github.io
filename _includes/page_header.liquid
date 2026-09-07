@@ -1,0 +1,99 @@
+{% comment %}
+  Canonical Page Header Component (DESIGN.md / CONTEXT.md)
+  Parameters:
+    - title: Optional explicit title (defaults to page.title_pt / page.title_en / page.title)
+    - description: Optional explicit description (defaults to page.description_pt / page.description_en / page.description)
+    - eyebrow: Optional explicit eyebrow text
+    - badge: Optional confidentiality/status badge
+{% endcomment %}
+
+{% assign current_title = include.title %}
+{% unless current_title %}
+  {% if site.active_lang == 'pt-br' and page.title_pt %}
+    {% assign current_title = page.title_pt %}
+  {% elsif site.active_lang == 'en' and page.title_en %}
+    {% assign current_title = page.title_en %}
+  {% else %}
+    {% assign current_title = page.title %}
+  {% endif %}
+{% endunless %}
+
+{% assign current_desc = include.description %}
+{% unless current_desc %}
+  {% if site.active_lang == 'pt-br' and page.description_pt %}
+    {% assign current_desc = page.description_pt %}
+  {% elsif site.active_lang == 'en' and page.description_en %}
+    {% assign current_desc = page.description_en %}
+  {% else %}
+    {% assign current_desc = page.description %}
+  {% endif %}
+{% endunless %}
+
+{% assign current_eyebrow = include.eyebrow | default: page.eyebrow %}
+{% unless current_eyebrow %}
+  {% if page.page_id == 'blog' or page.url contains '/blog' or page.url contains '/estudos' %}
+    {% if site.active_lang == 'pt-br' %}
+      {% assign current_eyebrow = "CADERNO EDITORIAL // ESTUDOS &amp; RELATÓRIOS" %}
+    {% else %}
+      {% assign current_eyebrow = "EDITORIAL NOTEBOOK // STUDIES &amp; REPORTS" %}
+    {% endif %}
+  {% elsif page.page_id == 'projects' or page.url contains '/projects' %}
+    {% if site.active_lang == 'pt-br' %}
+      {% assign current_eyebrow = "PORTFÓLIO TÉCNICO // ENGENHARIA &amp; MODELAGEM" %}
+    {% else %}
+      {% assign current_eyebrow = "TECHNICAL PORTFOLIO // ENGINEERING &amp; MODELING" %}
+    {% endif %}
+  {% elsif page.page_id == 'publications' or page.url contains '/publications' %}
+    {% if site.active_lang == 'pt-br' %}
+      {% assign current_eyebrow = "PRODUÇÃO BIBLIOGRÁFICA // PESQUISA CIENTÍFICA" %}
+    {% else %}
+      {% assign current_eyebrow = "BIBLIOGRAPHIC PRODUCTION // SCIENTIFIC RESEARCH" %}
+    {% endif %}
+  {% elsif page.page_id == 'news' or page.url contains '/news' %}
+    {% if site.active_lang == 'pt-br' %}
+      {% assign current_eyebrow = "MARCOS INSTITUCIONAIS // FORMAÇÃO &amp; REGULAÇÃO" %}
+    {% else %}
+      {% assign current_eyebrow = "INSTITUTIONAL MILESTONES // EDUCATION &amp; REGULATION" %}
+    {% endif %}
+  {% elsif page.page_id == 'investimentos' or page.url contains '/investimentos' %}
+    {% if site.active_lang == 'pt-br' %}
+      {% assign current_eyebrow = "ASSESSORIA DE INVESTIMENTOS // RESOLUÇÃO CVM 178" %}
+    {% else %}
+      {% assign current_eyebrow = "WEALTH &amp; INVESTMENT ADVISORY // CVM REGULATION" %}
+    {% endif %}
+  {% elsif page.page_id == 'repositories' or page.url contains '/repositories' %}
+    {% if site.active_lang == 'pt-br' %}
+      {% assign current_eyebrow = "ECOSSISTEMA OPEN SOURCE // REPOSITÓRIOS GITHUB" %}
+    {% else %}
+      {% assign current_eyebrow = "OPEN SOURCE ECOSYSTEM // GITHUB REPOSITORIES" %}
+    {% endif %}
+  {% endif %}
+{% endunless %}
+
+{% assign conf = include.badge | default: page.confidentiality | default: page.confidentiality_level %}
+
+<header class="page-header border-b border-slate-200 dark:border-slate-800 pb-6 mb-8">
+  {% if current_eyebrow %}
+    <div class="page-eyebrow font-mono text-[11px] font-semibold text-oxford dark:text-blue-400 uppercase tracking-widest mb-1.5">
+      {{ current_eyebrow }}
+    </div>
+  {% endif %}
+
+  <h1 class="post-title font-serif text-3xl sm:text-4xl font-bold tracking-tight text-slate-950 dark:text-white leading-tight mb-2">
+    {{ current_title }}
+  </h1>
+
+  {% if conf %}
+    <div class="project-header-badge mt-2 mb-3">
+      <span class="badge-status badge-{{ conf }}">
+        {{ conf }}
+      </span>
+    </div>
+  {% endif %}
+
+  {% if current_desc and current_desc != blank %}
+    <p class="post-description text-sm sm:text-base text-slate-700 dark:text-slate-300 font-normal leading-relaxed m-0">
+      {{ current_desc }}
+    </p>
+  {% endif %}
+</header>

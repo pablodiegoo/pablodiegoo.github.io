@@ -10,7 +10,7 @@ title_en: Studies
 description: Estudos de caso analíticos aplicados, ensaios econométricos e relatórios técnicos.
 description_pt: Estudos de caso analíticos aplicados, ensaios econométricos e relatórios técnicos.
 description_en: Applied analytical case studies, econometric essays, and technical reports.
-nav: true
+nav: false
 nav_order: 4
 pagination:
   enabled: true
@@ -25,44 +25,24 @@ pagination:
 ---
 
 <div class="post">
-
-{% assign blog_name_size = site.blog_name | size %}
-{% assign blog_description_size = site.blog_description | size %}
-
-{% if blog_name_size > 0 or blog_description_size > 0 %}
-
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-  {% endif %}
+  {% include page_header.liquid %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
-
-  <div class="tag-category-list">
-    <ul class="p-0 m-0">
+  <div class="tag-category-list mb-6">
+    <div class="flex flex-wrap items-center gap-1.5 pt-1">
       {% for tag in site.display_tags %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
+        <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}" class="tech-pill text-decoration-none">
+          <i class="fa-solid fa-hashtag text-[9px] opacity-70"></i> {{ tag }}
+        </a>
       {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
-      {% endif %}
       {% for category in site.display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
+        <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}" class="tech-pill text-decoration-none">
+          <i class="fa-solid fa-tag text-[9px] opacity-70"></i> {{ category }}
+        </a>
       {% endfor %}
-    </ul>
+    </div>
   </div>
-  {% endif %}
+{% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}

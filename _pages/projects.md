@@ -8,7 +8,7 @@ permalink: /projects/
 description: Technical specifications and applied research projects.
 description_pt: Fichas técnicas públicas, modelos econométricos, pipelines de engenharia e relatórios analíticos aprofundados.
 description_en: Public technical specifications, econometric models, engineering pipelines, and in-depth analytical reports.
-nav: true
+nav: false
 nav_order: 1
 display_categories: ["Data Science", "Quantitative Finance", "Data Engineering", "Data Analytics"]
 horizontal: false

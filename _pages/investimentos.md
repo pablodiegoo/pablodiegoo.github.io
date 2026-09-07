@@ -8,8 +8,7 @@ permalink: /investimentos/
 description: Assessoria especializada sob a Resolução CVM 178, alocação estratégica de ativos e modelagem quantitativa de risco.
 description_pt: Assessoria especializada sob a Resolução CVM 178, alocação estratégica de ativos e modelagem quantitativa de risco.
 description_en: Specialized advisory under CVM Resolution 178, strategic asset allocation, and quantitative risk modeling.
-nav: true
-nav_order: 5
+nav: false
 ---
 
 {% if site.active_lang == "pt-br" %}
@@ -67,46 +66,7 @@ nav_order: 5
 <!-- TRÊS PILARES METODOLÓGICOS DE ATUAÇÃO                                   -->
 <!-- ======================================================================= -->
 
-<section class="mb-8">
-  <h2 class="font-serif text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">
-    Pilares de Atuação
-  </h2>
-
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-    <!-- Pilar 1 -->
-    <div class="advisory-pillar-card">
-      <div class="font-mono text-xs text-blue-700 dark:text-blue-400 font-bold mb-2">PILAR 01</div>
-      <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
-        Alocação Estratégica de Ativos
-      </h3>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-0">
-        Estruturação de portfólios multiativos com base na moderna teoria de carteiras e diversificação estrutural. Balanceamento entre renda fixa pública e privada, instrumentos indexados à inflação (IPCA+), crédito com rating sólido, estratégias macro e exposição cambial internacional. Foco no carrego real de longo prazo.
-      </p>
-    </div>
-
-    <!-- Pilar 2 -->
-    <div class="advisory-pillar-card">
-      <div class="font-mono text-xs text-blue-700 dark:text-blue-400 font-bold mb-2">PILAR 02</div>
-      <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
-        Modelagem Quantitativa de Risco
-      </h3>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-0">
-        Avaliação contínua da matriz de covariância e sensibilidade macroeconômica da carteira. Aplicação de testes de estresse histórico, métricas de perda de cauda (CVaR) e controle de drawdowns máximos. Identificação e eliminação de correlações espúrias que se revelam apenas em períodos de escassez de liquidez de mercado.
-      </p>
-    </div>
-
-    <!-- Pilar 3 -->
-    <div class="advisory-pillar-card">
-      <div class="font-mono text-xs text-blue-700 dark:text-blue-400 font-bold mb-2">PILAR 03</div>
-      <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
-        Planejamento Patrimonial
-      </h3>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-0">
-        Alinhamento entre governança patrimonial, objetivos familiares multigeracionais e eficiência tributária. Análise de estruturas de previdência privada (PGBL/VGBL), fundos de investimento exclusivos e instrumentos jurídicos de sucessão para conservação sustentável do patrimônio líquido familiar.
-      </p>
-    </div>
-  </div>
-</section>
+{% include advisory_pillars.liquid %}
 
 <!-- ======================================================================= -->
 <!-- CANAIS DE CONTATO DIRETOS & AGENDAMENTO                                 -->
@@ -250,46 +210,7 @@ nav_order: 5
 <!-- THREE ADVISORY PILLARS                                                  -->
 <!-- ======================================================================= -->
 
-<section class="mb-8">
-  <h2 class="font-serif text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">
-    Advisory Pillars
-  </h2>
-
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-    <!-- Pillar 1 -->
-    <div class="advisory-pillar-card">
-      <div class="font-mono text-xs text-blue-700 dark:text-blue-400 font-bold mb-2">PILLAR 01</div>
-      <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
-        Strategic Asset Allocation
-      </h3>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-0">
-        Multi-asset portfolio construction anchored in modern portfolio theory and structural diversification. Balanced exposure across public and private fixed income, inflation hedges (IPCA+), investment-grade credit, systematic macro funds, and international currency reserves. Focused on long-term compound real return.
-      </p>
-    </div>
-
-    <!-- Pillar 2 -->
-    <div class="advisory-pillar-card">
-      <div class="font-mono text-xs text-blue-700 dark:text-blue-400 font-bold mb-2">PILLAR 02</div>
-      <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
-        Portfolio Risk Modeling
-      </h3>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-0">
-        Continuous estimation of covariance matrices and macroeconomic factor sensitivities. Application of historical stress tests, tail-risk metrics (Conditional Value at Risk - CVaR), and maximum drawdown constraints to eliminate hidden spurious correlations that typically surface during liquidity crunches.
-      </p>
-    </div>
-
-    <!-- Pillar 3 -->
-    <div class="advisory-pillar-card">
-      <div class="font-mono text-xs text-blue-700 dark:text-blue-400 font-bold mb-2">PILLAR 03</div>
-      <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">
-        Wealth Planning
-      </h3>
-      <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-0">
-        Strategic integration of multi-generational estate governance, tax efficiency, and capital preservation. Structural analysis of private pension vehicles (PGBL/VGBL), exclusive family investment funds, and corporate succession instruments governed by the Brazilian regulatory framework.
-      </p>
-    </div>
-  </div>
-</section>
+{% include advisory_pillars.liquid %}
 
 <!-- ======================================================================= -->
 <!-- CONTACT CHANNELS & CONSULTATION SCHEDULING                              -->

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: News
-title_pt: Novidades
-title_en: News
+title: Novidades
+title_pt: Novidades & Comunicados
+title_en: News & Announcements
 page_id: news
 permalink: /news/
 description: Institutional and academic announcements.
-description_pt: Anúncios institucionais e acadêmicos.
-description_en: Institutional and academic announcements.
-nav: true
+description_pt: Registros cronológicos de marcos institucionais, titulações acadêmicas, credenciamentos regulatórios e certificações formais.
+description_en: Chronological record of institutional milestones, academic degrees, regulatory credentials, and formal certifications.
+nav: false
 nav_order: 6
 ---
 

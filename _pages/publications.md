@@ -2,13 +2,13 @@
 layout: page
 permalink: /publications/
 page_id: publications
-title: Publications
-title_pt: Publicações
-title_en: Publications
+title: Publicações
+title_pt: Publicações Acadêmicas & Monografias
+title_en: Academic Publications & Monographs
 description: Academic publications, research papers, and monographs.
-description_pt: Publicações acadêmicas, monografias e artigos de pesquisa.
-description_en: Academic publications, research papers, and monographs.
-nav: true
+description_pt: Monografias de conclusão de pós-graduação lato sensu e graduação, artigos científicos e comunicações em anais de congressos com comprovação bibliográfica.
+description_en: Graduate and undergraduate research monographs, scientific papers, and conference proceedings with verified bibliographic citations.
+nav: false
 nav_order: 3
 ---
 
