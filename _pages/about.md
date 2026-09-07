@@ -3,22 +3,24 @@ layout: about
 title: Sobre
 page_id: about
 permalink: /
-subtitle: "Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional & Finanças Quantitativas"
-subtitle_pt: "Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional & Finanças Quantitativas"
-subtitle_en: "M.Sc. Student in Production Eng. & Computational Systems (UFF/MESC) | MBA in Data Science & Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research & Quantitative Finance"
-
+subtitle: Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC)
+  | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas
+  (UFRJ) | Pesquisa Operacional & Finanças Quantitativas
+subtitle_pt: Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC)
+  | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas
+  (UFRJ) | Pesquisa Operacional & Finanças Quantitativas
+subtitle_en: M.Sc. Student in Production Eng. & Computational Systems (UFF/MESC) |
+  MBA in Data Science & Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations
+  Research & Quantitative Finance
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-  more_info: >
-    "Those who have a 'why' to live, can bear with almost any 'how'."
-  more_info_pt: >
-    "Quem tem um 'porquê' para viver, pode suportar quase qualquer 'como'."
+  more_info: Those who have a 'why' to live, can bear with almost any 'how'.
+  more_info_pt: Quem tem um 'porquê' para viver, pode suportar quase qualquer 'como'.
   quote_author: Viktor Frankl
-  quote_source_pt: "Em Busca de Sentido"
-  quote_source_en: "Man's Search for Meaning"
-
+  quote_source_pt: Em Busca de Sentido
+  quote_source_en: Man's Search for Meaning
 news: false
 selected_papers: true
 social: true
