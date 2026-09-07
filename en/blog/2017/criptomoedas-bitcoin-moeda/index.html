@@ -1,0 +1,713 @@
+<!DOCTYPE html> <html lang="pt-br"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Criptomoedas: Mas Seria o Bitcoin Efetivamente uma Moeda? | Pablo Diego Pereira </title> <meta name="author" content="Pablo Diego Pereira"> <meta name="description" content="Análise econômica das funções clássicas da moeda (reserva de valor, meio de troca e unidade de conta) e características físicas desejáveis aplicadas à arquitetura do Bitcoin."> <meta name="keywords" content="pablo diego, data science, quant finance, analytics, economics, portfolio"> <meta property="og:site_name" content="Pablo Diego Pereira"> <meta property="og:type" content="article"> <meta property="og:title" content="Pablo Diego Pereira | Criptomoedas: Mas Seria o Bitcoin Efetivamente uma Moeda?"> <meta property="og:url" content="https://pablodiegoo.github.io/blog/2017/criptomoedas-bitcoin-moeda/"> <meta property="og:description" content="Análise econômica das funções clássicas da moeda (reserva de valor, meio de troca e unidade de conta) e características físicas desejáveis aplicadas à arquitetura do Bitcoin."> <meta property="og:image" content="https://pablodiegoo.github.io/assets/img/prof_pic.jpg"> <meta property="og:locale" content="pt-br"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Criptomoedas: Mas Seria o Bitcoin Efetivamente uma Moeda?"> <meta name="twitter:description" content="Análise econômica das funções clássicas da moeda (reserva de valor, meio de troca e unidade de conta) e características físicas desejáveis aplicadas à arquitetura do Bitcoin."> <meta name="twitter:image" content="https://pablodiegoo.github.io/assets/img/prof_pic.jpg"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://pablodiegoo.github.io/#person",
+      "name": "Pablo Diego de Albuquerque Pereira",
+      "alternateName": "Pablo Diego Pereira",
+      "jobTitle": "Economist and Wealth \u0026 Investment Advisor",
+      "description": "Economist (UFRJ) and Wealth \u0026 Investment Advisor accredited by ANCORD/CVM under CVM Resolution 178, with research in Combinatorial Optimization and Operations Research (UFF/MESC) and an MBA in Data Science \u0026 Analytics (USP/ESALQ).",
+      "url": "https://pablodiegoo.github.io/en/",
+      "sameAs": ["http://lattes.cnpq.br/2639308457750524","https://orcid.org/0009-0000-7422-980X","https://www.linkedin.com/in/pablodiegoo/","https://github.com/pablodiegoo","https://www.kaggle.com/pablodiegoo"],
+      "hasOccupation": [
+        
+          {
+            "@type": "Occupation",
+            
+              "name": "Wealth \u0026 Investment Advisor",
+              "description": "Securities distribution, asset allocation advisory, and wealth management governed by CVM Resolution 178."
+            
+            , "occupationalCategory": "13-2052.00"
+          },
+        
+          {
+            "@type": "Occupation",
+            
+              "name": "Economist",
+              "description": "Macroeconomic analysis, causal inference, empirical econometrics, and quantitative finance."
+            
+            , "occupationalCategory": "19-3011.00"
+          },
+        
+          {
+            "@type": "Occupation",
+            
+              "name": "Data Scientist \u0026 Operations Research Specialist",
+              "description": "Mathematical modeling, combinatorial optimization, algorithms, and machine learning applied to complex systems and capital markets."
+            
+            , "occupationalCategory": "15-2051.00"
+          }
+        
+      ],
+      "hasCredential": [
+        
+          {
+            "@type": "EducationalOccupationalCredential",
+            
+              "name": "Technical Qualification Certification - Investment Advisor",
+            
+            "credentialCategory": "regulatory_license"
+            , "credentialId": "2018-02-06-ANCORD"
+            
+            
+              , "recognizedBy": {
+                "@type": "Organization",
+                "name": "ANCORD"
+                , "alternateName": "Associação Nacional das Corretoras e Distribuidoras de Títulos e Valores Mobiliários, Câmbio e Mercadorias"
+                
+                , "url": "https://www.ancord.org.br/"
+              }
+            
+            
+              , "validIn": {
+                "@type": "AdministrativeArea",
+                "name": "Brasil"
+                , "sameAs": "https://www.wikidata.org/wiki/Q155"
+              }
+            
+          },
+        
+          {
+            "@type": "EducationalOccupationalCredential",
+            
+              "name": "Professional Master's in Production Engineering and Computational Systems (in progress)",
+            
+            "credentialCategory": "degree"
+            
+            , "educationalLevel": "stricto_sensu"
+            
+              , "recognizedBy": {
+                "@type": "CollegeOrUniversity",
+                "name": "Universidade Federal Fluminense"
+                , "alternateName": "UFF"
+                , "sameAs": "https://www.wikidata.org/wiki/Q280247"
+                , "url": "https://www.uff.br/"
+              }
+            
+            
+          },
+        
+          {
+            "@type": "EducationalOccupationalCredential",
+            
+              "name": "MBA in Data Science and Analytics",
+            
+            "credentialCategory": "degree"
+            
+            , "educationalLevel": "lato_sensu"
+            
+              , "recognizedBy": {
+                "@type": "CollegeOrUniversity",
+                "name": "Universidade de São Paulo"
+                , "alternateName": "USP/ESALQ"
+                , "sameAs": "https://www.wikidata.org/wiki/Q835960"
+                , "url": "https://www.usp.br/"
+              }
+            
+            
+          },
+        
+          {
+            "@type": "EducationalOccupationalCredential",
+            
+              "name": "Bachelor of Science in Economics",
+            
+            "credentialCategory": "degree"
+            
+            , "educationalLevel": "bachelor"
+            
+              , "recognizedBy": {
+                "@type": "CollegeOrUniversity",
+                "name": "Universidade Federal do Rio de Janeiro"
+                , "alternateName": "UFRJ"
+                , "sameAs": "https://www.wikidata.org/wiki/Q586904"
+                , "url": "https://ufrj.br/"
+              }
+            
+            
+          }
+        
+      ],
+      "knowsAbout": [
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q8134",
+              
+                "name": "Economics"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q160039",
+              
+                "name": "Econometrics"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q39680",
+              
+                "name": "Macroeconomics"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q39072",
+              
+                "name": "Microeconomics"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q5054566",
+              
+                "name": "Causal inference"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q208697",
+              
+                "name": "Financial market"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q750458",
+              
+                "name": "Capital market"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q462748",
+              
+                "name": "Asset allocation"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q14947471",
+              
+                "name": "Wealth management"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q335632",
+              
+                "name": "Mathematical finance"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q2859660",
+              
+                "name": "Statistical arbitrage"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q189447",
+              
+                "name": "Risk management"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q194292",
+              
+                "name": "Operations research"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q1333872",
+              
+                "name": "Combinatorial optimization"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q2374463",
+              
+                "name": "Data science"
+              
+            }
+          ,
+        
+          
+            {
+              "@type": "DefinedTerm",
+              "@id": "https://www.wikidata.org/wiki/Q2539",
+              
+                "name": "Machine learning"
+              
+            }
+          
+        
+      ]
+    },
+    {
+      "@type": "FinancialService",
+      "@id": "https://pablodiegoo.github.io/#financial-service",
+      "name": "Pablo Diego Pereira - Wealth \u0026 Investment Advisory",
+      "alternateName": "Pablo Diego Pereira - Assessoria de Investimentos",
+      "provider": {
+        "@id": "https://pablodiegoo.github.io/#person"
+      },
+      "serviceType": "Investment Advisory \u0026 Asset Allocation",
+      "description": "Specialized investment advisory, asset allocation, and wealth management governed by CVM Resolution 178, providing institutional reach across Brazil and regional focus in Região dos Lagos/RJ.",
+      "url": "https://pablodiegoo.github.io/en/",
+      "areaServed": [
+        
+          {
+            "@type": "Country",
+            
+              "name": "Brazil",
+              "alternateName": "Brasil"
+            
+            , "sameAs": "https://www.wikidata.org/wiki/Q155"
+            
+            
+          },
+        
+          {
+            "@type": "AdministrativeArea",
+            
+              "name": "Lagos Microregion",
+              "alternateName": "Região dos Lagos"
+            
+            , "sameAs": "https://www.wikidata.org/wiki/Q2719751"
+            
+            
+          },
+        
+          {
+            "@type": "City",
+            
+              "name": "Araruama"
+              
+            
+            , "sameAs": "https://www.wikidata.org/wiki/Q1761549"
+            , "addressRegion": "RJ"
+            , "addressCountry": "BR"
+          },
+        
+          {
+            "@type": "City",
+            
+              "name": "Rio das Ostras"
+              
+            
+            , "sameAs": "https://www.wikidata.org/wiki/Q1787668"
+            , "addressRegion": "RJ"
+            , "addressCountry": "BR"
+          }
+        
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pablodiegoo.github.io/#website",
+      "name": "Pablo Diego Pereira | Economist and Wealth \u0026 Investment Advisor",
+      "alternateName": "Pablo Diego Pereira | Economista e Assessor de Investimentos",
+      "url": "https://pablodiegoo.github.io/en/",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://pablodiegoo.github.io/#person"
+      },
+      "publisher": {
+        "@id": "https://pablodiegoo.github.io/#person"
+      },
+      "description": "Professional and academic portfolio of Pablo Diego Pereira: Economist (UFRJ), Wealth \u0026 Investment Advisor (ANCORD), Data Science Specialist (USP), and M.Sc. Student in Production Engineering and Computational Systems (UFF/MESC)."
+    }
+  ]
+}
+</script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://pablodiegoo.github.io/en/blog/2017/criptomoedas-bitcoin-moeda/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-serif" href="/en/"> <span class="font-weight-bold">Pablo Diego</span> Pereira </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/en/"> About </a> </li> <li class="nav-item "> <a class="nav-link" href="/en/cv/"> Resume </a> </li> <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false"> More <span class="sr-only">(current)</span> </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/en/investimentos/"> Investments </a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/en/projects/"> Projects </a> <a class="dropdown-item active" href="/en/blog/"> Studies </a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/en/publications/"> Publications </a> <a class="dropdown-item " href="/en/news/"> News </a> <a class="dropdown-item " href="/en/repositories/"> Repositories </a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="nav-item flex items-center"> <a class="nav-link font-mono font-semibold text-xs tracking-widest px-2 py-1 border border-slate-300 dark:border-slate-700 rounded hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 transition" href="/blog/2017/criptomoedas-bitcoin-moeda/" title="Mudar para Português"> PT </a> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Criptomoedas: Mas Seria o Bitcoin Efetivamente uma Moeda?</h1> <p class="post-meta"> Created on May 14, 2017 by Pablo Diego Pereira </p> <p class="post-tags"> <a href="/en/blog/2017"> <i class="fa-solid fa-calendar fa-sm"></i> 2017 </a>   ·   <a href="/en/blog/tag/criptomoedas"> <i class="fa-solid fa-hashtag fa-sm"></i> criptomoedas</a>   <a href="/en/blog/tag/bitcoin"> <i class="fa-solid fa-hashtag fa-sm"></i> bitcoin</a>   <a href="/en/blog/tag/teoria-monetaria"> <i class="fa-solid fa-hashtag fa-sm"></i> teoria-monetaria</a>   <a href="/en/blog/tag/economia-monetaria"> <i class="fa-solid fa-hashtag fa-sm"></i> economia-monetaria</a>   <a href="/en/blog/tag/reserva-de-valor"> <i class="fa-solid fa-hashtag fa-sm"></i> reserva-de-valor</a>   ·   <a href="/en/blog/category/ensaios"> <i class="fa-solid fa-tag fa-sm"></i> ensaios</a>   <a href="/en/blog/category/criptomoedas"> <i class="fa-solid fa-tag fa-sm"></i> criptomoedas</a> </p> </header> <article class="post-content"> <div id="table-of-contents"> <ul id="toc" class="section-nav"> <li class="toc-entry toc-h3"><a href="#uma-an%C3%A1lise-pessoal-do-ativo-mais-falado-do-momento">Uma análise pessoal do ativo mais falado do momento</a></li> <li class="toc-entry toc-h3"> <a href="#fun%C3%A7%C3%B5es">Funções</a> <ul> <li class="toc-entry toc-h4"><a href="#bitcoin-pode-ser-uma-reserva-de-valor">Bitcoin pode ser uma reserva de valor?</a></li> <li class="toc-entry toc-h4"><a href="#bitcoin-%C3%A9-um-meio-de-troca">Bitcoin é um meio de troca?</a></li> <li class="toc-entry toc-h4"><a href="#bitcoin-%C3%A9-uma-unidade-de-conta">Bitcoin é uma unidade de conta?</a></li> </ul> </li> <li class="toc-entry toc-h3"> <a href="#caracter%C3%ADsticas">Características</a> <ul> <li class="toc-entry toc-h4"><a href="#indestrutibilidade-inalterabilidade-e-homogeneidade">Indestrutibilidade, Inalterabilidade e Homogeneidade</a></li> <li class="toc-entry toc-h4"><a href="#divisibilidade-transferibilidade-e-facilidade-de-manuseio-e-transporte">Divisibilidade, Transferibilidade e Facilidade de manuseio e transporte</a></li> </ul> </li> <li class="toc-entry toc-h3"><a href="#conclus%C3%A3o">Conclusão</a></li> </ul> </div> <hr> <div id="markdown-content"> <blockquote> <p>[!NOTE] <strong>Ensaio Histórico / Registro Original</strong>: Artigo originalmente publicado por Pablo Diego Pereira no <strong>LinkedIn Pulse</strong> em 14 de maio de 2017. Preservado integralmente como crônica e registro documental de introdução à teoria monetária aplicada aos criptoativos.</p> </blockquote> <hr> <h3 id="uma-análise-pessoal-do-ativo-mais-falado-do-momento">Uma análise pessoal do ativo mais falado do momento</h3> <p>Essa pergunta pode ter mais de uma resposta, mas a mais sincera é que não. Simples, bitcoin ainda não é uma moeda, mas pode ser que um dia venha a ser. Para ser uma moeda o bitcoin obrigatoriamente tem que assumir algo além de algum valor, afinal de contas um pé de feijão tem valor, nem por isso ele é moeda. Então, vou tentar usar a linguagem mais simples possível, para explicar alguns conceitos e minha visão:</p> <h3 id="funções">Funções</h3> <p>A moeda, aquele bom e velho pedaço de papel que guardávamos na carteira (afinal tudo — ou quase tudo — hoje resolvemos no débito ou crédito), para ser reconhecida precisa assumir algumas funções básicas:</p> <ul> <li> <p><strong>Reserva de valor</strong> — quando algo, se for guardado/entesourado, pode ser utilizado para compra de bens e serviços em uma data futura.<br> <em>Ex: Hoje, se você guardar R$ 100,00 em uma gaveta, poderá usar pra fazer compra no próximo mês.</em></p> </li> <li> <p><strong>Meio de troca</strong> — determinado item possa ser usado para compra de bens e serviços, tendo aceitação geral.<br> <em>Ex: Hoje, com notas de dinheiro, você basicamente pode fazer compras em qualquer local do país — exceção para casos que aceitam apenas débito, crédito, transferência, etc.</em></p> </li> <li> <p><strong>Unidade de conta</strong> — permite que você use aquele item com forma de contabilizar valor de algum produto, dívida, serviço, etc.<br> <em>Ex: Lojas cobram certa quantidade de reais como forma de pagamento, mas não cobrariam normalmente uma quantidade de bananas, mesmo que tivessem o mesmo valor.</em></p> </li> </ul> <p><strong>Feita essa distinção, momento Jack Estripador: Vamos por partes.</strong></p> <h4 id="bitcoin-pode-ser-uma-reserva-de-valor">Bitcoin pode ser uma reserva de valor?</h4> <p>Bitcoin é um ativo que desde 2009 roda pelas redes, e de lá pra cá o preço dele, que valia frações de centavos, está cotado em torno de 1800 dólares a unidade. O valor percebido dele claramente está seguindo uma alta muito forte faz algum tempo.</p> <div class="text-center my-4"> <img src="/assets/img/posts/criptomoedas-bitcoin-moeda/evolucao_cotacao_bitcoin.jpg" alt="Evolução histórica da cotação do Bitcoin" class="img-fluid rounded border border-slate-200 dark:border-slate-800 shadow-sm"> <p class="text-xs text-slate-500 mt-2">Evolução histórica da cotação do Bitcoin (USD, 2011–2017). Fonte: Coindesk / Arquivo do autor.</p> </div> <p>Uma característica cria dúvidas e credibilidade nela ao mesmo tempo: Espontaneidade.</p> <p>De um lado da corda: o fato de que sua alta se dá de forma muito intensa e sem nenhum ente centralizador deixa em aberto o questionamento sobre o real valor ou se há uma forte bolha sobre o sistema.</p> <p>Do outro lado: a mesma espontaneidade, que claramente conduz a rede desde sua criação, é uma das maiores garantidoras de segurança do sistema — é praticamente impossível falsificar uma unidade que seja da moeda, e mesmo em teoria seja possível, a falsificação custaria centenas de milhões de dólares e seria rastreável pelo restante do sistema, sendo possivelmente rejeitável: <strong>É mais fácil e muito mais barato falsificar um diamante que um bitcoin.</strong></p> <p>Então a seriedade da rede se consagra, ao meu ver, com sua descentralização (é como chamam o fato de não existir um dono do sistema) e a demanda que ela cria por conta disso, configurando, ao meu ver, essa função.</p> <p><strong>Mas não se empolgue: até uma coleção de selos pode ser uma reserva de valor e deixar de ter de uma hora pra outra.</strong></p> <h4 id="bitcoin-é-um-meio-de-troca">Bitcoin é um meio de troca?</h4> <p>Essa função deixa em aberto dúvidas, mas sendo bem simplista, no geral podemos considerar sim como meio de troca.</p> <p>O Bitcoin pode não ser diretamente aceito por todos os membros de uma economia ainda, mas já existe um grande número de grandes empresas que aceitam, desde Airbnb até empresas com Dell e Microsoft, já dando bastante credibilidade pra esse ativo.</p> <p>Além disso existem ferramentas de fácil acesso para converter bitcoin em moeda local, com velocidades relevantes: inclusive cartões de débito que consomem um saldo em bitcoin que você tenha guardado, como se fosse a conta corrente de um banco. Claro que o que estaria sendo aceito nesse processo é a moeda local, mas a dinâmica de conversão é tão prática que não faz diferença.</p> <p>Essa, ao meu ver, é a característica que caso seja bem trabalhada pode trazer sim ao bitcoin futuramente a última característica faltante.</p> <h4 id="bitcoin-é-uma-unidade-de-conta">Bitcoin é uma unidade de conta?</h4> <p>Essa é bem fácil: <strong>Não</strong>. Mas você talvez pense: “Mas como assim? Ela tem unidade, dá pra utilizar pra contar”. É, mas a volatilidade dela é tão grande que você simplesmente não tem como dar preços e salários com ela hoje, e sinceramente não vejo isso ocorrendo em um horizonte curto de tempo.</p> <p>Por exemplo, se eu tivesse assinado um contrato uma pessoa para trabalhar para mim 1 ano atrás, e tivesse me proposto a pagar um bitcoin por mês, que seria algo em torno de 1700 Reais, e de lá pra cá eu mantivesse o valor em um Bitcoin, hoje eu estaria pagando em torno de 6600 Reais por mês a ela, um aumento de quase 300%. Já imaginou um mercado tendo que mudar preços de todos os ativos instantaneamente a cada variação desse ativo, que chega a variar mais de 10% em minutos?</p> <p>Basicamente, hoje, é inviável o uso de Bitcoin como unidade de conta. Seria impossível calcular contratos, salários, preços ou qualquer outra coisa em uma moeda que tem seu valor oscilando muito diariamente.</p> <h3 id="características">Características</h3> <p>A moeda também tem características desejadas, além de suas funções, que fazem parte da sua construção.</p> <h4 id="indestrutibilidade-inalterabilidade-e-homogeneidade">Indestrutibilidade, Inalterabilidade e Homogeneidade</h4> <blockquote> <p><em>A moeda deve ser feita de material resistente o suficiente para que não seja destruída muito rapidamente e nem seja facilmente falsificável, além disso que seja feita com materiais e moldes iguais, se diferenciando apenas na quantidade de valor expresso.</em></p> </blockquote> <p>A inalterabilidade é a marca chave do Bitcoin, já que a rede por trás dele impede sua falsificação (que até hoje só é possível em teoria, com chances quase zero de ocorrer).</p> <p>Homogeneidade e Indestrutibilidade, da maneira que foi descrito, basicamente é algo entrelaçado com todos os conceitos que cercam as moedas digitais, já que são compostas basicamente por dados e não sofrem dano nenhum mediante ao uso.</p> <h4 id="divisibilidade-transferibilidade-e-facilidade-de-manuseio-e-transporte">Divisibilidade, Transferibilidade e Facilidade de manuseio e transporte</h4> <blockquote> <p><em>A moeda deve ter como ser multiplicável de forma que transações de valores maiores e menores sejam possíveis sem complicações. As transações utilizando essa moeda devem ser facilmente realizáveis entre os indivíduos de uma economia.</em></p> </blockquote> <p>Bitcoin é um ativo que tem, nas suas regras, um limite máximo de unidades a ser emitidas. Literalmente apenas um máximo de 21 milhões de unidades serão emitidas em Bitcoin, e cada unidade é divisível em até 8 casas decimais — diferente do real, que dividimos normalmente em 2 casas decimais no máximo —, somando hoje aproximadamente 16.320.000,00000000 unidades já emitidas, sendo que esse número de casas decimais é perfeitamente alterável, se necessário.</p> <p>A forma com que é configurada sua disposição de unidades já deixa ela ainda mais divisível que moedas comuns.</p> <p>O fato de ser digital faz com que sua transferência se dê por meio eletrônico, de maneira muito fácil e dinâmica, sendo assim possível fazer transações gigantescas através do mundo com a mesma facilidade e custos que seriam transações locais.</p> <p>Seu manuseio, hoje, necessita que haja algum tipo de conexão com a rede, da mesma maneira que as máquinas de cartão de crédito que shoppings e lojas utilizam. Isso pode ser um complicador, mas não em áreas urbanas no geral.</p> <h3 id="conclusão">Conclusão</h3> <p>Hoje o Bitcoin definitivamente não é uma moeda, apesar de ter sido projetado para ser, mas quem sabe num futuro? Acredito que ainda estamos longe disso, mas sem dúvida é um ativo muito interessante e extremamente único em suas características.</p> </div> </article> <br> <hr> <br> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2026/drivers-gestao-municipal-tarifa-zero/">Drivers Setoriais de Avaliação Municipal, Tarifa Zero e Moeda Social</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2026/desinformacao-punitiva-iptu-municipal/">Economia Comportamental Fiscal e o Fenômeno da Desinformação Punitiva no IPTU</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2026/empetur-inventario-turistico/">Engenharia Geoespacial e Auditoria de Qualidade de Dados Turísticos (EMPETUR)</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2025/sebrae-os18-diagnostico-marketplace/">Diagnóstico Operacional e Estratégico de Vendas em Marketplaces Digitais (OS 18)</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2025/sebrae-os15-especializacao-segmentada/">Consultoria de Especialização Segmentada de MPEs (OS 15)</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2025/relatorio-regressao/">Modelagem Econométrica de Desaprovação Governamental</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2025/saquarema-pesquisa-saude/">Pesquisa Qualitativa de Percepção dos Serviços de Saúde Pública</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/en/blog/2017/criptomoedas-expansao-mercado/">Criptomoedas: A Expansão de um Mercado</a> </li> </ul> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Pablo Diego Pereira. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-sobre",
+    title: "Sobre",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-currículo",
+          title: "Currículo",
+          description: "Trajetória acadêmica, experiência de mercado, pesquisa quantitativa e competências técnicas.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "dropdown-investimentos",
+              title: "Investimentos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/investimentos/";
+              },
+            },{id: "dropdown-projetos",
+              title: "Projetos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/projects/";
+              },
+            },{id: "dropdown-estudos",
+              title: "Estudos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "dropdown-publicações",
+              title: "Publicações",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "dropdown-novidades",
+              title: "Novidades",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/news/";
+              },
+            },{id: "dropdown-repositórios",
+              title: "Repositórios",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/repositories/";
+              },
+            },{id: "post-drivers-setoriais-de-avaliação-municipal-tarifa-zero-e-moeda-social",
+        
+          title: "Drivers Setoriais de Avaliação Municipal, Tarifa Zero e Moeda Social",
+        
+        description: "Modelagem preditiva via Random Forest Feature Importance e matrizes de correlação linear para mensurar o impacto marginal de políticas de Tarifa Zero, Moeda Social e secretarias municipais sobre a aprovação executiva.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/drivers-gestao-municipal-tarifa-zero/";
+          
+        },
+      },{id: "post-economia-comportamental-fiscal-e-o-fenômeno-da-desinformação-punitiva-no-iptu",
+        
+          title: "Economia Comportamental Fiscal e o Fenômeno da Desinformação Punitiva no IPTU",
+        
+        description: "Investigação empírica via regressão linear (OLS) e tabulação cruzada demonstrando como o desconhecimento da defasagem inflacionária histórica (17 anos) amplifica a rejeição punitiva e a polarização institucional em reajustes do IPTU.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/desinformacao-punitiva-iptu-municipal/";
+          
+        },
+      },{id: "post-engenharia-geoespacial-e-auditoria-de-qualidade-de-dados-turísticos-empetur",
+        
+          title: "Engenharia Geoespacial e Auditoria de Qualidade de Dados Turísticos (EMPETUR)",
+        
+        description: "Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação e reconciliação do inventário turístico do estado de Pernambuco contra bases vetoriais oficiais do IBGE.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/empetur-inventario-turistico/";
+          
+        },
+      },{id: "post-diagnóstico-operacional-e-estratégico-de-vendas-em-marketplaces-digitais-os-18",
+        
+          title: "Diagnóstico Operacional e Estratégico de Vendas em Marketplaces Digitais (OS 18)",
+        
+        description: "Diagnóstico operacional e econométrico de fricções de vendas de pequenos varejistas em plataformas de e-commerce, abordando comissões, logística fulfillment e dependência de tráfego pago.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sebrae-os18-diagnostico-marketplace/";
+          
+        },
+      },{id: "post-consultoria-de-especialização-segmentada-de-mpes-os-15",
+        
+          title: "Consultoria de Especialização Segmentada de MPEs (OS 15)",
+        
+        description: "Investigação estratégica avaliando a eficácia e percepção de valor entre modelos de atendimento genérico, ajustado e especializado para micro e pequenas empresas (MPEs).",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sebrae-os15-especializacao-segmentada/";
+          
+        },
+      },{id: "post-modelagem-econométrica-de-desaprovação-governamental",
+        
+          title: "Modelagem Econométrica de Desaprovação Governamental",
+        
+        description: "Modelagem econométrica e regressão logística multivariada mensurando os determinantes empíricos e odds ratios da desaprovação política a partir de microdados amostrais domiciliares.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/relatorio-regressao/";
+          
+        },
+      },{id: "post-pesquisa-qualitativa-de-percepção-dos-serviços-de-saúde-pública",
+        
+          title: "Pesquisa Qualitativa de Percepção dos Serviços de Saúde Pública",
+        
+        description: "Mapeamento qualitativo semiestruturado e mineração de texto sobre a percepção de atendimento, marcação de consultas e abastecimento farmacêutico na rede municipal de saúde.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/saquarema-pesquisa-saude/";
+          
+        },
+      },{id: "post-criptomoedas-mas-seria-o-bitcoin-efetivamente-uma-moeda",
+        
+          title: "Criptomoedas: Mas Seria o Bitcoin Efetivamente uma Moeda?",
+        
+        description: "Análise econômica das funções clássicas da moeda (reserva de valor, meio de troca e unidade de conta) e características físicas desejáveis aplicadas à arquitetura do Bitcoin.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/criptomoedas-bitcoin-moeda/";
+          
+        },
+      },{id: "post-criptomoedas-a-expansão-de-um-mercado",
+        
+          title: "Criptomoedas: A Expansão de um Mercado",
+        
+        description: "Análise da rápida expansão do mercado de moedas digitais, entrada maciça de capital em altcoins e os primeiros impactos de tensões geopolíticas e ataques globais na adoção do Bitcoin.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/criptomoedas-expansao-mercado/";
+          
+        },
+      },{id: "news-if-site-active-lang-quot-pt-br-quot-credenciado-como-agente-autônomo-de-investimento-aai-pela-ancord-cvm-após-aprovação-no-exame-de-qualificação-técnica-else-accredited-as-autonomous-investment-advisor-aai-by-ancord-cvm-after-passing-the-national-technical-qualification-exam-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Credenciado como Agente Autônomo de Investimento (AAI)...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-conclusão-da-trilha-specialist-advisory-170h-na-proseek-abrangendo-produtos-financeiros-avançados-alocação-de-portfólios-e-assessoria-de-investimentos-else-completed-the-specialist-advisory-track-170h-at-proseek-covering-advanced-financial-products-portfolio-allocation-and-investment-advisory-practice-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Conclusão da Trilha Specialist Advisory (170h) na...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-certificação-profissional-fbb100-para-correspondentes-bancários-e-atendimento-ao-consumidor-concedida-pela-febraban-federação-brasileira-de-bancos-else-awarded-the-fbb100-professional-certification-for-banking-correspondents-and-consumer-relations-by-febraban-federação-brasileira-de-bancos-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Certificação Profissional FBB100 para Correspondentes Bancários e...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-certificado-de-formação-operacional-pco-obtido-por-meio-do-programa-de-educação-continuada-pec-da-ancord-na-uxp-xp-inc-else-earned-the-operational-training-certificate-pco-through-the-ancord-continuing-education-program-pec-at-uxp-xp-inc-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Certificado de Formação Operacional (PCO) obtido por...',
+          description: "",
+          section: "News",},{id: "news-learning-php-amp-html-and-mysql",
+          title: 'Learning PHP, AMP HTML and MySQL',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/lab-l96-project/";
+            },},{id: "news-started-this-website-portifolio-sparkles-smile",
+          title: 'Started this website/portifolio! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-certificação-developer-em-data-visualization-300h-pelo-freecodecamp-cobrindo-d3-js-apis-json-e-arquiteturas-visuais-interativas-else-earned-the-data-visualization-developer-certification-300h-from-freecodecamp-mastering-d3-js-json-apis-and-interactive-visualization-architectures-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Certificação Developer em Data Visualization (300h) pelo...',
+          description: "",
+          section: "News",},{id: "news-started-mba-on-data-science-and-analytics-from-usp-esalq",
+          title: 'Started MBA on Data Science and Analytics from USP/Esalq',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-conclusão-da-formação-de-perito-judicial-60h-pela-academia-do-perito-habilitando-para-atuação-em-perícias-econômico-financeiras-e-cálculos-judiciais-else-completed-the-judicial-expert-training-60h-at-academia-do-perito-qualifying-for-court-expert-appraisal-in-financial-calculations-and-economic-disputes-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Conclusão da Formação de Perito Judicial (60h)...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-certificado-profissional-google-data-analytics-240h-8-cursos-via-coursera-abrangendo-limpeza-de-dados-sql-programação-em-r-e-tableau-else-earned-the-google-data-analytics-professional-certificate-240h-8-courses-via-coursera-covering-data-cleaning-sql-r-programming-and-tableau-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Certificado Profissional Google Data Analytics (240h, 8...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-certificação-developer-em-data-analysis-with-python-300h-pelo-freecodecamp-cobrindo-numpy-pandas-matplotlib-seaborn-e-análise-estatística-else-earned-the-data-analysis-with-python-developer-certification-300h-from-freecodecamp-covering-numpy-pandas-matplotlib-seaborn-and-statistical-data-analysis-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Certificação Developer em Data Analysis with Python...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-conclusão-do-mba-em-data-science-e-analytics-pela-usp-esalq-com-monografia-quot-pair-trading-com-machine-learning-no-mercado-brasileiro-uma-comparação-com-a-abordagem-clássica-de-cointegração-quot-else-completed-mba-in-data-science-and-analytics-from-usp-esalq-with-monograph-quot-pair-trading-com-machine-learning-no-mercado-brasileiro-uma-comparação-com-a-abordagem-clássica-de-cointegração-quot-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Conclusão do MBA em Data Science e...',
+          description: "",
+          section: "News",},{id: "news-started-professional-master-39-s-in-production-engineering-and-computational-systems-mesc-at-universidade-federal-fluminense-uff-focused-on-operations-research-and-simulation",
+          title: 'Started Professional Master&#39;s in Production Engineering and Computational Systems (MESC) at Universidade Federal...',
+          description: "",
+          section: "News",},{id: "news-if-site-active-lang-quot-pt-br-quot-certificado-profissional-google-ai-essentials-7-cursos-pelo-google-via-coursera-cobrindo-ferramentas-generativas-de-ia-engenharia-de-prompts-e-fluxos-responsáveis-else-completed-the-google-ai-essentials-professional-certificate-7-courses-by-google-via-coursera-covering-generative-ai-tools-prompt-engineering-and-responsible-ai-workflows-endif",
+          title: '{% if site.active_lang == &quot;pt-br&quot; %} Certificado Profissional Google AI Essentials (7 cursos)...',
+          description: "",
+          section: "News",},{id: "projects-fieldcopilot-field-research-logistics-routing-amp-spatial-quota-engine",
+          title: 'FieldCopilot — Field Research Logistics, Routing &amp; Spatial Quota Engine',
+          description: "Field logistics engine and spatial analytics platform engineered to automate sampling planning, team routing, and quota compliance for publi...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FieldCopilot/";
+            },},{id: "projects-financial-planning-amp-wealth-optimization-client-engine",
+          title: 'Financial Planning &amp; Wealth Optimization Client Engine',
+          description: "Financial lifecycle modeling tool featuring cash flow simulations and tax drag optimization models across Brazilian investment funds and tax...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/FinPlanning/";
+            },},{id: "projects-longandshortr-statistical-arbitrage-amp-cointegration-engine-on-b3-in-r",
+          title: 'LongandShortR — Statistical Arbitrage &amp; Cointegration Engine on B3 in R',
+          description: "Systematic quantitative algorithm coded in R for daily universe-wide Engle-Granger cointegration and Augmented Dickey-Fuller (ADF) screening...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LongandShortR/";
+            },},{id: "projects-pergo-open-source-omnichannel-cpaas-platform-in-go-amp-nats-jetstream",
+          title: 'PerGo — Open-Source Omnichannel CPaaS Platform in Go &amp; NATS JetStream',
+          description: "Self-hosted, open-source Omnichannel Communications Platform as a Service (CPaaS) engineered in Go 1.25+ and Echo v5. Unifies message delive...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PerGo/";
+            },},{id: "projects-agp-media-unified-media-transcription-ocr-amp-qualitative-nlp-toolkit",
+          title: 'agp-media — Unified Media Transcription, OCR &amp; Qualitative NLP Toolkit',
+          description: "Modular command-line toolkit (CLI) engineered to streamline field research workflows. Handles media conversion, audio transcription with mul...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/agp_media/";
+            },},{id: "projects-ecoar-ai-ai-powered-qualitative-research-amp-interview-platform-with-ent-orm-amp-pgvector",
+          title: 'Ecoar AI — AI-Powered Qualitative Research &amp; Interview Platform with Ent ORM &amp;...',
+          description: "AI-powered qualitative research platform engineered in Go for conducting automated user interviews and thematic transcript analysis. Feature...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ecoar_ai/";
+            },},{id: "projects-combinatorial-optimization-under-cardinality-constraints-and-real-market-frictions-on-b3",
+          title: 'Combinatorial Optimization under Cardinality Constraints and Real Market Frictions on B3',
+          description: "Professional master's thesis developing exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formula...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mesc_optimization/";
+            },},{id: "projects-pairs-trading-with-machine-learning-on-b3-usp-thesis",
+          title: 'Pairs Trading with Machine Learning on B3 (USP Thesis)',
+          description: "MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous empirical benchmark comparing classical Engle-Granger economet...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pair_trading_ml/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%70%61%62%6C%6F%64%69%65%67%6F%6F@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/5521979381580", "_blank");
+        },
+      },{
+        id: 'social-lattes',
+        title: 'Lattes',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://lattes.cnpq.br/2639308457750524", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0000-7422-980X", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/pablodiegoo", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/pablodiegoo", "_blank");
+        },
+      },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/pablodiegoo", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/pablodiegoo", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
