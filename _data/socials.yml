@@ -1,18 +1,8 @@
-# this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
-# the socials will be displayed in the order they are defined here
-
-# acm_id: # your dl.acm.org/profile/id
-# blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
-# dblp_url: # your DBLP profile url
-# discord_id: # your discord id (18-digit unique numerical identifier)
-email: pablodiegoo@gmail.com # your email address
-whatsapp_number: 5521979381580 # your WhatsApp number
-lattes_id: 2639308457750524 # your ID on Lattes (Brazilian Lattes CV)
-orcid_id: 0009-0000-7422-980X # your ORCID ID
-github_username: pablodiegoo # your GitHub user name
-linkedin_username: pablodiegoo # your LinkedIn user name
-kaggle_id: pablodiegoo # your kaggle id
-instagram_id: pablodiegoo # your instagram id
-# rss_icon: false # set to true to show the RSS icon
+email: pablodiegoo@gmail.com
+whatsapp_number: '5521979381580'
+lattes_id: '2639308457750524'
+orcid_id: 0009-0000-7422-980X
+github_username: pablodiegoo
+linkedin_username: pablodiegoo
+kaggle_id: pablodiegoo
+instagram_id: pablodiegoo
