@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning PHP, AMP HTML and MySQL"
-date: 2023-05-23 8:00:00-0300
+date: 2023-05-23
 inline: false
 related_posts: false
 ---

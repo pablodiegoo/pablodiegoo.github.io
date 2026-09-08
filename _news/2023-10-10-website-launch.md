@@ -1,8 +1,15 @@
 ---
 layout: post
-date: 2023-10-10 08:00:00-0400
+title: ""
+date: 2023-10-10
 inline: true
 related_posts: false
 ---
 
-Started this website/portifolio! :sparkles: :smile:
+Started this website/portifolio!
+
+{% if site.active_lang == "pt-br" %}
+Criei esse website/portifolio!
+{% else %}
+Started this website/portifolio!
+{% endif %}
