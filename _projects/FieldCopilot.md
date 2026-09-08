@@ -14,6 +14,7 @@ institution: "Instituto de Pesquisa de Opinião e Inteligência de Mercado"
 period: "2025 - 2026"
 tech_stack: ['FastAPI', 'Python', 'React 18', 'TypeScript', 'Leaflet', 'GeoParquet', 'Uber H3', 'PostgreSQL', 'Docker', 'OR-Tools']
 tags: [data-science, operations-research, spatial-sampling, routing, uber-h3, geoparquet, fastapi, python, typescript]
+status: "active"
 redirect_from:
   - /projects/fieldcopilot/
   - /projects/aporia/

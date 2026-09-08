@@ -14,6 +14,7 @@ institution: "Projeto Autônomo / Pesquisa Aplicada"
 period: "2025 - Present"
 tech_stack: ['Go', 'Ent ORM', 'PostgreSQL', 'pgvector', 'Docker', 'TypeScript', 'React', 'Tailwind CSS', 'OpenAI API', 'Gemini API']
 tags: [data-science, go, ent-orm, postgresql, pgvector, semantic-search, qualitative-research, nlp, llm, rag, docker]
+status: "active"
 redirect_from:
   - /projects/ecoar-ai/
 related_publications: false

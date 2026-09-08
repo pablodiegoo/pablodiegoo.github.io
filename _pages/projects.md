@@ -10,7 +10,7 @@ description_pt: Fichas técnicas públicas, modelos econométricos, pipelines de
 description_en: Public technical specifications, econometric models, engineering pipelines, and in-depth analytical reports.
 nav: false
 nav_order: 1
-display_categories: ["Data Science", "Quantitative Finance", "Data Engineering", "Data Analytics"]
+display_categories: ["Data Science", "Quantitative Finance", "Operations Research", "Data Engineering", "Data Analytics"]
 horizontal: false
 ---
 

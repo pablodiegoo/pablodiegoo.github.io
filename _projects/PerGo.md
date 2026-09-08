@@ -14,6 +14,7 @@ institution: "Projeto Autônomo / Open Source"
 period: "2025 - Present"
 tech_stack: ['Go', 'Echo v5', 'NATS JetStream', 'PostgreSQL', 'pgx/v5', 'a-h/templ', 'HTMX', 'Tailwind CSS', 'Docker', 'whatsmeow']
 tags: [data-engineering, go, cpaas, omnichannel, nats-jetstream, echo-v5, htmx, templ, postgresql, whatsapp, telegram, docker]
+status: "active"
 github: "https://github.com/pablodiegoo/PerGo"
 redirect_from:
   - /projects/pergo/

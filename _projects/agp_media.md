@@ -14,6 +14,7 @@ institution: "Instituto de Pesquisas Aplicadas & Inteligência de Campo"
 period: "2025 - 2026"
 tech_stack: ['Python', 'OpenAI Whisper', 'Google STT', 'Gemini API', 'PaddleOCR', 'Mistral', 'Pydantic', 'FFmpeg', 'CLI / Typer']
 tags: [data-engineering, python, whisper, nlp, ocr, gemini, ffmpeg, speech-to-text, cli]
+status: "completed"
 redirect_from:
   - /projects/agp-media/
 related_publications: false

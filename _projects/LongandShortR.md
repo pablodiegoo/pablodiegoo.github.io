@@ -14,6 +14,7 @@ institution: "Meta & Actio Investimentos"
 period: "2017 - 2020"
 tech_stack: ['R', 'Tseries', 'Urca', 'Dplyr', 'Ggplot2', 'B3 Market Data']
 tags: [quantitative-finance, r, statistical-arbitrage, cointegration, time-series, b3, pair-trading]
+status: "completed"
 redirect_from:
   - /projects/longandshortr/
   - /projects/pair_trading_r/

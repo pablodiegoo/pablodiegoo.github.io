@@ -14,6 +14,7 @@ institution: "UFF / MESC"
 period: "2026 - Present"
 tech_stack: ['Python', 'Gurobi', 'Pyomo', 'SciPy', 'R', 'LaTeX']
 tags: [quantitative-finance, operations-research, optimization, gurobi, pyomo, cvar, b3]
+status: "in_progress"
 redirect_from:
   - /projects/mesc_thesis_project/
 related_publications: false
