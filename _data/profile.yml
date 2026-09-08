@@ -1,7 +1,3 @@
-# Fonte Única da Verdade (SSOT) - Perfil e Identificação Canônica
-# Diretrizes de Governança: CONTEXT.md
-# DO NOT EDIT VIA EXTERNAL INTERFACES. Todos os perfis públicos e privados derivam deste arquivo.
-
 name:
   canonical: Pablo Diego de Albuquerque Pereira
   commercial: Pablo Diego Pereira
@@ -10,37 +6,39 @@ name:
   last_name: Pereira
   initials: P. D. A. P.
   citation_variants:
-    - PEREIRA, P. D. A.
-    - PEREIRA, PABLO DIEGO DE ALBUQUERQUE
-
+  - PEREIRA, P. D. A.
+  - PEREIRA, PABLO DIEGO DE ALBUQUERQUE
 headline:
-  pt: Economista e Assessor de Investimentos (ANCORD) | Mestrando em Engenharia de Produção (UFF/MESC) | MBA em Data Science & Analytics (USP) | Pesquisa Operacional & Finanças Quantitativas
-  en: Economist and Wealth & Investment Advisor (ANCORD) | M.Sc. Student in Production Eng. (UFF/MESC) | MBA in Data Science & Analytics (USP) | Operations Research & Quant Finance
-
+  pt: Economista e Assessor de Investimentos (ANCORD) | Mestrando em Engenharia de
+    Produção (UFF/MESC) | MBA em Data Science & Analytics (USP) | Pesquisa Operacional
+    & Finanças Quantitativas
+  en: Economist and Wealth & Investment Advisor (ANCORD) | M.Sc. Student in Production
+    Eng. (UFF/MESC) | MBA in Data Science & Analytics (USP) | Operations Research
+    & Quant Finance
 subtitle:
-  pt: Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ) | Pesquisa Operacional & Finanças Quantitativas
-  en: M.Sc. Student in Production Eng. & Computational Systems (UFF/MESC) | MBA in Data Science & Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research & Quantitative Finance
-
+  pt: Mestrando em Engenharia de Produção e Sistemas Computacionais (UFF/MESC) | MBA
+    em Data Science & Analytics (USP/ESALQ) | Bacharel em Ciências Econômicas (UFRJ)
+    | Pesquisa Operacional & Finanças Quantitativas
+  en: M.Sc. Student in Production Eng. & Computational Systems (UFF/MESC) | MBA in
+    Data Science & Analytics (USP/ESALQ) | B.A. in Economics (UFRJ) | Operations Research
+    & Quantitative Finance
 demographics:
   birth_date: '1988-08-13'
   nationality: Brasileira
   naturality: Rio de Janeiro / RJ, Brasil
   gender: Masculino
   declared_color: Parda
-
 location:
   city: Araruama
   state: RJ
   country: Brasil
   postal_code: 28970-000
-
 contacts:
   email_primary: pablodiegoo@gmail.com
   email_secondary: pablokara@gmail.com
-  phone: '+55 (21) 97938-1580'
+  phone: +55 (21) 97938-1580
   website: https://pablodiegoo.github.io/
   linktree: https://linktr.ee/pablo
-
 identifiers:
   lattes_id: '2639308457750524'
   lattes_url: http://lattes.cnpq.br/2639308457750524
@@ -54,18 +52,40 @@ identifiers:
   kaggle_url: https://www.kaggle.com/pablodiegoo
   instagram_username: pablodiegoo
   instagram_url: https://instagram.com/pablodiegoo
-
 quote:
   text:
-    pt: "Quem tem um 'porquê' para viver, pode suportar quase qualquer 'como'."
-    en: "Those who have a 'why' to live, can bear with almost any 'how'."
+    pt: Quem tem um 'porquê' para viver, pode suportar quase qualquer 'como'.
+    en: Those who have a 'why' to live, can bear with almost any 'how'.
   author: Viktor Frankl
   source:
     pt: Em Busca de Sentido
     en: Man's Search for Meaning
-
 summary:
-  pt: >-
-    Economista formado pela Universidade Federal do Rio de Janeiro (UFRJ) e Assessor de Investimentos credenciado pela ANCORD sob a Resolução CVM 178, atuando como sócio na Meta Investimentos com foco em alocação estratégica de ativos, modelagem quantitativa de risco e governança regulatória. Conduz atendimento institucional de abrangência nacional com presença regional na Região dos Lagos/RJ (Araruama e Rio das Ostras). É pós-graduado com MBA em Data Science e Analytics pela USP/ESALQ e aluno regular do Mestrado Profissional em Engenharia de Produção e Sistemas Computacionais da Universidade Federal Fluminense (UFF/MESC), desenvolvendo pesquisa em Pesquisa Operacional e Otimização Combinatória aplicada à arbitragem estatística e seleção de carteiras na B3. Possui atuação prévia em inteligência analítica e engenharia de dados, liderando tecnicamente a plataforma analítica FieldCopilot.
-  en: >-
-    Economist graduated from the Federal University of Rio de Janeiro (UFRJ) and accredited Wealth & Investment Advisor certified by ANCORD under CVM Resolution 178, serving as partner at Meta Investimentos with a focus on asset allocation, quantitative risk modeling, and regulatory compliance. Delivers institutional wealth advisory with nationwide reach and regional presence in Região dos Lagos/RJ (Araruama and Rio das Ostras). Holds an MBA in Data Science and Analytics from USP/ESALQ and is an active graduate student in the Professional Master's Program in Production Engineering and Computational Systems at Fluminense Federal University (UFF/MESC), researching combinatorial optimization and operations research applied to statistical arbitrage and portfolio selection on B3. Possesses prior background in business analytics and data engineering, having led technical development of the analytical platform FieldCopilot.
+  pt: Economista formado pela Universidade Federal do Rio de Janeiro (UFRJ) e Assessor
+    de Investimentos credenciado pela ANCORD sob a Resolução CVM 178, atuando como
+    sócio na Meta Investimentos com foco em alocação estratégica de ativos, modelagem
+    quantitativa de risco e governança regulatória. Conduz atendimento institucional
+    de abrangência nacional com presença regional na Região dos Lagos/RJ (Araruama
+    e Rio das Ostras). É pós-graduado com MBA em Data Science e Analytics pela USP/ESALQ
+    e aluno regular do Mestrado Profissional em Engenharia de Produção e Sistemas
+    Computacionais da Universidade Federal Fluminense (UFF/MESC), desenvolvendo pesquisa
+    em Pesquisa Operacional e Otimização Combinatória aplicada à arbitragem estatística
+    e seleção de carteiras na B3. Possui atuação prévia em inteligência analítica
+    e engenharia de dados, liderando tecnicamente a plataforma analítica FieldCopilot.
+  en: Economist graduated from the Federal University of Rio de Janeiro (UFRJ) and
+    accredited Wealth & Investment Advisor certified by ANCORD under CVM Resolution
+    178, serving as partner at Meta Investimentos with a focus on asset allocation,
+    quantitative risk modeling, and regulatory compliance. Delivers institutional
+    wealth advisory with nationwide reach and regional presence in Região dos Lagos/RJ
+    (Araruama and Rio das Ostras). Holds an MBA in Data Science and Analytics from
+    USP/ESALQ and is an active graduate student in the Professional Master's Program
+    in Production Engineering and Computational Systems at Fluminense Federal University
+    (UFF/MESC), researching combinatorial optimization and operations research applied
+    to statistical arbitrage and portfolio selection on B3. Possesses prior background
+    in business analytics and data engineering, having led technical development of
+    the analytical platform FieldCopilot.
+short_bio:
+  pt: ''
+  en: ''
+cv_profiles: {}
+home_page: {}
