@@ -60,7 +60,7 @@ The diagram below illustrates the sanitized high-level component topology and da
 {% endif %}
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Dados de Cotações Históricas B3] --> B[Testes de Raiz Unitária ADF]
   B --> C[Regressão e Cointegração Engle-Granger]
   C --> D[Cálculo de Meia-Vida e Z-Scores]

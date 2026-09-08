@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Diagnóstico Operacional e Estratégico de Vendas em Marketplaces Digitais (OS 18)"
-date: 2025-12-15 15:00:00
+date: 2025-12-15 14:00:00
 description: "Diagnóstico operacional e econométrico de fricções de vendas de pequenos varejistas em plataformas de e-commerce, abordando comissões, logística fulfillment e dependência de tráfego pago."
 tags: [marketplace, ecommerce, omnichannel, pesquisa-mercado, surveys]
 categories: [estudos, relatorios]

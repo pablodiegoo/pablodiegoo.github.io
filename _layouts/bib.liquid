@@ -167,7 +167,7 @@
     <!-- Painel Expansível de Abstract Inline -->
     {% if entry.abstract %}
       <div class="abstract hidden mt-3 p-4 bg-slate-50 dark:bg-slate-900/80 rounded border border-slate-200 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-sans">
-        <span class="font-mono font-bold text-slate-900 dark:text-slate-100 block mb-1">
+        <span class="abstract-label font-mono font-bold text-slate-900 dark:text-slate-100 block mb-1">
           {% if site.active_lang == 'pt-br' %}RESUMO EXECUTIVO:{% else %}EXECUTIVE SUMMARY:{% endif %}
         </span>
         {{ entry.abstract }}

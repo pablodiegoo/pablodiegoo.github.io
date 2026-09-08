@@ -2,7 +2,7 @@
 layout: post
 title: "Engenharia Geoespacial e Auditoria de Qualidade de Dados Turísticos (EMPETUR)"
 date: 2026-01-14 10:00:00
-description: "Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação e reconciliação do inventário turístico do estado de Pernambuco contra bases vetoriais oficiais do IBGE."
+description: "Pipeline automatizado de engenharia de dados e auditoria geoespacial para validação e reconciliação do inventário turístico do estado de Pernambuco contra bases vetoriais oficiais do IBGE e Condepe-Fidem."
 tags: [gis, analytics, turismo, pernambuco, geopandas, shapely, ibge]
 categories: [estudos, relatorios]
 author: "Pablo Diego Pereira"

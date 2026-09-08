@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Economia Comportamental Fiscal e o Fenômeno da Desinformação Punitiva no IPTU"
-date: 2026-01-15 11:00:00
+date: 2026-01-15 16:00:00
 description: "Investigação empírica via regressão linear (OLS) e tabulação cruzada demonstrando como o desconhecimento da defasagem inflacionária histórica (17 anos) amplifica a rejeição punitiva e a polarização institucional em reajustes do IPTU."
 tags: [econometria, economia-comportamental, regressao-linear, ols, politica-fiscal, iptu]
 categories: [estudos, relatorios]

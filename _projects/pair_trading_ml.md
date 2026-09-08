@@ -57,7 +57,7 @@ The diagram below illustrates the sanitized high-level component topology and da
 {% endif %}
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Dados Históricos B3] --> B[Pré-processamento & Alinhamento Temporal]
   B --> C1[Filtros Econométricos Engle-Granger / ADF]
   B --> C2[Classificadores Supervisionados Machine Learning]
