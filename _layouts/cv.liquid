@@ -201,8 +201,8 @@ layout: default
                   <button
                     type="button"
                     data-lang-btn="en"
-                    class="px-2 py-0.5 rounded text-[10px] font-bold transition-all {% unless is_pt %}bg-white dark:bg-slate-700 text-oxford dark:text-white shadow-xs{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white{% endif %}"
-                    aria-pressed="{% unless is_pt %}true{% else %}false{% endif %}"
+                    class="px-2 py-0.5 rounded text-[10px] font-bold transition-all {% if is_pt %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white{% else %}bg-white dark:bg-slate-700 text-oxford dark:text-white shadow-xs{% endif %}"
+                    aria-pressed="{% if is_pt %}false{% else %}true{% endif %}"
                     aria-label="{% if is_pt %}Visualizar PDFs em Inglês{% else %}View PDFs in English{% endif %}"
                   >
                     EN
