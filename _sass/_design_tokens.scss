@@ -910,6 +910,28 @@ html.dark .hero-badge-pill-primary {
   }
 }
 
+/* Menu Dropdown de Download no Hero (/cv/) */
+.cv-download-dropdown {
+  position: relative;
+  display: inline-block;
+
+  summary::-webkit-details-marker {
+    display: none !important;
+  }
+
+  summary::marker {
+    display: none !important;
+  }
+
+  summary {
+    list-style: none !important;
+  }
+
+  &[open] .chevron-indicator {
+    transform: rotate(180deg) !important;
+  }
+}
+
 /* Hero L2 Viktor Frankl Quote Container */
 .hero-quote {
 

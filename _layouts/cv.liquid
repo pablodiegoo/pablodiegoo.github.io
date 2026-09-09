@@ -53,23 +53,154 @@ layout: default
 
         <!-- Badges de Identificadores Canônicos com PDF em Destaque Primário -->
         <div class="flex flex-wrap gap-2 pt-2 justify-center sm:justify-start items-center">
-          {% if cv_pdf_path %}
-            <a
-              {% if cv_pdf_path contains '://' %}
-                href="{{ cv_pdf_path }}"
-              {% else %}
-                href="{{ cv_pdf_path | relative_url }}"
-              {% endif %}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hero-badge-pill-primary shadow-sm"
-              title="{% if is_pt %}Baixar CV{% else %}Download CV{% endif %}"
+          <!-- Dropdown Split de Download de CV com Semântica <details>/<summary> -->
+          <details class="cv-download-dropdown relative inline-block text-left" id="cv-download-menu">
+            <summary
+              class="hero-badge-pill-primary shadow-sm cursor-pointer list-none select-none inline-flex items-center gap-1.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              aria-haspopup="true"
+              aria-label="{% if is_pt %}Opções de Download do Currículo{% else %}Curriculum Download Options{% endif %}"
             >
-              <i class="fa-solid fa-file-arrow-down mr-1"></i>
-              <span>{% if is_pt %}Baixar CV{% else %}Download CV{% endif %}</span>
-              <span class="opacity-75 text-[10px] uppercase ml-1">· {% if is_pt %}PT-BR{% else %}EN{% endif %}</span>
-            </a>
-          {% endif %}
+              <i class="fa-solid fa-file-arrow-down text-xs"></i>
+              <span>{% if is_pt %}Baixar Currículo{% else %}Download CV{% endif %}</span>
+              <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-200 chevron-indicator ml-0.5 opacity-80"></i>
+            </summary>
+
+            <div
+              class="cv-dropdown-panel absolute left-0 sm:left-auto right-auto sm:right-0 mt-2 w-72 sm:w-80 rounded-lg shadow-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 py-2 z-50 focus:outline-none transition-all"
+              role="menu"
+              aria-orientation="vertical"
+            >
+              <!-- Cabeçalho do Dropdown -->
+              <div class="px-3.5 py-1.5 border-b border-slate-100 dark:border-slate-800 text-[10px] font-mono font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">
+                {% if is_pt %}Formatos Disponíveis (PDF){% else %}Available Formats (PDF){% endif %}
+              </div>
+
+              <!-- Lista de Opções -->
+              <div class="p-1 space-y-1">
+                <!-- 1. Versão Completa (2 Páginas) -->
+                <a
+                  href="{% if is_pt %}{{ '/assets/pdf/CV_PabloDiego_PTBR_Full.pdf' | relative_url }}{% else %}{{ '/assets/pdf/CV_PabloDiego_EN_Full.pdf' | relative_url }}{% endif %}"
+                  data-pdf-pt="{{ '/assets/pdf/CV_PabloDiego_PTBR_Full.pdf' | relative_url }}"
+                  data-pdf-en="{{ '/assets/pdf/CV_PabloDiego_EN_Full.pdf' | relative_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="menuitem"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                >
+                  <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
+                    <i class="fa-solid fa-file-lines text-xs"></i>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
+                      <span>{% if is_pt %}CV Completo{% else %}Full CV{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}2 páginas{% else %}2 pages{% endif %}</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                      {% if is_pt %}Trajetória integral, artigos, projetos e acervo acadêmico completo.{% else %}Comprehensive career, publications, applied projects, and academic record.{% endif %}
+                    </p>
+                  </div>
+                </a>
+
+                <!-- 2. Data Science & Analytics (1 Página) -->
+                <a
+                  href="{% if is_pt %}{{ '/assets/pdf/CV_PabloDiego_PTBR_DataScience.pdf' | relative_url }}{% else %}{{ '/assets/pdf/CV_PabloDiego_EN_DataScience.pdf' | relative_url }}{% endif %}"
+                  data-pdf-pt="{{ '/assets/pdf/CV_PabloDiego_PTBR_DataScience.pdf' | relative_url }}"
+                  data-pdf-en="{{ '/assets/pdf/CV_PabloDiego_EN_DataScience.pdf' | relative_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="menuitem"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                >
+                  <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
+                    <i class="fa-solid fa-chart-pie text-xs"></i>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
+                      <span>Data Science &amp; Analytics</span>
+                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                      {% if is_pt %}Modelagem preditiva, engenharia de dados, ML e pipelines analíticos.{% else %}Predictive modeling, data engineering, ML, and production analytics.{% endif %}
+                    </p>
+                  </div>
+                </a>
+
+                <!-- 3. Mercado Financeiro & Advisory (1 Página) -->
+                <a
+                  href="{% if is_pt %}{{ '/assets/pdf/CV_PabloDiego_PTBR_MercadoFinanceiro.pdf' | relative_url }}{% else %}{{ '/assets/pdf/CV_PabloDiego_EN_MercadoFinanceiro.pdf' | relative_url }}{% endif %}"
+                  data-pdf-pt="{{ '/assets/pdf/CV_PabloDiego_PTBR_MercadoFinanceiro.pdf' | relative_url }}"
+                  data-pdf-en="{{ '/assets/pdf/CV_PabloDiego_EN_MercadoFinanceiro.pdf' | relative_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="menuitem"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                >
+                  <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
+                    <i class="fa-solid fa-arrow-trend-up text-xs"></i>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
+                      <span>{% if is_pt %}Mercado Financeiro &amp; Alocação{% else %}Financial Markets &amp; Advisory{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                      {% if is_pt %}Alocação de ativos, advisory patrimonial, finanças quantitativas e risco.{% else %}Asset allocation, private advisory, quantitative finance, and risk models.{% endif %}
+                    </p>
+                  </div>
+                </a>
+
+                <!-- 4. Pesquisa Operacional & Sistemas (1 Página) -->
+                <a
+                  href="{% if is_pt %}{{ '/assets/pdf/CV_PabloDiego_PTBR_PesquisaOperacional.pdf' | relative_url }}{% else %}{{ '/assets/pdf/CV_PabloDiego_EN_PesquisaOperacional.pdf' | relative_url }}{% endif %}"
+                  data-pdf-pt="{{ '/assets/pdf/CV_PabloDiego_PTBR_PesquisaOperacional.pdf' | relative_url }}"
+                  data-pdf-en="{{ '/assets/pdf/CV_PabloDiego_EN_PesquisaOperacional.pdf' | relative_url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  role="menuitem"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                >
+                  <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
+                    <i class="fa-solid fa-gears text-xs"></i>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
+                      <span>{% if is_pt %}Pesquisa Operacional &amp; Sistemas{% else %}Operations Research &amp; Systems{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
+                    </div>
+                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                      {% if is_pt %}Otimização matemática (MILP/MIQP), modelagem de processos e grafos.{% else %}Mathematical optimization (MILP/MIQP), process modeling, and graph analytics.{% endif %}
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Rodapé com Seletor Instantâneo de Idioma do PDF -->
+              <div class="px-3 py-2 mt-1 border-t border-slate-100 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 rounded-b-lg flex items-center justify-between text-[11px] font-mono">
+                <span class="text-slate-500 dark:text-slate-400">
+                  <i class="fa-solid fa-language mr-1 text-slate-400"></i>
+                  {% if is_pt %}Idioma do PDF:{% else %}PDF Language:{% endif %}
+                </span>
+                <div class="inline-flex rounded p-0.5 bg-slate-200/70 dark:bg-slate-800 cv-lang-switcher" role="group">
+                  <button
+                    type="button"
+                    data-lang-btn="pt"
+                    class="px-2 py-0.5 rounded text-[10px] font-bold transition-all {% if is_pt %}bg-white dark:bg-slate-700 text-oxford dark:text-white shadow-xs{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white{% endif %}"
+                    aria-label="Alternar PDFs para Português"
+                  >
+                    PT-BR
+                  </button>
+                  <button
+                    type="button"
+                    data-lang-btn="en"
+                    class="px-2 py-0.5 rounded text-[10px] font-bold transition-all {% unless is_pt %}bg-white dark:bg-slate-700 text-oxford dark:text-white shadow-xs{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white{% endif %}"
+                    aria-label="Switch PDFs to English"
+                  >
+                    EN
+                  </button>
+                </div>
+              </div>
+            </div>
+          </details>
           {% if lattes_id %}
             <a href="http://lattes.cnpq.br/{{ lattes_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
               <i class="fa-solid fa-graduation-cap text-slate-500 mr-1"></i> Lattes ↗
@@ -281,6 +412,54 @@ layout: default
           link.classList.remove('bg-oxford', 'text-white');
           link.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
         }
+      });
+    }
+
+    // Handler para Menu Dropdown de Download (Fechar ao clicar fora e via tecla Escape)
+    var cvDropdown = document.getElementById('cv-download-menu');
+    if (cvDropdown) {
+      // 1. Fechar ao clicar fora
+      document.addEventListener('click', function (event) {
+        if (cvDropdown.open && !cvDropdown.contains(event.target)) {
+          cvDropdown.open = false;
+        }
+      });
+
+      // 2. Fechar ao pressionar tecla Escape
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && cvDropdown.open) {
+          cvDropdown.open = false;
+        }
+      });
+
+      // 3. Alternador instantâneo de idioma no rodapé do menu
+      var langButtons = cvDropdown.querySelectorAll('[data-lang-btn]');
+      var downloadItems = cvDropdown.querySelectorAll('.cv-dropdown-item');
+
+      langButtons.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          var targetLang = btn.getAttribute('data-lang-btn');
+
+          // Atualiza estilo visual dos botões de alternância
+          langButtons.forEach(function (b) {
+            b.classList.remove('bg-white', 'dark:bg-slate-700', 'text-oxford', 'dark:text-white', 'shadow-xs');
+            b.classList.add('text-slate-600', 'dark:text-slate-400');
+          });
+          btn.classList.add('bg-white', 'dark:bg-slate-700', 'text-oxford', 'dark:text-white', 'shadow-xs');
+          btn.classList.remove('text-slate-600', 'dark:text-slate-400');
+
+          // Atualiza links de destino dos PDFs sem recarregar a página
+          downloadItems.forEach(function (item) {
+            var ptHref = item.getAttribute('data-pdf-pt');
+            var enHref = item.getAttribute('data-pdf-en');
+            if (targetLang === 'en' && enHref) {
+              item.setAttribute('href', enHref);
+            } else if (targetLang === 'pt' && ptHref) {
+              item.setAttribute('href', ptHref);
+            }
+          });
+        });
       });
     }
 
