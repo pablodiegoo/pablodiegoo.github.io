@@ -53,11 +53,14 @@ layout: default
 
         <!-- Badges de Identificadores Canônicos com PDF em Destaque Primário -->
         <div class="flex flex-wrap gap-2 pt-2 justify-center sm:justify-start items-center">
+          {% if cv_pdf_path %}
           <!-- Dropdown Split de Download de CV com Semântica <details>/<summary> -->
           <details class="cv-download-dropdown relative inline-block text-left" id="cv-download-menu">
             <summary
+              id="cv-download-summary"
               class="hero-badge-pill-primary shadow-sm cursor-pointer list-none select-none inline-flex items-center gap-1.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               aria-haspopup="true"
+              aria-expanded="false"
               aria-label="{% if is_pt %}Opções de Download do Currículo{% else %}Curriculum Download Options{% endif %}"
             >
               <i class="fa-solid fa-file-arrow-down text-xs"></i>
@@ -69,14 +72,15 @@ layout: default
               class="cv-dropdown-panel absolute left-0 sm:left-auto right-auto sm:right-0 mt-2 w-72 sm:w-80 rounded-lg shadow-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 py-2 z-50 focus:outline-none transition-all"
               role="menu"
               aria-orientation="vertical"
+              aria-labelledby="cv-download-summary"
             >
               <!-- Cabeçalho do Dropdown -->
-              <div class="px-3.5 py-1.5 border-b border-slate-100 dark:border-slate-800 text-[10px] font-mono font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider">
+              <div class="px-3.5 py-1.5 border-b border-slate-200 dark:border-slate-800 text-[10px] font-mono font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
                 {% if is_pt %}Formatos Disponíveis (PDF){% else %}Available Formats (PDF){% endif %}
               </div>
 
               <!-- Lista de Opções -->
-              <div class="p-1 space-y-1">
+              <div class="p-1 space-y-1" role="none">
                 <!-- 1. Versão Completa (2 Páginas) -->
                 <a
                   href="{% if is_pt %}{{ '/assets/pdf/CV_PabloDiego_PTBR_Full.pdf' | relative_url }}{% else %}{{ '/assets/pdf/CV_PabloDiego_EN_Full.pdf' | relative_url }}{% endif %}"
@@ -85,7 +89,8 @@ layout: default
                   target="_blank"
                   rel="noopener noreferrer"
                   role="menuitem"
-                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                  tabindex="0"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 focus:bg-slate-50 dark:focus:bg-slate-800/70 focus:outline-none transition-colors"
                 >
                   <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
                     <i class="fa-solid fa-file-lines text-xs"></i>
@@ -93,9 +98,9 @@ layout: default
                   <div class="flex-1 min-w-0">
                     <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
                       <span>{% if is_pt %}CV Completo{% else %}Full CV{% endif %}</span>
-                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}2 páginas{% else %}2 pages{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-600 dark:text-slate-400 font-medium">{% if is_pt %}2 páginas{% else %}2 pages{% endif %}</span>
                     </div>
-                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                    <p class="text-[11px] text-slate-600 dark:text-slate-300 m-0 leading-tight pt-0.5">
                       {% if is_pt %}Trajetória integral, artigos, projetos e acervo acadêmico completo.{% else %}Comprehensive career, publications, applied projects, and academic record.{% endif %}
                     </p>
                   </div>
@@ -109,7 +114,8 @@ layout: default
                   target="_blank"
                   rel="noopener noreferrer"
                   role="menuitem"
-                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                  tabindex="0"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 focus:bg-slate-50 dark:focus:bg-slate-800/70 focus:outline-none transition-colors"
                 >
                   <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
                     <i class="fa-solid fa-chart-pie text-xs"></i>
@@ -117,9 +123,9 @@ layout: default
                   <div class="flex-1 min-w-0">
                     <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
                       <span>Data Science &amp; Analytics</span>
-                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-600 dark:text-slate-400 font-medium">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
                     </div>
-                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                    <p class="text-[11px] text-slate-600 dark:text-slate-300 m-0 leading-tight pt-0.5">
                       {% if is_pt %}Modelagem preditiva, engenharia de dados, ML e pipelines analíticos.{% else %}Predictive modeling, data engineering, ML, and production analytics.{% endif %}
                     </p>
                   </div>
@@ -133,7 +139,8 @@ layout: default
                   target="_blank"
                   rel="noopener noreferrer"
                   role="menuitem"
-                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                  tabindex="0"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 focus:bg-slate-50 dark:focus:bg-slate-800/70 focus:outline-none transition-colors"
                 >
                   <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
                     <i class="fa-solid fa-arrow-trend-up text-xs"></i>
@@ -141,9 +148,9 @@ layout: default
                   <div class="flex-1 min-w-0">
                     <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
                       <span>{% if is_pt %}Mercado Financeiro &amp; Alocação{% else %}Financial Markets &amp; Advisory{% endif %}</span>
-                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-600 dark:text-slate-400 font-medium">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
                     </div>
-                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                    <p class="text-[11px] text-slate-600 dark:text-slate-300 m-0 leading-tight pt-0.5">
                       {% if is_pt %}Alocação de ativos, advisory patrimonial, finanças quantitativas e risco.{% else %}Asset allocation, private advisory, quantitative finance, and risk models.{% endif %}
                     </p>
                   </div>
@@ -157,7 +164,8 @@ layout: default
                   target="_blank"
                   rel="noopener noreferrer"
                   role="menuitem"
-                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 transition-colors"
+                  tabindex="0"
+                  class="cv-dropdown-item group flex items-start gap-3 p-2.5 rounded-md hover:bg-slate-50 dark:hover:bg-slate-800/70 focus:bg-slate-50 dark:focus:bg-slate-800/70 focus:outline-none transition-colors"
                 >
                   <div class="w-7 h-7 rounded bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-oxford dark:text-blue-400 shrink-0 mt-0.5 group-hover:bg-oxford group-hover:text-white dark:group-hover:bg-blue-600 transition-colors">
                     <i class="fa-solid fa-gears text-xs"></i>
@@ -165,9 +173,9 @@ layout: default
                   <div class="flex-1 min-w-0">
                     <div class="text-xs font-semibold text-slate-900 dark:text-white group-hover:text-oxford dark:group-hover:text-blue-400 flex items-center justify-between">
                       <span>{% if is_pt %}Pesquisa Operacional &amp; Sistemas{% else %}Operations Research &amp; Systems{% endif %}</span>
-                      <span class="font-mono text-[10px] text-slate-400 dark:text-slate-500 font-normal">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
+                      <span class="font-mono text-[10px] text-slate-600 dark:text-slate-400 font-medium">{% if is_pt %}1 página{% else %}1 page{% endif %}</span>
                     </div>
-                    <p class="text-[11px] text-slate-500 dark:text-slate-400 m-0 leading-tight pt-0.5">
+                    <p class="text-[11px] text-slate-600 dark:text-slate-300 m-0 leading-tight pt-0.5">
                       {% if is_pt %}Otimização matemática (MILP/MIQP), modelagem de processos e grafos.{% else %}Mathematical optimization (MILP/MIQP), process modeling, and graph analytics.{% endif %}
                     </p>
                   </div>
@@ -175,17 +183,18 @@ layout: default
               </div>
 
               <!-- Rodapé com Seletor Instantâneo de Idioma do PDF -->
-              <div class="px-3 py-2 mt-1 border-t border-slate-100 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 rounded-b-lg flex items-center justify-between text-[11px] font-mono">
-                <span class="text-slate-500 dark:text-slate-400">
-                  <i class="fa-solid fa-language mr-1 text-slate-400"></i>
+              <div class="px-3 py-2 mt-1 border-t border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-800/40 rounded-b-lg flex items-center justify-between text-[11px] font-mono">
+                <span class="text-slate-600 dark:text-slate-300">
+                  <i class="fa-solid fa-language mr-1 text-slate-500"></i>
                   {% if is_pt %}Idioma do PDF:{% else %}PDF Language:{% endif %}
                 </span>
-                <div class="inline-flex rounded p-0.5 bg-slate-200/70 dark:bg-slate-800 cv-lang-switcher" role="group">
+                <div class="inline-flex rounded p-0.5 bg-slate-200/70 dark:bg-slate-800 cv-lang-switcher" role="group" aria-label="{% if is_pt %}Seleção de idioma do PDF{% else %}PDF language selection{% endif %}">
                   <button
                     type="button"
                     data-lang-btn="pt"
                     class="px-2 py-0.5 rounded text-[10px] font-bold transition-all {% if is_pt %}bg-white dark:bg-slate-700 text-oxford dark:text-white shadow-xs{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white{% endif %}"
-                    aria-label="Alternar PDFs para Português"
+                    aria-pressed="{% if is_pt %}true{% else %}false{% endif %}"
+                    aria-label="{% if is_pt %}Visualizar PDFs em Português{% else %}View PDFs in Portuguese{% endif %}"
                   >
                     PT-BR
                   </button>
@@ -193,7 +202,8 @@ layout: default
                     type="button"
                     data-lang-btn="en"
                     class="px-2 py-0.5 rounded text-[10px] font-bold transition-all {% unless is_pt %}bg-white dark:bg-slate-700 text-oxford dark:text-white shadow-xs{% else %}text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white{% endif %}"
-                    aria-label="Switch PDFs to English"
+                    aria-pressed="{% unless is_pt %}true{% else %}false{% endif %}"
+                    aria-label="{% if is_pt %}Visualizar PDFs em Inglês{% else %}View PDFs in English{% endif %}"
                   >
                     EN
                   </button>
@@ -201,6 +211,7 @@ layout: default
               </div>
             </div>
           </details>
+          {% endif %}
           {% if lattes_id %}
             <a href="http://lattes.cnpq.br/{{ lattes_id }}" target="_blank" rel="noopener noreferrer" class="hero-badge-pill">
               <i class="fa-solid fa-graduation-cap text-slate-500 mr-1"></i> Lattes ↗
@@ -415,9 +426,20 @@ layout: default
       });
     }
 
-    // Handler para Menu Dropdown de Download (Fechar ao clicar fora e via tecla Escape)
+    // Handler para Menu Dropdown de Download (Fechar ao clicar fora, selecionar opção, e via tecla Escape)
     var cvDropdown = document.getElementById('cv-download-menu');
     if (cvDropdown) {
+      var summaryEl = document.getElementById('cv-download-summary');
+      var langButtons = cvDropdown.querySelectorAll('[data-lang-btn]');
+      var downloadItems = cvDropdown.querySelectorAll('.cv-dropdown-item');
+
+      // Sincroniza aria-expanded no <summary> conforme abertura/fechamento
+      cvDropdown.addEventListener('toggle', function () {
+        if (summaryEl) {
+          summaryEl.setAttribute('aria-expanded', cvDropdown.open ? 'true' : 'false');
+        }
+      });
+
       // 1. Fechar ao clicar fora
       document.addEventListener('click', function (event) {
         if (cvDropdown.open && !cvDropdown.contains(event.target)) {
@@ -425,29 +447,60 @@ layout: default
         }
       });
 
-      // 2. Fechar ao pressionar tecla Escape
-      document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape' && cvDropdown.open) {
+      // 2. Fechar ao selecionar uma das opções de download
+      downloadItems.forEach(function (item) {
+        item.addEventListener('click', function () {
           cvDropdown.open = false;
+        });
+      });
+
+      // 3. Suporte a acessibilidade de teclado (Escape e Arrow navigation)
+      cvDropdown.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+          if (cvDropdown.open) {
+            cvDropdown.open = false;
+            if (summaryEl) summaryEl.focus();
+          }
+          return;
+        }
+
+        if (!cvDropdown.open) return;
+
+        var items = Array.prototype.slice.call(downloadItems);
+        var currentIndex = items.indexOf(document.activeElement);
+
+        if (event.key === 'ArrowDown') {
+          event.preventDefault();
+          var nextIndex = (currentIndex + 1) % items.length;
+          items[nextIndex].focus();
+        } else if (event.key === 'ArrowUp') {
+          event.preventDefault();
+          var prevIndex = (currentIndex - 1 + items.length) % items.length;
+          items[prevIndex].focus();
+        } else if (event.key === 'Home') {
+          event.preventDefault();
+          items[0].focus();
+        } else if (event.key === 'End') {
+          event.preventDefault();
+          items[items.length - 1].focus();
         }
       });
 
-      // 3. Alternador instantâneo de idioma no rodapé do menu
-      var langButtons = cvDropdown.querySelectorAll('[data-lang-btn]');
-      var downloadItems = cvDropdown.querySelectorAll('.cv-dropdown-item');
-
+      // 4. Alternador instantâneo de idioma no rodapé do menu
       langButtons.forEach(function (btn) {
         btn.addEventListener('click', function (e) {
           e.stopPropagation();
           var targetLang = btn.getAttribute('data-lang-btn');
 
-          // Atualiza estilo visual dos botões de alternância
+          // Atualiza estilo visual e estado aria-pressed dos botões de alternância
           langButtons.forEach(function (b) {
             b.classList.remove('bg-white', 'dark:bg-slate-700', 'text-oxford', 'dark:text-white', 'shadow-xs');
             b.classList.add('text-slate-600', 'dark:text-slate-400');
+            b.setAttribute('aria-pressed', 'false');
           });
           btn.classList.add('bg-white', 'dark:bg-slate-700', 'text-oxford', 'dark:text-white', 'shadow-xs');
           btn.classList.remove('text-slate-600', 'dark:text-slate-400');
+          btn.setAttribute('aria-pressed', 'true');
 
           // Atualiza links de destino dos PDFs sem recarregar a página
           downloadItems.forEach(function (item) {
