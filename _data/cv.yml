@@ -96,12 +96,14 @@
     institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
     year: Jun 2020 - Present
     description: &id001
-    - Conducted quantitative risk-return modeling for recommended client portfolios
-      using Python, R, and econometric toolsets.
     - Oversaw operational controls, internal compliance, and regulatory governance
       under CVM, ANBIMA, and Central Bank standards.
+    - Consultative wealth advisory for high-net-worth and institutional clients, designing
+      efficient allocation and estate planning.
     - Architected business intelligence dashboards in Power BI, Google Looker Studio,
       and advanced Excel for wealth management.
+    - Conducted quantitative risk-return modeling for recommended client portfolios
+      using Python, R, and econometric toolsets.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id001
     stack:
@@ -114,12 +116,16 @@
     institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
     year: Apr 2025 - Aug 2026
     description: &id002
+    - Technical leadership and system architecture of the Project Aporia analytics
+      platform and the agp-media multimodal processing toolkit.
+    - Automated survey data processing for <strong class="font-semibold text-slate-900
+      dark:text-slate-100">3,068</strong> respondents (<strong class="font-semibold
+      text-slate-900 dark:text-slate-100">92.3%</strong> via WhatsApp robot and Typebot),
+      building automated market research reports.
     - Engineered automated ingestion pipelines via Meta API (WhatsApp), slashing manual
-      data processing effort by 90%.
-    - Modeled analytical relational databases in SQL and Python for high-throughput
-      NPS and CSAT customer satisfaction metrics.
-    - Technical lead in the development and architectural definition of the proprietary
-      platform Project Aporia.
+      data processing effort by <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>.
+    - Modeled relational databases and ETL pipelines in SQL and Python for continuous
+      tracking of NPS and CSAT satisfaction metrics.
     location: Araruama, RJ, Brasil
     bullets: *id002
     stack:
@@ -133,10 +139,14 @@
     institution: Meta & Actio Agente Autônomo de Investimentos
     year: Aug 2017 - May 2020
     description: &id003
-    - Conceived and implemented a proprietary statistical arbitrage algorithm in R
-      (pair trading / cointegration) on B3 (+100 opportunities/month).
-    - Managed operational backoffice infrastructure and built financial planning tools
-      that streamlined client onboarding and tax optimization.
+    - Engineered automated financial and tax planning tools in Excel/VBA, delivering
+      <strong class="font-semibold text-slate-900 dark:text-slate-100">>20%</strong>
+      tax savings and driving a <strong class="font-semibold text-slate-900 dark:text-slate-100">+100%</strong>
+      expansion in insurance policies.
+    - Conceived and deployed the proprietary LongandShortR algorithm in R for systematic
+      statistical arbitrage (cointegration) on B3 (+100 opportunities/month).
+    - Structured the entire backoffice department from scratch, designing custody
+      reconciliation, settlement workflows, and risk mitigation routines.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id003
     stack:
@@ -149,9 +159,15 @@
     institution: Espaço Champs Elyseés
     year: Jan 2014 - Nov 2018
     description: &id004
-    - Commercial operations management, supplier contract renegotiation resulting
-      in 70% payroll cost reductions, and digital presence expansion.
-    - Operational workflow enhancements that increased venue throughput capacity.
+    - Executed strategic supplier contract renegotiations and on-demand outsourcing,
+      resulting in <strong class="font-semibold text-slate-900 dark:text-slate-100">70%</strong>
+      payroll cost reductions.
+    - Built full corporate digital presence and web infrastructure, achieving <strong
+      class="font-semibold text-slate-900 dark:text-slate-100">1st place</strong>
+      in organic local search without paid advertising.
+    - Automated commercial lead workflows and redesigned facility capacity, slashing
+      response time by <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
+      and expanding spa capacity by <strong class="font-semibold text-slate-900 dark:text-slate-100">300%</strong>.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id004
     stack:
@@ -174,8 +190,8 @@
     institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
     year: Jan 2012 - Aug 2012
     description: &id006
-    - Delivered market research studies, strategic planning assessments, and commercial
-      lead acquisition campaigns.
+    - Formulated the strategic marketing plan for the junior consultancy and executed
+      applied market research studies for external clients.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id006
     stack:
@@ -185,13 +201,11 @@
     institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
     year: Jun 2011 - Jul 2012
     description: &id007
-    - Undergraduate researcher in the Innovation Economics Group, surveying entrepreneurship
-      determinants across the Brazilian ICT sector.
-    - Delivered oral presentation and co-authored scientific abstract published in
-      the XXXIV JICTAC conference proceedings (2012).
-    - Contributed to field research surveying 76 entrepreneurs that informed the international
-      paper "A Profile of ICT Entrepreneurs in Brazil" (CONF-IRM 2012), formally acknowledged
-      in the paper credits.
+    - Field research surveying <strong class="font-semibold text-slate-900 dark:text-slate-100">76</strong>
+      ICT entrepreneurs and sector mapping, earning formal acknowledgment in the international
+      CONF-IRM 2012 paper.
+    - Delivered oral presentation and co-authored abstract published in the XXXIV
+      JICTAC proceedings (2012) on ICT entrepreneurship in Brazil.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id007
     stack:
