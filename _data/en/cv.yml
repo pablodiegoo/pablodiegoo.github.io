@@ -96,14 +96,18 @@
     institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
     year: Jun 2020 - Present
     description: &id001
-    - Oversaw operational controls, internal compliance, and regulatory governance
-      under CVM, ANBIMA, and Central Bank standards.
-    - Consultative wealth advisory for high-net-worth and institutional clients, designing
-      efficient allocation and estate planning.
-    - Architected business intelligence dashboards in Power BI, Google Looker Studio,
-      and advanced Excel for wealth management.
-    - Conducted quantitative risk-return modeling for recommended client portfolios
-      using Python, R, and econometric toolsets.
+    - Directly supervised internal controls, compliance workflows, and regulatory
+      governance under CVM (Resolutions 16 and 178), ANBIMA, and Central Bank rules.
+    - Applied econometric methods and time series statistical modeling in Python and
+      R for risk projection (VaR, Drawdown) and expected portfolio returns.
+    - Consultative wealth management advisory for high-net-worth individuals and institutions,
+      designing custom asset allocations and succession planning.
+    - Architected executive reporting dashboards and interactive portfolio analytics
+      in Power BI, Google Looker Studio, and advanced Excel.
+    - Conducted daily tracking of macroeconomic indicators (Selic, IPCA, FX) and research
+      publications to guide tactical portfolio rebalancing decisions.
+    - Structured custom investment recommendations across fixed income, tax-exempt
+      credit, B3 equities, investment funds, foreign exchange, and insurance.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id001
     stack:
@@ -116,6 +120,9 @@
     institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
     year: Apr 2025 - Aug 2026
     description: &id002
+    - Optimized analytical pipelines and research workflows, driving a <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">65%</strong> increase in operational profit
+      margin with minimal cost trade-offs.
     - Technical leadership and system architecture of the Project Aporia analytics
       platform and the agp-media multimodal processing toolkit.
     - Automated survey data processing for <strong class="font-semibold text-slate-900
@@ -124,8 +131,18 @@
       building automated market research reports.
     - Engineered automated ingestion pipelines via Meta API (WhatsApp), slashing manual
       data processing effort by <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>.
+    - Engineered the agp-media modular Python CLI toolkit for audio compression, multi-speaker
+      diarization transcription, and physical form OCR.
+    - Engineered functional specs and system architecture for a corporate CATI dialer
+      featuring Redis async queues, PostgreSQL, and cloud storage.
+    - Conducted advanced quantitative analyses in Python and SQL on complex relational
+      databases alongside qualitative consumer behavior research.
+    - Delivered technical market research and strategic intelligence reports for institutional
+      public clients (Saquarema, Maricá, EMPETUR) and private entities (Sebrae-SP).
     - Modeled relational databases and ETL pipelines in SQL and Python for continuous
       tracking of NPS and CSAT satisfaction metrics.
+    - Built automated data ingestion pipelines using Google Places API and Gemini
+      for tourism inventory in Pernambuco, orchestrating GCP Compute VMs and Docker.
     location: Araruama, RJ, Brasil
     bullets: *id002
     stack:
@@ -139,14 +156,17 @@
     institution: Meta & Actio Agente Autônomo de Investimentos
     year: Aug 2017 - May 2020
     description: &id003
-    - Engineered automated financial and tax planning tools in Excel/VBA, delivering
+    - Engineered automated financial and estate planning tools in Excel/VBA, delivering
       <strong class="font-semibold text-slate-900 dark:text-slate-100">>20%</strong>
       tax savings and driving a <strong class="font-semibold text-slate-900 dark:text-slate-100">+100%</strong>
       expansion in insurance policies.
-    - Conceived and deployed the proprietary LongandShortR algorithm in R for systematic
-      statistical arbitrage (cointegration) on B3 (+100 opportunities/month).
-    - Structured the entire backoffice department from scratch, designing custody
-      reconciliation, settlement workflows, and risk mitigation routines.
+    - Engineered and deployed the proprietary LongandShortR algorithm in R for systematic
+      statistical arbitrage via cointegration on B3 (<strong class="font-semibold
+      text-slate-900 dark:text-slate-100">+100</strong> opportunities/month).
+    - Structured the backoffice department from the ground up, establishing operating
+      manuals, custody reconciliation routines, and trade settlement workflows.
+    - Implemented cross-validation automations and operational controls to eliminate
+      errors in trade tickets and settlements, maintaining regulatory compliance.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id003
     stack:
@@ -159,15 +179,21 @@
     institution: Espaço Champs Elyseés
     year: Jan 2014 - Nov 2018
     description: &id004
-    - Executed strategic supplier contract renegotiations and on-demand outsourcing,
-      resulting in <strong class="font-semibold text-slate-900 dark:text-slate-100">70%</strong>
-      payroll cost reductions.
-    - Built full corporate digital presence and web infrastructure, achieving <strong
-      class="font-semibold text-slate-900 dark:text-slate-100">1st place</strong>
-      in organic local search without paid advertising.
-    - Automated commercial lead workflows and redesigned facility capacity, slashing
-      response time by <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
-      and expanding spa capacity by <strong class="font-semibold text-slate-900 dark:text-slate-100">300%</strong>.
+    - Negotiated strategic vendor contracts and shifted to on-demand outsourcing,
+      securing a <strong class="font-semibold text-slate-900 dark:text-slate-100">70%</strong>
+      reduction in fixed payroll expenditures.
+    - Engineered automated lead handling and scheduling workflows, reducing response
+      time by <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
+      and increasing proposal conversion rate by <strong class="font-semibold text-slate-900
+      dark:text-slate-100">30%</strong>.
+    - Built full corporate digital presence and local SEO, reaching <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">1st place</strong> in organic search rankings
+      across the Região dos Lagos with zero paid media spend.
+    - Redesigned facility operational workflows and layout, doubling (<strong class="font-semibold
+      text-slate-900 dark:text-slate-100">+100%</strong>) catering capacity and expanding
+      spa service capacity by <strong class="font-semibold text-slate-900 dark:text-slate-100">300%</strong>.
+    - Directed full-cycle business operations, service pricing models, cash flow management,
+      tax compliance, and on-site logistics for large-scale private events.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id004
     stack:
@@ -178,8 +204,12 @@
     institution: BX House
     year: Nov 2002 - Jan 2014
     description: &id005
-    - Consulted on corporate web development, search engine optimization (SEO), and
-      digital infrastructure deployment.
+    - Planned and executed technical on-page SEO strategies and crawl audits, boosting
+      organic search visibility for business clients.
+    - Delivered web development consulting, web server deployments, DNS zone management,
+      and WordPress CMS configurations for SMB clients.
+    - Provided digital marketing and web strategy advisory for regional businesses
+      in Rio de Janeiro, establishing online brand identity and web channels.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id005
     stack:
@@ -190,8 +220,18 @@
     institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
     year: Jan 2012 - Aug 2012
     description: &id006
-    - Formulated the strategic marketing plan for the junior consultancy and executed
-      applied market research studies for external clients.
+    - Implemented and monitored web traffic and conversion metrics using Google Analytics,
+      compiling routine visitor behavioral analysis reports.
+    - Executed applied management consulting projects for external clients, performing
+      market research, demand sizing, and commercial campaign planning.
+    - Formulated and executed the junior enterprise's strategic marketing plan, defining
+      market positioning and service value propositions.
+    - Standardized internal project documentation and team repository using Google
+      Suite tools, streamlining commercial diagnostic workflows.
+    - Designed marketing collaterals and institutional promotional materials for the
+      junior consultancy using Corel Draw and Adobe Photoshop.
+    - Managed institutional social media channels and editorial content for the corporate
+      WordPress blog, expanding consultancy visibility.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id006
     stack:
@@ -201,11 +241,17 @@
     institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
     year: Jun 2011 - Jul 2012
     description: &id007
-    - Field research surveying <strong class="font-semibold text-slate-900 dark:text-slate-100">76</strong>
-      ICT entrepreneurs and sector mapping, earning formal acknowledgment in the international
-      CONF-IRM 2012 paper.
-    - Delivered oral presentation and co-authored abstract published in the XXXIV
-      JICTAC proceedings (2012) on ICT entrepreneurship in Brazil.
+    - Co-authored published abstract in the XXXIV JICTAC proceedings (2012) and delivered
+      oral presentation on entrepreneurial attitudes in Brazilian ICT ventures.
+    - Conducted field research and sample validation across <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">76</strong> ICT startup founders, earning
+      formal acknowledgement in the international CONF-IRM 2012 conference paper.
+    - Mapped institutional factors, public financing mechanisms, and incentive policies
+      influencing the emergence and survival of ICT startups in Brazil.
+    - Executed data cleansing, anomaly filtering, and analytical microdata tabulation,
+      ensuring data integrity for empirical statistical inference.
+    - Designed and executed multi-channel primary data collection combining online
+      forms, social network outreach, and in-person interviews at technology events.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id007
     stack:
@@ -217,8 +263,14 @@
     institution: AIESEC no Rio de Janeiro
     year: May 2010 - Feb 2012
     description: &id008
-    - Promoted university exchange and international leadership development programs,
-      managing institutional outreach campaigns.
+    - Pioneered cloud collaboration tools (Google Sheets and Google Docs) at the Rio
+      de Janeiro local committee for unified campaign tracking and documentation.
+    - Spearheaded university campaigns promoting global social (Global Citizen) and
+      professional (Global Talents) exchange programs, hosting info sessions and presentations.
+    - Designed and distributed structured evaluation surveys via Google Forms to gather
+      feedback from international interns and university applicants.
+    - Cultivated institutional negotiation, team facilitation, and cross-cultural
+      communication skills within a fast-paced global youth leadership organization.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id008
     stack:
