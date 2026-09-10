@@ -97,14 +97,18 @@
     institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
     year: Jun 2020 - Presente
     description: &id001
-    - Supervisão direta da esteira de controles internos, compliance e governança
-      regulatória perante normas da CVM, ANBIMA e Banco Central.
-    - Consultoria patrimonial consultiva para clientes alta renda e institucionais,
-      estruturando alocações eficientes e planejamento sucessório.
-    - Desenvolvimento de painéis analíticos gerenciais em Power BI, Google Looker
-      Studio e Excel para tomada de decisão patrimonial.
-    - Modelagem quantitativa de risco e retorno para estruturação de carteiras recomendadas
-      via Python, R e pacotes econométricos.
+    - Supervisão direta da área de controles internos, compliance e governança regulatória
+      perante normas da CVM (Resoluções 16 e 178), ANBIMA e Banco Central.
+    - Aplicação de métodos econométricos e modelagem estatística de séries temporais
+      em Python e R para projeção de risco (VaR, Drawdown) e retorno esperado.
+    - Consultoria patrimonial consultiva para investidores pessoa física alta renda
+      e institucionais, estruturando alocações personalizadas e planejamento sucessório.
+    - Concepção e sustentação de relatórios executivos e painéis interativos de análise
+      de carteira desenvolvidos em Power BI, Google Looker Studio e Excel avançado.
+    - Monitoramento diário de tendências macroeconômicas (Selic, IPCA, câmbio) e relatórios
+      de research para suporte a decisões táticas de rebalanceamento.
+    - Estruturação de recomendações personalizadas em renda fixa, crédito privado
+      incentivado, ações B3, fundos de investimento, operações de câmbio e seguros.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id001
     stack:
@@ -117,6 +121,9 @@
     institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
     year: Abr 2025 - Ago 2026
     description: &id002
+    - Otimização de esteiras analíticas e fluxos de pesquisa de mercado, atingindo
+      incremento de <strong class="font-semibold text-slate-900 dark:text-slate-100">65%</strong>
+      na margem operacional com trade-off mínimo de custos.
     - Liderança técnica e concepção arquitetural da plataforma analítica Project Aporia
       e do toolkit agp-media para processamento multimodal.
     - Automação e processamento de sondagem com <strong class="font-semibold text-slate-900
@@ -126,8 +133,19 @@
     - Construção e sustentação de pipelines automatizados de ingestão via Meta API
       (WhatsApp), reduzindo em <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>
       o esforço operacional de tabulação.
+    - Desenvolvimento do toolkit modular agp-media em Python para compressão de áudio,
+      transcrição com diarização de múltiplos interlocutores e OCR de formulários.
+    - Especificação funcional e arquitetura técnica de discador corporativo CATI com
+      fila assíncrona em Redis, PostgreSQL e armazenamento em nuvem.
+    - Condução de análises quantitativas avançadas em Python e SQL sobre bases relacionais
+      complexas em paralelo a estudos qualitativos de comportamento do consumidor.
+    - Elaboração e entrega de relatórios técnicos de inteligência de mercado para
+      clientes institucionais públicos (Prefeituras de Saquarema e Maricá, EMPETUR)
+      e privados (Sebrae-SP).
     - Estruturação de bancos de dados relacionais e pipelines ETL em SQL e Python
       para apuração contínua de indicadores NPS e CSAT.
+    - Construção de esteira automatizada em Python com Google Places API e Gemini
+      para inventário turístico em Pernambuco, orquestrada em VMs no GCP e Docker.
     location: Araruama, RJ, Brasil
     bullets: *id002
     stack:
@@ -141,14 +159,16 @@
     institution: Meta & Actio Agente Autônomo de Investimentos
     year: Ago 2017 - Mai 2020
     description: &id003
-    - Desenvolvimento de ferramentas automatizadas de diagnóstico patrimonial e tributário
-      em Excel/VBA, gerando economia tributária <strong class="font-semibold text-slate-900
-      dark:text-slate-100">>20%</strong> e expansão de <strong class="font-semibold
+    - Desenvolvimento de ferramentas automatizadas em Excel/VBA para diagnóstico financeiro
+      e planejamento patrimonial, gerando economia tributária <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">>20%</strong> e expansão de <strong class="font-semibold
       text-slate-900 dark:text-slate-100">+100%</strong> em apólices.
-    - Concepção e implantação do algoritmo LongandShortR em linguagem R para arbitragem
-      estatística sistemática (cointegração) na B3 (+100 pares/mês).
-    - Estruturação integral do departamento de backoffice, desenhando rotinas de conciliação
-      de custódia, liquidação e mitigação de riscos operacionais.
+    - Concepção e implantação do algoritmo proprietário LongandShortR em linguagem
+      R para arbitragem estatística por cointegração na B3 (+100 oportunidades/mês).
+    - Estruturação integral do departamento de backoffice a partir do zero, desenhando
+      manuais operacionais, rotinas de conciliação de custódia e esteiras de liquidação.
+    - Implementação de automações e controles de checagem cruzada para mitigação de
+      erros operacionais em boletas e liquidações, garantindo conformidade regulatória.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id003
     stack:
@@ -161,16 +181,23 @@
     institution: Espaço Champs Elyseés
     year: Jan 2014 - Nov 2018
     description: &id004
-    - Renegociação estratégica de contratos de fornecimento e terceirização sob demanda,
-      gerando redução de <strong class="font-semibold text-slate-900 dark:text-slate-100">70%</strong>
-      em despesas de pessoal.
-    - Construção integral da presença digital corporativa, alcançando o <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">1º lugar</strong> na busca orgânica local
-      sem investimento em mídia paga.
-    - Automação de fluxos comerciais de atendimento a leads e redesign produtivo da
-      infraestrutura, reduzindo em <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
-      o tempo de resposta e expandindo em <strong class="font-semibold text-slate-900
-      dark:text-slate-100">300%</strong> o spa.
+    - Renegociação estratégica de contratos de fornecimento e transição para terceirização
+      sob demanda, obtendo redução de <strong class="font-semibold text-slate-900
+      dark:text-slate-100">70%</strong> nas despesas fixas com pessoal.
+    - Desenvolvimento e implantação de fluxos automatizados de atendimento a leads
+      e agendamento, reduzindo em <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
+      o tempo de resposta e elevando em <strong class="font-semibold text-slate-900
+      dark:text-slate-100">30%</strong> a taxa de conversão.
+    - Construção integral da presença digital corporativa e SEO local, alcançando
+      o <strong class="font-semibold text-slate-900 dark:text-slate-100">1º lugar</strong>
+      nos resultados orgânicos de busca na Região dos Lagos sem mídia paga.
+    - Redesenho dos fluxos operacionais e da infraestrutura física do complexo, duplicando
+      (<strong class="font-semibold text-slate-900 dark:text-slate-100">+100%</strong>)
+      a capacidade da cozinha/buffet e expandindo em <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">300%</strong> o setor de spa.
+    - Gestão executiva integral de operações, precificação de serviços, fluxo de caixa,
+      conformidade fiscal e coordenação logística de eventos presenciais de grande
+      porte.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id004
     stack:
@@ -181,8 +208,13 @@
     institution: BX House
     year: Nov 2002 - Jan 2014
     description: &id005
-    - Consultoria em desenvolvimento web, otimização de motores de busca (SEO) e implementação
-      de infraestruturas digitais para clientes corporativos.
+    - Planejamento e implantação de estratégias técnicas de SEO on-page e auditoria
+      de indexação, garantindo melhoria de posicionamento orgânico para clientes corporativos.
+    - Prestação contínua de consultoria em desenvolvimento web, implantação de servidores,
+      gerenciamento de zonas DNS e configuração de plataformas WordPress para PMEs.
+    - Assessoria estratégica em transição digital e marketing na web para empresas
+      regionais no Rio de Janeiro e Região dos Lagos, estabelecendo identidades corporativas
+      online.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id005
     stack:
@@ -193,8 +225,19 @@
     institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
     year: Jan 2012 - Ago 2012
     description: &id006
-    - Elaboração do plano estratégico de marketing da consultoria júnior e execução
-      de pesquisas de mercado aplicadas para clientes externos.
+    - Implantação e monitoramento de métricas de tráfego web e conversão com Google
+      Analytics, compilando relatórios periódicos de comportamento de visitantes.
+    - Condução de projetos de consultoria aplicada para clientes externos, realizando
+      pesquisas de mercado, dimensionamento de demanda e estruturação de campanhas
+      comerciais.
+    - Elaboração e execução do plano estratégico institucional de marketing da empresa
+      júnior, definindo posicionamento de mercado e proposta de valor dos serviços.
+    - Padronização da documentação interna e repositório corporativo com ferramentas
+      Google Suite, otimizando o compartilhamento de diagnósticos e propostas.
+    - Criação e diagramação visual de peças promocionais e materiais institucionais
+      de divulgação da consultoria júnior utilizando Corel Draw e Adobe Photoshop.
+    - Gerenciamento de canais de mídias sociais e curadoria de conteúdo para o blog
+      institucional em WordPress, aumentando a visibilidade dos serviços da consultoria.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id006
     stack:
@@ -204,11 +247,20 @@
     institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
     year: Jun 2011 - Jul 2012
     description: &id007
-    - Pesquisa de campo com <strong class="font-semibold text-slate-900 dark:text-slate-100">76</strong>
-      empresários de TIC e mapeamento setorial, resultando em agradecimento nominal
-      no artigo internacional CONF-IRM 2012.
-    - Apresentação oral e coautoria de resumo publicado nos anais da XXXIV JICTAC
-      (2012) sobre determinantes do empreendedorismo em TICs no Brasil.
+    - Coautoria de resumo publicado nos anais da XXXIV JICTAC (2012) e apresentação
+      oral sobre elementos facilitadores e atitude empreendedora em TICs no Brasil.
+    - Pesquisa de campo e validação amostral com <strong class="font-semibold text-slate-900
+      dark:text-slate-100">76</strong> empresários e fundadores de startups de TIC,
+      recebendo agradecimento nominal no artigo internacional publicado no CONF-IRM
+      2012.
+    - Mapeamento setorial dos determinantes institucionais, linhas de financiamento
+      e políticas de fomento que afetam a criação e sobrevivência de startups de TIC
+      no Brasil.
+    - Higienização, tratamento de inconsistências e tabulação analítica da base bruta
+      de microdados, assegurando a integridade estatística das séries para inferência.
+    - Estruturação e execução de estratégias de captação de dados multicanal, combinando
+      formulários online, outreach em redes sociais e aplicação presencial em eventos
+      de tecnologia.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id007
     stack:
@@ -220,8 +272,16 @@
     institution: AIESEC no Rio de Janeiro
     year: Mai 2010 - Fev 2012
     description: &id008
-    - Promoção de programas de intercâmbio profissional e universitário, relacionamento
-      institucional e campanhas de captação de voluntários.
+    - Implantação pioneira de ferramentas em nuvem (Google Sheets e Google Docs) no
+      comitê local do Rio de Janeiro para gestão compartilhada de materiais e relatórios.
+    - Promoção universitária dos programas de intercâmbio social (Cidadão Global)
+      e corporativo (Talentos Globais), conduzindo estandes informativos e palestras
+      institucionais.
+    - Elaboração e aplicação de pesquisas estruturadas no Google Forms para aferição
+      de expectativas e feedback de intercambistas internacionais e candidatos universitários.
+    - Desenvolvimento de competências em negociação institucional, facilitação de
+      equipes e comunicação intercultural em ambiente corporativo global liderado
+      por jovens.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id008
     stack:
