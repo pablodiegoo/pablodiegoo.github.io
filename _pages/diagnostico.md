@@ -40,7 +40,7 @@ nav: false
   </p>
 
   <p class="text-slate-700 dark:text-slate-300 text-justify leading-relaxed mb-6">
-    Este utilitário analítico foi concebido com base em princípios da <strong>Pesquisa Operacional</strong> e da <strong>Teoria Moderna de Portfólios</strong>. Ele avalia em menos de 2 minutos a adequação da sua estrutura atual de investimentos aos seus horizontes de ciclo de vida, mensura o capital destruído anualmente pela tributação ineficiente e projeta o seu <strong>Score de Resiliência Patrimonial (0 a 100)</strong>.
+    Este utilitário analítico foi concebido com base em princípios da <strong>Pesquisa Operacional</strong> e da <strong>Teoria Moderna de Portfólios</strong>. Ele avalia em menos de 2 minutos a adequação da sua estrutura atual de investimentos aos seus horizontes de ciclo de vida, mensura o capital destruído anualmente pela tributação ineficiente e projeta o seu <strong>Score de Resiliência Patrimonial (0 a 100)</strong>. Caso já tenha realizado o diagnóstico anteriormente, acesse o <a href="/investimentos/painel/" class="text-blue-600 dark:text-blue-400 underline font-medium">Painel do Cliente</a> para consultar seu histórico ou gerenciar seus dados.
   </p>
 </section>
 
@@ -326,7 +326,7 @@ nav: false
   </p>
 
   <p class="text-slate-700 dark:text-slate-300 text-justify leading-relaxed mb-6">
-    This quantitative utility leverages principles from <strong>Operations Research</strong> and <strong>Modern Portfolio Theory</strong> to stress-test your portfolio's temporal resilience, compute the compound erosion caused by fund tax drag over 5 years, and benchmark your <strong>Wealth Resilience Score (0 to 100)</strong>.
+    This quantitative utility leverages principles from <strong>Operations Research</strong> and <strong>Modern Portfolio Theory</strong> to stress-test your portfolio's temporal resilience, compute the compound erosion caused by fund tax drag over 5 years, and benchmark your <strong>Wealth Resilience Score (0 to 100)</strong>. If you have already completed a diagnostic, visit the <a href="/investimentos/painel/" class="text-blue-600 dark:text-blue-400 underline font-medium">Client Portal</a> to review your history and manage your data sovereignty.
   </p>
 </section>
 
