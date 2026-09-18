@@ -739,7 +739,7 @@ nav: false
       email: emailEl ? emailEl.value.trim() : '',
       honeypot: honeyEl ? honeyEl.value : '',
       consentimento: consentEl ? consentEl.checked : false,
-      score: scoreEl ? scoreEl.innerText : '65',
+      score: scoreEl ? parseInt(scoreEl.innerText, 10) || 65 : 65,
       classificacao: classEl ? classEl.innerText : (activeLang === 'en' ? 'Moderate Resilience' : 'Resiliência Moderada'),
       arrasto_fiscal: taxDragEl ? taxDragEl.innerText : 'R$ 13.035',
       horizonte: (horizEl && horizEl.selectedIndex >= 0) ? horizEl.options[horizEl.selectedIndex].text : '',
@@ -827,6 +827,10 @@ nav: false
         ? 'Please consent to the processing of your data under LGPD before generating the report.'
         : 'Por favor, assinale o consentimento para geração do relatório nos termos da LGPD.');
       return;
+    }
+
+    if (!payload.honeypot) {
+      sendToLaravelBackend(payload);
     }
 
     const printWindow = window.open('', '_blank');
