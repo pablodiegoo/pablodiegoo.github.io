@@ -260,7 +260,7 @@ nav: false
         <button
           type="button"
           onclick="downloadPdfDirect()"
-          class="py-2.5 px-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-mono transition-colors inline-flex items-center gap-2 border border-slate-700"
+          class="py-2.5 px-4 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 text-xs font-sans font-medium transition-colors inline-flex items-center gap-2 border border-slate-300 dark:border-slate-700 shadow-sm"
         >
           <i class="fa-solid fa-file-pdf"></i>
           <span>Apenas Baixar PDF</span>
@@ -546,7 +546,7 @@ nav: false
         <button
           type="button"
           onclick="downloadPdfDirect()"
-          class="py-2.5 px-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-mono transition-colors inline-flex items-center gap-2 border border-slate-700"
+          class="py-2.5 px-4 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 text-xs font-sans font-medium transition-colors inline-flex items-center gap-2 border border-slate-300 dark:border-slate-700 shadow-sm"
         >
           <i class="fa-solid fa-file-pdf"></i>
           <span>Download PDF Only</span>
@@ -815,10 +815,12 @@ nav: false
     window.open(waUrl, '_blank');
 
     // 3. Dispara o download do PDF executivo sem colidir com o popup blocker
-    setTimeout(downloadPdfDirect, 400);
+    setTimeout(function () {
+      downloadPdfDirect(true);
+    }, 400);
   }
 
-  function downloadPdfDirect() {
+  function downloadPdfDirect(skipBackendSync) {
     const payload = getDiagnosticPayload();
 
     // Validação estrita de consentimento LGPD antes de emitir qualquer relatório
@@ -829,7 +831,7 @@ nav: false
       return;
     }
 
-    if (!payload.honeypot) {
+    if (!payload.honeypot && !skipBackendSync) {
       sendToLaravelBackend(payload);
     }
 
