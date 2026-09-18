@@ -115,15 +115,71 @@ nav: false
 
 <section id="interactive-tools" class="interactive-tools-section mb-10">
   <div class="investment-tools-container">
-    <div class="flex items-center gap-2 mb-2">
-      <span class="bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 px-2 py-0.5 rounded font-mono text-xs">EM DESENVOLVIMENTO</span>
-      <h3 class="font-serif text-base font-bold text-slate-900 dark:text-slate-100 m-0">
-        Ferramentas Quantitativas & Simuladores Interativos
-      </h3>
+    <div class="flex items-center justify-between gap-2 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">
+      <div>
+        <span class="bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 px-2 py-0.5 rounded font-mono text-[10px] uppercase font-bold tracking-wider">
+          Utilitários Analíticos
+        </span>
+        <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 m-0 mt-1">
+          Ferramentas Quantitativas & Diagnósticos
+        </h3>
+      </div>
+      <span class="text-xs font-mono text-slate-500 dark:text-slate-400 hidden sm:inline">
+        Modelagem Econômica Aplicada
+      </span>
     </div>
-    <p class="text-sm text-slate-600 dark:text-slate-300 mb-0 leading-relaxed">
-      Este módulo acolherá utilitários analíticos interativos orientados ao investidor, incluindo o simulador de fronteira eficiente de Markowitz, a calculadora de equivalência de juros reais líquidos e matrizes de teste de estresse de carteiras.
-    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Card 1: Diagnóstico de Resiliência Patrimonial -->
+      <div class="p-5 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between hover:border-slate-300 dark:hover:border-slate-700 transition-colors">
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 px-2 py-0.5 rounded font-mono text-[10px] font-bold">
+              DISPONÍVEL · 2 MIN
+            </span>
+            <i class="fa-solid fa-chart-pie text-slate-400 text-sm"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-slate-900 dark:text-slate-100 mb-2">
+            Diagnóstico de Resiliência Patrimonial & Eficiência Fiscal
+          </h4>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+            Simulador interativo de ciclo de vida que avalia a proteção contra choques inflacionários, mensura a destruição oculta de capital pelo arrasto tributário (come-cotas em fundos vs. ativos isentos) e gera seu Score de Resiliência com relatório executivo.
+          </p>
+        </div>
+        <div>
+          <a
+            href="{{ '/investimentos/diagnostico/' | relative_url }}"
+            class="inline-flex items-center justify-center gap-2 w-full py-2 px-3 text-xs font-semibold rounded bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-950 hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors text-center"
+          >
+            <span>Iniciar Diagnóstico Gratuito</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2: Fronteira Eficiente de Markowitz -->
+      <div class="p-5 rounded-lg bg-slate-50/60 dark:bg-slate-900/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between opacity-85">
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-2 py-0.5 rounded font-mono text-[10px] font-bold">
+              EM BREVE
+            </span>
+            <i class="fa-solid fa-bezier-curve text-slate-400 text-sm"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-slate-900 dark:text-slate-100 mb-2">
+            Otimizador de Fronteira Eficiente & CVaR
+          </h4>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+            Módulo matemático fundamentado em Pesquisa Operacional para simulação da curva média-variância de Markowitz e estresse histórico de volatilidade contra índices de mercado (CDI, IMA-B, IBOV e S&P 500).
+          </p>
+        </div>
+        <div>
+          <span class="inline-flex items-center justify-center w-full py-2 px-3 text-xs font-mono text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/60 rounded cursor-not-allowed text-center">
+            Em Calibração Algorítmica
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -259,15 +315,71 @@ nav: false
 
 <section id="interactive-tools" class="interactive-tools-section mb-10">
   <div class="investment-tools-container">
-    <div class="flex items-center gap-2 mb-2">
-      <span class="bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 px-2 py-0.5 rounded font-mono text-xs">UNDER DEVELOPMENT</span>
-      <h3 class="font-serif text-base font-bold text-slate-900 dark:text-slate-100 m-0">
-        Quantitative Analytics & Interactive Simulators
-      </h3>
+    <div class="flex items-center justify-between gap-2 mb-4 border-b border-slate-200 dark:border-slate-800 pb-2">
+      <div>
+        <span class="bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 px-2 py-0.5 rounded font-mono text-[10px] uppercase font-bold tracking-wider">
+          Analytical Utilities
+        </span>
+        <h3 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 m-0 mt-1">
+          Quantitative Tools & Diagnostics
+        </h3>
+      </div>
+      <span class="text-xs font-mono text-slate-500 dark:text-slate-400 hidden sm:inline">
+        Applied Econometric Modeling
+      </span>
     </div>
-    <p class="text-sm text-slate-600 dark:text-slate-300 mb-0 leading-relaxed">
-      This container is architected to host client-side quantitative utilities, including Markowitz efficient frontier optimizers, net real yield calculators, and stochastic portfolio stress simulators.
-    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Card 1: Wealth Resilience Diagnostic -->
+      <div class="p-5 rounded-lg bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between hover:border-slate-300 dark:hover:border-slate-700 transition-colors">
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 px-2 py-0.5 rounded font-mono text-[10px] font-bold">
+              AVAILABLE · 2 MIN
+            </span>
+            <i class="fa-solid fa-chart-pie text-slate-400 text-sm"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-slate-900 dark:text-slate-100 mb-2">
+            Wealth Resilience & Fiscal Drag Diagnostic
+          </h4>
+          <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+            Interactive lifecycle simulation modeling downside inflation exposure, calculating compound capital erosion from mutual fund tax drag, and computing a formal Wealth Resilience Score with an executive brief.
+          </p>
+        </div>
+        <div>
+          <a
+            href="{{ '/investimentos/diagnostico/' | relative_url }}"
+            class="inline-flex items-center justify-center gap-2 w-full py-2 px-3 text-xs font-semibold rounded bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-950 hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors text-center"
+          >
+            <span>Launch Free Diagnostic</span>
+            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2: Markowitz Efficient Frontier -->
+      <div class="p-5 rounded-lg bg-slate-50/60 dark:bg-slate-900/40 border border-slate-200 dark:border-slate-800 flex flex-col justify-between opacity-85">
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 px-2 py-0.5 rounded font-mono text-[10px] font-bold">
+              COMING SOON
+            </span>
+            <i class="fa-solid fa-bezier-curve text-slate-400 text-sm"></i>
+          </div>
+          <h4 class="font-serif text-base font-bold text-slate-900 dark:text-slate-100 mb-2">
+            Markowitz Efficient Frontier & CVaR Engine
+          </h4>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+            Operations research mathematical module modeling mean-variance portfolio surfaces and historical tail risk stress testing across Brazilian and global asset benchmarks.
+          </p>
+        </div>
+        <div>
+          <span class="inline-flex items-center justify-center w-full py-2 px-3 text-xs font-mono text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800/60 rounded cursor-not-allowed text-center">
+            Under Calibration
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
