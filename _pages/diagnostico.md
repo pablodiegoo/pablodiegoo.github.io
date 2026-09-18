@@ -31,7 +31,7 @@ nav: false
     </div>
   </div>
 
-  <h1 class="font-serif text-3xl font-bold text-slate-950 dark:text-white mb-4">
+  <h1 class="font-serif text-3xl font-bold text-slate-950 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-800 pb-3">
     Diagnóstico de Resiliência Patrimonial & Eficiência Fiscal
   </h1>
 
@@ -240,7 +240,7 @@ nav: false
         <input type="text" id="lead-honey" style="display:none" tabindex="-1" autocomplete="off">
 
         <div class="flex items-start gap-2 pt-2">
-          <input type="checkbox" id="lead-consent" class="mt-1" checked>
+          <input type="checkbox" id="lead-consent" class="mt-1">
           <label for="lead-consent" class="text-[11px] text-slate-400 leading-tight">
             Concordo com o tratamento dos dados fornecidos para elaboração do diagnóstico e contato institucional de assessoria da Meta Investimentos, nos termos da LGPD.
           </label>
@@ -251,7 +251,7 @@ nav: false
         <button
           type="button"
           onclick="submitAndDownloadReport()"
-          class="py-2.5 px-5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors inline-flex items-center gap-2 shadow"
+          class="cta-whatsapp-btn shadow-md"
         >
           <i class="fa-brands fa-whatsapp text-sm"></i>
           <span>Gerar Relatório PDF & Conversar no WhatsApp</span>
@@ -317,7 +317,7 @@ nav: false
     </div>
   </div>
 
-  <h1 class="font-serif text-3xl font-bold text-slate-950 dark:text-white mb-4">
+  <h1 class="font-serif text-3xl font-bold text-slate-950 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-800 pb-3">
     Wealth Resilience & Fiscal Drag Diagnostic
   </h1>
 
@@ -526,7 +526,7 @@ nav: false
         <input type="text" id="lead-honey" style="display:none" tabindex="-1" autocomplete="off">
 
         <div class="flex items-start gap-2 pt-2">
-          <input type="checkbox" id="lead-consent" class="mt-1" checked>
+          <input type="checkbox" id="lead-consent" class="mt-1">
           <label for="lead-consent" class="text-[11px] text-slate-400 leading-tight">
             I agree to the processing of the provided information for generating the diagnostic report and institutional advisory contact by Meta Investimentos, in accordance with the Brazilian General Data Protection Law (LGPD).
           </label>
@@ -537,7 +537,7 @@ nav: false
         <button
           type="button"
           onclick="submitAndDownloadReport()"
-          class="py-2.5 px-5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs transition-colors inline-flex items-center gap-2 shadow"
+          class="cta-whatsapp-btn shadow-md"
         >
           <i class="fa-brands fa-whatsapp text-sm"></i>
           <span>Generate PDF Report & Connect on WhatsApp</span>
@@ -646,7 +646,8 @@ nav: false
     else if (reservaMeses < 3) score -= 20;
     else if (reservaMeses > 12) score -= 5; // excesso de caixa parado em CDI
 
-    score = Math.min(95, Math.max(25, Math.round(score)));
+    // Escala completa de 0 a 100
+    score = Math.min(100, Math.max(0, Math.round(score)));
 
     // Atualização da UI
     const scoreNumEl = document.getElementById('score-number');
@@ -658,7 +659,7 @@ nav: false
     let comentario = activeLang === 'en'
       ? 'Balanced profile with clear opportunities to shield against fund tax drag and increase IPCA-linked indexing.'
       : 'Equilíbrio intermediário com oportunidades claras de blindagem contra come-cotas e maior indexação ao IPCA.';
-    let corBorder = '#3b82f6';
+    let corBorder = 'var(--global-theme-color, #2563eb)';
 
     if (score >= 75) {
       classificacao = activeLang === 'en' ? 'High Resilience & Efficiency' : 'Alta Resiliência & Eficiência';
@@ -727,6 +728,11 @@ nav: false
     const fundosEl = document.getElementById('param-fundos');
     const ipcaEl = document.getElementById('param-ipca');
 
+    const allocLiq = document.getElementById('alloc-liquidez');
+    const allocIpca = document.getElementById('alloc-ipca');
+    const allocMacro = document.getElementById('alloc-macro');
+    const allocGlobal = document.getElementById('alloc-global');
+
     return {
       nome: nameEl ? nameEl.value.trim() : '',
       whatsapp: waEl ? waEl.value.trim() : '',
@@ -739,7 +745,11 @@ nav: false
       horizonte: (horizEl && horizEl.selectedIndex >= 0) ? horizEl.options[horizEl.selectedIndex].text : '',
       patrimonio: (patriEl && patriEl.selectedIndex >= 0) ? patriEl.options[patriEl.selectedIndex].text : '',
       fundos_pct: fundosEl ? fundosEl.value + '%' : '50%',
-      ipca_pct: ipcaEl ? ipcaEl.value + '%' : '20%'
+      ipca_pct: ipcaEl ? ipcaEl.value + '%' : '20%',
+      alloc_liquidez: allocLiq ? allocLiq.innerText : '15%',
+      alloc_ipca: allocIpca ? allocIpca.innerText : '55%',
+      alloc_macro: allocMacro ? allocMacro.innerText : '20%',
+      alloc_global: allocGlobal ? allocGlobal.innerText : '10%'
     };
   }
 
@@ -777,10 +787,7 @@ nav: false
     // 1. Envio silencioso para backend (quando ativo)
     sendToLaravelBackend(payload);
 
-    // 2. Download do PDF Executivo
-    downloadPdfDirect();
-
-    // 3. Abertura do WhatsApp com telemetria pré-preenchida
+    // 2. Abertura do WhatsApp com telemetria pré-preenchida
     let msg = '';
     if (activeLang === 'en') {
       msg = encodeURIComponent(
@@ -806,6 +813,9 @@ nav: false
 
     const waUrl = `https://wa.me/5521979381580?text=${msg}`;
     window.open(waUrl, '_blank');
+
+    // 3. Dispara o download do PDF executivo sem colidir com o popup blocker
+    setTimeout(downloadPdfDirect, 400);
   }
 
   function downloadPdfDirect() {
@@ -913,10 +923,10 @@ nav: false
         <h3 style="font-size: 14px; margin-top: 25px; margin-bottom: 5px;">${dirTitle}</h3>
         <table>
           <tr><th>${colClass}</th><th>${colWeight}</th><th>${colRole}</th></tr>
-          <tr><td>${class1}</td><td>15%</td><td>${role1}</td></tr>
-          <tr><td>${class2}</td><td>55%</td><td>${role2}</td></tr>
-          <tr><td>${class3}</td><td>20%</td><td>${role3}</td></tr>
-          <tr><td>${class4}</td><td>10%</td><td>${role4}</td></tr>
+          <tr><td>${class1}</td><td>${payload.alloc_liquidez}</td><td>${role1}</td></tr>
+          <tr><td>${class2}</td><td>${payload.alloc_ipca}</td><td>${role2}</td></tr>
+          <tr><td>${class3}</td><td>${payload.alloc_macro}</td><td>${role3}</td></tr>
+          <tr><td>${class4}</td><td>${payload.alloc_global}</td><td>${role4}</td></tr>
         </table>
 
         <div class="footer">
