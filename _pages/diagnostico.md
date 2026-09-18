@@ -40,7 +40,7 @@ nav: false
   </p>
 
   <p class="text-slate-700 dark:text-slate-300 text-justify leading-relaxed mb-6">
-    Este utilitário analítico foi concebido com base em princípios da <strong>Pesquisa Operacional</strong> e da <strong>Teoria Moderna de Portfólios</strong>. Ele avalia em menos de 2 minutos a adequação da sua estrutura atual de investimentos aos seus horizontes de ciclo de vida, mensura o capital destruído anualmente pela tributação ineficiente e projeta o seu <strong>Score de Resiliência Patrimonial (0 a 100)</strong>.
+    Este utilitário analítico foi concebido com base em princípios da <strong>Pesquisa Operacional</strong> e da <strong>Teoria Moderna de Portfólios</strong>. Ele avalia em menos de 2 minutos a adequação da sua estrutura atual de investimentos aos seus horizontes de ciclo de vida, mensura o capital destruído anualmente pela tributação ineficiente e projeta o seu <strong>Score de Resiliência Patrimonial (0 a 100)</strong>. Caso já tenha realizado o diagnóstico anteriormente, acesse o <a href="/investimentos/painel/" class="text-blue-600 dark:text-blue-400 underline font-medium">Painel do Cliente</a> para consultar seu histórico ou gerenciar seus dados.
   </p>
 </section>
 
@@ -260,7 +260,7 @@ nav: false
         <button
           type="button"
           onclick="downloadPdfDirect()"
-          class="py-2.5 px-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-mono transition-colors inline-flex items-center gap-2 border border-slate-700"
+          class="py-2.5 px-4 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 text-xs font-sans font-medium transition-colors inline-flex items-center gap-2 border border-slate-300 dark:border-slate-700 shadow-sm"
         >
           <i class="fa-solid fa-file-pdf"></i>
           <span>Apenas Baixar PDF</span>
@@ -326,7 +326,7 @@ nav: false
   </p>
 
   <p class="text-slate-700 dark:text-slate-300 text-justify leading-relaxed mb-6">
-    This quantitative utility leverages principles from <strong>Operations Research</strong> and <strong>Modern Portfolio Theory</strong> to stress-test your portfolio's temporal resilience, compute the compound erosion caused by fund tax drag over 5 years, and benchmark your <strong>Wealth Resilience Score (0 to 100)</strong>.
+    This quantitative utility leverages principles from <strong>Operations Research</strong> and <strong>Modern Portfolio Theory</strong> to stress-test your portfolio's temporal resilience, compute the compound erosion caused by fund tax drag over 5 years, and benchmark your <strong>Wealth Resilience Score (0 to 100)</strong>. If you have already completed a diagnostic, visit the <a href="/investimentos/painel/" class="text-blue-600 dark:text-blue-400 underline font-medium">Client Portal</a> to review your history and manage your data sovereignty.
   </p>
 </section>
 
@@ -546,7 +546,7 @@ nav: false
         <button
           type="button"
           onclick="downloadPdfDirect()"
-          class="py-2.5 px-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-mono transition-colors inline-flex items-center gap-2 border border-slate-700"
+          class="py-2.5 px-4 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 text-xs font-sans font-medium transition-colors inline-flex items-center gap-2 border border-slate-300 dark:border-slate-700 shadow-sm"
         >
           <i class="fa-solid fa-file-pdf"></i>
           <span>Download PDF Only</span>
@@ -739,7 +739,7 @@ nav: false
       email: emailEl ? emailEl.value.trim() : '',
       honeypot: honeyEl ? honeyEl.value : '',
       consentimento: consentEl ? consentEl.checked : false,
-      score: scoreEl ? scoreEl.innerText : '65',
+      score: scoreEl ? parseInt(scoreEl.innerText, 10) || 65 : 65,
       classificacao: classEl ? classEl.innerText : (activeLang === 'en' ? 'Moderate Resilience' : 'Resiliência Moderada'),
       arrasto_fiscal: taxDragEl ? taxDragEl.innerText : 'R$ 13.035',
       horizonte: (horizEl && horizEl.selectedIndex >= 0) ? horizEl.options[horizEl.selectedIndex].text : '',
@@ -815,10 +815,12 @@ nav: false
     window.open(waUrl, '_blank');
 
     // 3. Dispara o download do PDF executivo sem colidir com o popup blocker
-    setTimeout(downloadPdfDirect, 400);
+    setTimeout(function () {
+      downloadPdfDirect(true);
+    }, 400);
   }
 
-  function downloadPdfDirect() {
+  function downloadPdfDirect(skipBackendSync) {
     const payload = getDiagnosticPayload();
 
     // Validação estrita de consentimento LGPD antes de emitir qualquer relatório
@@ -827,6 +829,10 @@ nav: false
         ? 'Please consent to the processing of your data under LGPD before generating the report.'
         : 'Por favor, assinale o consentimento para geração do relatório nos termos da LGPD.');
       return;
+    }
+
+    if (!payload.honeypot && !skipBackendSync) {
+      sendToLaravelBackend(payload);
     }
 
     const printWindow = window.open('', '_blank');

@@ -10,6 +10,12 @@
   http-equiv="Content-Security-Policy"
   content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"
 >
+{% if site.api_base_url %}
+<!-- Production API Runtime Context -->
+<script>
+  window.API_BASE_URL = {{ site.api_base_url | jsonify }};
+</script>
+{% endif %}
 <style>
   :root {
     --max-content-width: {{ site.max_width | default: '930px' }};
