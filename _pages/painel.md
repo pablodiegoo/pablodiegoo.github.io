@@ -133,7 +133,7 @@ nav: false
       <h2 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 m-0">
         Diagnósticos Registrados & Gestão de Dados
       </h2>
-      <p class="text-xs text-slate-500 mt-1">
+      <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">
         Consulte as métricas detalhadas de cada simulação e exerça seu direito de exclusão soberana nos termos do Art. 18 da LGPD.
       </p>
     </div>
@@ -163,7 +163,7 @@ nav: false
       Em conformidade com o <strong>Art. 18 da Lei Geral de Proteção de Dados (LGPD)</strong>, a solicitação de eliminação remove este diagnóstico imediatamente da sua visualização e cessa qualquer contato de assessoria.
     </p>
 
-    <div class="p-3 rounded bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 mb-6 font-mono leading-relaxed">
+    <div class="p-3 rounded bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400 mb-6 font-mono leading-relaxed">
       A exclusão opera via <em>soft delete</em> imediato: os parâmetros econômicos anônimos permanecem resguardados exclusivamente para finalidades de estudo e pesquisa econométrica estatística (LGPD Art. 16, II).
     </div>
 
@@ -327,7 +327,7 @@ nav: false
       <h2 class="font-serif text-lg font-bold text-slate-900 dark:text-slate-100 m-0">
         Diagnostic History & Data Governance
       </h2>
-      <p class="text-xs text-slate-500 mt-1">
+      <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">
         Inspect detailed parameters across quarters and exercise sovereign data erasure under LGPD Art. 18.
       </p>
     </div>
@@ -357,7 +357,7 @@ nav: false
       In accordance with <strong>Art. 18 of the Brazilian General Data Protection Law (LGPD)</strong>, confirming erasure immediately removes this diagnostic submission from active view and terminates commercial outreach.
     </p>
 
-    <div class="p-3 rounded bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 mb-6 font-mono leading-relaxed">
+    <div class="p-3 rounded bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400 mb-6 font-mono leading-relaxed">
       Erasure operates via immediate <em>soft delete</em>: anonymized macroeconomic variables are retained strictly for statistical econometric research (LGPD Art. 16, II).
     </div>
 
