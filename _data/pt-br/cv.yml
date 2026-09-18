@@ -464,20 +464,22 @@
     - B3 Market Data
     documentation_url: ''
     jekyll_slug: LongandShortR
-  - title: Pair Trading com Machine Learning na B3 (Monografia USP/ESALQ)
+  - title: Pair Trading com Machine Learning na B3 (USP/ESALQ & Revista E&S)
     institution: USP / ESALQ
     year: 2024 - 2026
     description:
-    - Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu
+    - Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ e artigo
+      científico publicado na Revista Estratégias e Soluções (Rev. E&S). Desenvolveu
       um estudo comparativo empírico rigoroso entre o arcabouço clássico econométrico
-      de cointegração de Engle-Granger e algoritmos supervisionados de Machine Learning
-      aplicados à geração de sinais de arbitragem estatística em ações da B3.
+      de cointegração de Engle-Granger e algoritmos supervisionados e não supervisionados
+      (PCA + DBSCAN) aplicados à arbitragem estatística em ações da B3.
     - <b>Stack:</b> Python, Statsmodels, Scikit-Learn, Pandas, NumPy, Matplotlib
-    summary: Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ.
+    summary: Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ
+      e artigo científico publicado na Revista Estratégias e Soluções (Rev. E&S).
       Desenvolveu um estudo comparativo empírico rigoroso entre o arcabouço clássico
-      econométrico de cointegração de Engle-Granger e algoritmos supervisionados de
-      Machine Learning aplicados à geração de sinais de arbitragem estatística em
-      ações da B3.
+      econométrico de cointegração de Engle-Granger e algoritmos supervisionados e
+      não supervisionados (PCA + DBSCAN) aplicados à arbitragem estatística em ações
+      da B3.
     category: Quantitative Finance
     status: public
     stack:
@@ -520,6 +522,21 @@
 - title: Publicações e Produção Acadêmica
   type: time_table
   contents:
+  - title: 'Pair Trading com Machine Learning no Mercado Brasileiro: uma Comparação
+      com a Abordagem Clássica de Cointegração'
+    institution: Instituto Pecege
+    year: '2026'
+    description:
+    - <b>Citação:</b> PEREIRA, Pablo Diego de Albuquerque; SANTOS, Diego Pedroso dos.
+    - 'Veículo: Instituto Pecege'
+    - 'Veículo: Revista Estratégias e Soluções (Rev. E&S)'
+    - 'DOI: <a href="https://doi.org/10.22167/2675-6528-202602302" target="_blank">10.22167/2675-6528-202602302</a>'
+    - <a href="https://revistaes.com.br/artigos/pair-trading-com-machine-learning-no-mercado-brasileiro-uma-comparacao-com-a-abordagem-classica-de-cointegracao"
+      target="_blank">Artigo Online</a>
+    citation: PEREIRA, Pablo Diego de Albuquerque; SANTOS, Diego Pedroso dos.
+    venue: Revista Estratégias e Soluções (Rev. E&S)
+    url: https://revistaes.com.br/artigos/pair-trading-com-machine-learning-no-mercado-brasileiro-uma-comparacao-com-a-abordagem-classica-de-cointegracao
+    is_repository: false
   - title: 'Pair Trading com Machine Learning no Mercado Brasileiro: Uma Comparação
       com a Abordagem Clássica de Cointegração'
     institution: Universidade de São Paulo (USP / ESALQ)

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Pairs Trading with Machine Learning on B3 (USP Thesis)"
-title_pt: "Pair Trading com Machine Learning na B3 (Monografia USP/ESALQ)"
+title: "Pairs Trading with Machine Learning on B3 (USP/ESALQ & Revista E&S)"
+title_pt: "Pair Trading com Machine Learning na B3 (USP/ESALQ & Revista E&S)"
 page_id: "project_pair_trading_ml"
-description: "MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous empirical benchmark comparing classical Engle-Granger economet..."
-description_pt: "Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu um estudo comparativo empírico rigoroso entre o arcabou..."
+description: "MBA thesis in Data Science and Analytics at USP/ESALQ and scientific paper published in Revista Estratégias e Soluções (Rev. E&S). Implement..."
+description_pt: "Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ e artigo científico publicado na Revista Estratégias e Soluções (Rev..."
 img: assets/img/projects/pair_trading_ml/thumbnail.png
 og_image: /assets/img/projects/pair_trading_ml/thumbnail.png
 importance: 2
@@ -31,7 +31,7 @@ mermaid:
 
 ## Visão Geral Executiva
 
-Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenvolveu um estudo comparativo empírico rigoroso entre o arcabouço clássico econométrico de cointegração de Engle-Granger e algoritmos supervisionados de Machine Learning aplicados à geração de sinais de arbitragem estatística em ações da B3.
+Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ e artigo científico publicado na Revista Estratégias e Soluções (Rev. E&S). Desenvolveu um estudo comparativo empírico rigoroso entre o arcabouço clássico econométrico de cointegração de Engle-Granger e algoritmos supervisionados e não supervisionados (PCA + DBSCAN) aplicados à arbitragem estatística em ações da B3.
 
 {% else %}
 **Organization / Context**: USP / ESALQ  
@@ -43,7 +43,7 @@ Monografia de conclusão do MBA em Data Science e Analytics na USP/ESALQ. Desenv
 
 ## Executive Overview
 
-MBA thesis in Data Science and Analytics at USP/ESALQ. Implemented a rigorous empirical benchmark comparing classical Engle-Granger econometric cointegration models against supervised Machine Learning classifiers for statistical arbitrage pairs trading on B3 equities.
+MBA thesis in Data Science and Analytics at USP/ESALQ and scientific paper published in Revista Estratégias e Soluções (Rev. E&S). Implemented a rigorous empirical benchmark comparing classical Engle-Granger econometric cointegration models against unsupervised and supervised Machine Learning algorithms (PCA + DBSCAN) for statistical arbitrage pairs trading on B3 equities.
 
 {% endif %}
 
@@ -70,14 +70,16 @@ flowchart TD
 {% if site.active_lang == 'pt-br' %}
 ## Destaques de Engenharia
 
-- **Modelagem Empírica Rigorosa: Análise comparativa entre métodos econométricos paramétricos (ADF, Engle-Granger) e modelos de aprendizado supervisionado.**
+- **Publicação em Periódico Científico: Artigo revisado por pares publicado na Revista Estratégias e Soluções (Rev. E&S, ISSN 2675-6528, DOI: 10.22167/2675-6528-202602302) com acesso aberto e validação empírica walk-forward.**
+- **Modelagem Empírica Rigorosa: Análise comparativa entre métodos econométricos paramétricos (ADF, Engle-Granger) e pipeline de Machine Learning (PCA + DBSCAN).**
 - **Simulação de Carteiras: Backtesting robusto em dados históricos com retorno acumulado de 202,48%, índice de Sharpe de 0,85 e volatilidade anualizada de 4,29%, superando o CDI no período.**
-- **Aprovação Acadêmica: Defesa homologada pela banca examinadora da USP/ESALQ.**
+- **Aprovação Acadêmica: Defesa homologada com distinção pela banca examinadora da USP/ESALQ.**
 
 {% else %}
 ## Key Engineering Highlights
 
-- **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and supervised machine learning classifiers.**
+- **Peer-Reviewed Journal Publication: Research article published in Revista Estratégias e Soluções (Rev. E&S, ISSN 2675-6528, DOI: 10.22167/2675-6528-202602302) with open access and walk-forward empirical validation.**
+- **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and Machine Learning pipelines (PCA + DBSCAN).**
 - **Portfolio Backtesting: Realistic backtesting on B3 equities yielding 202.48% cumulative return, 0.85 Sharpe ratio, and 4.29% annualized volatility, outperforming the benchmark.**
 - **Academic Defense: Successfully defended before the USP/ESALQ examination board.**
 
@@ -86,11 +88,13 @@ flowchart TD
 {% if site.active_lang == 'pt-br' %}
 ## Referências e Comprovações
 
+- [Artigo Publicado / Revista Estratégias e Soluções (DOI: 10.22167/2675-6528-202602302)](https://revistaes.com.br/artigos/pair-trading-com-machine-learning-no-mercado-brasileiro-uma-comparacao-com-a-abordagem-classica-de-cointegracao)
 - [Certificado de Defesa / Comprovação de Credencial](/assets/pdf/2026-02-27-USP-MBADataScience.pdf)
 
 {% else %}
 ## References & Verification
 
+- [Published Peer-Reviewed Article / Revista E&S (DOI: 10.22167/2675-6528-202602302)](https://revistaes.com.br/artigos/pair-trading-com-machine-learning-no-mercado-brasileiro-uma-comparacao-com-a-abordagem-classica-de-cointegracao)
 - [Academic Defense Certificate / Credential Proof](/assets/pdf/2026-02-27-USP-MBADataScience.pdf)
 
 {% endif %}
