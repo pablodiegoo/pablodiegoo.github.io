@@ -203,3 +203,9 @@
   <!-- Marimo notebooks -->
   {% include plugins/al_marimo_styles.liquid %}
 {% endif %}
+
+{% if site.analytics.google or site.google_analytics %}
+  <!-- Portfolio Telemetry Engine (GA4 Custom Events) -->
+  <script defer src="{{ '/assets/js/telemetry.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
