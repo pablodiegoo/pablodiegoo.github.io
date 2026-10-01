@@ -125,8 +125,8 @@
       margin with minimal cost trade-offs.
     - Technical leadership and system architecture of the Project Aporia analytics
       platform and the agp-media multimodal processing toolkit.
-    - Automated survey data processing for <strong class="font-semibold text-slate-900
-      dark:text-slate-100">3,068</strong> respondents (<strong class="font-semibold
+    - Automated survey data processing for more than <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">28,000</strong> respondents (<strong class="font-semibold
       text-slate-900 dark:text-slate-100">92.3%</strong> via WhatsApp robot and Typebot),
       building automated market research reports.
     - Engineered automated ingestion pipelines via Meta API (WhatsApp), slashing manual
