@@ -94,7 +94,7 @@ Para compreender a mecânica sociológica da revolta popular, a terceira onda de
 
 *Tabela 2: Distribuição de atitudes em relação ao reajuste do IPTU ($n = 433$).*
 
-A soma das posturas de rejeição atinge alarmantes **$85,0\%$** da sociedade. Contudo, a clivagem interna entre os críticos é instrutiva: mais de um terço da população ($35,6\%$) não se opõe em tese ao tributo, mas censura o momento econômico da medida (início de ano, acúmulo de despesas escolares e inflação de alimentos). 
+A soma das posturas de rejeição atinge **$85,0\%$** da sociedade, porém a divisão interna entre os críticos é instrutiva: mais de um terço da população ($35,6\%$) não se opõe em tese ao tributo, mas censura o momento econômico da medida (início de ano, acúmulo de despesas escolares e inflação de alimentos). 
 
 Apenas $15,0\%$ da população endossou a necessidade técnica do reajuste. Por que uma medida necessária para o equilíbrio orçamentário foi repelida com tamanha ferocidade?
 
@@ -108,7 +108,7 @@ A prefeitura municipal aprovou a revisão da Planta Genérica de Valores com bas
 
 Durante esse intervalo de quase duas décadas, a inflação acumulada pelo IPCA ultrapassou $180\%$, o metro quadrado urbano valorizou-se exponencialmente e a cidade expandiu seu perímetro de asfaltamento e iluminação. Do ponto de vista contábil e de responsabilidade fiscal, a estagnação nominal equivalia a uma renúncia continuada de receita pública.
 
-Contudo, a gestão executiva cometeu o erro primário de não ancorar previamente essa realidade no imaginário coletivo.
+Porém, a gestão executiva cometeu o erro primário de não ancorar previamente essa realidade no debate público.
 
 ### 4.1. Especificação do Modelo Econométrico OLS
 
@@ -159,7 +159,7 @@ Na política municipal, choques tributários invariavelmente desencadeiam disput
 
 O empate técnico entre o Prefeito ($38,6\%$) e a Câmara ($36,7\%$) demonstra que a sociedade compreende que projetos de lei tributária exigem votação parlamentar. 
 
-Contudo, a desagregação dessa culpa pelo prisma da avaliação geral de governo revela o funcionamento das bolhas de narrativa política:
+Porém, a desagregação dessa culpa pela avaliação geral do governo mostra como funcionam as bolhas de narrativa política:
 
 | Avaliação Geral do Governo | Culpa o Prefeito (%) | Culpa a Câmara (%) | Culpa Ex-Prefeito / NS/NR (%) |
 | :--- | :---: | :---: | :---: |
@@ -180,7 +180,7 @@ A inspeção da Figura 3 elucida um mecanismo estratégico sofisticado:
 2. **Entre eleitores indecisos (Regular):** A Câmara continua sendo o alvo primário de desgaste ($41,5\%$), mas a cobrança sobre o executivo sobe para $34,2\%$.
 3. **Entre eleitores de oposição (Ruim/Péssimo):** A narrativa governista colapsa integralmente. Quase dois terços dos críticos ($63,5\%$) atribuem a culpa direta e pessoalmente ao Prefeito e rejeitam qualquer tentativa de diluição da responsabilidade entre os parlamentares.
 
-Na prática, o esforço retórico de transferir a culpa tributária para o poder legislativo atua como um eficiente **mecanismo de contenção de danos na própria base**, mas é solenemente ignorado pelos estratos descontentes.
+Na prática, o esforço retórico de transferir a culpa tributária para o poder legislativo é um **mecanismo de contenção de danos na própria base**, mas não convence os estratos descontentes.
 
 ---
 

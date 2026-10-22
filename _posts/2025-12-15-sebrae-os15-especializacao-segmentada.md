@@ -41,7 +41,7 @@ graph TD
 
 ### 1.1. O Diagnóstico Comparativo dos Modelos
 
-1. **Modelo Genérico (Cursos Amplos):** Adequado como porta de entrada para quem está estruturando o negócio do zero. Todavia, empreendedores com mais de dois anos de mercado o avaliam como "conteúdo raso", teórico e desconectado dos problemas urgentes de fluxo de caixa e gestão diária (*"nada, nada e morre na praia"*).
+1. **Modelo Genérico (Cursos Amplos):** Adequado como porta de entrada para quem está estruturando o negócio do zero. Porém, empreendedores com mais de dois anos de mercado o avaliam como "conteúdo raso", teórico e desconectado dos problemas urgentes de fluxo de caixa e gestão diária (*"nada, nada e morre na praia"*).
 2. **Modelo Ajustado (Por Canal e Operação):** Desponta como a demanda imediata mais sólida. O empresário busca orientação prática sobre como articular suas vendas físicas com canais digitais, como organizar a logística reversa ou como precificar produtos em marketplaces sem sangrar a margem.
 3. **Modelo Especializado (Por Cadeia Produtiva):** Representa o mais alto valor percebido. O dono de uma marcenaria, oficina mecânica ou restaurante demanda soluções com quem conhece a fundo os fornecedores de sua matéria-prima, as peculiaridades tributárias do seu segmento e as normas regulatórias locais.
 
@@ -76,7 +76,7 @@ Tal dinâmica impõe um ciclo reativo: sem funcionários autônomos, o empreende
 ### 3.2. A Transição Digital e a "Ilusão das Redes Sociais"
 O empresário de pequeno porte reconhece a relevância do ambiente digital, mas acumula frustrações com agências de marketing que cobram honorários elevados sem entregar conversão real em vendas. 
 
-A busca por conhecimento prático migrou substancialmente para ferramentas de busca rápida (YouTube e Google), que funcionam como um "manual do mundo" imediato para resolver dúvidas operacionais do dia a dia.
+A busca por conhecimento prático migrou para ferramentas de busca rápida (YouTube e Google), usadas como um "manual do mundo" imediato para resolver dúvidas operacionais do dia a dia.
 
 ---
 

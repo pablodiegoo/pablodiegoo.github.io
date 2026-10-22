@@ -29,7 +29,7 @@ Avaliar a eficiência da saúde pública requer distinguir dois planos de entreg
 Esta pesquisa qualitativa em profundidade, realizada junto a usuários frequentes da rede municipal de atenção básica e especializada em um polo litorâneo da Região dos Lagos Fluminense, revelou uma contradição administrativa flagrante:
 
 - De um lado, o **triunfo do investimento físico**: unidades básicas reformadas, climatizadas, limpas e visualmente organizadas, o que gerou aprovação imediata e crédito político à gestão;
-- De outro, o **colapso da jornada funcional**: a inoperância do canal telefônico de marcação, que reintroduz filas de madrugada na porta dos postos, somada ao desabastecimento crônico de medicamentos básicos na farmácia municipal.
+- De outro, o **colapso do fluxo de atendimento**: a inoperância do canal telefônico de marcação, que reintroduz filas de madrugada na porta dos postos, somada ao desabastecimento crônico de medicamentos básicos na farmácia municipal.
 
 O contraste produz um veredito popular unânime: *"a casca melhorou 100%, mas o recheio ainda falha"*.
 
@@ -49,7 +49,7 @@ flowchart LR
     B4 --> B5[Bloco E: Veredito & Recomendações]
 ```
 
-### 2.1. O Mapa da Jornada do Paciente
+### 2.1. O Fluxo de Atendimento do Paciente
 
 O fluxograma analítico abaixo sintetiza os momentos de dor (*friction points*) e resgate vivenciados pelo usuário ao longo do ciclo de cuidado:
 
@@ -86,14 +86,14 @@ graph TD
 ## 3. Decomposição Analítica por Dimensões Críticas
 
 ### 3.1. Agendamento e Acesso: A Porta de Entrada Quebrada
-A primeira etapa da jornada é marcada pela exaustão. O canal telefônico institucional foi rotulado pelos participantes como "uma piada", pois chamadas sucessivas não encontram atendimento.
+A primeira etapa do atendimento já impõe desgaste ao usuário. O canal telefônico institucional foi rotulado pelos participantes como "uma piada", já que chamadas sucessivas não encontram resposta.
 
 Sem alternativa remota ou digital funcional, a população é empurrada para a fila física na madrugada:
 
 > *"O agendamento é o nosso calcanhar de Aquiles. A gente simplesmente não consegue pelo telefone. Só presencial, e é uma luta de chegar cinco da manhã no sereno pra rezar e conseguir uma ficha."*
 > (*Participante, Grupo Focal de Atenção Básica*)
 
-Tal barreira atua como um desincentivo severo ao cuidado preventivo: usuários relatam adiar consultas até que quadros clínicos leves evoluam para urgências hospitalares.
+Tal barreira desestimula o cuidado preventivo: usuários relatam adiar consultas até que quadros clínicos leves evoluam para urgências hospitalares.
 
 ### 3.2. O "Duplo Tempo de Espera"
 A percepção temporal do munícipe é punida duplamente:
@@ -118,7 +118,7 @@ A melhoria das instalações físicas é a dimensão mais visível e elogiada da
 - Cadeiras novas e salas climatizadas com ar-condicionado;
 - Alto padrão de limpeza e organização predial.
 
-Todavia, esse ganho tangível é neutralizado no momento em que o paciente sai do consultório e dirige-se à farmácia da unidade:
+Porém, esse ganho tangível se perde no momento em que o paciente sai do consultório e vai à farmácia da unidade:
 
 > *"O posto tá um brinco, tudo reformadinho. Mas adianta o quê se a gente chega na farmácia e nunca tem o remédio de pressão que o médico passou? Aí eu tenho que tirar do meu benefício pra comprar. A consulta foi boa, mas não resolveu."*
 > (*Participante, Usuário Crônico Hipertenso*)

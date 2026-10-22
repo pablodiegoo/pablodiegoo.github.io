@@ -665,21 +665,23 @@
       details: ''
   - title: Pesquisa de Mercado, Analytics e Business Intelligence
     items:
-    - <b>Pesquisa de Mercado Quali-Quanti e Opinião Pública (Surveys, Grupos de Discussão,
-      Entrevistas em Profundidade)</b>
-    - <b>Desenho Amostral, Ponderação Demográfica e Análise de Microdados (PNAD, Censo,
-      Rais)</b>
+    - <b>Pesquisa de Mercado Quali-Quanti, Opinião Pública e Pesquisa Eleitoral (Surveys,
+      Grupos de Discussão / Focus Groups, Entrevistas em Profundidade / IDIs, Electoral
+      Research)</b>
+    - <b>Amostragem, Desenho Amostral e Análise de Microdados (Survey Sampling, Ponderação
+      Demográfica, PNAD, Censo, Rais)</b>
     - '<b>Microsoft Power BI</b>: DAX, Power Query, Modelagem Dimensional Star Schema'
     - <b>Google Looker Studio</b>
     - <b>Microsoft Excel Avançado / VBA</b>
     - <b>Visualização de Dados Científica e Executiva</b>
     skills:
-    - name: Pesquisa de Mercado Quali-Quanti e Opinião Pública (Surveys, Grupos de
-        Discussão, Entrevistas em Profundidade)
+    - name: Pesquisa de Mercado Quali-Quanti, Opinião Pública e Pesquisa Eleitoral
+        (Surveys, Grupos de Discussão / Focus Groups, Entrevistas em Profundidade
+        / IDIs, Electoral Research)
       level: ''
       details: ''
-    - name: Desenho Amostral, Ponderação Demográfica e Análise de Microdados (PNAD,
-        Censo, Rais)
+    - name: Amostragem, Desenho Amostral e Análise de Microdados (Survey Sampling,
+        Ponderação Demográfica, PNAD, Censo, Rais)
       level: ''
       details: ''
     - name: Microsoft Power BI

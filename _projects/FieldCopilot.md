@@ -83,7 +83,7 @@ flowchart TD
 ## Destaques de Engenharia
 
 - **Regionalização Espacial Restrita: Agrupamento territorial de setores censitários com piso amostral mínimo (n >= m) e células hexagonais H3 (resolução 8) para eliminar paradas operacionais inviáveis.**
-- **Roteamento Geodésico Otimizado: Heurística TSP 2-Opt com matrizes de distâncias geodésicas e restrições de jornada operacional (8h/dia, tempos de aproximação e deslocamento entre pontos).**
+- **Roteamento Geodésico Otimizado: Heurística TSP 2-Opt com matrizes de distâncias geodésicas e restrições de turno operacional (8h/dia, tempos de aproximação e deslocamento entre pontos).**
 - **Mitigação de Moral Hazard: Arquitetura desacoplada de auditoria com telemetria em tempo real, validação de velocidade média e controle de desvio de cotas.**
 
 {% else %}

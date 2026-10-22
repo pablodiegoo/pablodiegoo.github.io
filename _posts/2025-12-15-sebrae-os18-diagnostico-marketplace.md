@@ -26,7 +26,7 @@ mermaid:
 
 A promessa de democratização do comércio eletrônico por meio de grandes plataformas digitais atraiu centenas de milhares de micro e pequenos empresários brasileiros para os marketplaces. A narrativa é sedutora: barreira de entrada quase nula, acesso imediato a milhões de consumidores e infraestrutura logística pronta.
 
-Todavia, a realidade operacional exposta por este diagnóstico revela um cenário de alta fricção e **vulnerabilidade sistêmica**. Vender em marketplace não se resume a cadastrar produtos e despachar caixas; tornou-se uma engrenagem de alta complexidade em que o pequeno vendedor opera sob regras algorítmicas opacas, compressão violenta de margens e constante insegurança jurídica.
+Porém, a realidade operacional exposta neste diagnóstico mostra alta fricção e **vulnerabilidade sistêmica**. Vender em marketplace não se resume a cadastrar produtos e despachar caixas; tornou-se uma engrenagem de alta complexidade em que o pequeno vendedor opera sob regras algorítmicas opacas, compressão violenta de margens e constante insegurança jurídica.
 
 O sentimento dominante entre os *sellers* é o de edificar um negócio próspero em terreno alugado, onde o proprietário da terra pode elevar o aluguel, mudar as regras de circulação ou revogar o acesso sem aviso prévio.
 
@@ -34,7 +34,7 @@ O sentimento dominante entre os *sellers* é o de edificar um negócio próspero
 
 ## 2. Desenho Amostral e Arquitetura da Investigação
 
-A pesquisa combinou metodologias qualitativas e quantitativas para capturar a jornada de vendedores nos principais canais e plataformas do varejo digital brasileiro:
+A pesquisa combinou metodologias qualitativas e quantitativas para mapear a rotina operacional de vendedores nos principais canais e plataformas do varejo digital brasileiro:
 
 ```mermaid
 graph LR
@@ -79,7 +79,7 @@ graph TB
 ```
 
 ### 3.1. O Aventureiro Resiliente
-Entrou na plataforma impulsionado pela necessidade de gerar renda imediata (especialmente no período pós-pandemia). Opera na intuição: calcula preços com base apenas no valor pago ao fornecedor mais um multiplicador simples e desconsidera as taxas fixas, comissões e frete. Quando o volume cresce, colapsa na gestão manual de estoque, acumula atrasos e vê sua reputação afundar.
+Entrou na plataforma pela necessidade de gerar renda imediata (sobretudo no período pós-pandemia). Opera na intuição: calcula preços com base apenas no valor pago ao fornecedor mais um multiplicador simples e desconsidera as taxas fixas, comissões e frete. Quando o volume cresce, colapsa na gestão manual de estoque, acumula atrasos e vê sua reputação afundar.
 
 ### 3.2. O Estrategista Digital
 Compreende que a plataforma é um canal de tração, não um parceiro filantrópico. Diversifica suas vitrines em múltiplos marketplaces (Mercado Livre, Shopee e Amazon) para não ficar refém de um único algoritmo. Utiliza sistemas de gestão integrada (ERPs) para sincronizar estoque em tempo real e domina ferramentas de publicidade paga interna (*Marketplace Ads*).
@@ -127,7 +127,7 @@ Uma única devolução fraudulenta (como o golpe da devolução com pacote vazio
 
 ## 6. A Ditadura da Reputação e a Insegurança Algorítmica
 
-A reputação (o "termômetro" de cores ou o índice de estrelas) atua como um interruptor imediato de faturamento:
+A reputação (o "termômetro" de cores ou o índice de estrelas) é um interruptor imediato de faturamento:
 
 - **A Guilhotina das Cores:** Cair da faixa verde para a amarela ou laranja no Mercado Livre acarreta perda imediata de mais de 70% das visualizações orgânicas de anúncios e perda do subsídio de frete;
 - **Submissão Obrigatória:** Para evitar que o cliente abra uma reclamação que degrade sua métrica, vendedores optam por reembolsar compras integralmente, mesmo cientes de má-fé do consumidor;

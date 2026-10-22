@@ -125,7 +125,7 @@ Ao serem indagados sobre quais projetos ou intervenções municipais recordavam 
 
 O Transporte Gratuito com tarifa zero registra o maior índice de lembrança da administração ($37,8\%$), supera a Moeda Social em 14 pontos percentuais e suplanta Obras de Infraestrutura por um fator de quatro para um. 
 
-Contudo, recall não se traduz em conversão política.
+Porém, lembrança espontânea não se traduz em conversão política.
 
 ### 3.2. A Decomposição via Teoria dos Dois Fatores de Herzberg
 

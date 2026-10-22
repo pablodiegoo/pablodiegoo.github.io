@@ -23,7 +23,7 @@ redirect_from:
 
 A avaliação de um governo não é um contínuo homogêneo nem decorre de uma média aritmética de notas atribuídas a secretarias isoladas. Sob a ótica da Teoria da Escolha Pública e dos incentivos eleitorais, o cidadão pondera a aprovação ou desaprovação governamental a partir de assimetrias cognitivas severas: perdas em serviços essenciais de proteção imediata pesam muito mais do que ganhos pontuais em infraestrutura estética.
 
-Em municípios do interior, onde a proximidade física entre a população e o poder público é estreita, a desaprovação executiva atua como um sinalizador de ruptura contratual. Quando o cidadão declara desaprovar a administração municipal, tal posicionamento não reflete mero desacordo ideológico; reflete um acúmulo de fricções operacionais cotidianas.
+Em municípios do interior, onde a proximidade física entre a população e o poder público é estreita, a desaprovação executiva é um sinal de ruptura contratual. Quando o cidadão declara desaprovar a administração municipal, tal posicionamento não reflete mero desacordo ideológico; reflete um acúmulo de fricções operacionais cotidianas.
 
 A investigação aqui descrita objetivou responder a uma questão pragmática: **quais variáveis operacionais e sociodemográficas exercem maior tração marginal sobre a probabilidade de um munícipe desaprovar a gestão local?**
 
