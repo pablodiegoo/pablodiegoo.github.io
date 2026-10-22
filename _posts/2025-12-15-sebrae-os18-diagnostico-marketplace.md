@@ -2,7 +2,7 @@
 layout: post
 title: "Diagnóstico Operacional e Estratégico de Vendas em Marketplaces Digitais (OS 18)"
 date: 2025-12-15 14:00:00
-description: "Diagnóstico operacional e econométrico de fricções de vendas de pequenos varejistas em plataformas de e-commerce, abordando comissões, logística fulfillment e dependência de tráfego pago."
+description: "Diagnóstico operacional e econométrico de fricções de vendas de pequenos varejistas em plataformas de e-commerce, com análise de comissões, logística fulfillment e dependência de tráfego pago."
 tags: [marketplace, ecommerce, omnichannel, pesquisa-mercado, surveys]
 categories: [estudos, relatorios]
 author: "Pablo Diego Pereira"
@@ -18,7 +18,7 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Estudo Sanitizado (`proprietary_sanitized`)**: Diagnóstico de pesquisa mista (qualitativa e quantitativa) sobre a dinâmica operacional de sellers em plataformas digitais desenvolvido para entidade paraestatal de fomento aos pequenos negócios. Em estrita observância às regras de sigilo (NDA), identidades de pesquisadores e da entidade contratante foram substituídas pelo arquétipo setorial **"Entidade Paraestatal de Fomento a Pequenos Negócios"**, sendo autorizada a citação nominal das plataformas de mercado analisadas (Mercado Livre, Amazon, Shopee, Magalu).
+> **Estudo Sanitizado (`proprietary_sanitized`)**: Diagnóstico de pesquisa mista (qualitativa e quantitativa) sobre a dinâmica operacional de sellers em plataformas digitais desenvolvido para entidade paraestatal de fomento aos pequenos negócios. Em estrita observância às regras de sigilo (NDA), identidades de pesquisadores e da entidade contratante foram substituídas pelo arquétipo setorial **"Entidade Paraestatal de Fomento a Pequenos Negócios"**, com autorização para a citação nominal das plataformas de mercado analisadas (Mercado Livre, Amazon, Shopee, Magalu).
 
 ---
 
@@ -49,7 +49,7 @@ graph LR
     Quali --> AME[Americanas: 2 Grupos]
 ```
 
-O desenho amostral estratificou vendedores por maturidade operacional: **entrantes recentes** (menos de 1 ano de atividade) e **sellers consolidados** (mais de 1 ano, atuando como ME ou EPP).
+O desenho amostral estratificou vendedores por maturidade operacional: **entrantes recentes** (menos de 1 ano de atividade) e **sellers consolidados** (mais de 1 ano com atuação como ME ou EPP).
 
 ---
 
@@ -79,7 +79,7 @@ graph TB
 ```
 
 ### 3.1. O Aventureiro Resiliente
-Entrou na plataforma impulsionado pela necessidade de gerar renda imediata (especialmente no período pós-pandemia). Opera na intuição: calcula preços baseando-se apenas no valor pago ao fornecedor mais um multiplicador simples, esquecendo-se das taxas fixas, comissões e frete. Quando o volume cresce, colapsa na gestão manual de estoque, acumula atrasos e vê sua reputação afundar.
+Entrou na plataforma impulsionado pela necessidade de gerar renda imediata (especialmente no período pós-pandemia). Opera na intuição: calcula preços com base apenas no valor pago ao fornecedor mais um multiplicador simples e desconsidera as taxas fixas, comissões e frete. Quando o volume cresce, colapsa na gestão manual de estoque, acumula atrasos e vê sua reputação afundar.
 
 ### 3.2. O Estrategista Digital
 Compreende que a plataforma é um canal de tração, não um parceiro filantrópico. Diversifica suas vitrines em múltiplos marketplaces (Mercado Livre, Shopee e Amazon) para não ficar refém de um único algoritmo. Utiliza sistemas de gestão integrada (ERPs) para sincronizar estoque em tempo real e domina ferramentas de publicidade paga interna (*Marketplace Ads*).
@@ -140,10 +140,10 @@ A reputação (o "termômetro" de cores ou o índice de estrelas) atua como um i
 Para resguardar a viabilidade econômica do comércio eletrônico de pequenos negócios, a instituição de apoio deve articular ações em três frentes complementares:
 
 1. **Simuladores de Engenharia Financeira de Marketplace:**
-   - Capacitar os microempresários em cálculo de ponto de equilíbrio considerando a matriz real de comissões, frete dinâmico e devoluções estimadas, combatendo a mentalidade ingênua de foco exclusivo em faturamento bruto.
+   - Capacitar os microempresários em cálculo de ponto de equilíbrio com base na matriz real de comissões, frete dinâmico e devoluções estimadas, para evitar o foco exclusivo em faturamento bruto.
 
 2. **Trilhas de Transição Tecnológica (Automação e ERP):**
-   - Oferecer suporte prático para a implantação do primeiro sistema de gestão integrada (ERP/Hub), capacitando a gestão unificada de múltiplos estoques e emissão automática de notas fiscais.
+   - Oferecer suporte prático para a implantação do primeiro sistema de gestão integrada (ERP/Hub) para unificar o controle de múltiplos estoques e a emissão automática de notas fiscais.
 
 3. **Mediação e Defesa Institucional dos Sellers:**
    - Estabelecer canais de interlocução qualificada com as diretorias de relações institucionais das grandes plataformas para construir regras mais equilibradas de contestação de devoluções e critérios transparentes de suspensão cadastral.

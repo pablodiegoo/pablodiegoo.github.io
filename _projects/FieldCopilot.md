@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "FieldCopilot — Field Research Logistics, Routing & Spatial Quota Engine"
-title_pt: "FieldCopilot — Motor de Otimização e Roteamento Logístico de Pesquisas de Campo"
+title: "FieldCopilot: Field Research Logistics, Routing & Spatial Quota Engine"
+title_pt: "FieldCopilot: Motor de Otimização e Roteamento Logístico de Pesquisas de Campo"
 page_id: "project_FieldCopilot"
 description: "Field logistics engine and spatial analytics platform engineered to automate sampling planning, team routing, and quota compliance for publi..."
 description_pt: "Motor logístico e plataforma analítica espacial desenvolvida para automação do planejamento amostral, roteamento de equipes e controle de co..."
@@ -82,15 +82,15 @@ flowchart TD
 {% if site.active_lang == 'pt-br' %}
 ## Destaques de Engenharia
 
-- **Regionalização Espacial Restrita: Agrupamento territorial de setores censitários com piso amostral mínimo (n >= m) e células hexagonais H3 (resolução 8), eliminando paradas operacionais inviáveis.**
+- **Regionalização Espacial Restrita: Agrupamento territorial de setores censitários com piso amostral mínimo (n >= m) e células hexagonais H3 (resolução 8) para eliminar paradas operacionais inviáveis.**
 - **Roteamento Geodésico Otimizado: Heurística TSP 2-Opt com matrizes de distâncias geodésicas e restrições de jornada operacional (8h/dia, tempos de aproximação e deslocamento entre pontos).**
-- **Mitigação de Moral Hazard: Arquitetura desacoplada de auditoria combinando telemetria em tempo real, validação de velocidade média e controle de desvio de cotas.**
+- **Mitigação de Moral Hazard: Arquitetura desacoplada de auditoria com telemetria em tempo real, validação de velocidade média e controle de desvio de cotas.**
 
 {% else %}
 ## Key Engineering Highlights
 
-- **Spatially Constrained Regionalization: Territorial clustering of census tracts with minimum quota thresholds (n >= m) and Uber H3 hexagonal cells (res 8), eliminating unfeasible micro-stops.**
-- **Optimized Geodesic Routing: TSP 2-Opt heuristic incorporating geodesic distance matrices and operational shift constraints (8h/day, buffer approach times, transit velocities).**
+- **Spatially Constrained Regionalization: Territorial clustering of census tracts with minimum quota thresholds (n >= m) and Uber H3 hexagonal cells (res 8) to eliminate unfeasible micro-stops.**
+- **Optimized Geodesic Routing: TSP 2-Opt heuristic with geodesic distance matrices and operational shift constraints (8h/day, buffer approach times, transit velocities).**
 - **Moral Hazard Mitigation: Decoupled auditing architecture combining real-time telemetry, speeder detection, and quota drift control.**
 
 {% endif %}

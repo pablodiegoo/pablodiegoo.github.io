@@ -80,6 +80,6 @@ flowchart LR
 
 - **Lifecycle Wealth Simulation: Dynamic cash flow and wealth accumulation projections with parameterized macroeconomic scenarios.**
 - **Tax Efficiency Optimization: Systematic minimization of tax drag across mutual funds, tax-exempt fixed income, and pension plans.**
-- **Commercial Scalability: Standardized client wealth diagnostic workflows accelerating customer onboarding.**
+- **Commercial Scalability: Standardized client wealth diagnostic workflows to accelerate customer onboarding.**
 
 {% endif %}

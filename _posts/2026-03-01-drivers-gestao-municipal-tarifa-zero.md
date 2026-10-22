@@ -19,13 +19,13 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Estudo Sanitizado (`proprietary_sanitized`)**: Investigação quantitativa e econométrica conduzida sobre microdados amostrais domiciliares em município litorâneo do Estado do Rio de Janeiro. Para preservar compromissos contratuais de confidencialidade (NDA), todos os agentes políticos, secretários, concorrentes eleitorais, denominação comercial da consultoria e o município foram integralmente descaracterizados sob o arquétipo setorial **"Município Litorâneo A — Polo Petrolífero Fluminense"**. Mantiveram-se inalterados todos os parâmetros estatísticos, distribuições, pesos de modelos e conclusões metodológicas.
+> **Estudo Sanitizado (`proprietary_sanitized`)**: Investigação quantitativa e econométrica conduzida sobre microdados amostrais domiciliares em município litorâneo do Estado do Rio de Janeiro. Para preservar compromissos contratuais de confidencialidade (NDA), todos os agentes políticos, secretários, concorrentes eleitorais, denominação comercial da consultoria e o município foram integralmente descaracterizados sob o arquétipo setorial **"Município Litorâneo A - Polo Petrolífero Fluminense"**. Mantiveram-se inalterados todos os parâmetros estatísticos, distribuições, pesos de modelos e conclusões metodológicas.
 
 ---
 
 ## 1. O Dilema da Abundância Fiscal e Escolha Pública
 
-Em administrações municipais detentoras de vultosas receitas extraordinárias oriundas de rendas minerais — como *royalties* e participações especiais da exploração de hidrocarbonetos na Bacia de Campos e Santos —, o desafio central de governança não é a escassez aritmética de caixa, mas a eficiência alocativa sob a ótica da Teoria da Escolha Pública. 
+Em administrações municipais detentoras de vultosas receitas extraordinárias oriundas de rendas minerais (como *royalties* e participações especiais da exploração de hidrocarbonetos nas Bacias de Campos e de Santos), o desafio central de governança não é a escassez aritmética de caixa, mas a eficiência alocativa sob a ótica da Teoria da Escolha Pública. 
 
 A abundância fiduciária cria distorções perceptuais severas no corpo eleitoral. Se o orçamento transborda recursos e a pressão fiscal direta sobre o cidadão é próxima de zero, a régua de exigência comunitária não se ancora no equilíbrio orçamentário; ancora-se na velocidade, visibilidade e impacto tangível das transferências estatais. O eleitor não agradece pelo superávit. Ele cobra entregas imediatas.
 
@@ -123,14 +123,14 @@ Ao serem indagados sobre quais projetos ou intervenções municipais recordavam 
 
 *Tabela 2: Taxas de lembrança espontânea e recall das políticas públicas avaliadas ($n = 307$).*
 
-O Transporte Gratuito com tarifa zero registra o maior índice de lembrança da administração ($37,8\%$), superando a Moeda Social em 14 pontos percentuais e suplantando Obras de Infraestrutura por um fator de quatro para um. 
+O Transporte Gratuito com tarifa zero registra o maior índice de lembrança da administração ($37,8\%$), supera a Moeda Social em 14 pontos percentuais e suplanta Obras de Infraestrutura por um fator de quatro para um. 
 
 Contudo, recall não se traduz em conversão política.
 
 ### 3.2. A Decomposição via Teoria dos Dois Fatores de Herzberg
 
 Na psicologia comportamental e na economia organizacional, a clássica Teoria dos Dois Fatores de Frederick Herzberg estabelece uma distinção nítida entre:
-1. **Fatores Higiênicos (Extrínsecos):** Elementos cuja presença apenas previne a insatisfação, operando como piso básico de expectativa. A sua existência regular não gera entusiasmo ativo nem lealdade duradoura; mas sua eventual deterioração ou corte gera indignação e revolta imediatas.
+1. **Fatores Higiênicos (Extrínsecos):** Elementos cuja presença apenas previne a insatisfação e opera como piso básico de expectativa. A sua existência regular não gera entusiasmo ativo nem lealdade duradoura; mas sua eventual deterioração ou corte gera indignação e revolta imediatas.
 2. **Fatores Motivacionais (Intrínsecos):** Elementos que promovem satisfação ativa, sentimento de valorização e vínculo afetivo duradouro.
 
 O transporte público gratuito sofreu o processo que denominamos **naturalização do benefício**. 
@@ -170,7 +170,7 @@ O contraste visual e econométrico da Figura 1 revela três achados fundamentais
 1. **A Desconexão como Maior Fator de Risco (23,0% de importância):** O eleitor que não identifica nenhuma realização do prefeito exibe o maior coeficiente de correlação negativo da série ($r = -0,2798$). A incapacidade de fixar uma marca administrativa concreta no imaginário popular é a principal porta de entrada da desaprovação.
 2. **A Força Tratora da Tangibilidade (Obras: 15,5%):** Embora apenas $8,5\%$ dos entrevistados tenham citado obras espontaneamente, aqueles que as enxergam apresentam uma das maiores correlações positivas com a aprovação ($r = +0,1902$). O asfalto, a drenagem pluvial e a praça urbanizada são tangíveis. O cidadão vê a intervenção física acontecendo na porta da sua casa. Na gestão pública municipal, o concreto ainda produz credibilidade imediata.
 3. **A Tríade de Transferência Direta de Renda (Moeda Social + Renda Básica: 28,0%):** A soma da Moeda Social ($14,3\%$) com a Renda Básica ($13,7\%$) totaliza quase um terço do poder discriminativo do algoritmo. O crédito depositado mensalmente no comércio local opera como fator motivacional contínuo: beneficia diretamente a subsistência da família beneficiária e estimula as vendas do comerciante de bairro.
-4. **O Retorno Marginal Decrescente da Tarifa Zero (9,3%):** Confirmando a hipótese de Herzberg, a Tarifa Zero despenca para a penúltima posição entre os projetos com impacto positivo, empatando tecnicamente com Turismo e Eventos ($9,8\%$). Seu poder preditivo na aprovação governamental é quase a metade do peso exercido pelas obras estruturantes.
+4. **O Retorno Marginal Decrescente da Tarifa Zero (9,3%):** Confirmando a hipótese de Herzberg, a Tarifa Zero ocupa a penúltima posição entre os projetos com impacto positivo e empata tecnicamente com Turismo e Eventos ($9,8\%$). Seu poder preditivo na aprovação governamental é quase a metade do peso exercido pelas obras estruturantes.
 
 ---
 
@@ -178,7 +178,7 @@ O contraste visual e econométrico da Figura 1 revela três achados fundamentais
 
 Para além dos projetos emblemáticos de marca, a rotina de uma prefeitura depende da prestação contínua de serviços públicos sob a responsabilidade de suas secretarias.
 
-Auditou-se a base consolidada ($n = 311$) através de notas escalonadas de $0$ a $10$ atribuídas a dez pastas de governo, aplicando a imputação de dados ausentes via mediana amostral e calibrando o classificador para prever aprovação Top-2 Box (Ótimo + Bom).
+Auditou-se a base consolidada ($n = 311$) através de notas escalonadas de $0$ a $10$ atribuídas a dez pastas de governo, com imputação de dados ausentes via mediana amostral e calibração do classificador para prever aprovação Top-2 Box (Ótimo + Bom).
 
 | Área Setorial Avaliada | Importância Relativa (*Feature Importance*) | F1-Score Univariado | Correlação Linear de Pearson ($r$) |
 | :--- | :---: | :---: | :---: |
@@ -203,14 +203,14 @@ Auditou-se a base consolidada ($n = 311$) através de notas escalonadas de $0$ a
 A Tabela 4 e a Figura 2 demonstram com nitidez a hierarquia de prioridades da sociedade:
 - **Obras e Infraestrutura** desponta no topo ($14,51\%$ de importância e correlação $r = +0,386$).
 - **Emprego e Geração de Renda** assume a vice-liderança ($12,12\%$ de importância, $r = +0,332$). Em municípios com fartura de receitas petrolíferas, a população desenvolve expectativa de atração de indústrias e vagas formais qualificadas. A assistência social mitiga a miséria imediata, mas o anseio pela carteira assinada permanece insatisfeito.
-- **Segurança Pública** ($11,48\%$) consolida-se como a terceira força, refletindo o temor da interiorização da criminalidade metropolitana em cidades costeiras em expansão acelerada.
+- **Segurança Pública** ($11,48\%$) consolida-se como a terceira força e reflete o temor da interiorização da criminalidade metropolitana em cidades costeiras em expansão acelerada.
 
 ### 5.2. A Matriz Cartesiana e o "Efeito Bloco"
 
 A inspeção da matriz bivariada de correlação de Pearson revela que o cidadão não julga as áreas de governo de forma atomizada. Ele opera por clusters conceituais intuitivos:
 
 ![Matriz de Correlação Bivariada Inter-Secretarias](/assets/img/posts/drivers-gestao-municipal-tarifa-zero/matriz_correlacao_setorial.png)
-*Figura 3: Matriz de correlação inter-secretarias evidenciando clusters mentais de avaliação pública.*
+*Figura 3: Matriz de correlação inter-secretarias com os agrupamentos mentais de avaliação pública.*
 
 Identificam-se três pares de simbiose institucional:
 1. **Turismo $\times$ Mobilidade Urbana ($r = +0,651$):** A maior correlação da matriz. Eventos festivos e incentivo ao fluxo de visitantes exigem fluidez de trânsito. Se o turista satura a cidade e congestiona as vias locais, a população penaliza severamente tanto o turismo quanto a mobilidade.
@@ -230,9 +230,9 @@ A pesquisa de opinião pública investigou a robustez do capital político herda
     - **Não sabe / Não respondeu:** $9,1\%$ (28 eleitores)
     - **Depende do candidato indicado:** $7,8\%$ (24 eleitores)
 
-Tal patamar de endosso direto (quase sete em cada dez eleitores dispostos a votar no indicado da liderança executiva de referência) atesta que a força do projeto político reside na fidelidade à liderança histórica consolidada, superando a popularidade isolada do mandatário em exercício.
+Tal patamar de endosso direto (quase sete em cada dez eleitores dispostos a votar no indicado da liderança executiva de referência) atesta que a força do projeto político reside na fidelidade à liderança histórica consolidada e supera a popularidade isolada do mandatário em exercício.
 
-No cenário estimulado para a disputa de representação federal, o candidato oficialmente apoiado pela administração alcança **$59,3\%$** das intenções de voto válidas, registrando um índice de rejeição residual de apenas **$3,3\%$**. Em contrapartida, parlamentares da ala histórica tradicional enfrentam desgaste severo, acumulando **$24,4\%$** de rejeição ativa associada a estigmas de polarização partidária.
+No cenário estimulado para a disputa de representação federal, o candidato oficialmente apoiado pela administração alcança **$59,3\%$** das intenções de voto válidas, com índice de rejeição residual de apenas **$3,3\%$**. Em contrapartida, parlamentares da ala histórica tradicional enfrentam desgaste severo e acumulam **$24,4\%$** de rejeição ativa associada a estigmas de polarização partidária.
 
 ---
 

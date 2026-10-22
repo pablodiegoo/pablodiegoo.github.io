@@ -5,4 +5,8 @@ inline: true
 related_posts: false
 ---
 
-Started MBA on Data Science and Analytics from USP/Esalq
+{% if site.active_lang == "pt-br" %}
+Início do MBA em Data Science e Analytics na USP/ESALQ.
+{% else %}
+Started the MBA in Data Science and Analytics at USP/ESALQ.
+{% endif %}

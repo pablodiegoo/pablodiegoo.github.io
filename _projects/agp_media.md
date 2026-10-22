@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "agp-media — Unified Media Transcription, OCR & Qualitative NLP Toolkit"
-title_pt: "agp-media — Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas de Campo"
+title: "agp-media: Unified Media Transcription, OCR & Qualitative NLP Toolkit"
+title_pt: "agp-media: Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas de Campo"
 page_id: "project_agp_media"
-description: "Modular command-line toolkit (CLI) engineered to streamline field research workflows. Handles media conversion, audio transcription with mul..."
-description_pt: "Toolkit modular em linha de comando (CLI) desenvolvido para acelerar o ciclo de pesquisas qualitativas e quantitativas de campo. Executa con..."
+description: "Modular command-line toolkit (CLI) built to process focus groups, in-depth interviews, and field survey data. Handles media conversion, audi..."
+description_pt: "Toolkit modular em linha de comando (CLI) desenvolvido para processar dados de grupos de discussão, entrevistas em profundidade e levantamen..."
 img: assets/img/projects/agp_media/thumbnail.png
 og_image: /assets/img/projects/agp_media/thumbnail.png
 importance: 2
@@ -40,7 +40,7 @@ mermaid:
 
 ## Visão Geral Executiva
 
-Toolkit modular em linha de comando (CLI) desenvolvido para acelerar o ciclo de pesquisas qualitativas e quantitativas de campo. Executa conversão e compressão de mídia, transcrição de áudio com diarização de interlocutores (Whisper, Gemini, Google STT), OCR de formulários e análise semântica estruturada em JSON canônico.
+Toolkit modular em linha de comando (CLI) desenvolvido para processar dados de grupos de discussão, entrevistas em profundidade e levantamentos de campo. Executa conversão e compressão de mídia, transcrição de áudio com diarização de interlocutores (Whisper, Gemini, Google STT), OCR de formulários físicos e análise semântica estruturada em JSON canônico.
 
 {% else %}
 **Organization / Context**: Instituto de Pesquisas Aplicadas & Inteligência de Campo  
@@ -52,7 +52,7 @@ Toolkit modular em linha de comando (CLI) desenvolvido para acelerar o ciclo de 
 
 ## Executive Overview
 
-Modular command-line toolkit (CLI) engineered to streamline field research workflows. Handles media conversion, audio transcription with multi-speaker diarization (Whisper, Gemini, Google STT), document OCR, and qualitative AI sentiment profiling into structured canonical JSON.
+Modular command-line toolkit (CLI) built to process focus groups, in-depth interviews, and field survey data. Handles media conversion, audio transcription with multi-speaker diarization (Whisper, Gemini, Google STT), physical form OCR, and qualitative sentiment analysis into structured canonical JSON.
 
 {% endif %}
 

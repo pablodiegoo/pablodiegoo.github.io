@@ -2,7 +2,7 @@
 layout: post
 title: "Economia Comportamental Fiscal e o Fenômeno da Desinformação Punitiva no IPTU"
 date: 2026-01-15 16:00:00
-description: "Investigação empírica via regressão linear (OLS) e tabulação cruzada demonstrando como o desconhecimento da defasagem inflacionária histórica (17 anos) amplifica a rejeição punitiva e a polarização institucional em reajustes do IPTU."
+description: "Investigação empírica via regressão linear (OLS) e tabulação cruzada que demonstra como o desconhecimento da defasagem inflacionária histórica (17 anos) amplifica a rejeição punitiva e a polarização institucional em reajustes do IPTU."
 tags: [econometria, economia-comportamental, regressao-linear, ols, politica-fiscal, iptu]
 categories: [estudos, relatorios]
 author: "Pablo Diego Pereira"
@@ -19,7 +19,7 @@ mermaid:
 ---
 
 > [!NOTE]
-> **Estudo Sanitizado (`proprietary_sanitized`)**: Investigação empírica longitudinal e econométrica realizada a partir de microdados amostrais em município do interior fluminense. Para cumprir estritamente as cláusulas contratuais de sigilo (NDA), a identidade da cidade, dos mandatários, parlamentares e institutos executores foi integralmente mascarada sob o arquétipo setorial **"Município Agrícola/Interiorano B — Eixo da Baixada Litorânea Fluminense"**. Mantiveram-se inalterados todos os parâmetros econométricos, séries temporais em três ondas e testes de hipótese.
+> **Estudo Sanitizado (`proprietary_sanitized`)**: Investigação empírica longitudinal e econométrica realizada a partir de microdados amostrais em município do interior fluminense. Para cumprir estritamente as cláusulas contratuais de sigilo (NDA), a identidade da cidade, dos mandatários, parlamentares e institutos executores foi integralmente mascarada sob o arquétipo setorial **"Município Agrícola/Interiorano B - Eixo da Baixada Litorânea Fluminense"**. Mantiveram-se inalterados todos os parâmetros econométricos, séries temporais em três ondas e testes de hipótese.
 
 ---
 
@@ -29,7 +29,7 @@ Na arquitetura tributária brasileira, o Imposto Predial e Territorial Urbano (I
 
 Essa visibilidade extrema torna o IPTU o imposto de maior atrito político da federação. 
 
-Sob a ótica da Teoria da Escolha Pública, prefeitos e vereadores enfrentam um incentivo perverso crônico: adiar indefinidamente a atualização da Planta Genérica de Valores (PGV) para não sofrerem desgaste eleitoral no curto prazo. O resultado dessa procrastinação política é a estagnação da base fiscal municipal por décadas, provocando o estrangulamento da capacidade de investimento próprio da prefeitura e vulnerabilidade às transferências constitucionais da União e dos Estados.
+Sob a ótica da Teoria da Escolha Pública, prefeitos e vereadores enfrentam um incentivo perverso crônico: adiar indefinidamente a atualização da Planta Genérica de Valores (PGV) para não sofrerem desgaste eleitoral no curto prazo. O resultado dessa procrastinação política é a estagnação da base fiscal municipal por décadas, o que provoca o estrangulamento da capacidade de investimento próprio da prefeitura e amplia a dependência de transferências constitucionais da União e dos Estados.
 
 O presente estudo investiga as consequências políticas e econométricas do rompimento desse congelamento a partir de um caso concreto: **o que ocorre com a aprovação governamental quando um município decide reajustar o IPTU após quase duas décadas de paralisia tarifária?**
 
@@ -63,12 +63,12 @@ O cruzamento temporal dos dados entre abril de 2025 e janeiro de 2026 flagra a t
 *Tabela 1: Série longitudinal comparativa da avaliação do governo municipal.*
 
 ![Painel Longitudinal de Popularidade](/assets/img/posts/desinformacao-punitiva-iptu-municipal/evolucao_temporal_aprovacao.png)
-*Figura 1: Evolução temporal da aprovação, desaprovação e saldo líquido do governo municipal evidenciando o choque tributário.*
+*Figura 1: Evolução temporal da aprovação, desaprovação e saldo líquido do governo municipal após o choque tributário.*
 
-Os dados da Figura 1 documentam uma das quedas mais violentas de popularidade registradas em séries históricas municipais. Em menos de 45 dias, entre o encerramento do primeiro ano de mandato (dezembro de 2025) e a entrega dos carnês tributários (janeiro de 2026):
-- A **desaprovação quase quadruplicou**, saltando de $11,1\%$ para expressivos **$38,6\%$** (+27,5 pontos percentuais).
-- A **aprovação desidratou 21 pontos percentuais**, caindo de $70,0\%$ para $49,0\%$.
-- O **saldo líquido de confiança evaporou em 48,5 pontos percentuais**, recuando de um patamar confortável de $+58,9$ p.p. para um limiar de vulnerabilidade de $+10,4$ p.p.
+Os dados da Figura 1 documentam uma das quedas mais acentuadas de popularidade registradas em séries históricas municipais. Em menos de 45 dias, entre o encerramento do primeiro ano de mandato (dezembro de 2025) e a entrega dos carnês tributários (janeiro de 2026):
+- A **desaprovação quase quadruplicou**, ao passar de $11,1\%$ para **$38,6\%$** (+27,5 pontos percentuais).
+- A **aprovação recuou 21 pontos percentuais**, de $70,0\%$ para $49,0\%$.
+- O **saldo líquido de confiança caiu 48,5 pontos percentuais**, de $+58,9$ p.p. para $+10,4$ p.p.
 
 O reajuste do imposto predial operou como um curto-circuito na relação de lealdade entre a comunidade e a prefeitura.
 
@@ -129,22 +129,22 @@ Em que:
 | :--- | :---: | :---: | :--- |
 | **Cidadãos Desinformados** ($X = 0$) | 295 | **1,38** | Radicalização punitiva; percepção de voracidade fiscal pura. |
 | **Cidadãos Informados** ($X = 1$) | 138 | **1,14** | Moderação crítica; debate sobre prazo e capacidade de pagamento. |
-| **Diferencial de Elasticidade** | — | **-17,4%** | Amortecimento significativo da punição política ($p < 0,001$). |
+| **Diferencial de Elasticidade** | - | **-17,4%** | Amortecimento significativo da punição política ($p < 0,001$). |
 
 *Tabela 3: Parâmetros e médias condicionadas do modelo de desinformação punitiva.*
 
 ![Regressão OLS da Desinformação Punitiva](/assets/img/posts/desinformacao-punitiva-iptu-municipal/regressao_desinformacao.png)
-*Figura 2: Regressão linear OLS demonstrando a inclinação negativa entre o conhecimento da defasagem histórica e o score de rejeição punitiva ao IPTU.*
+*Figura 2: Regressão linear OLS com a inclinação negativa entre o conhecimento da defasagem histórica e o score de rejeição punitiva ao IPTU.*
 
 ### 4.3. Interpretação Econômica do Efeito da Desinformação
 
 O coeficiente estimado $\beta_1 = -0,24$ ($p < 0,001$) confirma a predição teórica da economia comportamental: **o desconhecimento dos mecanismos causais alimenta a radicalização política**.
 
-Quando o munícipe não é informado de que o tributo permaneceu estagnado por 17 anos, ele presume de forma heurística que a prefeitura está implementando um aumento abusivo e discricionário para suprir desperdícios da máquina pública. Sob essa premissa de desinformação, a punição é máxima: seu score de rejeição sobe para $1,38$, aproximando-se da recusa total.
+Quando o munícipe não é informado de que o tributo permaneceu estagnado por 17 anos, ele presume de forma heurística que a prefeitura está implementando um aumento abusivo e discricionário para suprir desperdícios da máquina pública. Sob essa premissa de desinformação, a punição é máxima: seu score de rejeição sobe para $1,38$ e aproxima-se da recusa total.
 
-Em contrapartida, quando o cidadão toma ciência da defasagem de 17 anos, a taxa de rejeição radical despenca, provocando uma **redução de 17,4% no atrito punitivo**. O indivíduo deixa de enxergar o reajuste como uma agressão arbitrária e passa a discuti-lo como um problema de ajuste temporal ou escalonamento parcelado.
+Em contrapartida, quando o cidadão toma ciência da defasagem de 17 anos, a taxa de rejeição radical cai, o que representa uma **redução de 17,4% no atrito punitivo**. O indivíduo deixa de enxergar o reajuste como uma agressão arbitrária e passa a discuti-lo como um problema de ajuste temporal ou escalonamento parcelado.
 
-Estima-se que uma campanha pedagógica institucional prévia, deflagrada seis meses antes da emissão dos carnês e demonstrando o histórico inflacionário acumulado, teria **amortecido entre 20% e 30% da sangria de aprovação** sofrida pela administração municipal.
+Estima-se que uma campanha pedagógica institucional prévia, deflagrada seis meses antes da emissão dos carnês com a demonstração do histórico inflacionário acumulado, teria **amortecido entre 20% e 30% da perda de aprovação** sofrida pela administração municipal.
 
 ---
 
@@ -171,14 +171,14 @@ Contudo, a desagregação dessa culpa pelo prisma da avaliação geral de govern
 *Tabela 4: Atribuição de culpa pelo reajuste de IPTU segundo o estrato de avaliação do governo.*
 
 ![Matriz de Atribuição de Culpa pelo IPTU](/assets/img/posts/desinformacao-punitiva-iptu-municipal/matriz_atribuicao_culpa.png)
-*Figura 3: Heatmap da matriz de atribuição de culpa demonstrando a eficácia seletiva da narrativa governista.*
+*Figura 3: Heatmap da matriz de atribuição de culpa e eficácia seletiva da narrativa governista.*
 
 ### 5.1. A Dinâmica da Transferência de Ônus Político
 
 A inspeção da Figura 3 elucida um mecanismo estratégico sofisticado:
 1. **Entre eleitores simpáticos à administração (Ótimo/Bom):** Apenas $21,0\%$ culpam o prefeito. A maioria ($44,8\%$) responsabiliza a Câmara de Vereadores ou busca refúgio no desconhecimento ($34,2\%$). A narrativa governista de que a prefeitura apenas enviou a matéria técnica e os vereadores a aprovaram funciona com eficácia plena nesse estrato.
 2. **Entre eleitores indecisos (Regular):** A Câmara continua sendo o alvo primário de desgaste ($41,5\%$), mas a cobrança sobre o executivo sobe para $34,2\%$.
-3. **Entre eleitores de oposição (Ruim/Péssimo):** A narrativa governista colapsa integralmente. Quase dois terços dos críticos ($63,5\%$) atribuem a culpa direta e pessoalmente ao Prefeito, repelindo qualquer tentativa de diluição da responsabilidade entre os parlamentares.
+3. **Entre eleitores de oposição (Ruim/Péssimo):** A narrativa governista colapsa integralmente. Quase dois terços dos críticos ($63,5\%$) atribuem a culpa direta e pessoalmente ao Prefeito e rejeitam qualquer tentativa de diluição da responsabilidade entre os parlamentares.
 
 Na prática, o esforço retórico de transferir a culpa tributária para o poder legislativo atua como um eficiente **mecanismo de contenção de danos na própria base**, mas é solenemente ignorado pelos estratos descontentes.
 

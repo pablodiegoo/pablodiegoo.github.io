@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "LongandShortR — Statistical Arbitrage & Cointegration Engine on B3 in R"
-title_pt: "LongandShortR — Algoritmo de Arbitragem Estatística e Cointegração na B3 em R"
+title: "LongandShortR: Statistical Arbitrage & Cointegration Engine on B3 in R"
+title_pt: "LongandShortR: Algoritmo de Arbitragem Estatística e Cointegração na B3 em R"
 page_id: "project_LongandShortR"
 description: "Systematic quantitative algorithm coded in R for daily universe-wide Engle-Granger cointegration and Augmented Dickey-Fuller (ADF) screening..."
 description_pt: "Algoritmo desenvolvido em linguagem R para varredura sistemática diária de testes de raiz unitária (ADF) e cointegração de Engle-Granger sob..."
@@ -74,13 +74,13 @@ flowchart TD
 
 - **Varredura Sistemática B3: Testes diários automatizados de estacionariedade (ADF) e cointegração de Engle-Granger em todos os pares de ações líquidos.**
 - **Geração de Sinais Quantitativos: Modelagem de resíduos com cálculo de meia-vida de reversão à média e normalização por Z-score.**
-- **Análise de Risco de Execução: Dimensionamento de bandas de entrada e saída considerando custos operacionais e limites estatísticos.**
+- **Análise de Risco de Execução: Dimensionamento de bandas de entrada e saída com base em custos operacionais e limites estatísticos.**
 
 {% else %}
 ## Key Engineering Highlights
 
 - **Systematic B3 Screening: Automated daily Augmented Dickey-Fuller (ADF) and Engle-Granger cointegration testing across liquid equity pairs.**
-- **Quantitative Signal Generation: Residual spread modeling featuring mean-reversion half-life calculation and Z-score standardization.**
-- **Execution Risk Framework: Optimal entry/exit band sizing accounting for market friction and statistical confidence intervals.**
+- **Quantitative Signal Generation: Residual spread modeling with mean-reversion half-life calculation and Z-score standardization.**
+- **Execution Risk Framework: Entry/exit band sizing calibrated for transaction costs and statistical confidence intervals.**
 
 {% endif %}

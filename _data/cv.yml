@@ -96,18 +96,18 @@
     institution: Meta Investimentos Agente Autônomo de Investimentos Ltda
     year: Jun 2020 - Present
     description: &id001
-    - Directly supervised internal controls, compliance workflows, and regulatory
-      governance under CVM (Resolutions 16 and 178), ANBIMA, and Central Bank rules.
-    - Applied econometric methods and time series statistical modeling in Python and
-      R for risk projection (VaR, Drawdown) and expected portfolio returns.
-    - Consultative wealth management advisory for high-net-worth individuals and institutions,
-      designing custom asset allocations and succession planning.
-    - Architected executive reporting dashboards and interactive portfolio analytics
+    - Supervised internal controls, compliance workflows, and regulatory governance
+      under CVM (Resolutions 16 and 178), ANBIMA, and Central Bank rules.
+    - Built econometric and time series models in Python and R to project portfolio
+      risk (VaR, Drawdown) and expected returns.
+    - Advised high-net-worth individuals and corporate clients on wealth management,
+      custom asset allocation, tax optimization, and succession planning.
+    - Built and maintained executive reporting dashboards and portfolio tracking tools
       in Power BI, Google Looker Studio, and advanced Excel.
-    - Conducted daily tracking of macroeconomic indicators (Selic, IPCA, FX) and research
-      publications to guide tactical portfolio rebalancing decisions.
-    - Structured custom investment recommendations across fixed income, tax-exempt
-      credit, B3 equities, investment funds, foreign exchange, and insurance.
+    - Tracked daily macroeconomic indicators (Selic, IPCA, FX) and research reports
+      to guide tactical portfolio rebalancing decisions.
+    - Structured investment portfolios across fixed income, tax-exempt private credit,
+      B3 equities, investment funds, foreign exchange, and insurance.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id001
     stack:
@@ -116,57 +116,61 @@
     - Power BI
     - Compliance CVM/ANBIMA
     - Alocação de Ativos
-  - title: Data & Insights Analyst
+  - title: Market Research & Intelligence Analyst
     institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
     year: Apr 2025 - Aug 2026
     description: &id002
-    - Optimized analytical pipelines and research workflows, driving a <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">65%</strong> increase in operational profit
-      margin with minimal cost trade-offs.
-    - Technical leadership and system architecture of the Project Aporia analytics
-      platform and the agp-media multimodal processing toolkit.
-    - Automated survey data processing for more than <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">28,000</strong> respondents (<strong class="font-semibold
-      text-slate-900 dark:text-slate-100">92.3%</strong> via WhatsApp robot and Typebot),
-      building automated market research reports.
-    - Engineered automated ingestion pipelines via Meta API (WhatsApp), slashing manual
-      data processing effort by <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>.
-    - Engineered the agp-media modular Python CLI toolkit for audio compression, multi-speaker
-      diarization transcription, and physical form OCR.
-    - Engineered functional specs and system architecture for a corporate CATI dialer
-      featuring Redis async queues, PostgreSQL, and cloud storage.
-    - Conducted advanced quantitative analyses in Python and SQL on complex relational
-      databases alongside qualitative consumer behavior research.
-    - Delivered technical market research and strategic intelligence reports for institutional
-      public clients (Saquarema, Maricá, EMPETUR) and private entities (Sebrae-SP).
-    - Modeled relational databases and ETL pipelines in SQL and Python for continuous
-      tracking of NPS and CSAT satisfaction metrics.
-    - Built automated data ingestion pipelines using Google Places API and Gemini
-      for tourism inventory in Pernambuco, orchestrating GCP Compute VMs and Docker.
+    - Conducted market research and electoral studies (focus groups, in-depth interviews,
+      and surveys), from data analysis to client presentations.
+    - Restructured focus group recruitment and survey collection workflows (Likert
+      matrices and send windows) to increase operational profit margin by <strong
+      class="font-semibold text-slate-900 dark:text-slate-100">65%</strong>.
+    - Automated survey collection and tabulation via Meta API (WhatsApp) and Typebot
+      for <strong class="font-semibold text-slate-900 dark:text-slate-100">28,000+</strong>
+      respondents (<strong class="font-semibold text-slate-900 dark:text-slate-100">92.3%</strong>
+      automated), with a <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>
+      reduction in manual effort.
+    - Designed the Project Aporia analytics platform and built Python utilities (agp-media
+      and mailing cleaners) for team audio diarization and form OCR.
+    - Prepared technical reports and presented findings and strategic diagnostics
+      directly to public clients (Saquarema, Maricá, EMPETUR) and private entities
+      (Sebrae-SP).
+    - Built statistical and econometric models in Python, R, and SQL on survey microdata
+      (regression and Random Forest with <strong class="font-semibold text-slate-900
+      dark:text-slate-100">86.5%</strong> accuracy) for opinion studies.
+    - Analyzed qualitative data from focus groups and in-depth interviews through
+      discussion guides, topic co-occurrence matrices, and AI-assisted syntheses.
+    - Modeled relational databases (PostgreSQL and SQLite) and ETL pipelines in SQL
+      and Python for continuous tracking of customer satisfaction metrics (NPS and
+      CSAT).
+    - Defined functional specs and technical architecture for a corporate CATI dialer
+      using Redis async queues, PostgreSQL, and S3 storage for telephone surveys.
+    - Built an automated Python pipeline using Google Places API and Gemini for a
+      tourism inventory in Pernambuco, deployed on GCP virtual machines and Docker.
     location: Araruama, RJ, Brasil
     bullets: *id002
     stack:
-    - FastAPI
+    - Pesquisa Quali-Quanti
     - Python
-    - PostgreSQL
+    - SQL
     - Meta Graph API
-    - Uber H3
-    - Pandas
+    - Econometria
+    - Automação de Coleta
   - title: Backoffice Manager & Investment Advisor (Partner)
     institution: Meta & Actio Agente Autônomo de Investimentos
     year: Aug 2017 - May 2020
     description: &id003
-    - Engineered automated financial and estate planning tools in Excel/VBA, delivering
-      <strong class="font-semibold text-slate-900 dark:text-slate-100">>20%</strong>
-      tax savings and driving a <strong class="font-semibold text-slate-900 dark:text-slate-100">+100%</strong>
-      expansion in insurance policies.
-    - Engineered and deployed the proprietary LongandShortR algorithm in R for systematic
-      statistical arbitrage via cointegration on B3 (<strong class="font-semibold
-      text-slate-900 dark:text-slate-100">+100</strong> opportunities/month).
-    - Structured the backoffice department from the ground up, establishing operating
-      manuals, custody reconciliation routines, and trade settlement workflows.
-    - Implemented cross-validation automations and operational controls to eliminate
-      errors in trade tickets and settlements, maintaining regulatory compliance.
+    - Built automated financial and estate planning tools in Excel and VBA that delivered
+      over <strong class="font-semibold text-slate-900 dark:text-slate-100">20%</strong>
+      in tax savings and a <strong class="font-semibold text-slate-900 dark:text-slate-100">100%</strong>
+      increase in insurance policies.
+    - Built and deployed the LongandShortR algorithm in R for statistical arbitrage
+      via cointegration on B3, with <strong class="font-semibold text-slate-900 dark:text-slate-100">100+</strong>
+      monthly trading opportunities identified.
+    - Established the backoffice department, with new operating manuals, custody reconciliation
+      routines, trade settlement workflows, and team training.
+    - Implemented automated cross-check routines to reduce operational errors in trade
+      tickets and settlements under broker and regulatory rules.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id003
     stack:
@@ -179,21 +183,21 @@
     institution: Espaço Champs Elyseés
     year: Jan 2014 - Nov 2018
     description: &id004
-    - Negotiated strategic vendor contracts and shifted to on-demand outsourcing,
-      securing a <strong class="font-semibold text-slate-900 dark:text-slate-100">70%</strong>
-      reduction in fixed payroll expenditures.
-    - Engineered automated lead handling and scheduling workflows, reducing response
-      time by <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
-      and increasing proposal conversion rate by <strong class="font-semibold text-slate-900
+    - Renegotiated vendor contracts and shifted to on-demand outsourcing for a <strong
+      class="font-semibold text-slate-900 dark:text-slate-100">70%</strong> reduction
+      in fixed payroll expenses.
+    - Implemented automated lead response and visit scheduling workflows that reduced
+      response time by <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
+      and increased proposal conversion by <strong class="font-semibold text-slate-900
       dark:text-slate-100">30%</strong>.
-    - Built full corporate digital presence and local SEO, reaching <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">1st place</strong> in organic search rankings
-      across the Região dos Lagos with zero paid media spend.
-    - Redesigned facility operational workflows and layout, doubling (<strong class="font-semibold
-      text-slate-900 dark:text-slate-100">+100%</strong>) catering capacity and expanding
+    - Built the digital presence and local SEO strategy to reach <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">1st place</strong> in organic search results
+      across Região dos Lagos with zero paid media spend.
+    - Redesigned facility layout and service workflows to double (<strong class="font-semibold
+      text-slate-900 dark:text-slate-100">+100%</strong>) catering capacity and expand
       spa service capacity by <strong class="font-semibold text-slate-900 dark:text-slate-100">300%</strong>.
-    - Directed full-cycle business operations, service pricing models, cash flow management,
-      tax compliance, and on-site logistics for large-scale private events.
+    - Managed daily operations, menu pricing models, cash flow, tax obligations, and
+      on-site logistics for private events.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id004
     stack:
@@ -204,12 +208,12 @@
     institution: BX House
     year: Nov 2002 - Jan 2014
     description: &id005
-    - Planned and executed technical on-page SEO strategies and crawl audits, boosting
-      organic search visibility for business clients.
-    - Delivered web development consulting, web server deployments, DNS zone management,
-      and WordPress CMS configurations for SMB clients.
-    - Provided digital marketing and web strategy advisory for regional businesses
-      in Rio de Janeiro, establishing online brand identity and web channels.
+    - Implemented on-page SEO routines, XML sitemaps, and indexing audits in Google
+      Search Console to grow organic search traffic for client websites.
+    - Provided web development consulting, server configuration, DNS zone management,
+      and WordPress administration for small and medium-sized businesses.
+    - Advised regional businesses in Rio de Janeiro and Região dos Lagos on digital
+      presence and web channel structuring.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id005
     stack:
@@ -220,18 +224,18 @@
     institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
     year: Jan 2012 - Aug 2012
     description: &id006
-    - Implemented and monitored web traffic and conversion metrics using Google Analytics,
-      compiling routine visitor behavioral analysis reports.
-    - Executed applied management consulting projects for external clients, performing
-      market research, demand sizing, and commercial campaign planning.
-    - Formulated and executed the junior enterprise's strategic marketing plan, defining
-      market positioning and service value propositions.
-    - Standardized internal project documentation and team repository using Google
-      Suite tools, streamlining commercial diagnostic workflows.
-    - Designed marketing collaterals and institutional promotional materials for the
-      junior consultancy using Corel Draw and Adobe Photoshop.
-    - Managed institutional social media channels and editorial content for the corporate
-      WordPress blog, expanding consultancy visibility.
+    - Implemented and tracked web traffic and conversion metrics in Google Analytics,
+      with regular reports on visitor behavior.
+    - Executed consulting projects for external clients across market research, target
+      audience sizing, and customer acquisition campaign design.
+    - Developed the junior enterprise's institutional marketing plan and defined its
+      commercial positioning and service scope.
+    - Standardized team files, project reports, and commercial diagnostic questionnaires
+      using Google Suite (Docs, Sheets, and Forms).
+    - Designed graphic materials and institutional promotional pieces in Corel Draw
+      and Adobe Photoshop.
+    - Managed social media channels and published content on the institutional WordPress
+      blog to promote consultancy projects.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id006
     stack:
@@ -241,17 +245,18 @@
     institution: Instituto de Economia — Universidade Federal do Rio de Janeiro (IE/UFRJ)
     year: Jun 2011 - Jul 2012
     description: &id007
-    - Co-authored published abstract in the XXXIV JICTAC proceedings (2012) and delivered
-      oral presentation on entrepreneurial attitudes in Brazilian ICT ventures.
-    - Conducted field research and sample validation across <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">76</strong> ICT startup founders, earning
-      formal acknowledgement in the international CONF-IRM 2012 conference paper.
-    - Mapped institutional factors, public financing mechanisms, and incentive policies
-      influencing the emergence and survival of ICT startups in Brazil.
-    - Executed data cleansing, anomaly filtering, and analytical microdata tabulation,
-      ensuring data integrity for empirical statistical inference.
-    - Designed and executed multi-channel primary data collection combining online
-      forms, social network outreach, and in-person interviews at technology events.
+    - Co-authored an abstract published in the XXXIV JICTAC proceedings (2012) and
+      presented findings on factors enabling ICT business creation in Brazil.
+    - Conducted field surveys and sample validation across <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">76</strong> ICT startup founders, with named
+      acknowledgement in the paper published at CONF-IRM 2012.
+    - Surveyed institutional conditions, credit lines, and public policies affecting
+      the survival and growth of early-stage technology firms in Brazil.
+    - Cleaned raw response datasets, filtered inconsistencies, and tabulated microdata
+      series for statistical analysis.
+    - Executed multi-channel data collection across online questionnaires (Google
+      Forms), professional network outreach, and in-person interviews at industry
+      events.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id007
     stack:
@@ -263,14 +268,14 @@
     institution: AIESEC no Rio de Janeiro
     year: May 2010 - Feb 2012
     description: &id008
-    - Pioneered cloud collaboration tools (Google Sheets and Google Docs) at the Rio
-      de Janeiro local committee for unified campaign tracking and documentation.
-    - Spearheaded university campaigns promoting global social (Global Citizen) and
-      professional (Global Talents) exchange programs, hosting info sessions and presentations.
-    - Designed and distributed structured evaluation surveys via Google Forms to gather
-      feedback from international interns and university applicants.
-    - Cultivated institutional negotiation, team facilitation, and cross-cultural
-      communication skills within a fast-paced global youth leadership organization.
+    - Introduced shared cloud spreadsheets and documents (Google Sheets and Google
+      Docs) at the Rio de Janeiro committee for campaign tracking and reporting.
+    - Promoted social (Global Citizen) and professional (Global Talents) exchange
+      programs across universities through information sessions and presentations.
+    - Created and applied evaluation forms in Google Forms to collect feedback and
+      expectations from international exchange participants and student applicants.
+    - Participated in cross-cultural communication routines, exchange participant
+      onboarding, and teamwork with students from multiple countries.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id008
     stack:
@@ -280,7 +285,7 @@
 - title: Projects & Research
   type: time_table
   contents:
-  - title: FieldCopilot — Field Research Logistics, Routing & Spatial Quota Engine
+  - title: 'FieldCopilot: Field Research Logistics, Routing & Spatial Quota Engine'
     institution: Instituto de Pesquisa de Opinião e Inteligência de Mercado
     year: 2025 - 2026
     description:
@@ -312,22 +317,22 @@
     - OR-Tools
     documentation_url: ''
     jekyll_slug: FieldCopilot
-  - title: PerGo — Open-Source Omnichannel CPaaS Platform in Go & NATS JetStream
+  - title: 'PerGo: Open-Source Omnichannel CPaaS Platform in Go & NATS JetStream'
     institution: Projeto Autônomo / Open Source
     year: 2025 - Present
     description:
     - Self-hosted, open-source Omnichannel Communications Platform as a Service (CPaaS)
-      engineered in Go 1.25+ and Echo v5. Unifies message delivery across multiple
-      providers (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow, and Telegram) under
-      a single REST payload, powered by NATS JetStream durable queuing, automatic
-      backpressure, and a reactive dashboard with a-h/templ and HTMX.
+      built in Go 1.25+ and Echo v5. Unifies message delivery across multiple providers
+      (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow, and Telegram) under a single
+      REST payload, with NATS JetStream durable queuing, automatic backpressure, and
+      a reactive dashboard in a-h/templ and HTMX.
     - <b>Stack:</b> Go, Echo v5, NATS JetStream, PostgreSQL, pgx/v5, a-h/templ, HTMX,
       Tailwind CSS, Docker, whatsmeow
     summary: Self-hosted, open-source Omnichannel Communications Platform as a Service
-      (CPaaS) engineered in Go 1.25+ and Echo v5. Unifies message delivery across
-      multiple providers (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow, and Telegram)
-      under a single REST payload, powered by NATS JetStream durable queuing, automatic
-      backpressure, and a reactive dashboard with a-h/templ and HTMX.
+      (CPaaS) built in Go 1.25+ and Echo v5. Unifies message delivery across multiple
+      providers (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow, and Telegram) under
+      a single REST payload, with NATS JetStream durable queuing, automatic backpressure,
+      and a reactive dashboard in a-h/templ and HTMX.
     category: Data Engineering
     status: public
     stack:
@@ -343,21 +348,21 @@
     - whatsmeow
     documentation_url: ''
     jekyll_slug: PerGo
-  - title: agp-media — Unified Media Transcription, OCR & Qualitative NLP Toolkit
+  - title: 'agp-media: Unified Media Transcription, OCR & Qualitative NLP Toolkit'
     institution: Instituto de Pesquisas Aplicadas & Inteligência de Campo
     year: 2025 - 2026
     description:
-    - Modular command-line toolkit (CLI) engineered to streamline field research workflows.
-      Handles media conversion, audio transcription with multi-speaker diarization
-      (Whisper, Gemini, Google STT), document OCR, and qualitative AI sentiment profiling
-      into structured canonical JSON.
+    - Modular command-line toolkit (CLI) built to process focus groups, in-depth interviews,
+      and field survey data. Handles media conversion, audio transcription with multi-speaker
+      diarization (Whisper, Gemini, Google STT), physical form OCR, and qualitative
+      sentiment analysis into structured canonical JSON.
     - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
       Pydantic, FFmpeg, CLI / Typer
     - <em>[Sanitized Public Specification]</em>
-    summary: Modular command-line toolkit (CLI) engineered to streamline field research
-      workflows. Handles media conversion, audio transcription with multi-speaker
-      diarization (Whisper, Gemini, Google STT), document OCR, and qualitative AI
-      sentiment profiling into structured canonical JSON.
+    summary: Modular command-line toolkit (CLI) built to process focus groups, in-depth
+      interviews, and field survey data. Handles media conversion, audio transcription
+      with multi-speaker diarization (Whisper, Gemini, Google STT), physical form
+      OCR, and qualitative sentiment analysis into structured canonical JSON.
     category: Data Engineering
     status: proprietary_sanitized
     stack:
@@ -372,22 +377,20 @@
     - CLI / Typer
     documentation_url: ''
     jekyll_slug: agp_media
-  - title: Ecoar AI — AI-Powered Qualitative Research & Interview Platform with Ent
-      ORM & pgvector
+  - title: 'Ecoar AI: Qualitative Research & Interview Platform with Ent ORM & pgvector'
     institution: Projeto Autônomo / Pesquisa Aplicada
     year: 2025 - Present
     description:
-    - AI-powered qualitative research platform engineered in Go for conducting automated
-      user interviews and thematic transcript analysis. Features multi-tenant isolation
-      via Ent ORM and PostgreSQL RLS, semantic vector search using pgvector, flexible
-      LLM provider management (BYOK), and asynchronous session transcription pipelines.
+    - Qualitative research platform built in Go for conducting automated user interviews
+      and thematic transcript analysis. Features multi-tenant isolation via Ent ORM
+      and PostgreSQL RLS, semantic vector search using pgvector, flexible LLM provider
+      management (BYOK), and asynchronous session transcription pipelines.
     - <b>Stack:</b> Go, Ent ORM, PostgreSQL, pgvector, Docker, TypeScript, React,
       Tailwind CSS, OpenAI API, Gemini API
-    summary: AI-powered qualitative research platform engineered in Go for conducting
-      automated user interviews and thematic transcript analysis. Features multi-tenant
-      isolation via Ent ORM and PostgreSQL RLS, semantic vector search using pgvector,
-      flexible LLM provider management (BYOK), and asynchronous session transcription
-      pipelines.
+    summary: Qualitative research platform built in Go for conducting automated user
+      interviews and thematic transcript analysis. Features multi-tenant isolation
+      via Ent ORM and PostgreSQL RLS, semantic vector search using pgvector, flexible
+      LLM provider management (BYOK), and asynchronous session transcription pipelines.
     category: Data Science
     status: public
     stack:
@@ -423,7 +426,7 @@
     - Google Looker Studio
     documentation_url: ''
     jekyll_slug: FinPlanning
-  - title: LongandShortR — Statistical Arbitrage & Cointegration Engine on B3 in R
+  - title: 'LongandShortR: Statistical Arbitrage & Cointegration Engine on B3 in R'
     institution: Meta & Actio Investimentos
     year: 2017 - 2020
     description:
@@ -478,17 +481,16 @@
     institution: UFF / MESC
     year: 2026 - Present
     description:
-    - Professional master's thesis developing exact Mixed-Integer Quadratic Programming
-      (MIQP) and Mixed-Integer Linear Programming (MILP) formulations incorporating
-      linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation of statistical
-      arbitrage equity portfolios on B3 while factoring in transaction costs, borrowing
-      fees, and cardinality constraints.
+    - Professional master's thesis formulating exact Mixed-Integer Quadratic Programming
+      (MIQP) and Mixed-Integer Linear Programming (MILP) models with linearized Conditional
+      Value-at-Risk (CVaR). Models dynamic allocation of statistical arbitrage equity
+      portfolios on B3 with transaction costs, borrowing fees, and cardinality constraints.
     - <b>Stack:</b> Python, Gurobi, Pyomo, SciPy, R, LaTeX
-    summary: Professional master's thesis developing exact Mixed-Integer Quadratic
-      Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formulations
-      incorporating linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation
-      of statistical arbitrage equity portfolios on B3 while factoring in transaction
-      costs, borrowing fees, and cardinality constraints.
+    summary: Professional master's thesis formulating exact Mixed-Integer Quadratic
+      Programming (MIQP) and Mixed-Integer Linear Programming (MILP) models with linearized
+      Conditional Value-at-Risk (CVaR). Models dynamic allocation of statistical arbitrage
+      equity portfolios on B3 with transaction costs, borrowing fees, and cardinality
+      constraints.
     category: Quantitative Finance
     status: public
     stack:
@@ -651,13 +653,25 @@
     - name: Engenharia de Prompt e Aplicação de LLMs
       level: ''
       details: ''
-  - title: Business Intelligence, Analytics & Data Visualization
+  - title: Market Research, Analytics & Business Intelligence
     items:
+    - <b>Pesquisa de Mercado Quali-Quanti e Opinião Pública (Surveys, Grupos de Discussão,
+      Entrevistas em Profundidade)</b>
+    - <b>Desenho Amostral, Ponderação Demográfica e Análise de Microdados (PNAD, Censo,
+      Rais)</b>
     - '<b>Microsoft Power BI</b>: DAX, Power Query, Modelagem Dimensional Star Schema'
     - <b>Google Looker Studio</b>
     - <b>Microsoft Excel Avançado / VBA</b>
     - <b>Visualização de Dados Científica e Executiva</b>
     skills:
+    - name: Pesquisa de Mercado Quali-Quanti e Opinião Pública (Surveys, Grupos de
+        Discussão, Entrevistas em Profundidade)
+      level: ''
+      details: ''
+    - name: Desenho Amostral, Ponderação Demográfica e Análise de Microdados (PNAD,
+        Censo, Rais)
+      level: ''
+      details: ''
     - name: Microsoft Power BI
       level: ''
       details: DAX, Power Query, Modelagem Dimensional Star Schema

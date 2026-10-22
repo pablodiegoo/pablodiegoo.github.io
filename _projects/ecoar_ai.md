@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Ecoar AI — AI-Powered Qualitative Research & Interview Platform with Ent ORM & pgvector"
-title_pt: "Ecoar AI — Plataforma Inteligente de Entrevistas Qualitativas e RAG com Ent ORM e pgvector"
+title: "Ecoar AI: Qualitative Research & Interview Platform with Ent ORM & pgvector"
+title_pt: "Ecoar AI: Plataforma de Entrevistas Qualitativas e RAG com Ent ORM e pgvector"
 page_id: "project_ecoar_ai"
-description: "AI-powered qualitative research platform engineered in Go for conducting automated user interviews and thematic transcript analysis. Feature..."
+description: "Qualitative research platform built in Go for conducting automated user interviews and thematic transcript analysis. Features multi-tenant i..."
 description_pt: "Plataforma de inteligência qualitativa e condução automatizada de entrevistas de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com..."
 img: assets/img/projects/ecoar_ai/thumbnail.png
 og_image: /assets/img/projects/ecoar_ai/thumbnail.png
@@ -33,7 +33,7 @@ mermaid:
 
 ## Visão Geral Executiva
 
-Plataforma de inteligência qualitativa e condução automatizada de entrevistas de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant rigoroso, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática de depoimentos.
+Plataforma de inteligência qualitativa e condução automatizada de entrevistas de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática de depoimentos.
 
 {% else %}
 **Organization / Context**: Projeto Autônomo / Pesquisa Aplicada  
@@ -45,7 +45,7 @@ Plataforma de inteligência qualitativa e condução automatizada de entrevistas
 
 ## Executive Overview
 
-AI-powered qualitative research platform engineered in Go for conducting automated user interviews and thematic transcript analysis. Features multi-tenant isolation via Ent ORM and PostgreSQL RLS, semantic vector search using pgvector, flexible LLM provider management (BYOK), and asynchronous session transcription pipelines.
+Qualitative research platform built in Go for conducting automated user interviews and thematic transcript analysis. Features multi-tenant isolation via Ent ORM and PostgreSQL RLS, semantic vector search using pgvector, flexible LLM provider management (BYOK), and asynchronous session transcription pipelines.
 
 {% endif %}
 
@@ -73,15 +73,15 @@ flowchart TD
 {% if site.active_lang == 'pt-br' %}
 ## Destaques de Engenharia
 
-- **Isolamento Multi-Tenant Rigoroso: Arquitetura em três camadas (Middleware HTTP, Ent Privacy e Row-Level Security no PostgreSQL) garantindo segregação total de workspaces entre agências.**
-- **Busca Semântica com pgvector: Indexação de embeddings vetoriais de trechos de entrevistas para recuperação semântica imediata e agrupamento temático de respostas.**
+- **Isolamento Multi-Tenant: Arquitetura em três camadas (Middleware HTTP, Ent Privacy e Row-Level Security no PostgreSQL) para segregação total de workspaces entre agências.**
+- **Busca Semântica com pgvector: Indexação de embeddings vetoriais de trechos de entrevistas para recuperação semântica e agrupamento temático de respostas.**
 - **Padrão BYOK e Presets de Provedores: Gerenciamento desacoplado de chaves de API com fallbacks e suporte configurável a múltiplos modelos de linguagem.**
 
 {% else %}
 ## Key Engineering Highlights
 
-- **Three-Layer Tenant Isolation: Strict multi-tenancy enforced across HTTP middleware, Ent Privacy policies, and PostgreSQL Row-Level Security.**
-- **Semantic Search with pgvector: Vector embeddings indexing interview excerpt transcripts for instantaneous semantic retrieval and thematic clustering.**
-- **BYOK Architecture: Secure agency-level API key management with automated fallback and pluggable LLM provider presets.**
+- **Three-Layer Tenant Isolation: Multi-tenancy enforced across HTTP middleware, Ent Privacy policies, and PostgreSQL Row-Level Security.**
+- **Semantic Search with pgvector: Vector embeddings indexing interview transcript excerpts for semantic retrieval and thematic clustering.**
+- **BYOK Architecture: Agency-level API key management with automated fallback and pluggable LLM provider presets.**
 
 {% endif %}

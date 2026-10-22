@@ -50,11 +50,24 @@
       pt: Cientista de Dados e Pesquisador Operacional
       en: Data Scientist & Operations Research Specialist
     description:
-      pt: Modelagem matemática, otimização combinatória, algoritmos e aprendizado
-        de máquina aplicados a sistemas complexos e mercado de capitais.
-      en: Mathematical modeling, combinatorial optimization, algorithms, and machine
-        learning applied to complex systems and capital markets.
+      pt: Modelagem matemática, otimização combinatória, pesquisa de mercado quali-quanti
+        e aprendizado de máquina aplicados a sistemas complexos, opinião pública e
+        mercado de capitais.
+      en: Mathematical modeling, combinatorial optimization, qual-quant market research,
+        and machine learning applied to complex systems, public opinion, and capital
+        markets.
     occupationalCategory: 15-2051.00
+  - '@type': Occupation
+    name:
+      pt: Analista de Pesquisa e Inteligência de Mercado
+      en: Market Research & Intelligence Analyst
+    description:
+      pt: Pesquisa de mercado qualitativa e quantitativa (grupos de discussão, entrevistas
+        em profundidade e surveys), estudos eleitorais e automação de operações de
+        coleta de dados.
+      en: Qualitative and quantitative market research (focus groups, in-depth interviews,
+        and surveys), electoral studies, and data collection operations automation.
+    occupationalCategory: 13-1161.00
   hasCredential:
   - '@type': EducationalOccupationalCredential
     credentialCategory: regulatory_license
@@ -181,6 +194,14 @@
   - '@id': https://www.wikidata.org/wiki/Q2539
     name: Machine learning
     name_pt: Aprendizado de máquina
+    category: operations_research_data_science
+  - '@id': https://www.wikidata.org/wiki/Q1340793
+    name: Market research
+    name_pt: Pesquisa de mercado
+    category: operations_research_data_science
+  - '@id': https://www.wikidata.org/wiki/Q49957
+    name: Opinion poll
+    name_pt: Pesquisa de opinião
     category: operations_research_data_science
 - '@type': FinancialService
   '@id': https://pablodiegoo.github.io/#financial-service

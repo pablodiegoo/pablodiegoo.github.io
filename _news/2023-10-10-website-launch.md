@@ -6,10 +6,8 @@ inline: true
 related_posts: false
 ---
 
-Started this website/portifolio!
-
 {% if site.active_lang == "pt-br" %}
-Criei esse website/portifolio!
+Lançamento deste website e portfólio acadêmico e profissional.
 {% else %}
-Started this website/portifolio!
+Launched this academic and professional website and portfolio.
 {% endif %}

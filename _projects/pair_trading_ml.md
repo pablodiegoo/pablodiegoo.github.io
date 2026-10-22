@@ -72,16 +72,16 @@ flowchart TD
 
 - **Publicação em Periódico Científico: Artigo revisado por pares publicado na Revista Estratégias e Soluções (Rev. E&S, ISSN 2675-6528, DOI: 10.22167/2675-6528-202602302) com acesso aberto e validação empírica walk-forward.**
 - **Modelagem Empírica Rigorosa: Análise comparativa entre métodos econométricos paramétricos (ADF, Engle-Granger) e pipeline de Machine Learning (PCA + DBSCAN).**
-- **Simulação de Carteiras: Backtesting robusto em dados históricos com retorno acumulado de 202,48%, índice de Sharpe de 0,85 e volatilidade anualizada de 4,29%, superando o CDI no período.**
-- **Aprovação Acadêmica: Defesa homologada com distinção pela banca examinadora da USP/ESALQ.**
+- **Simulação de Carteiras: Backtesting em dados históricos com retorno acumulado de 202,48%, índice de Sharpe de 0,85 e volatilidade anualizada de 4,29%, acima do CDI no período.**
+- **Aprovação Acadêmica: Defesa homologada pela banca examinadora da USP/ESALQ.**
 
 {% else %}
 ## Key Engineering Highlights
 
 - **Peer-Reviewed Journal Publication: Research article published in Revista Estratégias e Soluções (Rev. E&S, ISSN 2675-6528, DOI: 10.22167/2675-6528-202602302) with open access and walk-forward empirical validation.**
 - **Rigorous Empirical Benchmark: Comparative analysis between classical econometric cointegration models and Machine Learning pipelines (PCA + DBSCAN).**
-- **Portfolio Backtesting: Realistic backtesting on B3 equities yielding 202.48% cumulative return, 0.85 Sharpe ratio, and 4.29% annualized volatility, outperforming the benchmark.**
-- **Academic Defense: Successfully defended before the USP/ESALQ examination board.**
+- **Portfolio Backtesting: Historical backtesting on B3 equities with 202.48% cumulative return, 0.85 Sharpe ratio, and 4.29% annualized volatility, above the benchmark.**
+- **Academic Defense: Approved by the USP/ESALQ examination board.**
 
 {% endif %}
 

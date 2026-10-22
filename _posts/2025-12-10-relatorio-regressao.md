@@ -2,7 +2,7 @@
 layout: post
 title: "Modelagem Econométrica de Desaprovação Governamental"
 date: 2025-12-10 12:00:00
-description: "Modelagem econométrica e regressão logística multivariada mensurando os determinantes empíricos e odds ratios da desaprovação política a partir de microdados amostrais domiciliares."
+description: "Modelagem econométrica e regressão logística multivariada para mensurar os determinantes empíricos e odds ratios da desaprovação política a partir de microdados amostrais domiciliares."
 tags: [data-science, econometria, regressao, machine-learning, pesquisa-opiniao]
 categories: [estudos, relatorios]
 author: "Pablo Diego Pereira"
@@ -40,7 +40,7 @@ $$\ln\left(\frac{P(Y=1)}{1 - P(Y=1)}\right) = \beta_0 + \sum_{k=1}^K \beta_k X_k
 Em que:
 - $P(Y=1)$ representa a probabilidade estimada de desaprovação;
 - A razão $\frac{P(Y=1)}{1 - P(Y=1)}$ representa as chances relativas (*odds*) do evento;
-- $\exp(\beta_k)$ denota a **Razão de Chances (*Odds Ratio* - OR)** associada à covariável $X_k$, controlando pelos demais fatores.
+- $\exp(\beta_k)$ denota a **Razão de Chances (*Odds Ratio* - OR)** associada à covariável $X_k$ após controle pelos demais fatores.
 
 ### 2.1. Desempenho e Validação Estatística do Modelo
 
@@ -50,7 +50,7 @@ O modelo treinado apresentou estabilidade estatística consistente em partição
 - **Acurácia em Partição de Treino:** 91,13%
 - **Área sob a Curva ROC (AUC-ROC):** 0,789
 
-Tal patamar de AUC-ROC (próximo a 0,80) demonstra capacidade discriminativa sólida entre eleitores propensos a desaprovar e eleitores alinhados à gestão, superando amplamente classificadores ingênuos baseados em intenção espontânea de voto.
+Tal patamar de AUC-ROC (próximo a 0,80) demonstra capacidade discriminativa sólida entre eleitores propensos a desaprovar e eleitores alinhados à gestão, acima de classificadores ingênuos baseados em intenção espontânea de voto.
 
 ---
 
@@ -87,7 +87,7 @@ A interpretação econométrica dos parâmetros evidencia quatro dinâmicas estr
 ### 4.1. Segurança Pública como Gatilho Crítico de Ruptura (OR = 2,20)
 A avaliação negativa da segurança pública desponta como o principal catalisador de rejeição. Eleitores que classificam a segurança municipal como ruim ou péssima possuem **120,1% a mais de chances (OR = 2,20)** de desaprovar o governo como um todo. 
 
-A segurança opera como um bem de integridade física. Quando o sentimento de vulnerabilidade se instala no interior, o cidadão atribui a deterioração da ordem diretamente à inação da gestão executiva, anulando eventuais entregas em outras áreas.
+A segurança opera como um bem de integridade física. Quando o sentimento de vulnerabilidade se instala no interior, o cidadão atribui a deterioração da ordem diretamente à inação da gestão executiva e anula eventuais entregas em outras áreas.
 
 ### 4.2. A Fricção das Estradas e Vias Vicinais (OR = 1,72)
 A malha viária assume peso desproporcional (+72,4% de chances de desaprovação). Em cidades de relevo acidentado e distritos rurais dispersos, o estado das estradas determina o escoamento agrícola, o transporte escolar e o acesso à saúde. Buracos e pontes precárias não são percebidos como mero desconforto estético; representam perda econômica direta para os moradores.
@@ -113,7 +113,7 @@ A visualização dos coeficientes e da matriz de classificação comprova o pode
 
 ### Matriz de Confusão em Partição de Teste
 ![Matriz de Confusão do Modelo](/assets/img/posts/relatorio-regressao/matriz_confusao.png)
-*Figura 2: Matriz de confusão comprovando taxa de acerto balanceada entre aprovação e desaprovação.*
+*Figura 2: Matriz de confusão com taxa de acerto balanceada entre aprovação e desaprovação.*
 
 ---
 

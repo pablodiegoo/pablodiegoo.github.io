@@ -7,7 +7,7 @@ certificate_id: 2023-10-17-datavisualization-fcc
 ---
 
 {% if site.active_lang == "pt-br" %}
-Certificação Developer em Data Visualization (300h) pelo freeCodeCamp, cobrindo D3.js, APIs JSON e arquiteturas visuais interativas.
+Certificação Developer em Data Visualization (300h) pelo freeCodeCamp, com foco em D3.js, APIs JSON e arquiteturas visuais interativas.
 {% else %}
-Earned the Data Visualization Developer Certification (300h) from freeCodeCamp, mastering D3.js, JSON APIs, and interactive visualization architectures.
+Earned the Data Visualization Developer Certification (300h) from freeCodeCamp, focused on D3.js, JSON APIs, and interactive visualization architectures.
 {% endif %}

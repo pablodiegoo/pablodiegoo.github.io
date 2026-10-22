@@ -27,7 +27,7 @@ mermaid:
 
 O planejamento de políticas públicas de turismo e a atração de investimentos em infraestrutura dependem criticamente da precisão cartográfica e cadastral dos equipamentos receptivos. Em estados com vasta extensão territorial e acentuadas assimetrias intrarregionais, como Pernambuco, os inventários tradicionais frequentemente padecem de três vícios crônicos: obsolescência de registros físicos, divergência de limites municipais em áreas rurais e duplicidades cadastrais causadas por grafias imprecisas.
 
-Para superar tais limitações, este trabalho estruturou e executou as Etapas 1 (Levantamento e Coleta) e 2 (Consolidação e Diagnóstico) do Inventário Turístico de Pernambuco, com foco inicial em 31 municípios do semiárido e sertão pernambucano, abrangendo quatro regiões turísticas estratégicas: Sertão do Araripe, Sertão do Moxotó, Sertão de Itaparica e Sertão do São Francisco.
+Para superar tais limitações, este trabalho estruturou e executou as Etapas 1 (Levantamento e Coleta) e 2 (Consolidação e Diagnóstico) do Inventário Turístico de Pernambuco, com foco inicial em 31 municípios do semiárido e sertão pernambucano distribuídos em quatro regiões turísticas estratégicas: Sertão do Araripe, Sertão do Moxotó, Sertão de Itaparica e Sertão do São Francisco.
 
 O objetivo central consistiu em estabelecer uma esteira reproduzível de extração de pontos de interesse (*POIs*), validação topológica contra limites censitários oficiais e classificação analítica de maturidade e relevância econômica para subsidiar as futuras inspeções *in loco*.
 
@@ -99,7 +99,7 @@ A Tabela 2 apresenta as principais categorias de serviços e atrativos validados
 
 ### 3.3. Avaliação Percebida dos Usuários (Google Rating)
 
-A nota média das avaliações públicas permite estimar a percepção de qualidade atribuída pelos visitantes aos equipamentos locais, revelando um patamar consistente em todas as regiões:
+A nota média das avaliações públicas permite estimar a percepção de qualidade atribuída pelos visitantes aos equipamentos locais e indica um patamar consistente em todas as regiões:
 
 | Região Turística | Média Google Rating (0 a 5) | Desvio Padrão Estimado |
 | :--- | :---: | :---: |
@@ -182,6 +182,6 @@ Cada um dos 31 municípios contou com um caderno cartográfico e analítico dedi
 
 A conclusão da Etapa 2 estabelece as condições operacionais para a mobilização das equipes de campo. Recomenda-se a adoção de três prioridades:
 
-1. **Roteirização Focada nos 63 Atrativos de Alta Relevância:** Concentrar os esforços iniciais de vistoria presencial nos equipamentos-âncora, validando horários de funcionamento, tarifas, acessibilidade física e capacidade de recepção.
+1. **Roteirização Focada nos 63 Atrativos de Alta Relevância:** Concentrar os esforços iniciais de vistoria presencial nos equipamentos-âncora para validar horários de funcionamento, tarifas, acessibilidade física e capacidade de recepção.
 2. **Saneamento Ativo dos Vazios Cadastrais:** Em municípios com menos de 20 pontos identificados via satélite e web, conduzir entrevistas estruturadas junto a secretarias municipais de turismo e lideranças de associações comerciais.
 3. **Padronização do Acervo Fotográfico e Cadastral:** Registrar coordenadas diferenciais via GPS de mão para atualizar a malha estadual e alimentar diretamente a plataforma oficial de dados turísticos de Pernambuco.

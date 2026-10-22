@@ -3,8 +3,8 @@ layout: page
 title: "Combinatorial Optimization under Cardinality Constraints and Real Market Frictions on B3"
 title_pt: "Otimização Combinatória sob Restrições de Cardinalidade e Fricções na B3"
 page_id: "project_mesc_optimization"
-description: "Professional master's thesis developing exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formula..."
-description_pt: "Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Linea..."
+description: "Professional master's thesis formulating exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) models..."
+description_pt: "Pesquisa de mestrado profissional stricto sensu que formula modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Line..."
 img: assets/img/projects/mesc_optimization/thumbnail.png
 og_image: /assets/img/projects/mesc_optimization/thumbnail.png
 importance: 1
@@ -33,7 +33,7 @@ mermaid:
 
 ## Visão Geral Executiva
 
-Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Linear Inteira Mista (MILP) com minimização de Conditional Value-at-Risk (CVaR) linearizado. O modelo busca a alocação dinâmica de portfólios ótimos de arbitragem estatística na B3, incorporando custos de transação, slippage, taxas de aluguel e restrições de cardinalidade.
+Pesquisa de mestrado profissional stricto sensu que formula modelos exatos de Programação Quadrática Inteira Mista (MIQP) e Programação Linear Inteira Mista (MILP) com minimização de Conditional Value-at-Risk (CVaR) linearizado. O modelo busca a alocação dinâmica de portfólios ótimos de arbitragem estatística na B3 e incorpora custos de transação, slippage, taxas de aluguel e restrições de cardinalidade.
 
 {% else %}
 **Organization / Context**: UFF / MESC  
@@ -45,7 +45,7 @@ Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de Pro
 
 ## Executive Overview
 
-Professional master's thesis developing exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) formulations incorporating linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation of statistical arbitrage equity portfolios on B3 while factoring in transaction costs, borrowing fees, and cardinality constraints.
+Professional master's thesis formulating exact Mixed-Integer Quadratic Programming (MIQP) and Mixed-Integer Linear Programming (MILP) models with linearized Conditional Value-at-Risk (CVaR). Models dynamic allocation of statistical arbitrage equity portfolios on B3 with transaction costs, borrowing fees, and cardinality constraints.
 
 {% endif %}
 

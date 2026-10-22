@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "PerGo — Open-Source Omnichannel CPaaS Platform in Go & NATS JetStream"
-title_pt: "PerGo — Plataforma CPaaS Omnichannel Aberta em Go e NATS JetStream"
+title: "PerGo: Open-Source Omnichannel CPaaS Platform in Go & NATS JetStream"
+title_pt: "PerGo: Plataforma CPaaS Omnichannel Aberta em Go e NATS JetStream"
 page_id: "project_PerGo"
-description: "Self-hosted, open-source Omnichannel Communications Platform as a Service (CPaaS) engineered in Go 1.25+ and Echo v5. Unifies message delive..."
-description_pt: "Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em Go 1.25+ e Echo v5. Unifica o envio de mensagens através de múlt..."
+description: "Self-hosted, open-source Omnichannel Communications Platform as a Service (CPaaS) built in Go 1.25+ and Echo v5. Unifies message delivery ac..."
+description_pt: "Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em Go 1.25+ e Echo v5. Unifica o envio de mensagens entre múltiplos..."
 img: assets/img/projects/PerGo/thumbnail.png
 og_image: /assets/img/projects/PerGo/thumbnail.png
 importance: 1
@@ -35,7 +35,7 @@ mermaid:
 
 ## Visão Geral Executiva
 
-Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em Go 1.25+ e Echo v5. Unifica o envio de mensagens através de múltiplos provedores (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow e Telegram) sob um payload REST padronizado, gerenciando filas resilientes com NATS JetStream, backpressure automático e dashboard reativo com a-h/templ e HTMX.
+Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em Go 1.25+ e Echo v5. Unifica o envio de mensagens entre múltiplos provedores (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow e Telegram) sob um payload REST padronizado, com filas persistentes em NATS JetStream, backpressure automático e dashboard reativo em a-h/templ e HTMX.
 
 {% else %}
 **Organization / Context**: Projeto Autônomo / Open Source  
@@ -47,7 +47,7 @@ Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em Go
 
 ## Executive Overview
 
-Self-hosted, open-source Omnichannel Communications Platform as a Service (CPaaS) engineered in Go 1.25+ and Echo v5. Unifies message delivery across multiple providers (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow, and Telegram) under a single REST payload, powered by NATS JetStream durable queuing, automatic backpressure, and a reactive dashboard with a-h/templ and HTMX.
+Self-hosted, open-source Omnichannel Communications Platform as a Service (CPaaS) built in Go 1.25+ and Echo v5. Unifies message delivery across multiple providers (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow, and Telegram) under a single REST payload, with NATS JetStream durable queuing, automatic backpressure, and a reactive dashboard in a-h/templ and HTMX.
 
 {% endif %}
 
@@ -77,16 +77,16 @@ flowchart TD
 {% if site.active_lang == 'pt-br' %}
 ## Destaques de Engenharia
 
-- **Payload REST Unificado: Endpoint único (POST /api/v1/messages) abstraindo a complexidade de roteamento e fallback automático entre WABA, WhatsApp Web e Telegram.**
-- **Mensageria Resiliente com JetStream: Fila persistente e desacoplada em NATS JetStream com controle de backpressure (limite de 1.000 mensagens por sessão).**
-- **Interface Reativa SSR: Painel administrativo de alta performance renderizado via templates tipados em Go (a-h/templ) e interações dinâmicas via HTMX sem overhead de SPA.**
+- **Payload REST Unificado: Endpoint único (POST /api/v1/messages) para roteamento e fallback automático entre WABA, WhatsApp Web e Telegram.**
+- **Mensageria com JetStream: Fila persistente e desacoplada em NATS JetStream com controle de backpressure (limite de 1.000 mensagens por sessão).**
+- **Interface Reativa SSR: Painel administrativo renderizado via templates tipados em Go (a-h/templ) e interações dinâmicas via HTMX sem overhead de SPA.**
 
 {% else %}
 ## Key Engineering Highlights
 
-- **Unified REST Payload: Single endpoint (POST /api/v1/messages) abstracting multi-channel routing and automated fallback across WABA, WhatsApp Web, and Telegram.**
-- **Resilient Messaging with JetStream: Durable, decoupled message broker on NATS JetStream enforcing queue backpressure limits (1,000 messages/session).**
-- **Reactive SSR Dashboard: High-performance admin console compiled at build time with a-h/templ and dynamic server-driven HTMX interactions without SPA overhead.**
+- **Unified REST Payload: Single endpoint (POST /api/v1/messages) for multi-channel routing and automated fallback across WABA, WhatsApp Web, and Telegram.**
+- **JetStream Queuing: Durable, decoupled message broker on NATS JetStream with queue backpressure limits (1,000 messages/session).**
+- **Reactive SSR Dashboard: Admin console compiled at build time with a-h/templ and server-driven HTMX interactions without SPA overhead.**
 
 {% endif %}
 

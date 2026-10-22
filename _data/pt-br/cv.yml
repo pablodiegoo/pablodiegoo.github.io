@@ -98,17 +98,17 @@
     year: Jun 2020 - Presente
     description: &id001
     - Supervisão direta da área de controles internos, compliance e governança regulatória
-      perante normas da CVM (Resoluções 16 e 178), ANBIMA e Banco Central.
-    - Aplicação de métodos econométricos e modelagem estatística de séries temporais
-      em Python e R para projeção de risco (VaR, Drawdown) e retorno esperado.
-    - Consultoria patrimonial consultiva para investidores pessoa física alta renda
-      e institucionais, estruturando alocações personalizadas e planejamento sucessório.
-    - Concepção e sustentação de relatórios executivos e painéis interativos de análise
-      de carteira desenvolvidos em Power BI, Google Looker Studio e Excel avançado.
-    - Monitoramento diário de tendências macroeconômicas (Selic, IPCA, câmbio) e relatórios
-      de research para suporte a decisões táticas de rebalanceamento.
-    - Estruturação de recomendações personalizadas em renda fixa, crédito privado
-      incentivado, ações B3, fundos de investimento, operações de câmbio e seguros.
+      sob as normas da CVM (Resoluções 16 e 178), ANBIMA e Banco Central.
+    - Modelagem econométrica e estatística de séries temporais em Python e R para
+      projeção de risco (VaR, Drawdown) e retorno esperado das carteiras.
+    - Assessoria patrimonial para investidores de alta renda e pessoas jurídicas,
+      com alocações personalizadas, otimização tributária e planejamento sucessório.
+    - Desenvolvimento e manutenção de relatórios executivos e painéis de acompanhamento
+      de carteira em Power BI, Google Looker Studio e Excel avançado.
+    - Acompanhamento diário de indicadores macroeconômicos (Selic, IPCA, câmbio) e
+      relatórios de research para calibrar o rebalanceamento tático de carteiras.
+    - Estruturação de carteiras em renda fixa, crédito privado isento, ações na B3,
+      fundos de investimento, operações de câmbio e proteção patrimonial.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id001
     stack:
@@ -117,59 +117,62 @@
     - Power BI
     - Compliance CVM/ANBIMA
     - Alocação de Ativos
-  - title: Analista de Dados & Insights
+  - title: Analista de Pesquisa e Inteligência de Mercado
     institution: Ágora Pesquisa (NKIN Consultoria e Marketing)
     year: Abr 2025 - Ago 2026
     description: &id002
-    - Otimização de esteiras analíticas e fluxos de pesquisa de mercado, atingindo
-      incremento de <strong class="font-semibold text-slate-900 dark:text-slate-100">65%</strong>
-      na margem operacional com trade-off mínimo de custos.
-    - Liderança técnica e concepção arquitetural da plataforma analítica Project Aporia
-      e do toolkit agp-media para processamento multimodal.
-    - Automação e processamento de sondagem com mais de <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">28.000</strong> respondentes (<strong class="font-semibold
-      text-slate-900 dark:text-slate-100">92,3%</strong> via robô de WhatsApp e Typebot),
-      gerando relatórios dinâmicos de inteligência.
-    - Construção e sustentação de pipelines automatizados de ingestão via Meta API
-      (WhatsApp), reduzindo em <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>
-      o esforço operacional de tabulação.
-    - Desenvolvimento do toolkit modular agp-media em Python para compressão de áudio,
-      transcrição com diarização de múltiplos interlocutores e OCR de formulários.
+    - Condução de pesquisas de mercado e estudos eleitorais (grupos de discussão,
+      entrevistas em profundidade e surveys), da análise à apresentação ao cliente.
+    - Reestruturação do recrutamento para grupos de discussão e dos fluxos de coleta
+      (matrizes Likert e janelas de envio), com ganho de <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">65%</strong> na margem operacional.
+    - Automação da coleta e tabulação via Meta API (WhatsApp) e Typebot para mais
+      de <strong class="font-semibold text-slate-900 dark:text-slate-100">28.000</strong>
+      respondentes (<strong class="font-semibold text-slate-900 dark:text-slate-100">92,3%</strong>
+      via robô), com redução de <strong class="font-semibold text-slate-900 dark:text-slate-100">90%</strong>
+      no esforço manual.
+    - Arquitetura da plataforma Project Aporia e criação de utilitários em Python
+      (agp-media e limpeza de bases) para transcrição, diarização e OCR da equipe.
+    - Elaboração de relatórios técnicos e apresentação direta de resultados e diagnósticos
+      para clientes públicos (Saquarema, Maricá, EMPETUR) e privados (Sebrae-SP).
+    - Modelagem estatística e econométrica em Python, R e SQL sobre microdados amostrais
+      (regressão e Random Forest com <strong class="font-semibold text-slate-900 dark:text-slate-100">86,5%</strong>
+      de acurácia) em estudos de opinião.
+    - Análise qualitativa de grupos de discussão e entrevistas em profundidade, com
+      estruturação de roteiros, matrizes de co-ocorrência temática e sínteses com
+      IA.
+    - Estruturação de bancos de dados relacionais (PostgreSQL e SQLite) e pipelines
+      ETL em SQL e Python para apuração contínua de indicadores de satisfação (NPS
+      e CSAT).
     - Especificação funcional e arquitetura técnica de discador corporativo CATI com
-      fila assíncrona em Redis, PostgreSQL e armazenamento em nuvem.
-    - Condução de análises quantitativas avançadas em Python e SQL sobre bases relacionais
-      complexas em paralelo a estudos qualitativos de comportamento do consumidor.
-    - Elaboração e entrega de relatórios técnicos de inteligência de mercado para
-      clientes institucionais públicos (Prefeituras de Saquarema e Maricá, EMPETUR)
-      e privados (Sebrae-SP).
-    - Estruturação de bancos de dados relacionais e pipelines ETL em SQL e Python
-      para apuração contínua de indicadores NPS e CSAT.
-    - Construção de esteira automatizada em Python com Google Places API e Gemini
-      para inventário turístico em Pernambuco, orquestrada em VMs no GCP e Docker.
+      fila assíncrona em Redis, PostgreSQL e gravação em nuvem S3 para pesquisa telefônica.
+    - Construção de rotina automatizada em Python com Google Places API e Gemini para
+      inventário turístico em Pernambuco, executada em máquinas virtuais no GCP e
+      Docker.
     location: Araruama, RJ, Brasil
     bullets: *id002
     stack:
-    - FastAPI
+    - Pesquisa Quali-Quanti
     - Python
-    - PostgreSQL
+    - SQL
     - Meta Graph API
-    - Uber H3
-    - Pandas
+    - Econometria
+    - Automação de Coleta
   - title: Gestor de Backoffice & Assessor de Investimentos (Sócio)
     institution: Meta & Actio Agente Autônomo de Investimentos
     year: Ago 2017 - Mai 2020
     description: &id003
-    - Desenvolvimento de ferramentas automatizadas em Excel/VBA para diagnóstico financeiro
-      e planejamento patrimonial, gerando economia tributária <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">>20%</strong> e expansão de <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">+100%</strong> em apólices.
-    - Concepção e implantação do algoritmo proprietário LongandShortR em linguagem
-      R para arbitragem estatística por cointegração na B3 (<strong class="font-semibold
-      text-slate-900 dark:text-slate-100">+100</strong> oportunidades/mês).
-    - Estruturação integral do departamento de backoffice a partir do zero, desenhando
-      manuais operacionais, rotinas de conciliação de custódia e esteiras de liquidação.
-    - Implementação de automações e controles de checagem cruzada para mitigação de
-      erros operacionais em boletas e liquidações, garantindo conformidade regulatória.
+    - Criação de ferramentas em Excel e VBA para diagnóstico financeiro e planejamento
+      patrimonial, com economia tributária acima de <strong class="font-semibold text-slate-900
+      dark:text-slate-100">20%</strong> e alta de <strong class="font-semibold text-slate-900
+      dark:text-slate-100">100%</strong> em apólices.
+    - Desenvolvimento e implantação do algoritmo LongandShortR em R para arbitragem
+      estatística por cointegração na B3, com <strong class="font-semibold text-slate-900
+      dark:text-slate-100">100+</strong> oportunidades mensais identificadas.
+    - Estruturação inicial do departamento de backoffice, com desenho de manuais operacionais,
+      rotinas de conciliação de custódia, liquidação e treinamento da equipe.
+    - Implantação de rotinas automatizadas de conferência cruzada para reduzir erros
+      operacionais em boletas e liquidações sob as regras das corretoras e reguladores.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id003
     stack:
@@ -182,23 +185,22 @@
     institution: Espaço Champs Elyseés
     year: Jan 2014 - Nov 2018
     description: &id004
-    - Renegociação estratégica de contratos de fornecimento e transição para terceirização
-      sob demanda, obtendo redução de <strong class="font-semibold text-slate-900
-      dark:text-slate-100">70%</strong> nas despesas fixas com pessoal.
-    - Desenvolvimento e implantação de fluxos automatizados de atendimento a leads
-      e agendamento, reduzindo em <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
-      o tempo de resposta e elevando em <strong class="font-semibold text-slate-900
-      dark:text-slate-100">30%</strong> a taxa de conversão.
-    - Construção integral da presença digital corporativa e SEO local, alcançando
-      o <strong class="font-semibold text-slate-900 dark:text-slate-100">1º lugar</strong>
-      nos resultados orgânicos de busca na Região dos Lagos sem mídia paga.
-    - Redesenho dos fluxos operacionais e da infraestrutura física do complexo, duplicando
-      (<strong class="font-semibold text-slate-900 dark:text-slate-100">+100%</strong>)
-      a capacidade da cozinha/buffet e expandindo em <strong class="font-semibold
-      text-slate-900 dark:text-slate-100">300%</strong> o setor de spa.
-    - Gestão executiva integral de operações, precificação de serviços, fluxo de caixa,
-      conformidade fiscal e coordenação logística de eventos presenciais de grande
-      porte.
+    - Renegociação de contratos com fornecedores e adoção de terceirização por demanda,
+      com redução de <strong class="font-semibold text-slate-900 dark:text-slate-100">70%</strong>
+      nas despesas fixas com folha de pagamento.
+    - Implantação de fluxos automatizados de atendimento comercial e agendamento de
+      visitas, com queda de <strong class="font-semibold text-slate-900 dark:text-slate-100">80%</strong>
+      no tempo de resposta e alta de <strong class="font-semibold text-slate-900 dark:text-slate-100">30%</strong>
+      na conversão.
+    - Construção da presença digital e estratégia de SEO local, até alcançar o <strong
+      class="font-semibold text-slate-900 dark:text-slate-100">1º lugar</strong> na
+      busca orgânica na Região dos Lagos sem investimento em mídia paga.
+    - Redesenho do layout e dos processos produtivos do complexo, com duplicação (<strong
+      class="font-semibold text-slate-900 dark:text-slate-100">+100%</strong>) da
+      capacidade de atendimento do buffet e expansão de <strong class="font-semibold
+      text-slate-900 dark:text-slate-100">300%</strong> no spa.
+    - Gestão direta de operações, precificação de cardápios, fluxo de caixa, obrigações
+      fiscais e logística de eventos presenciais.
     location: Rio de Janeiro / Araruama, RJ, Brasil
     bullets: *id004
     stack:
@@ -209,13 +211,12 @@
     institution: BX House
     year: Nov 2002 - Jan 2014
     description: &id005
-    - Planejamento e implantação de estratégias técnicas de SEO on-page e auditoria
-      de indexação, garantindo melhoria de posicionamento orgânico para clientes corporativos.
-    - Prestação contínua de consultoria em desenvolvimento web, implantação de servidores,
-      gerenciamento de zonas DNS e configuração de plataformas WordPress para PMEs.
-    - Assessoria estratégica em transição digital e marketing na web para empresas
-      regionais no Rio de Janeiro e Região dos Lagos, estabelecendo identidades corporativas
-      online.
+    - Implantação de rotinas de SEO on-page, sitemaps XML e auditoria de indexação
+      no Google Search Console para ampliar o tráfego orgânico de clientes.
+    - Consultoria em desenvolvimento web, configuração de servidores, gerenciamento
+      de zonas DNS e administração de sites em WordPress para pequenas e médias empresas.
+    - Assessoria em presença digital e estruturação de canais web para comércios e
+      prestadores de serviços no Rio de Janeiro e na Região dos Lagos.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id005
     stack:
@@ -226,19 +227,18 @@
     institution: Ayra Consultoria (Empresa Júnior IE/UFRJ)
     year: Jan 2012 - Ago 2012
     description: &id006
-    - Implantação e monitoramento de métricas de tráfego web e conversão com Google
-      Analytics, compilando relatórios periódicos de comportamento de visitantes.
-    - Condução de projetos de consultoria aplicada para clientes externos, realizando
-      pesquisas de mercado, dimensionamento de demanda e estruturação de campanhas
-      comerciais.
-    - Elaboração e execução do plano estratégico institucional de marketing da empresa
-      júnior, definindo posicionamento de mercado e proposta de valor dos serviços.
-    - Padronização da documentação interna e repositório corporativo com ferramentas
-      Google Suite, otimizando o compartilhamento de diagnósticos e propostas.
-    - Criação e diagramação visual de peças promocionais e materiais institucionais
-      de divulgação da consultoria júnior utilizando Corel Draw e Adobe Photoshop.
-    - Gerenciamento de canais de mídias sociais e curadoria de conteúdo para o blog
-      institucional em WordPress, aumentando a visibilidade dos serviços da consultoria.
+    - Implantação e acompanhamento de métricas de acesso e conversão com Google Analytics,
+      com geração de relatórios periódicos sobre o comportamento dos visitantes.
+    - Execução de projetos de consultoria para clientes externos, com pesquisa de
+      mercado, dimensionamento de público-alvo e desenho de campanhas de captação.
+    - Elaboração do plano de marketing institucional da empresa júnior, com definição
+      de posicionamento comercial e escopo de serviços frente a outras consultorias.
+    - Padronização de arquivos, relatórios de projetos e formulários de diagnóstico
+      comercial da equipe por meio do Google Suite (Docs, Sheets e Forms).
+    - Criação e diagramação de materiais gráficos e peças institucionais de divulgação
+      no Corel Draw e no Adobe Photoshop.
+    - Gestão das redes sociais e publicação de conteúdo no blog institucional em WordPress
+      para divulgação dos projetos da consultoria.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id006
     stack:
@@ -249,19 +249,16 @@
     year: Jun 2011 - Jul 2012
     description: &id007
     - Coautoria de resumo publicado nos anais da XXXIV JICTAC (2012) e apresentação
-      oral sobre elementos facilitadores e atitude empreendedora em TICs no Brasil.
-    - Pesquisa de campo e validação amostral com <strong class="font-semibold text-slate-900
-      dark:text-slate-100">76</strong> empresários e fundadores de startups de TIC,
-      recebendo agradecimento nominal no artigo internacional publicado no CONF-IRM
-      2012.
-    - Mapeamento setorial dos determinantes institucionais, linhas de financiamento
-      e políticas de fomento que afetam a criação e sobrevivência de startups de TIC
-      no Brasil.
-    - Higienização, tratamento de inconsistências e tabulação analítica da base bruta
-      de microdados, assegurando a integridade estatística das séries para inferência.
-    - Estruturação e execução de estratégias de captação de dados multicanal, combinando
-      formulários online, outreach em redes sociais e aplicação presencial em eventos
-      de tecnologia.
+      oral sobre determinantes da criação de negócios de TICs no Brasil.
+    - Pesquisa de campo e validação de amostra com <strong class="font-semibold text-slate-900
+      dark:text-slate-100">76</strong> fundadores de startups de TIC, trabalho creditado
+      nominalmente nos agradecimentos do artigo no CONF-IRM 2012.
+    - Levantamento de condicionantes institucionais, linhas de crédito e políticas
+      públicas voltadas à sobrevivência e expansão de empresas nascentes de tecnologia.
+    - Limpeza, remoção de inconsistências e tabulação da base bruta de respostas para
+      preparar as séries de microdados para análise estatística.
+    - Execução de coleta de dados multicanal com questionários online (Google Forms),
+      busca ativa em redes profissionais e entrevistas presenciais em feiras do setor.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id007
     stack:
@@ -273,16 +270,14 @@
     institution: AIESEC no Rio de Janeiro
     year: Mai 2010 - Fev 2012
     description: &id008
-    - Implantação pioneira de ferramentas em nuvem (Google Sheets e Google Docs) no
-      comitê local do Rio de Janeiro para gestão compartilhada de materiais e relatórios.
-    - Promoção universitária dos programas de intercâmbio social (Cidadão Global)
-      e corporativo (Talentos Globais), conduzindo estandes informativos e palestras
-      institucionais.
-    - Elaboração e aplicação de pesquisas estruturadas no Google Forms para aferição
-      de expectativas e feedback de intercambistas internacionais e candidatos universitários.
-    - Desenvolvimento de competências em negociação institucional, facilitação de
-      equipes e comunicação intercultural em ambiente corporativo global liderado
-      por jovens.
+    - Introdução de planilhas e documentos compartilhados em nuvem (Google Sheets
+      e Google Docs) no comitê do Rio de Janeiro para controle de campanhas e relatórios.
+    - Divulgação universitária dos programas de intercâmbio social (Cidadão Global)
+      e profissional (Talentos Globais) por meio de palestras e estandes informativos.
+    - Criação e aplicação de formulários no Google Forms para coletar avaliações e
+      expectativas de intercambistas estrangeiros e candidatos universitários.
+    - Atuação em rotinas de comunicação intercultural, recepção de intercambistas
+      e trabalho em equipe junto a estudantes de diferentes países.
     location: Rio de Janeiro, RJ, Brasil
     bullets: *id008
     stack:
@@ -292,8 +287,8 @@
 - title: Projetos e Pesquisa
   type: time_table
   contents:
-  - title: FieldCopilot — Motor de Otimização e Roteamento Logístico de Pesquisas
-      de Campo
+  - title: 'FieldCopilot: Motor de Otimização e Roteamento Logístico de Pesquisas
+      de Campo'
     institution: Instituto de Pesquisa de Opinião e Inteligência de Mercado
     year: 2025 - 2026
     description:
@@ -325,22 +320,22 @@
     - OR-Tools
     documentation_url: ''
     jekyll_slug: FieldCopilot
-  - title: PerGo — Plataforma CPaaS Omnichannel Aberta em Go e NATS JetStream
+  - title: 'PerGo: Plataforma CPaaS Omnichannel Aberta em Go e NATS JetStream'
     institution: Projeto Autônomo / Open Source
     year: 2025 - Presente
     description:
     - Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida em
-      Go 1.25+ e Echo v5. Unifica o envio de mensagens através de múltiplos provedores
+      Go 1.25+ e Echo v5. Unifica o envio de mensagens entre múltiplos provedores
       (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow e Telegram) sob um payload
-      REST padronizado, gerenciando filas resilientes com NATS JetStream, backpressure
-      automático e dashboard reativo com a-h/templ e HTMX.
+      REST padronizado, com filas persistentes em NATS JetStream, backpressure automático
+      e dashboard reativo em a-h/templ e HTMX.
     - <b>Stack:</b> Go, Echo v5, NATS JetStream, PostgreSQL, pgx/v5, a-h/templ, HTMX,
       Tailwind CSS, Docker, whatsmeow
     summary: Plataforma autohospedada de comunicação omnichannel (CPaaS) desenvolvida
-      em Go 1.25+ e Echo v5. Unifica o envio de mensagens através de múltiplos provedores
+      em Go 1.25+ e Echo v5. Unifica o envio de mensagens entre múltiplos provedores
       (WhatsApp Cloud WABA, WhatsApp Web via whatsmeow e Telegram) sob um payload
-      REST padronizado, gerenciando filas resilientes com NATS JetStream, backpressure
-      automático e dashboard reativo com a-h/templ e HTMX.
+      REST padronizado, com filas persistentes em NATS JetStream, backpressure automático
+      e dashboard reativo em a-h/templ e HTMX.
     category: Data Engineering
     status: public
     stack:
@@ -356,23 +351,24 @@
     - whatsmeow
     documentation_url: ''
     jekyll_slug: PerGo
-  - title: agp-media — Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas
-      de Campo
+  - title: 'agp-media: Toolkit Unificado de Transcrição, OCR e NLP para Pesquisas
+      de Campo'
     institution: Instituto de Pesquisas Aplicadas & Inteligência de Campo
     year: 2025 - 2026
     description:
-    - Toolkit modular em linha de comando (CLI) desenvolvido para acelerar o ciclo
-      de pesquisas qualitativas e quantitativas de campo. Executa conversão e compressão
-      de mídia, transcrição de áudio com diarização de interlocutores (Whisper, Gemini,
-      Google STT), OCR de formulários e análise semântica estruturada em JSON canônico.
+    - Toolkit modular em linha de comando (CLI) desenvolvido para processar dados
+      de grupos de discussão, entrevistas em profundidade e levantamentos de campo.
+      Executa conversão e compressão de mídia, transcrição de áudio com diarização
+      de interlocutores (Whisper, Gemini, Google STT), OCR de formulários físicos
+      e análise semântica estruturada em JSON canônico.
     - <b>Stack:</b> Python, OpenAI Whisper, Google STT, Gemini API, PaddleOCR, Mistral,
       Pydantic, FFmpeg, CLI / Typer
     - <em>[Ficha Pública Sanitizada]</em>
-    summary: Toolkit modular em linha de comando (CLI) desenvolvido para acelerar
-      o ciclo de pesquisas qualitativas e quantitativas de campo. Executa conversão
-      e compressão de mídia, transcrição de áudio com diarização de interlocutores
-      (Whisper, Gemini, Google STT), OCR de formulários e análise semântica estruturada
-      em JSON canônico.
+    summary: Toolkit modular em linha de comando (CLI) desenvolvido para processar
+      dados de grupos de discussão, entrevistas em profundidade e levantamentos de
+      campo. Executa conversão e compressão de mídia, transcrição de áudio com diarização
+      de interlocutores (Whisper, Gemini, Google STT), OCR de formulários físicos
+      e análise semântica estruturada em JSON canônico.
     category: Data Engineering
     status: proprietary_sanitized
     stack:
@@ -387,23 +383,20 @@
     - CLI / Typer
     documentation_url: ''
     jekyll_slug: agp_media
-  - title: Ecoar AI — Plataforma Inteligente de Entrevistas Qualitativas e RAG com
-      Ent ORM e pgvector
+  - title: 'Ecoar AI: Plataforma de Entrevistas Qualitativas e RAG com Ent ORM e pgvector'
     institution: Projeto Autônomo / Pesquisa Aplicada
     year: 2025 - Presente
     description:
     - Plataforma de inteligência qualitativa e condução automatizada de entrevistas
-      de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant
-      rigoroso, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos
-      provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática
-      de depoimentos.
+      de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant,
+      busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos provedores
+      LLM (BYOK) e esteira assíncrona de transcrição e mineração temática de depoimentos.
     - <b>Stack:</b> Go, Ent ORM, PostgreSQL, pgvector, Docker, TypeScript, React,
       Tailwind CSS, OpenAI API, Gemini API
     summary: Plataforma de inteligência qualitativa e condução automatizada de entrevistas
-      de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant
-      rigoroso, busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos
-      provedores LLM (BYOK) e esteira assíncrona de transcrição e mineração temática
-      de depoimentos.
+      de pesquisa de mercado desenvolvida em Go. Emprega Ent ORM com isolamento multi-tenant,
+      busca vetorial semântica via PostgreSQL pgvector, suporte a múltiplos provedores
+      LLM (BYOK) e esteira assíncrona de transcrição e mineração temática de depoimentos.
     category: Data Science
     status: public
     stack:
@@ -439,8 +432,8 @@
     - Google Looker Studio
     documentation_url: ''
     jekyll_slug: FinPlanning
-  - title: LongandShortR — Algoritmo de Arbitragem Estatística e Cointegração na B3
-      em R
+  - title: 'LongandShortR: Algoritmo de Arbitragem Estatística e Cointegração na B3
+      em R'
     institution: Meta & Actio Investimentos
     year: 2017 - 2020
     description:
@@ -495,18 +488,18 @@
     institution: UFF / MESC
     year: 2026 - Presente
     description:
-    - Pesquisa de mestrado profissional stricto sensu formulando modelos exatos de
+    - Pesquisa de mestrado profissional stricto sensu que formula modelos exatos de
       Programação Quadrática Inteira Mista (MIQP) e Programação Linear Inteira Mista
       (MILP) com minimização de Conditional Value-at-Risk (CVaR) linearizado. O modelo
       busca a alocação dinâmica de portfólios ótimos de arbitragem estatística na
-      B3, incorporando custos de transação, slippage, taxas de aluguel e restrições
+      B3 e incorpora custos de transação, slippage, taxas de aluguel e restrições
       de cardinalidade.
     - <b>Stack:</b> Python, Gurobi, Pyomo, SciPy, R, LaTeX
-    summary: Pesquisa de mestrado profissional stricto sensu formulando modelos exatos
+    summary: Pesquisa de mestrado profissional stricto sensu que formula modelos exatos
       de Programação Quadrática Inteira Mista (MIQP) e Programação Linear Inteira
       Mista (MILP) com minimização de Conditional Value-at-Risk (CVaR) linearizado.
       O modelo busca a alocação dinâmica de portfólios ótimos de arbitragem estatística
-      na B3, incorporando custos de transação, slippage, taxas de aluguel e restrições
+      na B3 e incorpora custos de transação, slippage, taxas de aluguel e restrições
       de cardinalidade.
     category: Quantitative Finance
     status: public
@@ -670,13 +663,25 @@
     - name: Engenharia de Prompt e Aplicação de LLMs
       level: ''
       details: ''
-  - title: Business Intelligence, Analytics e Visualização de Dados
+  - title: Pesquisa de Mercado, Analytics e Business Intelligence
     items:
+    - <b>Pesquisa de Mercado Quali-Quanti e Opinião Pública (Surveys, Grupos de Discussão,
+      Entrevistas em Profundidade)</b>
+    - <b>Desenho Amostral, Ponderação Demográfica e Análise de Microdados (PNAD, Censo,
+      Rais)</b>
     - '<b>Microsoft Power BI</b>: DAX, Power Query, Modelagem Dimensional Star Schema'
     - <b>Google Looker Studio</b>
     - <b>Microsoft Excel Avançado / VBA</b>
     - <b>Visualização de Dados Científica e Executiva</b>
     skills:
+    - name: Pesquisa de Mercado Quali-Quanti e Opinião Pública (Surveys, Grupos de
+        Discussão, Entrevistas em Profundidade)
+      level: ''
+      details: ''
+    - name: Desenho Amostral, Ponderação Demográfica e Análise de Microdados (PNAD,
+        Censo, Rais)
+      level: ''
+      details: ''
     - name: Microsoft Power BI
       level: ''
       details: DAX, Power Query, Modelagem Dimensional Star Schema
