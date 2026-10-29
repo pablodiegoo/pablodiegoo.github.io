@@ -4,7 +4,6 @@ import os
 import sys
 import yaml
 from datetime import datetime
-from scholarly import scholarly
 
 
 def load_scholar_user_id() -> str:
@@ -14,16 +13,16 @@ def load_scholar_user_id() -> str:
         print(
             f"Configuration file {config_file} not found. Please ensure the file exists and contains your Google Scholar user ID."
         )
-        sys.exit(1)
+        sys.exit(0)
     try:
         with open(config_file, "r") as f:
-            config = yaml.safe_load(f)
+            config = yaml.safe_load(f) or {}
         scholar_user_id = config.get("scholar_userid")
         if not scholar_user_id:
             print(
-                "No 'scholar_userid' found in the configuration file. Please add 'scholar_userid' to _data/socials.yml."
+                "No 'scholar_userid' found in _data/socials.yml. Skipping Google Scholar citation update."
             )
-            sys.exit(1)
+            sys.exit(0)
         return scholar_user_id
     except yaml.YAMLError as e:
         print(
@@ -38,8 +37,11 @@ OUTPUT_FILE: str = "_data/citations.yml"
 
 def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
+    from scholarly import scholarly
+
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
+    existing_data = None
 
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):

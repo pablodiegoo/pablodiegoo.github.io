@@ -502,6 +502,41 @@
     - LaTeX
     documentation_url: ''
     jekyll_slug: mesc_optimization
+  - title: 'DataProfile: Notebook-Normalized Portfolio Telemetry Engine in Go'
+    institution: Projeto Autônomo / Open Source
+    year: 2026 - Present
+    description:
+    - Portfolio telemetry and statistical visualization engine built in Go 1.23+ (standard
+      library only, zero external dependencies) for data scientists, machine learning
+      engineers, and quantitative researchers. Strips embedded base64 chart images
+      and cell output payloads from Jupyter Notebooks (.ipynb) before byte counting,
+      scans dependency manifests across the data stack, and aggregates metrics from
+      GitHub, Kaggle, and Hugging Face Hub into 36 parameterized SVG panels across
+      the visualization schools of Edward Tufte, Stephen Few, Alberto Cairo, and Nigel
+      Holmes.
+    - <b>Stack:</b> Go 1.23+, GitHub GraphQL v4, GitHub REST v3, Chrome DevTools Protocol
+      (CDP), Kaggle API v1, Hugging Face Hub API, SVG / SMIL, GitHub Actions
+    summary: Portfolio telemetry and statistical visualization engine built in Go
+      1.23+ (standard library only, zero external dependencies) for data scientists,
+      machine learning engineers, and quantitative researchers. Strips embedded base64
+      chart images and cell output payloads from Jupyter Notebooks (.ipynb) before
+      byte counting, scans dependency manifests across the data stack, and aggregates
+      metrics from GitHub, Kaggle, and Hugging Face Hub into 36 parameterized SVG
+      panels across the visualization schools of Edward Tufte, Stephen Few, Alberto
+      Cairo, and Nigel Holmes.
+    category: Data Engineering
+    status: public
+    stack:
+    - Go 1.23+
+    - GitHub GraphQL v4
+    - GitHub REST v3
+    - Chrome DevTools Protocol (CDP)
+    - Kaggle API v1
+    - Hugging Face Hub API
+    - SVG / SMIL
+    - GitHub Actions
+    documentation_url: ''
+    jekyll_slug: dataprofile
 - title: Publications & Academic Theses
   type: time_table
   contents:

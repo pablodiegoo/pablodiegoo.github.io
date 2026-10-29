@@ -512,6 +512,39 @@
     - LaTeX
     documentation_url: ''
     jekyll_slug: mesc_optimization
+  - title: 'DataProfile: Telemetria de Portfólio com Desinflação de Notebooks em Go'
+    institution: Projeto Autônomo / Open Source
+    year: 2026 - Presente
+    description:
+    - Motor de telemetria e visualização estatística de portfólio escrito em Go 1.23+
+      (biblioteca padrão, zero dependências externas) para cientistas de dados, engenheiros
+      de machine learning e pesquisadores quantitativos. Desinfla imagens base64 e
+      saídas de células embutidas em arquivos Jupyter Notebook (.ipynb) antes do cômputo
+      de bytes, varre manifestos de dependências e agrega métricas do GitHub, Kaggle
+      e Hugging Face Hub em 36 painéis SVG paramétricos nas escolas de Edward Tufte,
+      Stephen Few, Alberto Cairo e Nigel Holmes.
+    - <b>Stack:</b> Go 1.23+, GitHub GraphQL v4, GitHub REST v3, Chrome DevTools Protocol
+      (CDP), Kaggle API v1, Hugging Face Hub API, SVG / SMIL, GitHub Actions
+    summary: Motor de telemetria e visualização estatística de portfólio escrito em
+      Go 1.23+ (biblioteca padrão, zero dependências externas) para cientistas de
+      dados, engenheiros de machine learning e pesquisadores quantitativos. Desinfla
+      imagens base64 e saídas de células embutidas em arquivos Jupyter Notebook (.ipynb)
+      antes do cômputo de bytes, varre manifestos de dependências e agrega métricas
+      do GitHub, Kaggle e Hugging Face Hub em 36 painéis SVG paramétricos nas escolas
+      de Edward Tufte, Stephen Few, Alberto Cairo e Nigel Holmes.
+    category: Data Engineering
+    status: public
+    stack:
+    - Go 1.23+
+    - GitHub GraphQL v4
+    - GitHub REST v3
+    - Chrome DevTools Protocol (CDP)
+    - Kaggle API v1
+    - Hugging Face Hub API
+    - SVG / SMIL
+    - GitHub Actions
+    documentation_url: ''
+    jekyll_slug: dataprofile
 - title: Publicações e Produção Acadêmica
   type: time_table
   contents:

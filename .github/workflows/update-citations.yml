@@ -1,10 +1,11 @@
 name: Update Google Scholar Citations
 
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+  # Disabled automatic schedule until scholar_userid is configured in SSOT (_data/socials.yml)
+  # schedule:
+  #   - cron: "0 0 * * 1" # Monday
+  #   - cron: "0 0 * * 3" # Wednesday
+  #   - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
 jobs:
@@ -93,6 +94,10 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          if [ ! -f _data/citations.yml ]; then
+            echo "ℹ️ _data/citations.yml does not exist. Skipping commit."
+            exit 0
+          fi
           git add _data/citations.yml
           git diff --staged --quiet || (
             echo "📤 Committing and pushing changes..."

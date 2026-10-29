@@ -4,5 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - pablodiegoo/dataprofile
   - pablodiegoo/PerGo
   - pablodiegoo/Data-Pro-Skill
