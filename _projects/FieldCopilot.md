@@ -8,6 +8,7 @@ description_pt: "Motor logístico e plataforma analítica espacial desenvolvida 
 img: assets/img/projects/FieldCopilot/thumbnail.png
 og_image: /assets/img/projects/FieldCopilot/thumbnail.png
 importance: 1
+featured: true
 category: "Data Science"
 confidentiality: "proprietary_sanitized"
 institution: "Instituto de Pesquisa de Opinião e Inteligência de Mercado"

@@ -8,6 +8,7 @@ description_pt: "Toolkit modular em linha de comando (CLI) desenvolvido para pro
 img: assets/img/projects/agp_media/thumbnail.png
 og_image: /assets/img/projects/agp_media/thumbnail.png
 importance: 2
+featured: false
 category: "Data Engineering"
 confidentiality: "proprietary_sanitized"
 institution: "Instituto de Pesquisas Aplicadas & Inteligência de Campo"

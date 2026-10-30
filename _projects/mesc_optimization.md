@@ -8,6 +8,7 @@ description_pt: "Pesquisa de mestrado profissional stricto sensu que formula mod
 img: assets/img/projects/mesc_optimization/thumbnail.png
 og_image: /assets/img/projects/mesc_optimization/thumbnail.png
 importance: 1
+featured: false
 category: "Quantitative Finance"
 confidentiality: "public"
 institution: "UFF / MESC"

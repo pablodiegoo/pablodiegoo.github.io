@@ -8,6 +8,7 @@ description_pt: "Ferramenta de modelagem de ciclo de vida financeiro, projeção
 img: assets/img/projects/FinPlanning/thumbnail.png
 og_image: /assets/img/projects/FinPlanning/thumbnail.png
 importance: 1
+featured: false
 category: "Data Analytics"
 confidentiality: "public"
 institution: "Portfólio Pessoal / Meta Investimentos"

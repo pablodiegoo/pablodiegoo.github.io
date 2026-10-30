@@ -8,6 +8,7 @@ description_pt: "Motor de telemetria e visualização estatística de portfólio
 img: assets/img/projects/dataprofile/thumbnail.png
 og_image: /assets/img/projects/dataprofile/thumbnail.png
 importance: 1
+featured: true
 category: "Data Engineering"
 confidentiality: "public"
 institution: "Projeto Autônomo / Open Source"
@@ -48,6 +49,63 @@ Motor de telemetria e visualização estatística de portfólio escrito em Go 1.
 
 Portfolio telemetry and statistical visualization engine built in Go 1.23+ (standard library only, zero external dependencies) for data scientists, machine learning engineers, and quantitative researchers. Strips embedded base64 chart images and cell output payloads from Jupyter Notebooks (.ipynb) before byte counting, scans dependency manifests across the data stack, and aggregates metrics from GitHub, Kaggle, and Hugging Face Hub into 36 parameterized SVG panels across the visualization schools of Edward Tufte, Stephen Few, Alberto Cairo, and Nigel Holmes.
 
+{% endif %}
+
+{% if site.active_lang == 'pt-br' %}
+## Painéis Summary nas Quatro Escolas de Visualização
+
+O motor renderiza cada dimensão analítica e o painel consolidado (`summary.svg`) nas quatro gramáticas clássicas de visualização estatística:
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">I. Escola Edward Tufte (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-tufte.svg" alt="I. Escola Edward Tufte (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Gramática de razão tinta-dados máxima, sem grades externas, com dot-dash plot de código normalizado, supertabelas e sparkline com faixa interquartil.</p>
+  </div>
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">II. Escola Stephen Few (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-few.svg" alt="II. Escola Stephen Few (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Painel executivo para leitura em três segundos com faixa superior de KPIs, bullet graphs com bandas qualitativas e marcador vertical de meta.</p>
+  </div>
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">III. Escola Alberto Cairo (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-cairo.svg" alt="III. Escola Alberto Cairo (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Abordagem editorial de jornalismo de dados com régua carmesim, gráficos lollipop com linha tracejada de referência e nota analítica contextual (↳).</p>
+  </div>
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">IV. Escola Nigel Holmes & ISOTYPE (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-holmes.svg" alt="IV. Escola Nigel Holmes & ISOTYPE (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Gramática pictórica com faixa de cabeçalho, blocos unitários de 10% do código, pódio em degraus de progressão no Kaggle e selos visuais da stack.</p>
+  </div>
+</div>
+
+{% else %}
+## Summary Panels Across the Four Visualization Schools
+
+The engine renders each analytical dimension and the consolidated overview (`summary.svg`) across four classic statistical visualization grammars:
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">I. Edward Tufte School (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-tufte.svg" alt="I. Edward Tufte School (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">High data-ink ratio grammar with zero outer cages, dot-dash plot for normalized code share, supertables, and inline sparkline with interquartile band.</p>
+  </div>
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">II. Stephen Few School (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-few.svg" alt="II. Stephen Few School (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Three-second scanning dashboard with top KPI strip, bullet graphs featuring qualitative bands, and vertical target threshold markers.</p>
+  </div>
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">III. Alberto Cairo School (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-cairo.svg" alt="III. Alberto Cairo School (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Data-journalism editorial layout with crimson top rule, lollipop charts with dashed benchmark lines, and contextual annotation layer (↳).</p>
+  </div>
+  <div class="rounded border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900 shadow-sm">
+    <div class="font-mono text-xs font-bold text-slate-800 dark:text-slate-200 mb-2">IV. Nigel Holmes & ISOTYPE School (summary.svg)</div>
+    <img src="/assets/img/projects/dataprofile/summary-holmes.svg" alt="IV. Nigel Holmes & ISOTYPE School (summary.svg)" class="w-full h-auto rounded" />
+    <p class="text-xs text-slate-600 dark:text-slate-400 mt-2 mb-0">Pictorial ISOTYPE grammar with header ribbon, 10% unit blocks for code share, stepped Kaggle progression podium, and visual ecosystem badges.</p>
+  </div>
+</div>
 {% endif %}
 
 {% if site.active_lang == 'pt-br' %}
@@ -99,10 +157,14 @@ flowchart TD
 ## Referências e Comprovações
 
 - [Código-Fonte / Repositório Oficial no GitHub](https://github.com/pablodiegoo/dataprofile)
+- [Artigo de Apresentação / Documentação no Portfólio](/blog/2026/dataprofile-telemetria-portfolio/)
+- [Discussão e Apresentação na Comunidade Kaggle](https://www.kaggle.com/discussions/general/754125)
 
 {% else %}
 ## References & Verification
 
 - [Source Code / Official GitHub Repository](https://github.com/pablodiegoo/dataprofile)
+- [Launch Article / Portfolio Documentation](/blog/2026/dataprofile-telemetria-portfolio/)
+- [Community Discussion & Writeup on Kaggle](https://www.kaggle.com/discussions/general/754125)
 
 {% endif %}

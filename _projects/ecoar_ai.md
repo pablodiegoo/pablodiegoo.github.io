@@ -8,6 +8,7 @@ description_pt: "Plataforma de inteligência qualitativa e condução automatiza
 img: assets/img/projects/ecoar_ai/thumbnail.png
 og_image: /assets/img/projects/ecoar_ai/thumbnail.png
 importance: 2
+featured: false
 category: "Data Science"
 confidentiality: "public"
 institution: "Projeto Autônomo / Pesquisa Aplicada"

@@ -8,6 +8,7 @@ description_pt: "Monografia de conclusão do MBA em Data Science e Analytics na 
 img: assets/img/projects/pair_trading_ml/thumbnail.png
 og_image: /assets/img/projects/pair_trading_ml/thumbnail.png
 importance: 2
+featured: false
 category: "Quantitative Finance"
 confidentiality: "public"
 institution: "USP / ESALQ"

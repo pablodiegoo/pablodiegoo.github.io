@@ -131,7 +131,10 @@ layout: default
     {% endif %}
 
     <!-- Featured Projects Showcase Section -->
-    {% assign sanitized_projects = site.projects | where: "confidentiality", "proprietary_sanitized" | sort: "importance" %}
+    {% assign featured_projects = site.projects | where: "featured", true | sort: "importance" %}
+    {% if featured_projects.size == 0 %}
+      {% assign featured_projects = site.projects | where: "confidentiality", "proprietary_sanitized" | sort: "importance" %}
+    {% endif %}
     <section class="featured-projects space-y-4 pt-6 border-t border-slate-200 dark:border-slate-800 mb-8">
       <div class="flex justify-between items-baseline">
         <h2 class="font-serif text-2xl font-bold text-slate-950 dark:text-white">
@@ -143,7 +146,7 @@ layout: default
       </div>
 
       <div class="featured-projects-grid">
-        {% for project in sanitized_projects limit: 2 %}
+        {% for project in featured_projects limit: 2 %}
           <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" class="featured-project-card">
             {% if project.img %}
               <div class="project-thumbnail featured-project-thumb aspect-video">

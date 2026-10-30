@@ -8,6 +8,7 @@ description_pt: "Algoritmo desenvolvido em linguagem R para varredura sistemáti
 img: assets/img/projects/LongandShortR/thumbnail.png
 og_image: /assets/img/projects/LongandShortR/thumbnail.png
 importance: 3
+featured: false
 category: "Quantitative Finance"
 confidentiality: "public"
 institution: "Meta & Actio Investimentos"

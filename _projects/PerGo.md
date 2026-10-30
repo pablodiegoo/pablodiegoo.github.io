@@ -8,6 +8,7 @@ description_pt: "Plataforma autohospedada de comunicação omnichannel (CPaaS) d
 img: assets/img/projects/PerGo/thumbnail.png
 og_image: /assets/img/projects/PerGo/thumbnail.png
 importance: 1
+featured: false
 category: "Data Engineering"
 confidentiality: "public"
 institution: "Projeto Autônomo / Open Source"
