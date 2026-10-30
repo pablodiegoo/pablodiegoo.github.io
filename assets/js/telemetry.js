@@ -23,6 +23,10 @@
     }
   }
 
+  function isAllowedDomain(hostname, domain) {
+    return hostname === domain || hostname.endsWith("." + domain);
+  }
+
   function initTelemetry() {
     document.addEventListener("click", function (event) {
       const target = event.target;
@@ -95,12 +99,22 @@
         const href = externalLink.getAttribute("href") || "";
         let credentialType = null;
 
-        if (href.includes("lattes.cnpq.br")) credentialType = "lattes";
-        else if (href.includes("orcid.org")) credentialType = "orcid";
-        else if (href.includes("ancord.org.br")) credentialType = "ancord";
-        else if (href.includes("cvm.gov.br")) credentialType = "cvm";
-        else if (href.includes("kaggle.com/pablodiegoo")) credentialType = "kaggle";
-        else if (href.includes("github.com/pablodiegoo")) credentialType = "github_profile";
+        try {
+          const parsedUrl = new URL(href);
+          const host = parsedUrl.hostname.toLowerCase();
+          const path = parsedUrl.pathname.toLowerCase();
+
+          if (isAllowedDomain(host, "lattes.cnpq.br")) credentialType = "lattes";
+          else if (isAllowedDomain(host, "orcid.org")) credentialType = "orcid";
+          else if (isAllowedDomain(host, "ancord.org.br")) credentialType = "ancord";
+          else if (isAllowedDomain(host, "cvm.gov.br")) credentialType = "cvm";
+          else if (isAllowedDomain(host, "kaggle.com") && path.startsWith("/pablodiegoo"))
+            credentialType = "kaggle";
+          else if (isAllowedDomain(host, "github.com") && path.startsWith("/pablodiegoo"))
+            credentialType = "github_profile";
+        } catch (err) {
+          // Ignore malformed URLs
+        }
 
         if (credentialType) {
           sendEvent("verify_credential", {
