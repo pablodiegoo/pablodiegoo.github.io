@@ -1,6 +1,7 @@
 # Redirecionamentos HTTP 301 Permanentes - Portfólio Pablo Diego
 # Gerado automaticamente via ssot.compiler
 /estudos/  /blog/  301
+/projects/DataProfile/  /projects/dataprofile/  301
 /projects/EMPETUR/  /blog/2026/empetur-inventario-turistico/  301
 /projects/agp-media/  /projects/agp_media/  301
 /projects/aporia/  /projects/FieldCopilot/  301
